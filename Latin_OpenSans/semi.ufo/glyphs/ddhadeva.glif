@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="ddhadeva" format="1">
+  <advance width="1121"/>
+  <unicode hex="0922"/>
+  <outline>
+    <contour>
+      <point x="1135" y="1136" type="line"/>
+      <point x="-71" y="1136" type="line"/>
+      <point x="-71" y="1283" type="line"/>
+      <point x="1135" y="1283" type="line"/>
+    </contour>
+    <contour>
+      <point x="668" y="1166" type="line"/>
+      <point x="870" y="1166" type="line"/>
+      <point x="870" y="740" type="line"/>
+      <point x="600" y="740" type="line"/>
+      <point x="359" y="740"/>
+      <point x="260" y="631"/>
+      <point x="260" y="471" type="curve" smooth="yes"/>
+      <point x="260" y="324"/>
+      <point x="408" y="188"/>
+      <point x="638" y="188" type="curve" smooth="yes"/>
+      <point x="812" y="188"/>
+      <point x="888" y="254"/>
+      <point x="888" y="330" type="curve" smooth="yes"/>
+      <point x="888" y="387"/>
+      <point x="842" y="429"/>
+      <point x="772" y="429" type="curve" smooth="yes"/>
+      <point x="686" y="429"/>
+      <point x="627" y="369"/>
+      <point x="627" y="284" type="curve" smooth="yes"/>
+      <point x="627" y="235"/>
+      <point x="638" y="192"/>
+      <point x="666" y="144" type="curve"/>
+      <point x="508" y="126" type="line"/>
+      <point x="467" y="191"/>
+      <point x="453" y="242"/>
+      <point x="453" y="316" type="curve" smooth="yes"/>
+      <point x="453" y="445"/>
+      <point x="563" y="563"/>
+      <point x="755" y="563" type="curve" smooth="yes"/>
+      <point x="945" y="563"/>
+      <point x="1058" y="463"/>
+      <point x="1058" y="319" type="curve" smooth="yes"/>
+      <point x="1058" y="187"/>
+      <point x="930" y="61"/>
+      <point x="656" y="61" type="curve" smooth="yes"/>
+      <point x="274" y="61"/>
+      <point x="55" y="287"/>
+      <point x="55" y="512" type="curve" smooth="yes"/>
+      <point x="55" y="719"/>
+      <point x="200" y="887"/>
+      <point x="514" y="887" type="curve" smooth="yes"/>
+      <point x="709" y="887" type="line"/>
+      <point x="668" y="853" type="line"/>
+    </contour>
+    <contour>
+      <point x="527" y="8" type="move" name="mark0"/>
+    </contour>
+    <contour>
+      <point x="1175" y="8" type="move" name="x44"/>
+    </contour>
+    <contour>
+      <point x="-153" y="8" type="move" name="x43"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.typemytype.robofont.guides</key>
+      <array>
+        <dict>
+          <key>angle</key>
+          <integer>0</integer>
+          <key>isGlobal</key>
+          <false/>
+          <key>magnetic</key>
+          <integer>5</integer>
+          <key>x</key>
+          <integer>1170</integer>
+          <key>y</key>
+          <integer>647</integer>
+        </dict>
+      </array>
+      <key>com.typemytype.robofont.layerData</key>
+      <dict/>
+      <key>com.typemytype.robofont.mark</key>
+      <array>
+        <real>0.63119999999999998</real>
+        <real>1</real>
+        <real>0.99470000000000003</real>
+        <real>1</real>
+      </array>
+      <key>org.robofab.fontlab.mark</key>
+      <integer>210</integer>
+    </dict>
+  </lib>
+</glyph>

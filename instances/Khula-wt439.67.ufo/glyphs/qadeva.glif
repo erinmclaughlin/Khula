@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="qadeva" format="1">
+  <advance width="1531"/>
+  <unicode hex="0958"/>
+  <outline>
+    <component base="kadeva"/>
+    <component base="nuktadeva" xOffset="1007" yOffset="250"/>
+    <contour>
+      <point x="852" y="0" type="move" name="mark0"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.typemytype.robofont.guides</key>
+      <array>
+      </array>
+      <key>com.typemytype.robofont.layerData</key>
+      <dict>
+      </dict>
+      <key>com.typemytype.robofont.mark</key>
+      <array>
+        <real>0.6312</real>
+        <real>1.0</real>
+        <real>0.9947</real>
+        <real>1.0</real>
+      </array>
+      <key>org.robofab.fontlab.mark</key>
+      <integer>130</integer>
+    </dict>
+  </lib>
+</glyph>

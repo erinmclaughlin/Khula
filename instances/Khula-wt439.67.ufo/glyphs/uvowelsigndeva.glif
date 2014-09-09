@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="uvowelsigndeva" format="1">
+  <advance width="0"/>
+  <unicode hex="0941"/>
+  <outline>
+    <contour>
+      <point x="-637" y="-88" type="line"/>
+      <point x="-545" y="-24"/>
+      <point x="-460" y="17"/>
+      <point x="-317" y="17" type="curve" smooth="yes"/>
+      <point x="-141" y="17"/>
+      <point x="3" y="-112"/>
+      <point x="3" y="-289" type="curve" smooth="yes"/>
+      <point x="3" y="-469"/>
+      <point x="-144" y="-574"/>
+      <point x="-343" y="-574" type="curve" smooth="yes"/>
+      <point x="-529" y="-574"/>
+      <point x="-701" y="-506"/>
+      <point x="-901" y="-360" type="curve"/>
+      <point x="-839" y="-224" type="line"/>
+      <point x="-646" y="-370"/>
+      <point x="-502" y="-418"/>
+      <point x="-392" y="-418" type="curve" smooth="yes"/>
+      <point x="-258" y="-418"/>
+      <point x="-173" y="-353"/>
+      <point x="-173" y="-270" type="curve" smooth="yes"/>
+      <point x="-173" y="-190"/>
+      <point x="-239" y="-137"/>
+      <point x="-326" y="-137" type="curve" smooth="yes"/>
+      <point x="-407" y="-137"/>
+      <point x="-484" y="-175"/>
+      <point x="-556" y="-233" type="curve"/>
+    </contour>
+    <contour>
+      <point x="49" y="8" type="move" name="x24"/>
+    </contour>
+    <contour>
+      <point x="-424" y="8" type="move" name="_mark0"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.typemytype.robofont.layerData</key>
+      <dict>
+      </dict>
+      <key>com.typemytype.robofont.mark</key>
+      <array>
+        <real>0.6312</real>
+        <real>1.0</real>
+        <real>0.9947</real>
+        <real>1.0</real>
+      </array>
+      <key>org.robofab.fontlab.mark</key>
+      <integer>210</integer>
+    </dict>
+  </lib>
+</glyph>

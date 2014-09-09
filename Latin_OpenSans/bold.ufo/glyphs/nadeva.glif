@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="nadeva" format="1">
+  <advance width="1231"/>
+  <unicode hex="0928"/>
+  <outline>
+    <contour>
+      <point x="793" y="838" type="line"/>
+      <point x="793" y="603" type="line"/>
+      <point x="370" y="603" type="line"/>
+      <point x="420" y="654" type="line"/>
+      <point x="420" y="416" type="line"/>
+      <point x="420" y="340"/>
+      <point x="385" y="295"/>
+      <point x="315" y="295" type="curve" smooth="yes"/>
+      <point x="215" y="295"/>
+      <point x="61" y="516"/>
+      <point x="61" y="694" type="curve" smooth="yes"/>
+      <point x="61" y="787"/>
+      <point x="107" y="838"/>
+      <point x="221" y="838" type="curve" smooth="yes"/>
+    </contour>
+    <contour>
+      <point x="-50" y="1096" type="line"/>
+      <point x="-50" y="1288" type="line"/>
+      <point x="1273" y="1288" type="line"/>
+      <point x="1273" y="1096" type="line"/>
+    </contour>
+    <contour>
+      <point x="762" y="1132" type="line"/>
+      <point x="1050" y="1132" type="line"/>
+      <point x="1050" y="0" type="line"/>
+      <point x="762" y="0" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.typemytype.robofont.layerData</key>
+      <dict>
+      </dict>
+      <key>com.typemytype.robofont.mark</key>
+      <array>
+        <real>0.6312</real>
+        <real>1.0</real>
+        <real>0.9947</real>
+        <real>1.0</real>
+      </array>
+      <key>org.robofab.fontlab.mark</key>
+      <integer>210</integer>
+    </dict>
+  </lib>
+</glyph>

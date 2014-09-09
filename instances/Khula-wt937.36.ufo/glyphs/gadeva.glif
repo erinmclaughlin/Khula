@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="gadeva" format="1">
+  <advance width="1487"/>
+  <unicode hex="0917"/>
+  <outline>
+    <contour>
+      <point x="642" y="1096" type="line"/>
+      <point x="642" y="414" type="line" smooth="yes"/>
+      <point x="642" y="312"/>
+      <point x="618" y="254"/>
+      <point x="525" y="254" type="curve" smooth="yes"/>
+      <point x="349" y="254"/>
+      <point x="69" y="441"/>
+      <point x="66" y="588" type="curve" smooth="yes"/>
+      <point x="64" y="662"/>
+      <point x="106" y="713"/>
+      <point x="205" y="713" type="curve" smooth="yes"/>
+      <point x="340" y="713" type="line"/>
+      <point x="294" y="671" type="line"/>
+      <point x="294" y="1096" type="line"/>
+    </contour>
+    <contour>
+      <point x="950" y="1104" type="line"/>
+      <point x="1299" y="1104" type="line"/>
+      <point x="1299" y="0" type="line"/>
+      <point x="950" y="0" type="line"/>
+    </contour>
+    <contour>
+      <point x="1512" y="1065" type="line"/>
+      <point x="-31" y="1065" type="line"/>
+      <point x="-31" y="1293" type="line"/>
+      <point x="1512" y="1293" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.typemytype.robofont.layerData</key>
+      <dict>
+      </dict>
+      <key>com.typemytype.robofont.mark</key>
+      <array>
+        <real>0.6312</real>
+        <real>1.0</real>
+        <real>0.9947</real>
+        <real>1.0</real>
+      </array>
+      <key>org.robofab.fontlab.mark</key>
+      <integer>210</integer>
+    </dict>
+  </lib>
+</glyph>

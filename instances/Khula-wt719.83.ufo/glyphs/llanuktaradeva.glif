@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="llanuktaradeva" format="1">
+  <advance width="1796"/>
+  <outline>
+    <component base="lladeva"/>
+    <component base="vattudeva" xOffset="1622"/>
+    <component base="nuktadeva" xOffset="1025" yOffset="135"/>
+    <contour>
+      <point x="1137" y="1274" type="move" name="mark0"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.typemytype.robofont.layerData</key>
+      <dict>
+      </dict>
+      <key>org.robofab.fontlab.mark</key>
+      <integer>130</integer>
+    </dict>
+  </lib>
+</glyph>
