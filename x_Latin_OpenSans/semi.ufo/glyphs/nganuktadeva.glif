@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="nganuktadeva" format="1">
+  <advance width="1330"/>
+  <outline>
+    <component base="ngadeva"/>
+    <component base="nuktadeva" xOffset="1377"/>
+    <contour>
+      <point x="990" y="1274" type="move" name="mark0"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.typemytype.robofont.layerData</key>
+      <dict/>
+      <key>org.robofab.fontlab.mark</key>
+      <integer>210</integer>
+    </dict>
+  </lib>
+</glyph>

@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="cadeva" format="1">
+  <advance width="1330"/>
+  <unicode hex="091A"/>
+  <outline>
+    <contour>
+      <point x="42" y="737" type="line"/>
+      <point x="42" y="900" type="line"/>
+      <point x="757" y="900" type="line"/>
+      <point x="757" y="737" type="line"/>
+    </contour>
+    <contour>
+      <point x="948" y="604" type="curve"/>
+      <point x="948" y="325" type="line"/>
+      <point x="881" y="273"/>
+      <point x="801" y="226"/>
+      <point x="669" y="226" type="curve" smooth="yes"/>
+      <point x="416" y="226"/>
+      <point x="269" y="378"/>
+      <point x="269" y="571" type="curve" smooth="yes"/>
+      <point x="269" y="746"/>
+      <point x="386" y="887"/>
+      <point x="643" y="887" type="curve"/>
+      <point x="674" y="738" type="line"/>
+      <point x="540" y="739"/>
+      <point x="467" y="641"/>
+      <point x="467" y="547" type="curve" smooth="yes"/>
+      <point x="467" y="460"/>
+      <point x="545" y="395"/>
+      <point x="642" y="395" type="curve" smooth="yes"/>
+      <point x="756" y="395"/>
+      <point x="872" y="456"/>
+    </contour>
+    <contour>
+      <point x="-19" y="1136" type="line"/>
+      <point x="-19" y="1283" type="line"/>
+      <point x="1359" y="1283" type="line"/>
+      <point x="1359" y="1136" type="line"/>
+    </contour>
+    <contour>
+      <point x="911" y="1169" type="line"/>
+      <point x="1122" y="1169" type="line"/>
+      <point x="1122" y="0" type="line"/>
+      <point x="911" y="0" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.typemytype.robofont.guides</key>
+      <array>
+        <dict>
+          <key>angle</key>
+          <real>90</real>
+          <key>isGlobal</key>
+          <false/>
+          <key>magnetic</key>
+          <integer>5</integer>
+          <key>x</key>
+          <integer>157</integer>
+          <key>y</key>
+          <integer>524</integer>
+        </dict>
+      </array>
+      <key>com.typemytype.robofont.layerData</key>
+      <dict/>
+      <key>com.typemytype.robofont.mark</key>
+      <array>
+        <real>0.63119999999999998</real>
+        <real>1</real>
+        <real>0.99470000000000003</real>
+        <real>1</real>
+      </array>
+      <key>org.robofab.fontlab.mark</key>
+      <integer>210</integer>
+    </dict>
+  </lib>
+</glyph>
