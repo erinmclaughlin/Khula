@@ -1,23 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="laprehalfdeva" format="1">
-  <advance width="1000"/>
+  <advance width="976"/>
   <outline>
     <contour>
-      <point x="1251" y="824" type="line"/>
-      <point x="1355" y="537" type="line"/>
-      <point x="741" y="155" type="line"/>
-      <point x="549" y="396" type="line"/>
-    </contour>
-    <contour>
-      <point x="1014" y="597" type="curve"/>
-      <point x="779" y="426" type="line"/>
-      <point x="702" y="542"/>
-      <point x="631" y="584"/>
-      <point x="533" y="584" type="curve" smooth="yes"/>
-      <point x="447" y="584"/>
-      <point x="378" y="510"/>
-      <point x="378" y="420" type="curve" smooth="yes"/>
-      <point x="378" y="333"/>
+      <point x="1031" y="633" type="curve"/>
+      <point x="817" y="446" type="line"/>
+      <point x="718" y="552"/>
+      <point x="650" y="589"/>
+      <point x="559" y="589" type="curve" smooth="yes"/>
+      <point x="461" y="589"/>
+      <point x="378" y="507"/>
+      <point x="378" y="419" type="curve" smooth="yes"/>
+      <point x="378" y="332"/>
       <point x="419" y="242"/>
       <point x="551" y="104" type="curve"/>
       <point x="308" y="-32" type="line"/>
@@ -25,18 +19,24 @@
       <point x="55" y="292"/>
       <point x="55" y="504" type="curve" smooth="yes"/>
       <point x="55" y="724"/>
-      <point x="218" y="901"/>
-      <point x="482" y="901" type="curve" smooth="yes"/>
-      <point x="674" y="901"/>
-      <point x="843" y="809"/>
+      <point x="211" y="903"/>
+      <point x="485" y="903" type="curve" smooth="yes"/>
+      <point x="677" y="903"/>
+      <point x="859" y="799"/>
     </contour>
     <contour>
       <point x="-22" y="1056" type="curve"/>
       <point x="-22" y="1294" type="line"/>
-      <point x="1314" y="1294" type="line"/>
-      <point x="1314" y="1056" type="line"/>
-      <point x="1314" y="1056"/>
+      <point x="1194" y="1294" type="line"/>
+      <point x="1194" y="1056" type="line"/>
+      <point x="1194" y="1056"/>
       <point x="-22" y="1056"/>
+    </contour>
+    <contour>
+      <point x="1146" y="940" type="line"/>
+      <point x="1358" y="722" type="line"/>
+      <point x="763" y="168" type="line"/>
+      <point x="536" y="386" type="line"/>
     </contour>
   </outline>
   <lib>
@@ -367,7 +367,7 @@
           <array>
           </array>
           <key>width</key>
-          <integer>1000</integer>
+          <integer>976</integer>
         </dict>
         <key>layer2</key>
         <dict>
@@ -389,7 +389,7 @@
           <array>
           </array>
           <key>width</key>
-          <integer>1000</integer>
+          <integer>976</integer>
         </dict>
         <key>original</key>
         <dict>
@@ -1411,7 +1411,7 @@
           <array>
           </array>
           <key>width</key>
-          <integer>1000</integer>
+          <integer>976</integer>
         </dict>
       </dict>
       <key>com.typemytype.robofont.mark</key>
