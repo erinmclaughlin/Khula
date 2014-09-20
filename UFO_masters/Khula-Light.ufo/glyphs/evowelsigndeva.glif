@@ -4,10 +4,10 @@
   <unicode hex="0947"/>
   <outline>
     <contour>
-      <point x="-310" y="1244" type="line"/>
-      <point x="-800" y="1707" type="line"/>
-      <point x="-731" y="1753" type="line"/>
-      <point x="-210" y="1244" type="line"/>
+      <point x="-335" y="1244" type="line"/>
+      <point x="-809" y="1704" type="line"/>
+      <point x="-747" y="1762" type="line"/>
+      <point x="-222" y="1244" type="line"/>
     </contour>
     <contour>
       <point x="49" y="8" type="move" name="x14"/>
@@ -62,6 +62,51 @@
                   <integer>-601</integer>
                   <key>y</key>
                   <integer>1693</integer>
+                </dict>
+                <dict>
+                  <key>segmentType</key>
+                  <string>line</string>
+                  <key>smooth</key>
+                  <false/>
+                  <key>x</key>
+                  <integer>-210</integer>
+                  <key>y</key>
+                  <integer>1244</integer>
+                </dict>
+              </array>
+            </dict>
+            <dict>
+              <key>points</key>
+              <array>
+                <dict>
+                  <key>segmentType</key>
+                  <string>line</string>
+                  <key>smooth</key>
+                  <false/>
+                  <key>x</key>
+                  <integer>-310</integer>
+                  <key>y</key>
+                  <integer>1244</integer>
+                </dict>
+                <dict>
+                  <key>segmentType</key>
+                  <string>line</string>
+                  <key>smooth</key>
+                  <false/>
+                  <key>x</key>
+                  <integer>-800</integer>
+                  <key>y</key>
+                  <integer>1707</integer>
+                </dict>
+                <dict>
+                  <key>segmentType</key>
+                  <string>line</string>
+                  <key>smooth</key>
+                  <false/>
+                  <key>x</key>
+                  <integer>-731</integer>
+                  <key>y</key>
+                  <integer>1753</integer>
                 </dict>
                 <dict>
                   <key>segmentType</key>
