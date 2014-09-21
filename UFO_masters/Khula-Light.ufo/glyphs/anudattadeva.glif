@@ -4,10 +4,10 @@
   <unicode hex="0952"/>
   <outline>
     <contour>
-      <point x="-837" y="-318" type="line"/>
+      <point x="-837" y="-304" type="line"/>
       <point x="-837" y="-228" type="line"/>
       <point x="-206" y="-228" type="line"/>
-      <point x="-206" y="-318" type="line"/>
+      <point x="-206" y="-304" type="line"/>
     </contour>
   </outline>
   <lib>
@@ -171,6 +171,13 @@
           <integer>0</integer>
         </dict>
       </dict>
+      <key>com.typemytype.robofont.mark</key>
+      <array>
+        <real>1.0</real>
+        <real>0.8424</real>
+        <real>0.6742</real>
+        <real>1.0</real>
+      </array>
       <key>org.robofab.fontlab.mark</key>
       <integer>210</integer>
       <key>org.robofab.fontlab.maskData</key>

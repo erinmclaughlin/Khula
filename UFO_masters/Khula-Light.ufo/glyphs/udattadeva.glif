@@ -6,8 +6,8 @@
     <contour>
       <point x="-222" y="1789" type="line"/>
       <point x="-222" y="1463" type="line"/>
-      <point x="-322" y="1463" type="line"/>
-      <point x="-322" y="1789" type="line"/>
+      <point x="-311" y="1463" type="line"/>
+      <point x="-311" y="1789" type="line"/>
     </contour>
     <contour>
       <point x="0" y="-30" type="move" name="x4"/>
@@ -209,6 +209,13 @@
           <integer>0</integer>
         </dict>
       </dict>
+      <key>com.typemytype.robofont.mark</key>
+      <array>
+        <real>1.0</real>
+        <real>0.8424</real>
+        <real>0.6742</real>
+        <real>1.0</real>
+      </array>
       <key>org.robofab.fontlab.mark</key>
       <integer>210</integer>
       <key>org.robofab.fontlab.maskData</key>
