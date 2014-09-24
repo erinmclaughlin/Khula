@@ -2,7 +2,7 @@
 <glyph name="uuvowelsignlowdeva" format="1">
   <advance width="0"/>
   <outline>
-    <component base="uuvowelsigndeva" xOffset="-70" yOffset="-353"/>
+    <component base="uuvowelsigndeva" xOffset="-70" yOffset="-514"/>
     <contour>
       <point x="0" y="-30" type="move" name="x32"/>
     </contour>
@@ -812,6 +812,13 @@
           <integer>0</integer>
         </dict>
       </dict>
+      <key>com.typemytype.robofont.mark</key>
+      <array>
+        <real>0.794</real>
+        <real>0.975</real>
+        <real>0.8356</real>
+        <real>1.0</real>
+      </array>
       <key>org.robofab.fontlab.mark</key>
       <integer>210</integer>
       <key>org.robofab.fontlab.maskData</key>

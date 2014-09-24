@@ -1,53 +1,70 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="shaprehalfdeva" format="1">
-  <advance width="850"/>
+  <advance width="852"/>
   <outline>
     <contour>
-      <point x="376" y="489" type="line"/>
-      <point x="732" y="79" type="line"/>
-      <point x="668" y="25" type="line"/>
-      <point x="317" y="440" type="line"/>
+      <point x="306" y="467" type="line"/>
+      <point x="703" y="43" type="line"/>
+      <point x="639" y="-11" type="line"/>
+      <point x="247" y="418" type="line"/>
     </contour>
     <contour>
-      <point x="767" y="599"/>
-      <point x="403" y="362"/>
-      <point x="236" y="362" type="curve" smooth="yes"/>
-      <point x="186" y="362"/>
-      <point x="167" y="403"/>
-      <point x="167" y="454" type="curve" smooth="yes"/>
-      <point x="167" y="505"/>
-      <point x="200" y="580"/>
-      <point x="257" y="580" type="curve" smooth="yes"/>
-      <point x="298" y="580"/>
-      <point x="339" y="547"/>
-      <point x="397" y="473" type="curve"/>
-      <point x="322" y="463" type="line"/>
-      <point x="520" y="538"/>
-      <point x="695" y="716"/>
-      <point x="695" y="964" type="curve" smooth="yes"/>
-      <point x="695" y="1101"/>
-      <point x="575" y="1229"/>
-      <point x="418" y="1229" type="curve" smooth="yes"/>
-      <point x="313" y="1229"/>
-      <point x="245" y="1162"/>
-      <point x="245" y="1076" type="curve" smooth="yes"/>
-      <point x="245" y="961"/>
-      <point x="395" y="838"/>
-      <point x="719" y="839" type="curve"/>
-      <point x="693" y="765" type="line"/>
-      <point x="324" y="768"/>
-      <point x="167" y="920"/>
-      <point x="167" y="1091" type="curve" smooth="yes"/>
-      <point x="167" y="1211"/>
-      <point x="259" y="1304"/>
-      <point x="409" y="1304" type="curve" smooth="yes"/>
-      <point x="620" y="1304"/>
-      <point x="767" y="1166"/>
-      <point x="767" y="950" type="curve" smooth="yes"/>
+      <point x="770" y="580"/>
+      <point x="365" y="340"/>
+      <point x="166" y="340" type="curve" smooth="yes"/>
+      <point x="116" y="340"/>
+      <point x="97" y="372"/>
+      <point x="97" y="423" type="curve" smooth="yes"/>
+      <point x="97" y="483"/>
+      <point x="135" y="558"/>
+      <point x="192" y="558" type="curve" smooth="yes"/>
+      <point x="233" y="558"/>
+      <point x="278" y="521"/>
+      <point x="337" y="441" type="curve"/>
+      <point x="252" y="441" type="line"/>
+      <point x="445" y="490"/>
+      <point x="693" y="676"/>
+      <point x="693" y="908" type="curve" smooth="yes"/>
+      <point x="693" y="1075"/>
+      <point x="577" y="1223"/>
+      <point x="412" y="1223" type="curve" smooth="yes"/>
+      <point x="300" y="1223"/>
+      <point x="233" y="1153"/>
+      <point x="233" y="1068" type="curve" smooth="yes"/>
+      <point x="233" y="950"/>
+      <point x="370" y="838"/>
+      <point x="704" y="839" type="curve"/>
+      <point x="678" y="765" type="line"/>
+      <point x="301" y="768"/>
+      <point x="152" y="912"/>
+      <point x="152" y="1083" type="curve" smooth="yes"/>
+      <point x="152" y="1201"/>
+      <point x="253" y="1304"/>
+      <point x="402" y="1304" type="curve" smooth="yes"/>
+      <point x="610" y="1304"/>
+      <point x="770" y="1140"/>
+      <point x="770" y="907" type="curve" smooth="yes"/>
     </contour>
   </outline>
   <lib>
     <dict>
+      <key>com.typemytype.robofont.guides</key>
+      <array>
+        <dict>
+          <key>angle</key>
+          <real>90.0</real>
+          <key>isGlobal</key>
+          <false/>
+          <key>magnetic</key>
+          <integer>5</integer>
+          <key>name</key>
+          <string></string>
+          <key>x</key>
+          <integer>851</integer>
+          <key>y</key>
+          <integer>708</integer>
+        </dict>
+      </array>
       <key>com.typemytype.robofont.layerData</key>
       <dict>
         <key>layer1</key>
@@ -471,7 +488,7 @@
           <array>
           </array>
           <key>width</key>
-          <integer>850</integer>
+          <integer>852</integer>
         </dict>
         <key>layer2</key>
         <dict>
@@ -493,7 +510,7 @@
           <array>
           </array>
           <key>width</key>
-          <integer>850</integer>
+          <integer>852</integer>
         </dict>
         <key>original</key>
         <dict>
@@ -1313,14 +1330,14 @@
           <array>
           </array>
           <key>width</key>
-          <integer>850</integer>
+          <integer>852</integer>
         </dict>
       </dict>
       <key>com.typemytype.robofont.mark</key>
       <array>
-        <real>0.794</real>
-        <real>0.975</real>
-        <real>0.8356</real>
+        <real>0.6312</real>
+        <real>1.0</real>
+        <real>0.9947</real>
         <real>1.0</real>
       </array>
       <key>org.robofab.fontlab.mark</key>

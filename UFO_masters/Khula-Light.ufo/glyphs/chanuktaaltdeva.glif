@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="chanuktaaltdeva" format="1">
-  <advance width="1475"/>
+  <advance width="1396"/>
   <outline>
+    <component base="nuktadeva" xOffset="951" yOffset="380"/>
     <component base="chaaltdeva"/>
-    <component base="nuktadeva" xOffset="931" yOffset="293"/>
     <contour>
-      <point x="352" y="137" type="move" name="x74"/>
+      <point x="352.0" y="137.0" type="move" name="x74"/>
     </contour>
     <contour>
-      <point x="951" y="1274" type="move" name="mark0"/>
+      <point x="951.0" y="1274.0" type="move" name="mark0"/>
     </contour>
   </outline>
   <lib>
@@ -35,7 +35,7 @@
           <array>
           </array>
           <key>width</key>
-          <integer>1475</integer>
+          <integer>1396</integer>
         </dict>
         <key>layer2</key>
         <dict>
@@ -57,7 +57,7 @@
           <array>
           </array>
           <key>width</key>
-          <integer>1475</integer>
+          <integer>1396</integer>
         </dict>
         <key>original</key>
         <dict>
@@ -1567,7 +1567,7 @@
           <array>
           </array>
           <key>width</key>
-          <integer>1475</integer>
+          <integer>1396</integer>
         </dict>
       </dict>
       <key>com.typemytype.robofont.mark</key>

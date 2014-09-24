@@ -3,12 +3,12 @@
   <advance width="380"/>
   <outline>
     <contour>
-      <point x="-297" y="1198" type="curve"/>
-      <point x="-297" y="1274" type="line"/>
-      <point x="653" y="1274" type="line"/>
-      <point x="653" y="1198" type="line"/>
-      <point x="653" y="1198"/>
-      <point x="-297" y="1198"/>
+      <point x="-20" y="1198" type="curve"/>
+      <point x="-20" y="1274" type="line"/>
+      <point x="400" y="1274" type="line"/>
+      <point x="400" y="1198" type="line"/>
+      <point x="400" y="1198"/>
+      <point x="-20" y="1198"/>
     </contour>
     <contour>
       <point x="631" y="661" type="line"/>
@@ -16,8 +16,8 @@
       <point x="449" y="583"/>
       <point x="335" y="583" type="curve" smooth="yes"/>
       <point x="229" y="583"/>
-      <point x="133" y="612"/>
-      <point x="15" y="669" type="curve"/>
+      <point x="133" y="608"/>
+      <point x="15" y="665" type="curve"/>
       <point x="33" y="736" type="line"/>
       <point x="137" y="685"/>
       <point x="235" y="663"/>
@@ -29,6 +29,23 @@
   </outline>
   <lib>
     <dict>
+      <key>com.typemytype.robofont.guides</key>
+      <array>
+        <dict>
+          <key>angle</key>
+          <real>90.0</real>
+          <key>isGlobal</key>
+          <false/>
+          <key>magnetic</key>
+          <integer>5</integer>
+          <key>name</key>
+          <string></string>
+          <key>x</key>
+          <integer>380</integer>
+          <key>y</key>
+          <integer>1009</integer>
+        </dict>
+      </array>
       <key>com.typemytype.robofont.layerData</key>
       <dict>
         <key>layer1</key>
@@ -111,17 +128,17 @@
                   <key>smooth</key>
                   <false/>
                   <key>x</key>
-                  <integer>640</integer>
+                  <integer>631</integer>
                   <key>y</key>
-                  <integer>664</integer>
+                  <integer>661</integer>
                 </dict>
                 <dict>
                   <key>smooth</key>
                   <false/>
                   <key>x</key>
-                  <integer>551</integer>
+                  <integer>542</integer>
                   <key>y</key>
-                  <integer>616</integer>
+                  <integer>613</integer>
                 </dict>
                 <dict>
                   <key>smooth</key>
@@ -129,7 +146,7 @@
                   <key>x</key>
                   <integer>449</integer>
                   <key>y</key>
-                  <integer>586</integer>
+                  <integer>583</integer>
                 </dict>
                 <dict>
                   <key>segmentType</key>
@@ -139,7 +156,7 @@
                   <key>x</key>
                   <integer>335</integer>
                   <key>y</key>
-                  <integer>586</integer>
+                  <integer>583</integer>
                 </dict>
                 <dict>
                   <key>smooth</key>
@@ -147,7 +164,7 @@
                   <key>x</key>
                   <integer>229</integer>
                   <key>y</key>
-                  <integer>586</integer>
+                  <integer>583</integer>
                 </dict>
                 <dict>
                   <key>smooth</key>
@@ -191,7 +208,7 @@
                   <key>x</key>
                   <integer>235</integer>
                   <key>y</key>
-                  <integer>666</integer>
+                  <integer>663</integer>
                 </dict>
                 <dict>
                   <key>segmentType</key>
@@ -201,23 +218,23 @@
                   <key>x</key>
                   <integer>321</integer>
                   <key>y</key>
-                  <integer>666</integer>
+                  <integer>663</integer>
                 </dict>
                 <dict>
                   <key>smooth</key>
                   <false/>
                   <key>x</key>
-                  <integer>431</integer>
+                  <integer>433</integer>
                   <key>y</key>
-                  <integer>666</integer>
+                  <integer>663</integer>
                 </dict>
                 <dict>
                   <key>smooth</key>
                   <false/>
                   <key>x</key>
-                  <integer>531</integer>
+                  <integer>519</integer>
                   <key>y</key>
-                  <integer>693</integer>
+                  <integer>683</integer>
                 </dict>
                 <dict>
                   <key>segmentType</key>
@@ -225,9 +242,9 @@
                   <key>smooth</key>
                   <false/>
                   <key>x</key>
-                  <integer>640</integer>
+                  <integer>611</integer>
                   <key>y</key>
-                  <integer>762</integer>
+                  <integer>742</integer>
                 </dict>
               </array>
             </dict>
@@ -638,9 +655,9 @@
       </dict>
       <key>com.typemytype.robofont.mark</key>
       <array>
-        <real>0.794</real>
-        <real>0.975</real>
-        <real>0.8356</real>
+        <real>0.6312</real>
+        <real>1.0</real>
+        <real>0.9947</real>
         <real>1.0</real>
       </array>
       <key>org.robofab.fontlab.mark</key>

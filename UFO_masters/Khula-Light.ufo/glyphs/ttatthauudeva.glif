@@ -2,13 +2,80 @@
 <glyph name="ttatthauudeva" format="1">
   <advance width="948"/>
   <outline>
-    <component base="ttatthadeva"/>
-    <component base="uuvowelsignlowdeva" xOffset="851" yOffset="-263"/>
     <contour>
-      <point x="20" y="-30" type="move" name="x81"/>
+      <point x="625" y="1242" type="line"/>
+      <point x="714" y="1242" type="line"/>
+      <point x="714" y="941" type="line"/>
+      <point x="498" y="941" type="line" smooth="yes"/>
+      <point x="289" y="941"/>
+      <point x="190" y="846"/>
+      <point x="190" y="688" type="curve" smooth="yes"/>
+      <point x="190" y="541"/>
+      <point x="331" y="433"/>
+      <point x="506" y="433" type="curve" smooth="yes"/>
+      <point x="613" y="433"/>
+      <point x="681" y="446"/>
+      <point x="778" y="485" type="curve"/>
+      <point x="807" y="410" type="line"/>
+      <point x="690" y="365"/>
+      <point x="630" y="352"/>
+      <point x="523" y="352" type="curve" smooth="yes"/>
+      <point x="269" y="352"/>
+      <point x="106" y="509"/>
+      <point x="106" y="705" type="curve" smooth="yes"/>
+      <point x="106" y="887"/>
+      <point x="234" y="1017"/>
+      <point x="458" y="1017" type="curve" smooth="yes"/>
+      <point x="664" y="1017" type="line"/>
+      <point x="625" y="989" type="line"/>
     </contour>
     <contour>
-      <point x="614" y="1244" type="move" name="mark0"/>
+      <point x="760" y="-87" type="curve" smooth="yes"/>
+      <point x="760" y="22"/>
+      <point x="683" y="121"/>
+      <point x="574" y="150" type="curve"/>
+      <point x="460" y="150" type="line" smooth="yes"/>
+      <point x="269" y="150"/>
+      <point x="170" y="51"/>
+      <point x="170" y="-88" type="curve" smooth="yes"/>
+      <point x="170" y="-215"/>
+      <point x="284" y="-323"/>
+      <point x="476" y="-323" type="curve" smooth="yes"/>
+      <point x="644" y="-323"/>
+      <point x="760" y="-223"/>
+    </contour>
+    <contour>
+      <point x="540" y="400" type="line"/>
+      <point x="625" y="400" type="line"/>
+      <point x="625" y="180" type="line"/>
+      <point x="601" y="221" type="line"/>
+      <point x="731" y="176"/>
+      <point x="835" y="61"/>
+      <point x="835" y="-90" type="curve" smooth="yes"/>
+      <point x="835" y="-265"/>
+      <point x="698" y="-398"/>
+      <point x="489" y="-398" type="curve" smooth="yes"/>
+      <point x="232" y="-398"/>
+      <point x="90" y="-246"/>
+      <point x="90" y="-72" type="curve" smooth="yes"/>
+      <point x="90" y="103"/>
+      <point x="235" y="224"/>
+      <point x="430" y="224" type="curve" smooth="yes"/>
+      <point x="579" y="224" type="line"/>
+      <point x="540" y="196" type="line"/>
+    </contour>
+    <contour>
+      <point x="1002" y="1198" type="line"/>
+      <point x="-20" y="1198" type="line"/>
+      <point x="-20" y="1274" type="line"/>
+      <point x="1002" y="1274" type="line"/>
+    </contour>
+    <component base="uuvowelsignlowdeva" xOffset="792" yOffset="159"/>
+    <contour>
+      <point x="20.0" y="-30.0" type="move" name="x81"/>
+    </contour>
+    <contour>
+      <point x="614.0" y="1244.0" type="move" name="mark0"/>
     </contour>
   </outline>
   <lib>
@@ -1704,9 +1771,9 @@
       </dict>
       <key>com.typemytype.robofont.mark</key>
       <array>
-        <real>1.0</real>
-        <real>0.7255</real>
-        <real>0.7149</real>
+        <real>0.794</real>
+        <real>0.975</real>
+        <real>0.8356</real>
         <real>1.0</real>
       </array>
       <key>org.robofab.fontlab.mark</key>

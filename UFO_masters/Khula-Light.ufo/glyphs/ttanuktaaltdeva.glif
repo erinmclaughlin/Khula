@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="ttanuktaaltdeva" format="1">
-  <advance width="1072"/>
+  <advance width="1110"/>
   <outline>
+    <component base="nuktadeva" xOffset="862" yOffset="469"/>
     <component base="ttaaltdeva"/>
-    <component base="nuktadeva" xOffset="762" yOffset="489"/>
     <contour>
       <point x="183" y="333" type="move" name="x36"/>
     </contour>
@@ -35,7 +35,7 @@
           <array>
           </array>
           <key>width</key>
-          <integer>1072</integer>
+          <integer>1110</integer>
         </dict>
         <key>layer2</key>
         <dict>
@@ -57,7 +57,7 @@
           <array>
           </array>
           <key>width</key>
-          <integer>1072</integer>
+          <integer>1110</integer>
         </dict>
         <key>original</key>
         <dict>
@@ -811,7 +811,7 @@
           <array>
           </array>
           <key>width</key>
-          <integer>1072</integer>
+          <integer>1110</integer>
         </dict>
       </dict>
       <key>com.typemytype.robofont.mark</key>
