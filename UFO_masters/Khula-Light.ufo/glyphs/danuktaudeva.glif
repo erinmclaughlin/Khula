@@ -1,92 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="danuktaudeva" format="1">
-  <advance width="1104"/>
+  <advance width="1007"/>
   <outline>
-    <contour>
-      <point x="752" y="-63" type="line"/>
-      <point x="790" y="-54"/>
-      <point x="828" y="-47"/>
-      <point x="867" y="-41" type="curve"/>
-      <point x="830" y="25"/>
-      <point x="797" y="93"/>
-      <point x="764" y="161" type="curve"/>
-      <point x="718" y="153"/>
-      <point x="670" y="147"/>
-      <point x="623" y="147" type="curve" smooth="yes"/>
-      <point x="369" y="147"/>
-      <point x="142" y="273"/>
-      <point x="142" y="553" type="curve" smooth="yes"/>
-      <point x="142" y="866"/>
-      <point x="426" y="916"/>
-      <point x="676" y="916" type="curve"/>
-      <point x="676" y="1184" type="line"/>
-      <point x="42" y="1184" type="line"/>
-      <point x="42" y="1274" type="line"/>
-      <point x="1117" y="1274" type="line"/>
-      <point x="1117" y="1184" type="line"/>
-      <point x="776" y="1184" type="line"/>
-      <point x="776" y="828" type="line"/>
-      <point x="563" y="828"/>
-      <point x="241" y="828"/>
-      <point x="241" y="532" type="curve" smooth="yes"/>
-      <point x="241" y="313"/>
-      <point x="433" y="237"/>
-      <point x="623" y="237" type="curve" smooth="yes"/>
-      <point x="657" y="237"/>
-      <point x="692" y="241"/>
-      <point x="726" y="245" type="curve"/>
-      <point x="714" y="276"/>
-      <point x="700" y="313"/>
-      <point x="700" y="347" type="curve" smooth="yes"/>
-      <point x="700" y="412"/>
-      <point x="742" y="453"/>
-      <point x="807" y="453" type="curve" smooth="yes"/>
-      <point x="886" y="453"/>
-      <point x="960" y="400"/>
-      <point x="960" y="316" type="curve" smooth="yes"/>
-      <point x="960" y="238"/>
-      <point x="905" y="196"/>
-      <point x="838" y="170" type="curve"/>
-      <point x="876" y="98"/>
-      <point x="917" y="26"/>
-      <point x="963" y="-41" type="curve"/>
-      <point x="1104" y="-65"/>
-      <point x="1186" y="-168"/>
-      <point x="1186" y="-310" type="curve" smooth="yes"/>
-      <point x="1186" y="-481"/>
-      <point x="1050" y="-575"/>
-      <point x="889" y="-575" type="curve" smooth="yes"/>
-      <point x="667" y="-575"/>
-      <point x="498" y="-425"/>
-      <point x="378" y="-254" type="curve"/>
-      <point x="452" y="-201" type="line"/>
-      <point x="560" y="-358"/>
-      <point x="673" y="-485"/>
-      <point x="879" y="-485" type="curve" smooth="yes"/>
-      <point x="1002" y="-485"/>
-      <point x="1101" y="-427"/>
-      <point x="1101" y="-293" type="curve" smooth="yes"/>
-      <point x="1101" y="-178"/>
-      <point x="1019" y="-124"/>
-      <point x="911" y="-124" type="curve" smooth="yes"/>
-      <point x="868" y="-124"/>
-      <point x="825" y="-129"/>
-      <point x="784" y="-143" type="curve"/>
-    </contour>
-    <contour>
-      <point x="256" y="66" type="curve" smooth="yes"/>
-      <point x="304" y="66"/>
-      <point x="338" y="18"/>
-      <point x="338" y="-27" type="curve" smooth="yes"/>
-      <point x="338" y="-72"/>
-      <point x="305" y="-121"/>
-      <point x="256" y="-121" type="curve" smooth="yes"/>
-      <point x="207" y="-121"/>
-      <point x="175" y="-72"/>
-      <point x="175" y="-27" type="curve" smooth="yes"/>
-      <point x="175" y="18"/>
-      <point x="208" y="66"/>
-    </contour>
+    <component base="daudeva"/>
+    <component base="nuktadeva" xOffset="1032" yOffset="186"/>
     <contour>
       <point x="20" y="-30" type="move" name="x94"/>
     </contour>
@@ -118,7 +35,7 @@
           <array>
           </array>
           <key>width</key>
-          <integer>1104</integer>
+          <integer>1007</integer>
         </dict>
         <key>layer2</key>
         <dict>
@@ -140,7 +57,7 @@
           <array>
           </array>
           <key>width</key>
-          <integer>1104</integer>
+          <integer>1007</integer>
         </dict>
         <key>original</key>
         <dict>
@@ -1642,14 +1559,14 @@
           <array>
           </array>
           <key>width</key>
-          <integer>1104</integer>
+          <integer>1007</integer>
         </dict>
       </dict>
       <key>com.typemytype.robofont.mark</key>
       <array>
-        <real>0.5163</real>
-        <real>0.5163</real>
-        <real>0.5163</real>
+        <real>0.6312</real>
+        <real>1.0</real>
+        <real>0.9947</real>
         <real>1.0</real>
       </array>
       <key>org.robofab.fontlab.mark</key>

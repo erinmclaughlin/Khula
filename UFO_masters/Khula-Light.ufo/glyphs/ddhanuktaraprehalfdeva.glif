@@ -2,9 +2,8 @@
 <glyph name="ddhanuktaraprehalfdeva" format="1">
   <advance width="1064"/>
   <outline>
-    <component base="ddhadeva"/>
-    <component base="vattuviramalowdeva" xOffset="936" yOffset="38"/>
-    <component base="nuktadeva" xOffset="932" yOffset="-1274"/>
+    <component base="nuktadeva" xOffset="868" yOffset="215"/>
+    <component base="ddharaprehalfdeva"/>
   </outline>
   <lib>
     <dict>
@@ -1663,6 +1662,13 @@
           <integer>1064</integer>
         </dict>
       </dict>
+      <key>com.typemytype.robofont.mark</key>
+      <array>
+        <real>0.6312</real>
+        <real>1.0</real>
+        <real>0.9947</real>
+        <real>1.0</real>
+      </array>
       <key>org.robofab.fontlab.mark</key>
       <integer>130</integer>
     </dict>

@@ -3,12 +3,12 @@
   <advance width="0"/>
   <outline>
     <component base="vattuviramalowdeva"/>
-    <component base="nuktadeva" xOffset="-508" yOffset="55"/>
+    <component base="nuktadeva" xOffset="-288" yOffset="55"/>
     <contour>
-      <point x="-1087" y="-101" type="move" name="x23"/>
+      <point x="-1087.0" y="-101.0" type="move" name="x23"/>
     </contour>
     <contour>
-      <point x="-428" y="0" type="move" name="_mark0"/>
+      <point x="-428.0" y="0.0" type="move" name="_mark0"/>
     </contour>
   </outline>
   <lib>
@@ -896,6 +896,13 @@
           <integer>0</integer>
         </dict>
       </dict>
+      <key>com.typemytype.robofont.mark</key>
+      <array>
+        <real>1.0</real>
+        <real>0.974</real>
+        <real>0.577</real>
+        <real>1.0</real>
+      </array>
       <key>org.robofab.fontlab.mark</key>
       <integer>210</integer>
     </dict>

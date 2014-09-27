@@ -1,41 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="vattuviramalowdeva" format="1">
-  <advance width="0"/>
+  <advance width="-1"/>
   <outline>
-    <contour>
-      <point x="-428" y="-168" type="line"/>
-      <point x="-880" y="-481" type="line"/>
-      <point x="-941" y="-395" type="line"/>
-      <point x="-776" y="-293"/>
-      <point x="-612" y="-189"/>
-      <point x="-447" y="-88" type="curve"/>
-      <point x="-391" y="-88" type="line"/>
-      <point x="-297" y="-205"/>
-      <point x="-202" y="-320"/>
-      <point x="-109" y="-437" type="curve"/>
-      <point x="-177" y="-482" type="line"/>
-    </contour>
-    <contour>
-      <point x="-596" y="-491" type="line"/>
-      <point x="-575" y="-489"/>
-      <point x="-555" y="-487"/>
-      <point x="-534" y="-487" type="curve" smooth="yes"/>
-      <point x="-449" y="-487"/>
-      <point x="-365" y="-505"/>
-      <point x="-287" y="-538" type="curve" smooth="yes"/>
-      <point x="-288" y="-537" type="line" smooth="yes"/>
-      <point x="-250" y="-554"/>
-      <point x="-214" y="-576"/>
-      <point x="-179" y="-600" type="curve"/>
-      <point x="-179" y="-599" type="line"/>
-      <point x="-103" y="-651"/>
-      <point x="-39" y="-719"/>
-      <point x="24" y="-785" type="curve"/>
-      <point x="-41" y="-832" type="line"/>
-      <point x="-175" y="-674"/>
-      <point x="-361" y="-551"/>
-      <point x="-579" y="-586" type="curve"/>
-    </contour>
+    <component base="vattudeva"/>
+    <component base="viramalowdeva" xOffset="-160" yOffset="30"/>
     <contour>
       <point x="0" y="-30" type="move" name="x23"/>
     </contour>
@@ -67,7 +35,7 @@
           <array>
           </array>
           <key>width</key>
-          <integer>0</integer>
+          <integer>-1</integer>
         </dict>
         <key>layer2</key>
         <dict>
@@ -89,7 +57,7 @@
           <array>
           </array>
           <key>width</key>
-          <integer>0</integer>
+          <integer>-1</integer>
         </dict>
         <key>original</key>
         <dict>
@@ -707,9 +675,16 @@
           <array>
           </array>
           <key>width</key>
-          <integer>0</integer>
+          <integer>-1</integer>
         </dict>
       </dict>
+      <key>com.typemytype.robofont.mark</key>
+      <array>
+        <real>1.0</real>
+        <real>0.974</real>
+        <real>0.577</real>
+        <real>1.0</real>
+      </array>
       <key>org.robofab.fontlab.mark</key>
       <integer>210</integer>
       <key>org.robofab.fontlab.maskData</key>

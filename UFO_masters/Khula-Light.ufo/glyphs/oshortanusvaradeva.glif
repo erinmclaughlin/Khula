@@ -3,10 +3,27 @@
   <advance width="2100"/>
   <outline>
     <component base="aadeva"/>
-    <component base="eshortvowelsignanusvaradeva" xOffset="2135"/>
+    <component base="eshortvowelsignanusvaradeva" xOffset="2106"/>
   </outline>
   <lib>
     <dict>
+      <key>com.typemytype.robofont.guides</key>
+      <array>
+        <dict>
+          <key>angle</key>
+          <real>90.0</real>
+          <key>isGlobal</key>
+          <false/>
+          <key>magnetic</key>
+          <integer>5</integer>
+          <key>name</key>
+          <string></string>
+          <key>x</key>
+          <integer>1765</integer>
+          <key>y</key>
+          <integer>1080</integer>
+        </dict>
+      </array>
       <key>com.typemytype.robofont.layerData</key>
       <dict>
         <key>layer1</key>
@@ -1754,6 +1771,13 @@
           <integer>2100</integer>
         </dict>
       </dict>
+      <key>com.typemytype.robofont.mark</key>
+      <array>
+        <real>0.794</real>
+        <real>0.975</real>
+        <real>0.8356</real>
+        <real>1.0</real>
+      </array>
       <key>org.robofab.fontlab.mark</key>
       <integer>130</integer>
     </dict>

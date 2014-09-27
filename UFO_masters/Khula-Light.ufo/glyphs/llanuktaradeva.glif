@@ -4,7 +4,7 @@
   <outline>
     <component base="lladeva"/>
     <component base="vattudeva" xOffset="1516"/>
-    <component base="nuktadeva" xOffset="1365" yOffset="-1312"/>
+    <component base="nuktadeva" xOffset="1337" yOffset="117"/>
     <contour>
       <point x="1091" y="-174" type="move" name="x66"/>
     </contour>
@@ -1517,6 +1517,13 @@
           <integer>1443</integer>
         </dict>
       </dict>
+      <key>com.typemytype.robofont.mark</key>
+      <array>
+        <real>0.6312</real>
+        <real>1.0</real>
+        <real>0.9947</real>
+        <real>1.0</real>
+      </array>
       <key>org.robofab.fontlab.mark</key>
       <integer>130</integer>
     </dict>

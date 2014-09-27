@@ -2,72 +2,7 @@
 <glyph name="lvocalicvowelsignlowdeva" format="1">
   <advance width="0"/>
   <outline>
-    <contour>
-      <point x="63" y="-545" type="line"/>
-      <point x="5" y="-564"/>
-      <point x="-57" y="-574"/>
-      <point x="-118" y="-574" type="curve" smooth="yes"/>
-      <point x="-203" y="-574"/>
-      <point x="-352" y="-548"/>
-      <point x="-352" y="-436" type="curve" smooth="yes"/>
-      <point x="-352" y="-333"/>
-      <point x="-189" y="-302"/>
-      <point x="-114" y="-290" type="curve"/>
-      <point x="-93" y="-264"/>
-      <point x="-74" y="-232"/>
-      <point x="-74" y="-198" type="curve" smooth="yes"/>
-      <point x="-74" y="-112"/>
-      <point x="-168" y="-94"/>
-      <point x="-236" y="-94" type="curve" smooth="yes"/>
-      <point x="-349" y="-94"/>
-      <point x="-427" y="-143"/>
-      <point x="-476" y="-245" type="curve"/>
-      <point x="-552" y="-230" type="line"/>
-      <point x="-535" y="-204"/>
-      <point x="-512" y="-181"/>
-      <point x="-490" y="-158" type="curve"/>
-      <point x="-556" y="-124"/>
-      <point x="-628" y="-99"/>
-      <point x="-703" y="-99" type="curve" smooth="yes"/>
-      <point x="-774" y="-99"/>
-      <point x="-873" y="-124"/>
-      <point x="-873" y="-212" type="curve" smooth="yes"/>
-      <point x="-873" y="-258"/>
-      <point x="-843" y="-294"/>
-      <point x="-810" y="-323" type="curve" smooth="yes"/>
-      <point x="-813" y="-321" type="line"/>
-      <point x="-774" y="-366"/>
-      <point x="-657" y="-424"/>
-      <point x="-603" y="-452" type="curve"/>
-      <point x="-648" y="-492" type="line"/>
-      <point x="-746" y="-435"/>
-      <point x="-955" y="-320"/>
-      <point x="-955" y="-193" type="curve" smooth="yes"/>
-      <point x="-955" y="-82"/>
-      <point x="-811" y="-47"/>
-      <point x="-723" y="-47" type="curve" smooth="yes"/>
-      <point x="-629" y="-47"/>
-      <point x="-540" y="-82"/>
-      <point x="-461" y="-132" type="curve"/>
-      <point x="-389" y="-79"/>
-      <point x="-304" y="-47"/>
-      <point x="-214" y="-47" type="curve" smooth="yes"/>
-      <point x="-124" y="-47"/>
-      <point x="8" y="-83"/>
-      <point x="8" y="-194" type="curve" smooth="yes"/>
-      <point x="8" y="-242"/>
-      <point x="-12" y="-287"/>
-      <point x="-40" y="-325" type="curve"/>
-      <point x="-108" y="-327"/>
-      <point x="-282" y="-337"/>
-      <point x="-282" y="-437" type="curve" smooth="yes"/>
-      <point x="-282" y="-514"/>
-      <point x="-191" y="-526"/>
-      <point x="-132" y="-526" type="curve" smooth="yes"/>
-      <point x="-72" y="-526"/>
-      <point x="-14" y="-515"/>
-      <point x="43" y="-498" type="curve"/>
-    </contour>
+    <component base="lvocalicvowelsigndeva"/>
     <contour>
       <point x="0" y="-30" type="move" name="x64"/>
     </contour>
@@ -1308,6 +1243,13 @@
           <integer>0</integer>
         </dict>
       </dict>
+      <key>com.typemytype.robofont.mark</key>
+      <array>
+        <real>1.0</real>
+        <real>0.974</real>
+        <real>0.577</real>
+        <real>1.0</real>
+      </array>
       <key>org.robofab.fontlab.mark</key>
       <integer>210</integer>
       <key>org.robofab.fontlab.maskData</key>

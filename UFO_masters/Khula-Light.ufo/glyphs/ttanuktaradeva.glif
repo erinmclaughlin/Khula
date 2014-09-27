@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="ttanuktaradeva" format="1">
-  <advance width="1077"/>
+  <advance width="1110"/>
   <outline>
     <component base="ttadeva"/>
     <component base="vattudeva" xOffset="1138"/>
-    <component base="nuktadeva" xOffset="1037" yOffset="-1274"/>
+    <component base="nuktadeva" xOffset="1011" yOffset="130"/>
     <contour>
-      <point x="713" y="-174" type="move" name="x34"/>
+      <point x="713.0" y="-174.0" type="move" name="x34"/>
     </contour>
     <contour>
-      <point x="634" y="1274" type="move" name="mark0"/>
+      <point x="634.0" y="1274.0" type="move" name="mark0"/>
     </contour>
   </outline>
   <lib>
@@ -36,7 +36,7 @@
           <array>
           </array>
           <key>width</key>
-          <integer>1077</integer>
+          <integer>1110</integer>
         </dict>
         <key>layer2</key>
         <dict>
@@ -58,7 +58,7 @@
           <array>
           </array>
           <key>width</key>
-          <integer>1077</integer>
+          <integer>1110</integer>
         </dict>
         <key>original</key>
         <dict>
@@ -994,14 +994,14 @@
           <array>
           </array>
           <key>width</key>
-          <integer>1077</integer>
+          <integer>1110</integer>
         </dict>
       </dict>
       <key>com.typemytype.robofont.mark</key>
       <array>
-        <real>0.5163</real>
-        <real>0.5163</real>
-        <real>0.5163</real>
+        <real>0.6312</real>
+        <real>1.0</real>
+        <real>0.9947</real>
         <real>1.0</real>
       </array>
       <key>org.robofab.fontlab.mark</key>

@@ -2,9 +2,8 @@
 <glyph name="iinuktaanusvaradeva" format="1">
   <advance width="957"/>
   <outline>
-    <component base="ideva"/>
-    <component base="rephanusvaradeva" xOffset="1134"/>
-    <component base="nuktadeva" xOffset="1134"/>
+    <component base="nuktadeva" xOffset="1036" yOffset="92"/>
+    <component base="iianusvaradeva"/>
   </outline>
   <lib>
     <dict>
@@ -1989,9 +1988,9 @@
       </dict>
       <key>com.typemytype.robofont.mark</key>
       <array>
-        <real>0.5163</real>
-        <real>0.5163</real>
-        <real>0.5163</real>
+        <real>0.794</real>
+        <real>0.975</real>
+        <real>0.8356</real>
         <real>1.0</real>
       </array>
       <key>org.robofab.fontlab.mark</key>

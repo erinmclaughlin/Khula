@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="sfthyphen.deva" format="1">
-  <advance width="626"/>
+  <advance width="734.0"/>
   <unicode hex="00AF"/>
   <outline>
-    <component base="hyphen.deva" xScale="0.9" yScale="0.9" yOffset="51"/>
+    <component base="hyphen.deva" xScale="0.9" yScale="0.9" xOffset="100" yOffset="51"/>
   </outline>
   <lib>
     <dict>
@@ -29,7 +29,7 @@
           <array>
           </array>
           <key>width</key>
-          <integer>626</integer>
+          <real>734.0</real>
         </dict>
         <key>layer2</key>
         <dict>
@@ -51,7 +51,7 @@
           <array>
           </array>
           <key>width</key>
-          <integer>626</integer>
+          <real>734.0</real>
         </dict>
         <key>original</key>
         <dict>
@@ -73,14 +73,14 @@
           <array>
           </array>
           <key>width</key>
-          <integer>626</integer>
+          <real>734.0</real>
         </dict>
       </dict>
       <key>com.typemytype.robofont.mark</key>
       <array>
+        <real>0.6312</real>
         <real>1.0</real>
-        <real>0.7255</real>
-        <real>0.7149</real>
+        <real>0.9947</real>
         <real>1.0</real>
       </array>
       <key>org.robofab.fontlab.mark</key>

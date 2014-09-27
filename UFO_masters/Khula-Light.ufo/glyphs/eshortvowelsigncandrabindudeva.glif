@@ -3,7 +3,7 @@
   <advance width="0"/>
   <outline>
     <component base="eshortvowelsigndeva"/>
-    <component base="candrabindusmalldeva" xOffset="91"/>
+    <component base="candrabindusmalldeva" xOffset="170"/>
     <contour>
       <point x="-285" y="1744" type="move" name="x26"/>
     </contour>
@@ -888,6 +888,13 @@
           <integer>0</integer>
         </dict>
       </dict>
+      <key>com.typemytype.robofont.mark</key>
+      <array>
+        <real>0.794</real>
+        <real>0.975</real>
+        <real>0.8356</real>
+        <real>1.0</real>
+      </array>
       <key>org.robofab.fontlab.mark</key>
       <integer>210</integer>
     </dict>

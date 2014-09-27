@@ -2,20 +2,7 @@
 <glyph name="nukta2deva" format="1">
   <advance width="0"/>
   <outline>
-    <contour>
-      <point x="-593" y="-227" type="curve" smooth="yes"/>
-      <point x="-545" y="-227"/>
-      <point x="-511" y="-275"/>
-      <point x="-511" y="-320" type="curve" smooth="yes"/>
-      <point x="-511" y="-365"/>
-      <point x="-544" y="-413"/>
-      <point x="-593" y="-413" type="curve" smooth="yes"/>
-      <point x="-642" y="-413"/>
-      <point x="-675" y="-365"/>
-      <point x="-675" y="-320" type="curve" smooth="yes"/>
-      <point x="-675" y="-275"/>
-      <point x="-641" y="-227"/>
-    </contour>
+    <component base="nuktadeva" xOffset="175" yOffset="-105"/>
   </outline>
   <lib>
     <dict>

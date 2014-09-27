@@ -2,101 +2,8 @@
 <glyph name="llvocalicvowelsignnuktadeva" format="1">
   <advance width="0"/>
   <outline>
-    <contour>
-      <point x="90" y="-276" type="line"/>
-      <point x="60" y="-281" type="line"/>
-      <point x="59" y="-298" type="line"/>
-      <point x="59" y="-307" type="line"/>
-    </contour>
-    <contour>
-      <point x="328" y="-807" type="line"/>
-      <point x="270" y="-832"/>
-      <point x="207" y="-846"/>
-      <point x="144" y="-846" type="curve" smooth="yes"/>
-      <point x="15" y="-846"/>
-      <point x="-90" y="-779"/>
-      <point x="-90" y="-640" type="curve" smooth="yes"/>
-      <point x="-90" y="-615"/>
-      <point x="-84" y="-590"/>
-      <point x="-77" y="-566" type="curve"/>
-      <point x="-131" y="-531"/>
-      <point x="-174" y="-476"/>
-      <point x="-174" y="-410" type="curve" smooth="yes"/>
-      <point x="-174" y="-322"/>
-      <point x="-100" y="-269"/>
-      <point x="-27" y="-235" type="curve"/>
-      <point x="-60" y="-174"/>
-      <point x="-112" y="-134"/>
-      <point x="-183" y="-134" type="curve" smooth="yes"/>
-      <point x="-326" y="-134"/>
-      <point x="-389" y="-243"/>
-      <point x="-428" y="-367" type="curve"/>
-      <point x="-506" y="-346" type="line"/>
-      <point x="-492" y="-302"/>
-      <point x="-472" y="-260"/>
-      <point x="-449" y="-220" type="curve"/>
-      <point x="-508" y="-177"/>
-      <point x="-575" y="-140"/>
-      <point x="-650" y="-140" type="curve" smooth="yes"/>
-      <point x="-750" y="-140"/>
-      <point x="-820" y="-195"/>
-      <point x="-820" y="-299" type="curve" smooth="yes"/>
-      <point x="-820" y="-450"/>
-      <point x="-645" y="-579"/>
-      <point x="-540" y="-665" type="curve"/>
-      <point x="-593" y="-722" type="line"/>
-      <point x="-720" y="-613"/>
-      <point x="-902" y="-468"/>
-      <point x="-902" y="-284" type="curve" smooth="yes"/>
-      <point x="-902" y="-150"/>
-      <point x="-801" y="-62"/>
-      <point x="-670" y="-62" type="curve" smooth="yes"/>
-      <point x="-572" y="-62"/>
-      <point x="-484" y="-111"/>
-      <point x="-409" y="-170" type="curve"/>
-      <point x="-341" y="-108"/>
-      <point x="-255" y="-62"/>
-      <point x="-161" y="-62" type="curve" smooth="yes"/>
-      <point x="-34" y="-62"/>
-      <point x="57" y="-155"/>
-      <point x="60" y="-281" type="curve"/>
-      <point x="-11" y="-297"/>
-      <point x="-103" y="-331"/>
-      <point x="-103" y="-418" type="curve" smooth="yes"/>
-      <point x="-103" y="-503"/>
-      <point x="-7" y="-527"/>
-      <point x="62" y="-527" type="curve" smooth="yes"/>
-      <point x="119" y="-527"/>
-      <point x="171" y="-515"/>
-      <point x="223" y="-490" type="curve"/>
-      <point x="245" y="-557" type="line"/>
-      <point x="154" y="-596"/>
-      <point x="84" y="-598"/>
-      <point x="-13" y="-591" type="curve"/>
-      <point x="-15" y="-609"/>
-      <point x="-19" y="-629"/>
-      <point x="-19" y="-647" type="curve" smooth="yes"/>
-      <point x="-19" y="-739"/>
-      <point x="65" y="-777"/>
-      <point x="146" y="-777" type="curve" smooth="yes"/>
-      <point x="203" y="-777"/>
-      <point x="255" y="-765"/>
-      <point x="307" y="-740" type="curve"/>
-    </contour>
-    <contour>
-      <point x="-1163" y="-227" type="curve" smooth="yes"/>
-      <point x="-1115" y="-227"/>
-      <point x="-1081" y="-275"/>
-      <point x="-1081" y="-320" type="curve" smooth="yes"/>
-      <point x="-1081" y="-365"/>
-      <point x="-1114" y="-413"/>
-      <point x="-1163" y="-413" type="curve" smooth="yes"/>
-      <point x="-1212" y="-413"/>
-      <point x="-1245" y="-365"/>
-      <point x="-1245" y="-320" type="curve" smooth="yes"/>
-      <point x="-1245" y="-275"/>
-      <point x="-1211" y="-227"/>
-    </contour>
+    <component base="nuktadeva" xOffset="-190"/>
+    <component base="llvocalicvowelsigndeva"/>
     <contour>
       <point x="0" y="-30" type="move" name="x113"/>
     </contour>
@@ -1801,6 +1708,13 @@
           <integer>0</integer>
         </dict>
       </dict>
+      <key>com.typemytype.robofont.mark</key>
+      <array>
+        <real>1.0</real>
+        <real>0.974</real>
+        <real>0.577</real>
+        <real>1.0</real>
+      </array>
       <key>org.robofab.fontlab.mark</key>
       <integer>210</integer>
       <key>org.robofab.fontlab.maskData</key>

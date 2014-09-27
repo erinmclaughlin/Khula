@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="ellipsis.deva" format="1">
-  <advance width="1319"/>
+  <advance width="1439"/>
   <unicode hex="2026"/>
   <outline>
-    <component base="period"/>
-    <component base="period" xOffset="440"/>
-    <component base="period" xOffset="881"/>
+    <component base="period.deva" xOffset="1000"/>
+    <component base="period.deva" xOffset="500"/>
+    <component base="period.deva"/>
   </outline>
   <lib>
     <dict>
@@ -26,12 +26,12 @@
           <dict>
           </dict>
           <key>name</key>
-          <string>ellipsis.deva</string>
+          <string>period.deva</string>
           <key>unicodes</key>
           <array>
           </array>
           <key>width</key>
-          <integer>1319</integer>
+          <integer>1439</integer>
         </dict>
         <key>layer2</key>
         <dict>
@@ -48,12 +48,12 @@
           <dict>
           </dict>
           <key>name</key>
-          <string>ellipsis.deva</string>
+          <string>period.deva</string>
           <key>unicodes</key>
           <array>
           </array>
           <key>width</key>
-          <integer>1319</integer>
+          <integer>1439</integer>
         </dict>
         <key>original</key>
         <dict>
@@ -70,19 +70,19 @@
           <dict>
           </dict>
           <key>name</key>
-          <string>ellipsis.deva</string>
+          <string>period.deva</string>
           <key>unicodes</key>
           <array>
           </array>
           <key>width</key>
-          <integer>1319</integer>
+          <integer>1439</integer>
         </dict>
       </dict>
       <key>com.typemytype.robofont.mark</key>
       <array>
+        <real>0.6312</real>
         <real>1.0</real>
-        <real>0.7255</real>
-        <real>0.7149</real>
+        <real>0.9947</real>
         <real>1.0</real>
       </array>
     </dict>

@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="ecandraanusvaradeva" format="1">
-  <advance width="1081"/>
+  <advance width="1068"/>
   <outline>
+    <component base="ecandravowelsignanusvaradeva" xOffset="1199" yOffset="38"/>
     <component base="edeva"/>
-    <component base="ecandravowelsignanusvaradeva" xOffset="1159" yOffset="38"/>
   </outline>
   <lib>
     <dict>
@@ -29,7 +29,7 @@
           <array>
           </array>
           <key>width</key>
-          <integer>1081</integer>
+          <integer>1068</integer>
         </dict>
         <key>layer2</key>
         <dict>
@@ -51,7 +51,7 @@
           <array>
           </array>
           <key>width</key>
-          <integer>1081</integer>
+          <integer>1068</integer>
         </dict>
         <key>original</key>
         <dict>
@@ -1411,9 +1411,16 @@
           <array>
           </array>
           <key>width</key>
-          <integer>1081</integer>
+          <integer>1068</integer>
         </dict>
       </dict>
+      <key>com.typemytype.robofont.mark</key>
+      <array>
+        <real>0.6312</real>
+        <real>1.0</real>
+        <real>0.9947</real>
+        <real>1.0</real>
+      </array>
       <key>org.robofab.fontlab.mark</key>
       <integer>130</integer>
     </dict>

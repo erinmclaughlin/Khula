@@ -4,10 +4,13 @@
   <outline>
     <component base="aavowelsigndeva"/>
     <component base="aivowelsigndeva" xOffset="560"/>
-    <component base="candrabindusmalldeva" xOffset="741"/>
+    <component base="candrabindusmalldeva" xOffset="691"/>
   </outline>
   <lib>
     <dict>
+      <key>com.typemytype.robofont.guides</key>
+      <array>
+      </array>
       <key>com.typemytype.robofont.layerData</key>
       <dict>
         <key>layer1</key>
@@ -1301,6 +1304,13 @@
           <integer>567</integer>
         </dict>
       </dict>
+      <key>com.typemytype.robofont.mark</key>
+      <array>
+        <real>0.794</real>
+        <real>0.975</real>
+        <real>0.8356</real>
+        <real>1.0</real>
+      </array>
       <key>org.robofab.fontlab.mark</key>
       <integer>30</integer>
     </dict>

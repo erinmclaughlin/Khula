@@ -2,8 +2,8 @@
 <glyph name="iianusvaradeva" format="1">
   <advance width="957"/>
   <outline>
+    <component base="rephanusvaradeva" xOffset="988"/>
     <component base="ideva"/>
-    <component base="rephanusvaradeva" xOffset="1134"/>
   </outline>
   <lib>
     <dict>
@@ -1768,6 +1768,13 @@
           <integer>957</integer>
         </dict>
       </dict>
+      <key>com.typemytype.robofont.mark</key>
+      <array>
+        <real>0.6312</real>
+        <real>1.0</real>
+        <real>0.9947</real>
+        <real>1.0</real>
+      </array>
       <key>org.robofab.fontlab.mark</key>
       <integer>130</integer>
     </dict>

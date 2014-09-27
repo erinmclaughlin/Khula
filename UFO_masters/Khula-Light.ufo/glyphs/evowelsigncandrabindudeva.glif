@@ -3,12 +3,12 @@
   <advance width="0"/>
   <outline>
     <component base="evowelsigndeva"/>
-    <component base="candrabindusmalldeva" xOffset="181"/>
+    <component base="candrabindusmalldeva" xOffset="131"/>
     <contour>
-      <point x="-195" y="1744" type="move" name="x17"/>
+      <point x="-195.0" y="1744.0" type="move" name="x17"/>
     </contour>
     <contour>
-      <point x="-348" y="1274" type="move" name="_mark0"/>
+      <point x="-348.0" y="1274.0" type="move" name="_mark0"/>
     </contour>
   </outline>
   <lib>
@@ -848,6 +848,13 @@
           <integer>0</integer>
         </dict>
       </dict>
+      <key>com.typemytype.robofont.mark</key>
+      <array>
+        <real>0.794</real>
+        <real>0.975</real>
+        <real>0.8356</real>
+        <real>1.0</real>
+      </array>
       <key>org.robofab.fontlab.mark</key>
       <integer>210</integer>
     </dict>
