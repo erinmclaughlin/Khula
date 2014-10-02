@@ -159,6 +159,20 @@
 			<key>y</key>
 			<integer>1344</integer>
 		</dict>
+		<dict>
+			<key>angle</key>
+			<integer>0</integer>
+			<key>isGlobal</key>
+			<integer>1</integer>
+			<key>magnetic</key>
+			<integer>5</integer>
+			<key>name</key>
+			<string></string>
+			<key>x</key>
+			<integer>679</integer>
+			<key>y</key>
+			<integer>949</integer>
+		</dict>
 	</array>
 	<key>com.typemytype.robofont.italicSlantOffset</key>
 	<integer>0</integer>
@@ -842,6 +856,8 @@
 				<string>iivowelcandrabindu1deva</string>
 				<string>iivowelcandrabindu2deva</string>
 				<string>iivowelcandrabindu3deva</string>
+				<string>ocandravowelsignrephanusvardeva</string>
+				<string>ecandravowelsignrephanusvardeva</string>
 				<string>nuktasmalldeva</string>
 				<string>exclam.deva</string>
 				<string>quotedbl.deva</string>
@@ -951,8 +967,6 @@
 				<string>ampersand</string>
 				<string>at</string>
 				<string>grave</string>
-				<string>ocandravowelsignrephanusvardeva</string>
-				<string>ecandravowelsignrephanusvardeva</string>
 			</array>
 			<key>type</key>
 			<string>glyphList</string>
@@ -1604,6 +1618,8 @@
 		<string>iivowelcandrabindu1deva</string>
 		<string>iivowelcandrabindu2deva</string>
 		<string>iivowelcandrabindu3deva</string>
+		<string>ocandravowelsignrephanusvardeva</string>
+		<string>ecandravowelsignrephanusvardeva</string>
 		<string>nuktasmalldeva</string>
 		<string>exclam.deva</string>
 		<string>quotedbl.deva</string>
@@ -1713,8 +1729,25 @@
 		<string>ampersand</string>
 		<string>at</string>
 		<string>grave</string>
-		<string>ocandravowelsignrephanusvardeva</string>
-		<string>ecandravowelsignrephanusvardeva</string>
+		<string>ninedevaNEP</string>
+		<string>jharaprehalfdevaNEP</string>
+		<string>jharanuktadevaNEP</string>
+		<string>nyajadeva</string>
+		<string>jhanuktaprehalfdevaNEP</string>
+		<string>jhanuktadevaNEP</string>
+		<string>jharadevaNEP</string>
+		<string>onedevaNEP</string>
+		<string>fivedevaNEP</string>
+		<string>zhadeva</string>
+		<string>jharanuktaprehalfdevaNEP</string>
+		<string>jjyadeva</string>
+		<string>nanadeva</string>
+		<string>eightdevaNEP</string>
+		<string>jhadevaNEP</string>
+		<string>ddadevaMAW</string>
+		<string>ngamadeva</string>
+		<string>jhaprehalfdevaNEP</string>
+		<string>ngagadeva</string>
 	</array>
 </dict>
 </plist>

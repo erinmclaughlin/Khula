@@ -1,10 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="hanuktaraprehalfdeva" format="1">
-  <advance width="1398"/>
+  <advance width="1336"/>
   <outline>
-    <component base="haradeva"/>
-    <component base="nuktasmalldeva" xOffset="816" yOffset="-141"/>
-    <component base="viramadeva" xOffset="1236"/>
+    <component base="haraprehalfdeva"/>
+    <component base="nuktadeva" xOffset="1107" yOffset="-92"/>
   </outline>
   <lib>
     <dict>
@@ -30,7 +29,7 @@
           <array>
           </array>
           <key>width</key>
-          <integer>1398</integer>
+          <integer>1336</integer>
         </dict>
         <key>layer2</key>
         <dict>
@@ -52,7 +51,7 @@
           <array>
           </array>
           <key>width</key>
-          <integer>1398</integer>
+          <integer>1336</integer>
         </dict>
         <key>original</key>
         <dict>
@@ -2562,14 +2561,14 @@
           <array>
           </array>
           <key>width</key>
-          <integer>1398</integer>
+          <integer>1336</integer>
         </dict>
       </dict>
       <key>com.typemytype.robofont.mark</key>
       <array>
-        <real>0.5163</real>
-        <real>0.5163</real>
-        <real>0.5163</real>
+        <real>0.6312</real>
+        <real>1.0</real>
+        <real>0.9947</real>
         <real>1.0</real>
       </array>
       <key>org.robofab.fontlab.mark</key>

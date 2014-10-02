@@ -1,76 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="vattuuulowdeva" format="1">
-  <advance width="98"/>
+  <advance width="-1"/>
   <outline>
-    <contour>
-      <point x="-551" y="-287" type="line"/>
-      <point x="-551" y="-302" type="line"/>
-      <point x="-496" y="-286"/>
-      <point x="-439" y="-277"/>
-      <point x="-376" y="-277" type="curve" smooth="yes"/>
-      <point x="-346" y="-277"/>
-      <point x="-316" y="-278"/>
-      <point x="-293" y="-280" type="curve"/>
-      <point x="-293" y="-267" type="line"/>
-      <point x="-335" y="-226" type="line"/>
-      <point x="-340" y="-222" type="line"/>
-      <point x="-351" y="-213"/>
-      <point x="-365" y="-199"/>
-      <point x="-375" y="-187" type="curve"/>
-    </contour>
-    <contour>
-      <point x="-379" y="-587" type="curve" smooth="yes"/>
-      <point x="-347" y="-587"/>
-      <point x="-293" y="-571"/>
-      <point x="-215" y="-535" type="curve"/>
-      <point x="-215" y="-521" type="line"/>
-      <point x="-266" y="-496"/>
-      <point x="-321" y="-480"/>
-      <point x="-365" y="-480" type="curve" smooth="yes"/>
-      <point x="-403" y="-480"/>
-      <point x="-434" y="-502"/>
-      <point x="-434" y="-535" type="curve" smooth="yes"/>
-      <point x="-434" y="-571"/>
-      <point x="-411" y="-587"/>
-    </contour>
-    <contour>
-      <point x="-176" y="-545" type="line"/>
-      <point x="-196" y="-532"/>
-      <point x="-212" y="-523"/>
-      <point x="-222" y="-518" type="curve"/>
-      <point x="-222" y="-531" type="line"/>
-      <point x="-147" y="-749" type="line"/>
-      <point x="-238" y="-780"/>
-      <point x="-324" y="-796"/>
-      <point x="-403" y="-796" type="curve" smooth="yes"/>
-      <point x="-514" y="-796"/>
-      <point x="-604" y="-771"/>
-      <point x="-663" y="-724" type="curve"/>
-      <point x="-730" y="-666"/>
-      <point x="-769" y="-603"/>
-      <point x="-769" y="-534" type="curve" smooth="yes"/>
-      <point x="-769" y="-479"/>
-      <point x="-743" y="-429"/>
-      <point x="-690" y="-380" type="curve"/>
-      <point x="-690" y="-366" type="line"/>
-      <point x="-828" y="-444" type="line"/>
-      <point x="-987" y="-231" type="line"/>
-      <point x="-449" y="37" type="line"/>
-      <point x="-224" y="37" type="line"/>
-      <point x="46" y="-236" type="line"/>
-      <point x="-85" y="-328" type="line"/>
-      <point x="-85" y="-340" type="line"/>
-      <point x="48" y="-403"/>
-      <point x="172" y="-500"/>
-      <point x="285" y="-635" type="curve"/>
-      <point x="202" y="-684"/>
-      <point x="122" y="-730"/>
-      <point x="40" y="-779" type="curve"/>
-      <point x="-47" y="-662"/>
-      <point x="-122" y="-583"/>
-      <point x="-170" y="-550" type="curve"/>
-      <point x="-176" y="-550" type="line"/>
-    </contour>
+    <component base="vattuuudeva" yOffset="-180"/>
     <contour>
       <point x="49" y="8" type="move" name="x32"/>
     </contour>
@@ -102,7 +34,7 @@
           <array>
           </array>
           <key>width</key>
-          <integer>98</integer>
+          <integer>-1</integer>
         </dict>
         <key>layer2</key>
         <dict>
@@ -124,7 +56,7 @@
           <array>
           </array>
           <key>width</key>
-          <integer>98</integer>
+          <integer>-1</integer>
         </dict>
         <key>original</key>
         <dict>
@@ -1348,14 +1280,14 @@
           <array>
           </array>
           <key>width</key>
-          <integer>98</integer>
+          <integer>-1</integer>
         </dict>
       </dict>
       <key>com.typemytype.robofont.mark</key>
       <array>
-        <real>0.9347</real>
-        <real>0.9347</real>
-        <real>0.9347</real>
+        <real>0.6312</real>
+        <real>1.0</real>
+        <real>0.9947</real>
         <real>1.0</real>
       </array>
       <key>org.robofab.fontlab.mark</key>

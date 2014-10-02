@@ -3,12 +3,10 @@
   <advance width="1572"/>
   <outline>
     <contour>
-      <point x="337" y="-60" type="curve"/>
-      <point x="196" y="153" type="line"/>
-      <point x="769" y="458" type="line"/>
-      <point x="905" y="253" type="line"/>
-      <point x="905" y="253"/>
-      <point x="337" y="-60"/>
+      <point x="1022" y="1096" type="line"/>
+      <point x="1388" y="1096" type="line"/>
+      <point x="1388" y="-357" type="line"/>
+      <point x="1022" y="-357" type="line"/>
     </contour>
     <contour>
       <point x="1066" y="341" type="curve"/>
@@ -31,6 +29,12 @@
       <point x="840" y="13" type="curve" smooth="yes"/>
       <point x="943" y="13"/>
       <point x="1066" y="131"/>
+    </contour>
+    <contour>
+      <point x="1598" y="1056" type="line"/>
+      <point x="949" y="1056" type="line"/>
+      <point x="949" y="1294" type="line"/>
+      <point x="1598" y="1294" type="line"/>
     </contour>
     <contour>
       <point x="158" y="323" type="line"/>
@@ -63,16 +67,12 @@
       <point x="456" y="474" type="curve" smooth="yes"/>
     </contour>
     <contour>
-      <point x="1022" y="1096" type="line"/>
-      <point x="1388" y="1096" type="line"/>
-      <point x="1388" y="-357" type="line"/>
-      <point x="1022" y="-357" type="line"/>
-    </contour>
-    <contour>
-      <point x="1598" y="1056" type="line"/>
-      <point x="949" y="1056" type="line"/>
-      <point x="949" y="1294" type="line"/>
-      <point x="1598" y="1294" type="line"/>
+      <point x="337" y="-60" type="curve"/>
+      <point x="196" y="153" type="line"/>
+      <point x="769" y="458" type="line"/>
+      <point x="905" y="253" type="line"/>
+      <point x="905" y="253"/>
+      <point x="337" y="-60"/>
     </contour>
   </outline>
   <lib>
@@ -2776,9 +2776,9 @@
       </dict>
       <key>com.typemytype.robofont.mark</key>
       <array>
-        <real>0.794</real>
-        <real>0.975</real>
-        <real>0.8356</real>
+        <real>0.6312</real>
+        <real>1.0</real>
+        <real>0.9947</real>
         <real>1.0</real>
       </array>
       <key>org.robofab.fontlab.mark</key>

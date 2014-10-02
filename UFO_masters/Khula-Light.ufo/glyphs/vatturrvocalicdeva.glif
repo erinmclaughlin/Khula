@@ -2,13 +2,13 @@
 <glyph name="vatturrvocalicdeva" format="1">
   <advance width="0"/>
   <outline>
+    <component base="rrvocaliclowdeva" xOffset="-20" yOffset="210"/>
     <component base="vattudeva" xOffset="100" yOffset="300"/>
-    <component base="rrvocalicvowelsigndeva" xOffset="-20"/>
     <contour>
-      <point x="0" y="-30" type="move" name="x48"/>
+      <point x="0.0" y="-30.0" type="move" name="x48"/>
     </contour>
     <contour>
-      <point x="-428" y="-30" type="move" name="_mark0"/>
+      <point x="-428.0" y="-30.0" type="move" name="_mark0"/>
     </contour>
   </outline>
   <lib>

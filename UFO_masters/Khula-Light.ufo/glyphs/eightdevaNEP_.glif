@@ -1,54 +1,98 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="eightdevaNEP" format="1">
-  <advance width="1118"/>
+  <advance width="1017"/>
   <outline>
     <contour>
-      <point x="113" y="1122" type="curve"/>
-      <point x="113" y="1198" type="line"/>
-      <point x="1045" y="1198" type="line"/>
-      <point x="1045" y="1122" type="line"/>
-      <point x="1045" y="1122"/>
-      <point x="113" y="1122"/>
+      <point x="30" y="1122" type="curve"/>
+      <point x="30" y="1198" type="line"/>
+      <point x="962" y="1198" type="line"/>
+      <point x="962" y="1122" type="line"/>
+      <point x="962" y="1122"/>
+      <point x="30" y="1122"/>
     </contour>
     <contour>
-      <point x="531" y="402" type="curve" smooth="yes"/>
-      <point x="335" y="402"/>
-      <point x="224" y="517"/>
-      <point x="224" y="710" type="curve" smooth="yes"/>
-      <point x="224" y="877"/>
-      <point x="313" y="1054"/>
-      <point x="438" y="1197" type="curve"/>
-      <point x="515" y="1163" type="line"/>
-      <point x="385" y="1028"/>
-      <point x="307" y="851"/>
-      <point x="307" y="699" type="curve" smooth="yes"/>
-      <point x="307" y="567"/>
-      <point x="387" y="481"/>
-      <point x="520" y="481" type="curve" smooth="yes"/>
-      <point x="641" y="481"/>
-      <point x="735" y="531"/>
-      <point x="844" y="531" type="curve" smooth="yes"/>
-      <point x="959" y="531"/>
-      <point x="1037" y="446"/>
-      <point x="1037" y="337" type="curve" smooth="yes"/>
-      <point x="1037" y="249"/>
-      <point x="997" y="171"/>
-      <point x="921" y="85" type="curve"/>
-      <point x="853" y="123" type="line"/>
-      <point x="926" y="199"/>
-      <point x="963" y="276"/>
-      <point x="963" y="343" type="curve" smooth="yes"/>
-      <point x="963" y="398"/>
-      <point x="916" y="452"/>
-      <point x="846" y="452" type="curve" smooth="yes"/>
-      <point x="753" y="452"/>
-      <point x="684" y="402"/>
+      <point x="448" y="402" type="curve" smooth="yes"/>
+      <point x="252" y="402"/>
+      <point x="141" y="517"/>
+      <point x="141" y="710" type="curve" smooth="yes"/>
+      <point x="141" y="877"/>
+      <point x="230" y="1054"/>
+      <point x="355" y="1197" type="curve"/>
+      <point x="432" y="1163" type="line"/>
+      <point x="302" y="1028"/>
+      <point x="224" y="851"/>
+      <point x="224" y="699" type="curve" smooth="yes"/>
+      <point x="224" y="567"/>
+      <point x="304" y="481"/>
+      <point x="437" y="481" type="curve" smooth="yes"/>
+      <point x="558" y="481"/>
+      <point x="652" y="531"/>
+      <point x="761" y="531" type="curve" smooth="yes"/>
+      <point x="876" y="531"/>
+      <point x="954" y="446"/>
+      <point x="954" y="337" type="curve" smooth="yes"/>
+      <point x="954" y="249"/>
+      <point x="914" y="171"/>
+      <point x="838" y="85" type="curve"/>
+      <point x="770" y="123" type="line"/>
+      <point x="843" y="199"/>
+      <point x="880" y="276"/>
+      <point x="880" y="343" type="curve" smooth="yes"/>
+      <point x="880" y="398"/>
+      <point x="833" y="452"/>
+      <point x="763" y="452" type="curve" smooth="yes"/>
+      <point x="670" y="452"/>
+      <point x="601" y="402"/>
     </contour>
   </outline>
   <lib>
     <dict>
       <key>com.typemytype.robofont.layerData</key>
       <dict>
+        <key>layer1</key>
+        <dict>
+          <key>anchors</key>
+          <array>
+          </array>
+          <key>components</key>
+          <array>
+          </array>
+          <key>contours</key>
+          <array>
+          </array>
+          <key>lib</key>
+          <dict>
+          </dict>
+          <key>name</key>
+          <string>eightdevaNEP</string>
+          <key>unicodes</key>
+          <array>
+          </array>
+          <key>width</key>
+          <integer>1017</integer>
+        </dict>
+        <key>layer2</key>
+        <dict>
+          <key>anchors</key>
+          <array>
+          </array>
+          <key>components</key>
+          <array>
+          </array>
+          <key>contours</key>
+          <array>
+          </array>
+          <key>lib</key>
+          <dict>
+          </dict>
+          <key>name</key>
+          <string>eightdevaNEP</string>
+          <key>unicodes</key>
+          <array>
+          </array>
+          <key>width</key>
+          <integer>1017</integer>
+        </dict>
         <key>original</key>
         <dict>
           <key>anchors</key>
@@ -69,7 +113,7 @@
           <array>
           </array>
           <key>width</key>
-          <integer>1118</integer>
+          <integer>1017</integer>
         </dict>
       </dict>
       <key>com.typemytype.robofont.mark</key>

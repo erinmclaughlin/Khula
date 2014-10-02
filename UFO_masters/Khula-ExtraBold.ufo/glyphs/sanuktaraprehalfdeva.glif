@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="sanuktaraprehalfdeva" format="1">
-  <advance width="1371"/>
+  <advance width="1039"/>
   <outline>
     <component base="saraprehalfdeva"/>
-    <component base="nuktasmalldeva" xOffset="862" yOffset="319"/>
+    <component base="nuktadeva" xOffset="1111" yOffset="262"/>
   </outline>
   <lib>
     <dict>
@@ -29,7 +29,7 @@
           <array>
           </array>
           <key>width</key>
-          <integer>1371</integer>
+          <integer>1039</integer>
         </dict>
         <key>layer2</key>
         <dict>
@@ -51,7 +51,7 @@
           <array>
           </array>
           <key>width</key>
-          <integer>1371</integer>
+          <integer>1039</integer>
         </dict>
         <key>original</key>
         <dict>
@@ -1545,14 +1545,14 @@
           <array>
           </array>
           <key>width</key>
-          <integer>1371</integer>
+          <integer>1039</integer>
         </dict>
       </dict>
       <key>com.typemytype.robofont.mark</key>
       <array>
-        <real>0.5163</real>
-        <real>0.5163</real>
-        <real>0.5163</real>
+        <real>0.6312</real>
+        <real>1.0</real>
+        <real>0.9947</real>
         <real>1.0</real>
       </array>
       <key>org.robofab.fontlab.mark</key>

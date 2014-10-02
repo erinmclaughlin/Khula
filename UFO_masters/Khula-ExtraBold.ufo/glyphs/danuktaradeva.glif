@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="danuktaradeva" format="1">
-  <advance width="1329"/>
+  <advance width="1229"/>
   <outline>
     <component base="daradeva"/>
-    <component base="nuktadeva" xOffset="1248"/>
+    <component base="nuktadeva" xOffset="1558" yOffset="-40"/>
     <contour>
       <point x="673" y="-122" type="move" name="x43"/>
     </contour>
@@ -38,7 +38,7 @@
           <array>
           </array>
           <key>width</key>
-          <integer>1329</integer>
+          <integer>1229</integer>
         </dict>
         <key>layer2</key>
         <dict>
@@ -60,7 +60,7 @@
           <array>
           </array>
           <key>width</key>
-          <integer>1329</integer>
+          <integer>1229</integer>
         </dict>
         <key>original</key>
         <dict>
@@ -1610,14 +1610,14 @@
           <array>
           </array>
           <key>width</key>
-          <integer>1329</integer>
+          <integer>1229</integer>
         </dict>
       </dict>
       <key>com.typemytype.robofont.mark</key>
       <array>
-        <real>0.5163</real>
-        <real>0.5163</real>
-        <real>0.5163</real>
+        <real>0.6312</real>
+        <real>1.0</real>
+        <real>0.9947</real>
         <real>1.0</real>
       </array>
       <key>org.robofab.fontlab.mark</key>

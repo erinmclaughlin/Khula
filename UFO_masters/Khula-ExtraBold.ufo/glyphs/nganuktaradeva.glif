@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="nganuktaradeva" format="1">
-  <advance width="1679"/>
+  <advance width="1538"/>
   <outline>
+    <component base="nuktadeva" xOffset="873" yOffset="227"/>
     <component base="ngadeva"/>
-    <component base="vattudeva" xOffset="1388"/>
-    <component base="nuktasmalldeva" xOffset="906" yOffset="235"/>
+    <component base="vattudeva" xOffset="1204" yOffset="6"/>
     <contour>
       <point x="958" y="-249" type="move" name="x56"/>
     </contour>
@@ -36,7 +36,7 @@
           <array>
           </array>
           <key>width</key>
-          <integer>1679</integer>
+          <integer>1538</integer>
         </dict>
         <key>layer2</key>
         <dict>
@@ -58,7 +58,7 @@
           <array>
           </array>
           <key>width</key>
-          <integer>1679</integer>
+          <integer>1538</integer>
         </dict>
         <key>original</key>
         <dict>
@@ -2540,14 +2540,14 @@
           <array>
           </array>
           <key>width</key>
-          <integer>1679</integer>
+          <integer>1538</integer>
         </dict>
       </dict>
       <key>com.typemytype.robofont.mark</key>
       <array>
-        <real>0.5163</real>
-        <real>0.5163</real>
-        <real>0.5163</real>
+        <real>0.6312</real>
+        <real>1.0</real>
+        <real>0.9947</real>
         <real>1.0</real>
       </array>
       <key>org.robofab.fontlab.mark</key>

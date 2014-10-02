@@ -1,41 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="vatturvocaliclowdeva" format="1">
-  <advance width="98"/>
+  <advance width="-1"/>
   <outline>
-    <contour>
-      <point x="-375" y="-187" type="line"/>
-      <point x="-829" y="-444" type="line"/>
-      <point x="-988" y="-231" type="line"/>
-      <point x="-449" y="37" type="line"/>
-      <point x="-224" y="37" type="line"/>
-      <point x="105" y="-290" type="line"/>
-      <point x="-120" y="-445" type="line"/>
-    </contour>
-    <contour>
-      <point x="42" y="-722" type="line"/>
-      <point x="-62" y="-770"/>
-      <point x="-180" y="-796"/>
-      <point x="-307" y="-796" type="curve" smooth="yes"/>
-      <point x="-427" y="-796"/>
-      <point x="-524" y="-770"/>
-      <point x="-595" y="-722" type="curve"/>
-      <point x="-674" y="-665"/>
-      <point x="-715" y="-599"/>
-      <point x="-715" y="-528" type="curve" smooth="yes"/>
-      <point x="-715" y="-364"/>
-      <point x="-555" y="-259"/>
-      <point x="-261" y="-234" type="curve"/>
-      <point x="-227" y="-427" type="line"/>
-      <point x="-345" y="-442"/>
-      <point x="-399" y="-467"/>
-      <point x="-399" y="-518" type="curve" smooth="yes"/>
-      <point x="-399" y="-565"/>
-      <point x="-370" y="-587"/>
-      <point x="-312" y="-587" type="curve" smooth="yes"/>
-      <point x="-232" y="-587"/>
-      <point x="-135" y="-548"/>
-      <point x="-54" y="-509" type="curve"/>
-    </contour>
+    <component base="vatturvocalicdeva" yOffset="-180"/>
     <contour>
       <point x="49" y="8" type="move" name="x25"/>
     </contour>
@@ -67,7 +34,7 @@
           <array>
           </array>
           <key>width</key>
-          <integer>98</integer>
+          <integer>-1</integer>
         </dict>
         <key>layer2</key>
         <dict>
@@ -89,7 +56,7 @@
           <array>
           </array>
           <key>width</key>
-          <integer>98</integer>
+          <integer>-1</integer>
         </dict>
         <key>original</key>
         <dict>
@@ -707,14 +674,14 @@
           <array>
           </array>
           <key>width</key>
-          <integer>98</integer>
+          <integer>-1</integer>
         </dict>
       </dict>
       <key>com.typemytype.robofont.mark</key>
       <array>
-        <real>0.9347</real>
-        <real>0.9347</real>
-        <real>0.9347</real>
+        <real>0.6312</real>
+        <real>1.0</real>
+        <real>0.9947</real>
         <real>1.0</real>
       </array>
       <key>org.robofab.fontlab.mark</key>

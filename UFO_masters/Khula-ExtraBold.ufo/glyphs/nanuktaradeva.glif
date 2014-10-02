@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="nanuktaradeva" format="1">
-  <advance width="1462"/>
+  <advance width="1338"/>
   <outline>
     <component base="naradeva"/>
-    <component base="nuktadeva" xOffset="1044"/>
+    <component base="nuktadeva" xOffset="1555" yOffset="-2"/>
   </outline>
   <lib>
     <dict>
@@ -29,7 +29,7 @@
           <array>
           </array>
           <key>width</key>
-          <integer>1462</integer>
+          <integer>1338</integer>
         </dict>
         <key>layer2</key>
         <dict>
@@ -51,7 +51,7 @@
           <array>
           </array>
           <key>width</key>
-          <integer>1462</integer>
+          <integer>1338</integer>
         </dict>
         <key>original</key>
         <dict>
@@ -1121,14 +1121,14 @@
           <array>
           </array>
           <key>width</key>
-          <integer>1462</integer>
+          <integer>1338</integer>
         </dict>
       </dict>
       <key>com.typemytype.robofont.mark</key>
       <array>
-        <real>0.9347</real>
-        <real>0.9347</real>
-        <real>0.9347</real>
+        <real>0.6312</real>
+        <real>1.0</real>
+        <real>0.9947</real>
         <real>1.0</real>
       </array>
       <key>org.robofab.fontlab.mark</key>

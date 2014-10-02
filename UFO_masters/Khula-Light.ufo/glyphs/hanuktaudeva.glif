@@ -1,102 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="hanuktaudeva" format="1">
-  <advance width="1128"/>
+  <advance width="1114"/>
   <outline>
-    <contour>
-      <point x="576" y="-151" type="line"/>
-      <point x="540" y="-165" type="line"/>
-      <point x="590" y="-183" type="line"/>
-    </contour>
-    <contour>
-      <point x="748" y="-124" type="curve" smooth="yes"/>
-      <point x="690" y="-124"/>
-      <point x="631" y="-134"/>
-      <point x="576" y="-151" type="curve"/>
-      <point x="574" y="-146" type="line"/>
-      <point x="388" y="-49"/>
-      <point x="167" y="76"/>
-      <point x="167" y="314" type="curve" smooth="yes"/>
-      <point x="167" y="404"/>
-      <point x="234" y="473"/>
-      <point x="305" y="519" type="curve"/>
-      <point x="246" y="572"/>
-      <point x="192" y="642"/>
-      <point x="192" y="725" type="curve" smooth="yes"/>
-      <point x="192" y="1012"/>
-      <point x="657" y="937"/>
-      <point x="819" y="937" type="curve"/>
-      <point x="819" y="1184" type="line"/>
-      <point x="43" y="1184" type="line"/>
-      <point x="43" y="1274" type="line"/>
-      <point x="1143" y="1274" type="line"/>
-      <point x="1143" y="1184" type="line"/>
-      <point x="919" y="1184" type="line"/>
-      <point x="919" y="847" type="line"/>
-      <point x="494" y="847" type="line" smooth="yes"/>
-      <point x="402" y="847"/>
-      <point x="284" y="835"/>
-      <point x="284" y="714" type="curve" smooth="yes"/>
-      <point x="284" y="640"/>
-      <point x="346" y="586"/>
-      <point x="408" y="556" type="curve"/>
-      <point x="476" y="572"/>
-      <point x="547" y="581"/>
-      <point x="617" y="581" type="curve" smooth="yes"/>
-      <point x="769" y="581"/>
-      <point x="1004" y="537"/>
-      <point x="1004" y="341" type="curve" smooth="yes"/>
-      <point x="1004" y="220"/>
-      <point x="924" y="145"/>
-      <point x="817" y="104" type="curve"/>
-      <point x="787" y="182" type="line"/>
-      <point x="862" y="206"/>
-      <point x="911" y="243"/>
-      <point x="911" y="327" type="curve" smooth="yes"/>
-      <point x="911" y="481"/>
-      <point x="721" y="490"/>
-      <point x="608" y="490" type="curve" smooth="yes"/>
-      <point x="473" y="490"/>
-      <point x="265" y="466"/>
-      <point x="265" y="289" type="curve" smooth="yes"/>
-      <point x="265" y="110"/>
-      <point x="453" y="12"/>
-      <point x="591" y="-60" type="curve"/>
-      <point x="646" y="-49"/>
-      <point x="703" y="-40"/>
-      <point x="759" y="-40" type="curve" smooth="yes"/>
-      <point x="925" y="-40"/>
-      <point x="1065" y="-133"/>
-      <point x="1065" y="-311" type="curve" smooth="yes"/>
-      <point x="1065" y="-487"/>
-      <point x="912" y="-575"/>
-      <point x="752" y="-575" type="curve" smooth="yes"/>
-      <point x="568" y="-575"/>
-      <point x="428" y="-519"/>
-      <point x="290" y="-398" type="curve"/>
-      <point x="343" y="-342" type="line"/>
-      <point x="462" y="-439"/>
-      <point x="580" y="-485"/>
-      <point x="734" y="-485" type="curve" smooth="yes"/>
-      <point x="861" y="-485"/>
-      <point x="980" y="-438"/>
-      <point x="980" y="-293" type="curve" smooth="yes"/>
-      <point x="980" y="-165"/>
-      <point x="856" y="-124"/>
-    </contour>
-    <contour>
-      <point x="164" y="-87" type="curve" smooth="yes"/>
-      <point x="213" y="-87"/>
-      <point x="245" y="-136"/>
-      <point x="245" y="-181" type="curve" smooth="yes"/>
-      <point x="245" y="-226"/>
-      <point x="212" y="-274"/>
-      <point x="164" y="-274" type="curve" smooth="yes"/>
-      <point x="116" y="-274"/>
-      <point x="82" y="-226"/>
-      <point x="82" y="-181" type="curve" smooth="yes"/>
-      <point x="82" y="-136"/>
-      <point x="115" y="-87"/>
-    </contour>
+    <component base="haudeva"/>
+    <component base="nuktadeva" xOffset="905" yOffset="126"/>
   </outline>
   <lib>
     <dict>
@@ -122,7 +29,7 @@
           <array>
           </array>
           <key>width</key>
-          <integer>1128</integer>
+          <integer>1114</integer>
         </dict>
         <key>layer2</key>
         <dict>
@@ -144,7 +51,7 @@
           <array>
           </array>
           <key>width</key>
-          <integer>1128</integer>
+          <integer>1114</integer>
         </dict>
         <key>original</key>
         <dict>
@@ -1776,7 +1683,7 @@
           <array>
           </array>
           <key>width</key>
-          <integer>1128</integer>
+          <integer>1114</integer>
         </dict>
       </dict>
       <key>com.typemytype.robofont.mark</key>
