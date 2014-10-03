@@ -10,6 +10,7 @@
   </group>
   <group color="1.0 0.5 0.0 0.25" name="L_Cha" side="left" type="kerning">
     <glyphs>
+      chaaltdeva
       chanuktaaltdeva
       chanuktadeva
       chanuktaprehalfdeva
@@ -296,7 +297,11 @@
   <group color="1.0 0.0 0.0 0.25" name="R_A" side="right" type="kerning">
     <glyphs>
       aadeva
+      aanuktadeva
+      acandraanusvaradeva
       acandradeva
+      acandranuktaanusvaradeva
+      acandranuktadeva
       adeva
       anuktadeva
       ashortanusvaradeva
@@ -307,6 +312,8 @@
       audeva
       aunuktaanusvaradeva
       aunuktadeva
+      oanusvaradeva
+      ocandraanusvaradeva
       ocandradeva
       ocandranuktaanusvaradeva
       ocandranuktadeva
@@ -329,6 +336,14 @@
       bhaprehalfdeva
       bharadeva
       bharaprehalfdeva
+      jhadevaNEP
+      jhanuktadevaNEP
+      jhanuktaprehalfdevaNEP
+      jhaprehalfdevaNEP
+      jharadevaNEP
+      jharanuktadevaNEP
+      jharanuktaprehalfdevaNEP
+      jharaprehalfdevaNEP
     </glyphs>
   </group>
   <group color="0.0 0.5 1.0 0.25" name="R_Ca" side="right" type="kerning">
@@ -345,7 +360,17 @@
   </group>
   <group color="0.5 0.0 1.0 0.25" name="R_Cha" side="right" type="kerning">
     <glyphs>
+      chaaltdeva
       chadeva
+      chanuktaaltdeva
+      chanuktadeva
+      chanuktaprehalfdeva
+      chanuktaradeva
+      chanuktaraprehalfdeva
+      chaprehalfdeva
+      charadeva
+      charaprehalfdeva
+      chayadeva
     </glyphs>
   </group>
   <group color="1.0 0.5 0.0 0.25" name="R_Da" side="right" type="kerning">
@@ -367,7 +392,8 @@
       davadeva
       ddhadeva
       ddhanuktaprehalfdeva
-      ddhaprehalfdeva
+      ddhanuktaradeva
+      ddhanuktaraprehalfdeva
       ddharadeva
       ddharaprehalfdeva
       ddhayadeva
@@ -388,6 +414,37 @@
       tthayadeva
     </glyphs>
   </group>
+  <group color="1.0 0.0 0.0 0.25" name="R_DaAlt" side="right" type="kerning">
+    <glyphs>
+      ddhaaltdeva
+      ddhanuktaraprehalfUIdeva
+      ddhaprehalfdeva
+      ddharaprehalfUIdeva
+    </glyphs>
+  </group>
+  <group color="1.0 0.0 1.0 0.25" name="R_DaBha" side="right" type="kerning">
+    <glyphs>
+      dabhaaltdeva
+      dabhadeva
+      dadhadeva
+      dadhayadeva
+      daghadeva
+    </glyphs>
+  </group>
+  <group color="1.0 0.0 0.5 0.25" name="R_DaGa" side="right" type="kerning">
+    <glyphs>
+      dabadeva
+      dagadeva
+    </glyphs>
+  </group>
+  <group color="1.0 0.5 0.0 0.25" name="R_DdaAlt" side="right" type="kerning">
+    <glyphs>
+      ddaaltdeva
+      ddanuktaraprehalfUIdeva
+      ddaraprehalfUIdeva
+      dddhaaltdeva
+    </glyphs>
+  </group>
   <group color="1.0 0.0 0.0 0.25" name="R_Dha" side="right" type="kerning">
     <glyphs>
       dhadeva
@@ -402,10 +459,20 @@
   </group>
   <group color="1.0 0.5 0.0 0.25" name="R_E" side="right" type="kerning">
     <glyphs>
+      aianusvaradeva
       aideva
+      ainuktaanusvaradeva
+      ainuktadeva
+      ecandraanusvaradeva
       ecandradeva
+      ecandranuktaanusvaradeva
+      ecandranuktadeva
       edeva
+      enuktadeva
+      eshortanusvaradeva
       eshortdeva
+      eshortnuktaanusvaradeva
+      eshortnuktadeva
     </glyphs>
   </group>
   <group color="1.0 0.0 0.5 0.25" name="R_Ga" side="right" type="kerning">
@@ -435,24 +502,32 @@
   </group>
   <group color="0.0 0.0 1.0 0.25" name="R_Ha" side="right" type="kerning">
     <glyphs>
+      dadaaltdeva
+      dadadeva
+      damadeva
+      dayadeva
+      dayaprehalfdeva
       hadeva
       haladeva
       hamadeva
       hanadeva
       hannadeva
       hanuktadeva
+      hanuktaprehalfdeva
+      hanuktaradeva
+      hanuktaraprehalfdeva
+      hanuktarrvocalicdeva
+      hanuktarvocalicdeva
+      hanuktaudeva
+      hanuktauudeva
       haprehalfdeva
       haradeva
       haraprehalfdeva
-      harauUIdeva
       haraudeva
-      harauuUIdeva
       harauudeva
       harrvocalicdeva
       harvocalicdeva
-      hauUIdeva
       haudeva
-      hauuUIdeva
       hauudeva
       havadeva
       hayadeva
@@ -461,15 +536,34 @@
   <group color="1.0 1.0 0.0 0.25" name="R_I" side="right" type="kerning">
     <glyphs>
       ddabardeva
+      ddaddadeva
+      ddaddauudeva
+      ddaddhadeva
       ddadeva
+      ddanuktaprehalfdeva
+      ddanuktaradeva
+      ddanuktaraprehalfdeva
+      ddaprehalfdeva
+      ddaradeva
+      ddaraprehalfdeva
+      ddayadeva
       dddhadeva
+      ddhaddhadeva
       ideva
       iianusvaradeva
       iideva
+      iinuktaanusvaradeva
       iinuktadeva
+      inuktadeva
+      janyadeva
+      janyaprehalfdeva
+      janyaradeva
+      janyaraprehalfdeva
       jhadeva
       jhanuktadeva
       jhanuktaprehalfdeva
+      jhanuktaradeva
+      jhanuktaraprehalfdeva
       jhaprehalfdeva
       jharadeva
       jharaprehalfdeva
@@ -497,6 +591,7 @@
       jaradeva
       jaraprehalfdeva
       zadeva
+      zhadeva
     </glyphs>
   </group>
   <group color="0.0 0.0 1.0 0.25" name="R_Ka" side="right" type="kerning">
@@ -511,8 +606,17 @@
       qadeva
     </glyphs>
   </group>
+  <group color="1.0 1.0 0.0 0.25" name="R_KaSsa" side="right" type="kerning">
+    <glyphs>
+      kassadeva
+      kassaprehalfdeva
+      kassaradeva
+      kassaraprehalfdeva
+    </glyphs>
+  </group>
   <group color="0.0 0.5 1.0 0.25" name="R_La" side="right" type="kerning">
     <glyphs>
+      laaltdevaMAR
       ladeva
       ladevaMAR
       lanuktaaltdevaMAR
@@ -534,6 +638,7 @@
   </group>
   <group color="0.5 0.0 1.0 0.25" name="R_Lla" side="right" type="kerning">
     <glyphs>
+      llaaltdeva
       lladeva
       llanuktaprehalfdeva
       llanuktaradeva
@@ -541,6 +646,7 @@
       llaprehalfdeva
       llaradeva
       llaraprehalfdeva
+      lllaaltdeva
       llladeva
     </glyphs>
   </group>
@@ -630,6 +736,9 @@
       kharaprehalfdeva
       khhadeva
       radeva
+      ranuktaradeva
+      ranuktaudeva
+      ranuktauudeva
       raradeva
       raudeva
       rauudeva
@@ -652,9 +761,25 @@
       shaprehalfdeva
     </glyphs>
   </group>
+  <group color="0.0 1.0 0.0 0.25" name="R_ShaRa" side="right" type="kerning">
+    <glyphs>
+      shacadeva
+      shacaprehalfdeva
+      shaladeva
+      shaladevaMAR
+      shanadeva
+      shanuktaraprehalfdeva
+      shaprehalfaltdeva
+      sharadeva
+      sharaprehalfdeva
+      shavadeva
+      shavaprehalfdeva
+    </glyphs>
+  </group>
   <group color="1.0 1.0 0.0 0.25" name="R_Ta" side="right" type="kerning">
     <glyphs>
       tadeva
+      tanuktadeva
     </glyphs>
   </group>
   <group color="0.0 1.0 1.0 0.25" name="R_TaRa" side="right" type="kerning">
@@ -663,6 +788,7 @@
       rrvocalicnuktadeva
       rvocalicdeva
       rvocalicnuktadeva
+      shanuktaradeva
       tanuktaradeva
       tanuktaraprehalfdeva
       taradeva
@@ -676,7 +802,9 @@
   <group color="0.0 1.0 0.0 0.25" name="R_U" side="right" type="kerning">
     <glyphs>
       udeva
+      unuktadeva
       uudeva
+      uunuktadeva
     </glyphs>
   </group>
   <group color="0.0 1.0 1.0 0.25" name="R_Va" side="right" type="kerning">
@@ -703,6 +831,7 @@
   </group>
   <group color="1.0 0.0 1.0 0.25" name="R_Ya" side="right" type="kerning">
     <glyphs>
+      jjyadeva
       thadeva
       thanuktadeva
       thanuktaprehalfdeva

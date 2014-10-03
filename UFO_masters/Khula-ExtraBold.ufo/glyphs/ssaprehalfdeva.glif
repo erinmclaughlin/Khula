@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="ssaprehalfdeva" format="1">
-  <advance width="724"/>
+  <advance width="712"/>
   <outline>
     <contour>
       <point x="887" y="607" type="line"/>
@@ -9,10 +9,10 @@
       <point x="446" y="1140" type="line"/>
     </contour>
     <contour>
-      <point x="956" y="1056" type="line"/>
+      <point x="733" y="1056" type="line"/>
       <point x="-20" y="1056" type="line"/>
       <point x="-20" y="1294" type="line"/>
-      <point x="956" y="1294" type="line"/>
+      <point x="733" y="1294" type="line"/>
     </contour>
     <contour>
       <point x="465" y="1166" type="line"/>
@@ -20,11 +20,11 @@
       <point x="465" y="600"/>
       <point x="511" y="552"/>
       <point x="580" y="552" type="curve" smooth="yes"/>
-      <point x="699" y="552"/>
-      <point x="780" y="623"/>
-      <point x="873" y="753" type="curve"/>
-      <point x="1095" y="440" type="line"/>
-      <point x="942" y="311"/>
+      <point x="705" y="552"/>
+      <point x="839" y="619"/>
+      <point x="947" y="710" type="curve"/>
+      <point x="1105" y="452" type="line"/>
+      <point x="954" y="315"/>
       <point x="803" y="263"/>
       <point x="620" y="263" type="curve" smooth="yes"/>
       <point x="314" y="263"/>
@@ -46,7 +46,7 @@
           <array>
             <dict>
               <key>baseGlyph</key>
-              <string>ssadeva</string>
+              <string>paprehalfdeva</string>
               <key>transformation</key>
               <array>
                 <integer>1</integer>
@@ -70,7 +70,7 @@
           <array>
           </array>
           <key>width</key>
-          <integer>724</integer>
+          <integer>712</integer>
         </dict>
         <key>layer2</key>
         <dict>
@@ -92,7 +92,7 @@
           <array>
           </array>
           <key>width</key>
-          <integer>724</integer>
+          <integer>712</integer>
         </dict>
         <key>original</key>
         <dict>
@@ -738,14 +738,14 @@
           <array>
           </array>
           <key>width</key>
-          <integer>724</integer>
+          <integer>712</integer>
         </dict>
       </dict>
       <key>com.typemytype.robofont.mark</key>
       <array>
-        <real>0.6312</real>
         <real>1.0</real>
-        <real>0.9947</real>
+        <real>0.974</real>
+        <real>0.577</real>
         <real>1.0</real>
       </array>
       <key>org.robofab.fontlab.mark</key>

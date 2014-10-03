@@ -1,13 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="odeva" format="1">
-  <advance width="2103"/>
+  <advance width="2100"/>
   <unicode hex="0913"/>
   <outline>
     <component base="aadeva"/>
-    <component base="evowelsigndeva" xOffset="2083"/>
+    <component base="evowelsigndeva" xOffset="2063"/>
   </outline>
   <lib>
     <dict>
+      <key>com.typemytype.robofont.guides</key>
+      <array>
+      </array>
       <key>com.typemytype.robofont.layerData</key>
       <dict>
         <key>layer1</key>
@@ -30,7 +33,7 @@
           <array>
           </array>
           <key>width</key>
-          <integer>2103</integer>
+          <integer>2100</integer>
         </dict>
         <key>layer2</key>
         <dict>
@@ -790,7 +793,7 @@
           <array>
           </array>
           <key>width</key>
-          <integer>2103</integer>
+          <integer>2100</integer>
         </dict>
         <key>original</key>
         <dict>
@@ -2616,7 +2619,7 @@
           <array>
           </array>
           <key>width</key>
-          <integer>2103</integer>
+          <integer>2100</integer>
         </dict>
       </dict>
       <key>com.typemytype.robofont.mark</key>

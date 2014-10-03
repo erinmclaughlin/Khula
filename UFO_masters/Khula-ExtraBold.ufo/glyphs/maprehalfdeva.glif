@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="maprehalfdeva" format="1">
-  <advance width="852"/>
+  <advance width="846"/>
   <outline>
     <contour>
       <point x="-20" y="1056" type="curve"/>
       <point x="-20" y="1294" type="line"/>
-      <point x="1061" y="1294" type="line"/>
-      <point x="1061" y="1056" type="line"/>
-      <point x="1061" y="1056"/>
+      <point x="866" y="1294" type="line"/>
+      <point x="866" y="1056" type="line"/>
+      <point x="866" y="1056"/>
       <point x="-20" y="1056"/>
     </contour>
     <contour>
@@ -21,8 +21,8 @@
       <point x="577" y="1095" type="line"/>
       <point x="577" y="652" type="line"/>
       <point x="545" y="696" type="line"/>
-      <point x="1057" y="696" type="line"/>
-      <point x="1057" y="399" type="line"/>
+      <point x="1087" y="696" type="line"/>
+      <point x="1107" y="399" type="line"/>
       <point x="526" y="399" type="line"/>
       <point x="577" y="450" type="line"/>
       <point x="577" y="321" type="line" smooth="yes"/>
@@ -331,7 +331,7 @@
           <array>
           </array>
           <key>width</key>
-          <integer>852</integer>
+          <integer>846</integer>
         </dict>
         <key>layer2</key>
         <dict>
@@ -353,7 +353,7 @@
           <array>
           </array>
           <key>width</key>
-          <integer>852</integer>
+          <integer>846</integer>
         </dict>
         <key>original</key>
         <dict>
@@ -865,14 +865,14 @@
           <array>
           </array>
           <key>width</key>
-          <integer>852</integer>
+          <integer>846</integer>
         </dict>
       </dict>
       <key>com.typemytype.robofont.mark</key>
       <array>
-        <real>0.6312</real>
         <real>1.0</real>
-        <real>0.9947</real>
+        <real>0.974</real>
+        <real>0.577</real>
         <real>1.0</real>
       </array>
       <key>org.robofab.fontlab.mark</key>
