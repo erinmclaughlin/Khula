@@ -1,9 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="jharanuktadevaNEP" format="1">
-  <advance width="1680"/>
+<glyph name="jhanuktaprehalfradevaNEP" format="1">
+  <advance width="1374"/>
   <outline>
-    <component base="nuktadeva" xOffset="1506" yOffset="262"/>
-    <component base="jharadevaNEP"/>
+    <contour>
+      <point x="989" y="506" type="line"/>
+      <point x="400" y="-12" type="line"/>
+      <point x="343" y="47" type="line"/>
+      <point x="938" y="568" type="line"/>
+    </contour>
+    <component base="jhaprehalfdevaNEP"/>
+    <component base="nuktadeva" xOffset="1506" yOffset="274"/>
   </outline>
   <lib>
     <dict>
@@ -24,12 +30,12 @@
           <dict>
           </dict>
           <key>name</key>
-          <string>jharanuktadevaNEP</string>
+          <string>jhanuktaprehalfradevaNEP</string>
           <key>unicodes</key>
           <array>
           </array>
           <key>width</key>
-          <integer>1680</integer>
+          <integer>1374</integer>
         </dict>
         <key>layer2</key>
         <dict>
@@ -46,12 +52,12 @@
           <dict>
           </dict>
           <key>name</key>
-          <string>jharanuktadevaNEP</string>
+          <string>jhanuktaprehalfradevaNEP</string>
           <key>unicodes</key>
           <array>
           </array>
           <key>width</key>
-          <integer>1680</integer>
+          <integer>1374</integer>
         </dict>
         <key>original</key>
         <dict>
@@ -68,19 +74,19 @@
           <dict>
           </dict>
           <key>name</key>
-          <string>jharanuktadevaNEP</string>
+          <string>jhanuktaprehalfradevaNEP</string>
           <key>unicodes</key>
           <array>
           </array>
           <key>width</key>
-          <integer>1680</integer>
+          <integer>1374</integer>
         </dict>
       </dict>
       <key>com.typemytype.robofont.mark</key>
       <array>
         <real>1.0</real>
-        <real>0.6801</real>
-        <real>0.8299</real>
+        <real>0.7255</real>
+        <real>0.7149</real>
         <real>1.0</real>
       </array>
     </dict>

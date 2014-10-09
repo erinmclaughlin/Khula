@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="nnaraprehalfdeva" format="1">
-  <advance width="982"/>
+  <advance width="868"/>
   <outline>
     <contour>
-      <point x="1169" y="535" type="line"/>
+      <point x="1094" y="474" type="line"/>
       <point x="539" y="-15" type="line"/>
       <point x="487" y="42" type="line"/>
-      <point x="1116" y="591" type="line"/>
+      <point x="1041" y="530" type="line"/>
     </contour>
     <component base="nnaprehalfdeva"/>
   </outline>
@@ -24,6 +24,51 @@
           </array>
           <key>contours</key>
           <array>
+            <dict>
+              <key>points</key>
+              <array>
+                <dict>
+                  <key>segmentType</key>
+                  <string>line</string>
+                  <key>smooth</key>
+                  <false/>
+                  <key>x</key>
+                  <integer>1169</integer>
+                  <key>y</key>
+                  <integer>535</integer>
+                </dict>
+                <dict>
+                  <key>segmentType</key>
+                  <string>line</string>
+                  <key>smooth</key>
+                  <false/>
+                  <key>x</key>
+                  <integer>539</integer>
+                  <key>y</key>
+                  <integer>-15</integer>
+                </dict>
+                <dict>
+                  <key>segmentType</key>
+                  <string>line</string>
+                  <key>smooth</key>
+                  <false/>
+                  <key>x</key>
+                  <integer>487</integer>
+                  <key>y</key>
+                  <integer>42</integer>
+                </dict>
+                <dict>
+                  <key>segmentType</key>
+                  <string>line</string>
+                  <key>smooth</key>
+                  <false/>
+                  <key>x</key>
+                  <integer>1116</integer>
+                  <key>y</key>
+                  <integer>591</integer>
+                </dict>
+              </array>
+            </dict>
           </array>
           <key>lib</key>
           <dict>
@@ -34,7 +79,7 @@
           <array>
           </array>
           <key>width</key>
-          <integer>982</integer>
+          <integer>868</integer>
         </dict>
         <key>layer2</key>
         <dict>
@@ -56,7 +101,7 @@
           <array>
           </array>
           <key>width</key>
-          <integer>982</integer>
+          <integer>868</integer>
         </dict>
         <key>original</key>
         <dict>
@@ -732,7 +777,7 @@
           <array>
           </array>
           <key>width</key>
-          <integer>982</integer>
+          <integer>868</integer>
         </dict>
       </dict>
       <key>com.typemytype.robofont.mark</key>

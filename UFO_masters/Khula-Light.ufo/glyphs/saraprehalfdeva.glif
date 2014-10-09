@@ -3,10 +3,10 @@
   <advance width="863"/>
   <outline>
     <contour>
-      <point x="1095" y="582" type="line"/>
+      <point x="1083" y="566" type="line"/>
       <point x="776" y="163" type="line"/>
       <point x="707" y="212" type="line"/>
-      <point x="1025" y="623" type="line"/>
+      <point x="1013" y="607" type="line"/>
     </contour>
     <component base="saprehalfdeva"/>
   </outline>
@@ -24,6 +24,51 @@
           </array>
           <key>contours</key>
           <array>
+            <dict>
+              <key>points</key>
+              <array>
+                <dict>
+                  <key>segmentType</key>
+                  <string>line</string>
+                  <key>smooth</key>
+                  <false/>
+                  <key>x</key>
+                  <integer>1095</integer>
+                  <key>y</key>
+                  <integer>582</integer>
+                </dict>
+                <dict>
+                  <key>segmentType</key>
+                  <string>line</string>
+                  <key>smooth</key>
+                  <false/>
+                  <key>x</key>
+                  <integer>776</integer>
+                  <key>y</key>
+                  <integer>163</integer>
+                </dict>
+                <dict>
+                  <key>segmentType</key>
+                  <string>line</string>
+                  <key>smooth</key>
+                  <false/>
+                  <key>x</key>
+                  <integer>707</integer>
+                  <key>y</key>
+                  <integer>212</integer>
+                </dict>
+                <dict>
+                  <key>segmentType</key>
+                  <string>line</string>
+                  <key>smooth</key>
+                  <false/>
+                  <key>x</key>
+                  <integer>1025</integer>
+                  <key>y</key>
+                  <integer>623</integer>
+                </dict>
+              </array>
+            </dict>
           </array>
           <key>lib</key>
           <dict>
