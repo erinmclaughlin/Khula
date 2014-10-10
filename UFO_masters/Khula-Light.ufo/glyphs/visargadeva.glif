@@ -4,10 +4,10 @@
   <unicode hex="0903"/>
   <outline>
     <contour>
-      <point x="284" y="1198" type="line"/>
-      <point x="-10" y="1198" type="line"/>
-      <point x="-10" y="1274" type="line"/>
-      <point x="284" y="1274" type="line"/>
+      <point x="298" y="1198" type="line"/>
+      <point x="-30" y="1198" type="line"/>
+      <point x="-30" y="1274" type="line"/>
+      <point x="298" y="1274" type="line"/>
     </contour>
     <component base="anusvaradeva" xOffset="397" yOffset="-1270"/>
     <component base="anusvaradeva" xOffset="400" yOffset="-748"/>
@@ -41,6 +41,51 @@
           </array>
           <key>contours</key>
           <array>
+            <dict>
+              <key>points</key>
+              <array>
+                <dict>
+                  <key>segmentType</key>
+                  <string>line</string>
+                  <key>smooth</key>
+                  <false/>
+                  <key>x</key>
+                  <integer>288</integer>
+                  <key>y</key>
+                  <integer>1198</integer>
+                </dict>
+                <dict>
+                  <key>segmentType</key>
+                  <string>line</string>
+                  <key>smooth</key>
+                  <false/>
+                  <key>x</key>
+                  <integer>-20</integer>
+                  <key>y</key>
+                  <integer>1198</integer>
+                </dict>
+                <dict>
+                  <key>segmentType</key>
+                  <string>line</string>
+                  <key>smooth</key>
+                  <false/>
+                  <key>x</key>
+                  <integer>-20</integer>
+                  <key>y</key>
+                  <integer>1274</integer>
+                </dict>
+                <dict>
+                  <key>segmentType</key>
+                  <string>line</string>
+                  <key>smooth</key>
+                  <false/>
+                  <key>x</key>
+                  <integer>288</integer>
+                  <key>y</key>
+                  <integer>1274</integer>
+                </dict>
+              </array>
+            </dict>
           </array>
           <key>lib</key>
           <dict>
