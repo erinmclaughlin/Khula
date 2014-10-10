@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="naradeva" format="1">
-  <advance width="1140"/>
+  <advance width="1157"/>
   <outline>
     <contour>
       <point x="885" y="516" type="line"/>
@@ -8,41 +8,12 @@
       <point x="265" y="43" type="line"/>
       <point x="832" y="578" type="line"/>
     </contour>
+    <component base="nadeva"/>
     <contour>
-      <point x="826" y="771" type="line"/>
-      <point x="826" y="695" type="line"/>
-      <point x="252" y="695" type="line"/>
-      <point x="302" y="746" type="line"/>
-      <point x="302" y="501" type="line" smooth="yes"/>
-      <point x="302" y="468"/>
-      <point x="287" y="452"/>
-      <point x="257" y="452" type="curve" smooth="yes"/>
-      <point x="227" y="452"/>
-      <point x="172" y="627"/>
-      <point x="172" y="721" type="curve" smooth="yes"/>
-      <point x="172" y="754"/>
-      <point x="184" y="771"/>
-      <point x="230" y="771" type="curve" smooth="yes"/>
+      <point x="823.0" y="-30.0" type="move" name="mark0"/>
     </contour>
     <contour>
-      <point x="-20" y="1198" type="curve"/>
-      <point x="-20" y="1274" type="line"/>
-      <point x="1160" y="1274" type="line"/>
-      <point x="1160" y="1198" type="line"/>
-      <point x="1160" y="1198"/>
-      <point x="-20" y="1198"/>
-    </contour>
-    <contour>
-      <point x="813" y="1226" type="line"/>
-      <point x="902" y="1226" type="line"/>
-      <point x="902" y="0" type="line"/>
-      <point x="813" y="0" type="line"/>
-    </contour>
-    <contour>
-      <point x="823" y="-30" type="move" name="mark0"/>
-    </contour>
-    <contour>
-      <point x="823" y="-30" type="move" name="x6"/>
+      <point x="823.0" y="-30.0" type="move" name="x6"/>
     </contour>
   </outline>
   <lib>
@@ -69,7 +40,7 @@
           <array>
           </array>
           <key>width</key>
-          <integer>1140</integer>
+          <integer>1157</integer>
         </dict>
         <key>layer2</key>
         <dict>
@@ -91,7 +62,7 @@
           <array>
           </array>
           <key>width</key>
-          <integer>1140</integer>
+          <integer>1157</integer>
         </dict>
         <key>original</key>
         <dict>
@@ -611,14 +582,14 @@
           <array>
           </array>
           <key>width</key>
-          <integer>1140</integer>
+          <integer>1157</integer>
         </dict>
       </dict>
       <key>com.typemytype.robofont.mark</key>
       <array>
-        <real>0.6312</real>
         <real>1.0</real>
-        <real>0.9947</real>
+        <real>0.8424</real>
+        <real>0.6742</real>
         <real>1.0</real>
       </array>
       <key>org.robofab.fontlab.mark</key>
