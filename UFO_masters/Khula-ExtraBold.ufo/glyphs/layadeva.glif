@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="layadeva" format="1">
-  <advance width="500"/>
+  <advance width="2256"/>
   <outline>
+    <component base="yadeva" xOffset="820"/>
+    <component base="laprehalfdeva"/>
   </outline>
   <lib>
     <dict>
