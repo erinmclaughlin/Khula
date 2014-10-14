@@ -1,7 +1,54 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="labhadeva" format="1">
-  <advance width="500"/>
+  <advance width="2631"/>
   <outline>
+    <contour>
+      <point x="-30" y="1056" type="curve"/>
+      <point x="-30" y="1294" type="line"/>
+      <point x="1223" y="1294" type="line"/>
+      <point x="1223" y="1056" type="line"/>
+      <point x="1223" y="1056"/>
+      <point x="-30" y="1056"/>
+    </contour>
+    <contour>
+      <point x="1039" y="623" type="curve"/>
+      <point x="817" y="446" type="line"/>
+      <point x="739" y="558"/>
+      <point x="660" y="606"/>
+      <point x="579" y="606" type="curve" smooth="yes"/>
+      <point x="459" y="606"/>
+      <point x="395" y="528"/>
+      <point x="395" y="430" type="curve" smooth="yes"/>
+      <point x="395" y="319"/>
+      <point x="462" y="227"/>
+      <point x="559" y="118" type="curve"/>
+      <point x="313" y="-18" type="line"/>
+      <point x="189" y="109"/>
+      <point x="66" y="317"/>
+      <point x="66" y="505" type="curve" smooth="yes"/>
+      <point x="66" y="739"/>
+      <point x="232" y="910"/>
+      <point x="497" y="910" type="curve" smooth="yes"/>
+      <point x="718" y="910"/>
+      <point x="904" y="809"/>
+    </contour>
+    <contour>
+      <point x="897" y="228" type="curve"/>
+      <point x="606" y="363" type="line"/>
+      <point x="720" y="655"/>
+      <point x="909" y="856"/>
+      <point x="1149" y="856" type="curve" smooth="yes"/>
+      <point x="1329" y="856"/>
+      <point x="1468" y="780"/>
+      <point x="1599" y="643" type="curve"/>
+      <point x="1377" y="446" type="line"/>
+      <point x="1319" y="511"/>
+      <point x="1269" y="538"/>
+      <point x="1192" y="538" type="curve" smooth="yes"/>
+      <point x="1089" y="538"/>
+      <point x="988" y="438"/>
+    </contour>
+    <component base="bhadeva" xOffset="1070"/>
   </outline>
   <lib>
     <dict>
