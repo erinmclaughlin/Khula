@@ -772,7 +772,6 @@ feature cjct { # Conjunct Forms
     sub taprehalfdeva nadeva by tanadeva;
     sub taprehalfdeva yadeva by tayadeva;
     sub taprehalfdeva sadeva by tasadeva;
-    sub naprehalfdeva nadeva by nanadeva;
     sub naprehalfdeva bhadeva by nabhadeva;
     sub naprehalfdeva madeva by namadeva;
     sub laprehalfdeva jadeva by lajadeva;
@@ -1314,7 +1313,7 @@ feature kern {
     @MMK_R_R_La = [laaltdevaMAR labhadeva ladeva ladevaMAR lajadeva lamadeva lanuktaaltdevaMAR lanuktadeva lanuktadevaMAR lanuktaprehalfdeva lanuktaradeva lanuktaradevaMAR lanuktaraprehalfdeva laprehalfdeva laradeva laradevaMAR laraprehalfdeva lathadeva layadeva lazadeva llvocalicdeva llvocalicnuktadeva lvocalicdeva lvocalicnuktadeva];
     @MMK_R_R_Lla = [llaaltdeva lladeva llanuktaprehalfdeva llanuktaradeva llanuktaraprehalfdeva llaprehalfdeva llaradeva llaraprehalfdeva lllaaltdeva llladeva];
     @MMK_R_R_Ma = [ddadevaMAW madeva manuktadeva manuktaprehalfdeva manuktaradeva manuktaraprehalfdeva maprehalfdeva maradeva maraprehalfdeva];
-    @MMK_R_R_Na = [nabhadeva nadeva namadeva nanadeva nanuktaradeva nanuktaraprehalfdeva naprehalfdeva naradeva naraprehalfdeva nnnadeva];
+    @MMK_R_R_Na = [nabhadeva nadeva namadeva nanuktaradeva nanuktaraprehalfdeva naprehalfdeva naradeva naraprehalfdeva nnnadeva];
     @MMK_R_R_Nna = [nnadeva nnanuktadeva nnanuktaprehalfdeva nnanuktaradeva nnanuktaraprehalfdeva nnaprehalfdeva nnaradeva nnaraprehalfdeva];
     @MMK_R_R_Nya = [nyadeva nyanuktadeva nyanuktaprehalfdeva nyanuktaradeva nyanuktaraprehalfdeva nyaprehalfdeva nyaradeva nyaraprehalfdeva];
     @MMK_R_R_Pa = [padeva panadeva panuktadeva panuktaprehalfdeva panuktaradeva panuktaraprehalfdeva paprehalfdeva paradeva paraprehalfdeva ssadeva ssanuktadeva ssanuktaprehalfdeva ssanuktaradeva ssanuktaraprehalfdeva ssaprehalfdeva ssaradeva ssaraprehalfdeva];

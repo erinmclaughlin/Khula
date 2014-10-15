@@ -761,27 +761,7 @@ feature cjct { # Conjunct Forms
  script dev2; # Devanagari v.2
  ## NEW
     sub ngaprehalfdeva gadeva by ngagadeva;
-    sub ngaprehalfdeva madeva by ngamadeva;
-    sub japrehalfdeva jadeva by jajadeva;
-    sub japrehalfdeva yadeva by jayadeva;
-    sub japrehalfdeva thadeva by jathadeva;
-    sub januktaprehalfdeva yadeva by januktayadeva;
-    sub januktaprehalfdeva thadeva by januktathadeva;
-    sub taprehalfdeva khadeva by takhadeva;
-    sub taprehalfdeva thadeva by tathadeva;
-    sub taprehalfdeva nadeva by tanadeva;
-    sub taprehalfdeva yadeva by tayadeva;
-    sub taprehalfdeva sadeva by tasadeva;
-    sub naprehalfdeva nadeva by nanadeva;
-    sub naprehalfdeva bhadeva by nabhadeva;
-    sub naprehalfdeva madeva by namadeva;
-    sub laprehalfdeva jadeva by lajadeva;
-    sub laprehalfdeva zadeva by lazadeva;
-    sub laprehalfdeva thadeva by lathadeva;
-    sub laprehalfdeva bhadeva by labhadeva;
-    sub laprehalfdeva madeva by lamadeva;
-    sub laprehalfdeva yadeva by layadeva;
-   
+    sub ngaprehalfdeva madeva by ngamadeva;   
     
  #original
     sub daprehalfdeva dhaprehalfdeva yadeva by dadhayadeva;
@@ -813,12 +793,16 @@ feature cjct { # Conjunct Forms
 } cjct;
 
 
+# --------------------- Presentation Forms SECTION ------------------
+
+
 
 # --------------------- Pre-Base substitutions ------------------
 
 feature pres { # Pre-base Substitutions
  script dev2; # Devanagari v.2
 lookup pres24 {
+    
     sub kaprehalfdeva tadeva by katadeva;
     sub ngaprehalfdeva yadeva by ngayadeva;
     sub chaprehalfdeva yadeva by chayadeva;
@@ -866,6 +850,7 @@ lookup pres24 {
     sub shaprehalfdevaMAR ladeva by shaladeva;
     sub shaprehalfdevaMAR vadeva by shavadeva;
     sub shaprehalfdevaMAR ladevaMAR by shaladevaMAR;
+
 } pres24;
 
 # into new pre-halfs
@@ -877,6 +862,26 @@ lookup pres25 {
     sub shaprehalfdeva vaprehalfdeva by shavaprehalfdeva;
     sub shaprehalfdevaMAR caprehalfdeva by shacaprehalfdeva;
     sub shaprehalfdevaMAR vaprehalfdeva by shavaprehalfdeva;
+## NEW ones, formerly in conjuncts
+    sub japrehalfdeva jadeva by jajadeva;
+    sub japrehalfdeva yadeva by jayadeva;
+    sub japrehalfdeva thadeva by jathadeva;
+    sub januktaprehalfdeva yadeva by januktayadeva;
+    sub januktaprehalfdeva thadeva by januktathadeva;
+    sub taprehalfdeva khadeva by takhadeva;
+    sub taprehalfdeva thadeva by tathadeva;
+    sub taprehalfdeva nadeva by tanadeva;
+    sub taprehalfdeva yadeva by tayadeva;
+    sub taprehalfdeva sadeva by tasadeva;
+    sub naprehalfdeva bhadeva by nabhadeva;
+    sub naprehalfdeva madeva by namadeva;
+    sub laprehalfdeva jadeva by lajadeva;
+    sub laprehalfdeva zadeva by lazadeva;
+    sub laprehalfdeva thadeva by lathadeva;
+    sub laprehalfdeva bhadeva by labhadeva;
+    sub laprehalfdeva madeva by lamadeva;
+    sub laprehalfdeva yadeva by layadeva;
+    
 } pres25;
  language MAR ; # Marathi
  script deva; # Devanagari
@@ -891,7 +896,7 @@ lookup pres25;
 feature abvs { # Above-base Substitutions
  script dev2; # Devanagari v.2
 
-## -- I don't understand this one at all --
+##### -- I don't understand this one at all --
 
 #lookup abvs26 {
 #    sub @abvs4' [candrabindudeva rephdeva] by [adeva eshortvowelsigndeva edeva ecandravowelsigndeva edeva eshortvowelsigndeva edeva evowelsigndeva aadeva ecandravowelsigndeva aadeva eshortvowelsigndeva aadeva evowelsigndeva aadeva aivowelsigndeva adeva ecandravowelsigndeva anuktadeva eshortvowelsigndeva enuktadeva ecandravowelsigndeva enuktadeva eshortvowelsigndeva enuktadeva evowelsigndeva aanuktadeva ecandravowelsigndeva aanuktadeva eshortvowelsigndeva aanuktadeva evowelsigndeva aanuktadeva aivowelsigndeva anuktadeva ecandravowelsigndeva];
@@ -1314,7 +1319,7 @@ feature kern {
     @MMK_R_R_La = [laaltdevaMAR labhadeva ladeva ladevaMAR lajadeva lamadeva lanuktaaltdevaMAR lanuktadeva lanuktadevaMAR lanuktaprehalfdeva lanuktaradeva lanuktaradevaMAR lanuktaraprehalfdeva laprehalfdeva laradeva laradevaMAR laraprehalfdeva lathadeva layadeva lazadeva llvocalicdeva llvocalicnuktadeva lvocalicdeva lvocalicnuktadeva];
     @MMK_R_R_Lla = [llaaltdeva lladeva llanuktaprehalfdeva llanuktaradeva llanuktaraprehalfdeva llaprehalfdeva llaradeva llaraprehalfdeva lllaaltdeva llladeva];
     @MMK_R_R_Ma = [ddadevaMAW madeva manuktadeva manuktaprehalfdeva manuktaradeva manuktaraprehalfdeva maprehalfdeva maradeva maraprehalfdeva];
-    @MMK_R_R_Na = [nabhadeva nadeva namadeva nanadeva nanuktaradeva nanuktaraprehalfdeva naprehalfdeva naradeva naraprehalfdeva nnnadeva];
+    @MMK_R_R_Na = [nabhadeva nadeva namadeva nanuktaradeva nanuktaraprehalfdeva naprehalfdeva naradeva naraprehalfdeva nnnadeva];
     @MMK_R_R_Nna = [nnadeva nnanuktadeva nnanuktaprehalfdeva nnanuktaradeva nnanuktaraprehalfdeva nnaprehalfdeva nnaradeva nnaraprehalfdeva];
     @MMK_R_R_Nya = [nyadeva nyanuktadeva nyanuktaprehalfdeva nyanuktaradeva nyanuktaraprehalfdeva nyaprehalfdeva nyaradeva nyaraprehalfdeva];
     @MMK_R_R_Pa = [padeva panadeva panuktadeva panuktaprehalfdeva panuktaradeva panuktaraprehalfdeva paprehalfdeva paradeva paraprehalfdeva ssadeva ssanuktadeva ssanuktaprehalfdeva ssanuktaradeva ssanuktaraprehalfdeva ssaprehalfdeva ssaradeva ssaraprehalfdeva];

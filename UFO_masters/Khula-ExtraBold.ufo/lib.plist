@@ -8,6 +8,13 @@
 	<false/>
 	<key>com.schriftgestaltung.weight</key>
 	<string>Bold</string>
+	<key>com.typemytype.robofont.background.layerStrokeColor</key>
+	<array>
+		<real>0.5577320911294262</real>
+		<real>0.8916766826923077</real>
+		<real>0.6188247502874412</real>
+		<real>0.7000000000000001</real>
+	</array>
 	<key>com.typemytype.robofont.compileSettings.MacRomanFirst</key>
 	<integer>1</integer>
 	<key>com.typemytype.robofont.compileSettings.autohint</key>
@@ -195,6 +202,7 @@
 		<string>layer1</string>
 		<string>layer2</string>
 		<string>original</string>
+		<string>background</string>
 	</array>
 	<key>com.typemytype.robofont.original.layerStrokeColor</key>
 	<array>
@@ -967,43 +975,45 @@
 				<string>ampersand</string>
 				<string>at</string>
 				<string>grave</string>
-				<string>ninedevaNEP</string>
+				<string>jjyadeva</string>
+				<string>zhadeva</string>
+				<string>ddadevaMAW</string>
+				<string>jhadevaNEP</string>
+				<string>jhaprehalfdevaNEP</string>
+				<string>jhanuktadevaNEP</string>
+				<string>jhanuktaprehalfdevaNEP</string>
+				<string>jharadevaNEP</string>
 				<string>jharaprehalfdevaNEP</string>
 				<string>jharanuktadevaNEP</string>
+				<string>jharanuktaprehalfdevaNEP</string>
 				<string>nyajadeva</string>
-				<string>jhanuktaprehalfdevaNEP</string>
-				<string>jhanuktadevaNEP</string>
-				<string>jharadevaNEP</string>
 				<string>onedevaNEP</string>
 				<string>fivedevaNEP</string>
-				<string>nanadeva</string>
 				<string>eightdevaNEP</string>
-				<string>jharanuktaprehalfdevaNEP</string>
-				<string>jjyadeva</string>
-				<string>jhadevaNEP</string>
-				<string>ddadevaMAW</string>
-				<string>ngamadeva</string>
-				<string>jhaprehalfdevaNEP</string>
+				<string>ninedevaNEP</string>
+				<string>nanadeva</string>
 				<string>ngagadeva</string>
-				<string>zhadeva</string>
+				<string>ngamadeva</string>
 				<string>jajadeva</string>
-				<string>namadeva</string>
-				<string>layadeva</string>
-				<string>tasadeva</string>
+				<string>jathadeva</string>
+				<string>januktathadeva</string>
 				<string>jayadeva</string>
-				<string>lazadeva</string>
-				<string>lathadeva</string>
+				<string>januktayadeva</string>
+				<string>jasa</string>
+				<string>januktasadeva</string>
 				<string>takhadeva</string>
-				<string>nabhadeva</string>
 				<string>tathadeva</string>
 				<string>tanadeva</string>
-				<string>lajadeva</string>
-				<string>januktayadeva</string>
-				<string>jathadeva</string>
-				<string>lamadeva</string>
+				<string>tasadeva</string>
 				<string>tayadeva</string>
+				<string>nabhadeva</string>
+				<string>namadeva</string>
+				<string>lajadeva</string>
+				<string>lazadeva</string>
+				<string>lathadeva</string>
 				<string>labhadeva</string>
-				<string>januktathadeva</string>
+				<string>lamadeva</string>
+				<string>layadeva</string>
 			</array>
 			<key>type</key>
 			<string>glyphList</string>
@@ -2245,45 +2255,45 @@
 		<string>ampersand</string>
 		<string>at</string>
 		<string>grave</string>
-		<string>ninedevaNEP</string>
+		<string>jjyadeva</string>
+		<string>zhadeva</string>
+		<string>ddadevaMAW</string>
+		<string>jhadevaNEP</string>
+		<string>jhaprehalfdevaNEP</string>
+		<string>jhanuktadevaNEP</string>
+		<string>jhanuktaprehalfdevaNEP</string>
+		<string>jharadevaNEP</string>
 		<string>jharaprehalfdevaNEP</string>
 		<string>jharanuktadevaNEP</string>
+		<string>jharanuktaprehalfdevaNEP</string>
 		<string>nyajadeva</string>
-		<string>jhanuktaprehalfdevaNEP</string>
-		<string>jhanuktadevaNEP</string>
-		<string>jharadevaNEP</string>
 		<string>onedevaNEP</string>
 		<string>fivedevaNEP</string>
-		<string>nanadeva</string>
 		<string>eightdevaNEP</string>
-		<string>jharanuktaprehalfdevaNEP</string>
-		<string>jjyadeva</string>
-		<string>jhadevaNEP</string>
-		<string>ddadevaMAW</string>
-		<string>ngamadeva</string>
-		<string>jhaprehalfdevaNEP</string>
+		<string>ninedevaNEP</string>
+		<string>nanadeva</string>
 		<string>ngagadeva</string>
-		<string>zhadeva</string>
+		<string>ngamadeva</string>
 		<string>jajadeva</string>
-		<string>namadeva</string>
-		<string>layadeva</string>
-		<string>tasadeva</string>
+		<string>jathadeva</string>
+		<string>januktathadeva</string>
 		<string>jayadeva</string>
-		<string>lazadeva</string>
-		<string>lathadeva</string>
+		<string>januktayadeva</string>
+		<string>jasa</string>
+		<string>januktasadeva</string>
 		<string>takhadeva</string>
-		<string>nabhadeva</string>
 		<string>tathadeva</string>
 		<string>tanadeva</string>
-		<string>lajadeva</string>
-		<string>januktayadeva</string>
-		<string>jathadeva</string>
-		<string>lamadeva</string>
+		<string>tasadeva</string>
 		<string>tayadeva</string>
+		<string>nabhadeva</string>
+		<string>namadeva</string>
+		<string>lajadeva</string>
+		<string>lazadeva</string>
+		<string>lathadeva</string>
 		<string>labhadeva</string>
-		<string>januktathadeva</string>
-		<string>januktasadeva</string>
-		<string>jasa</string>
+		<string>lamadeva</string>
+		<string>layadeva</string>
 	</array>
 </dict>
 </plist>
