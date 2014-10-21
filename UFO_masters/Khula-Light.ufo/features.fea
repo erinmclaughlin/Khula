@@ -1193,14 +1193,21 @@ lookup blws99;
 
 
 
-
-# ------------------- Post-base substitution??  --------------
+# ------------------- Post-base substitution??  NEW  --------------
 
 feature psts { # Post-base Substitutions
  script dev2; # Devanagari v.2
+
+lookup psts01 { 
+   sub @iic_02 @ii_00' by @ii_02;
+   sub @iic_03 @ii_00' by @ii03;
+} psts01;
+ 
  language MAR ; # Marathi
  script deva; # Devanagari
+lookup psts01;
  language MAR ; # Marathi
+
 } psts;
 
 

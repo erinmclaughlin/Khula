@@ -1,65 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="nyaraprehalfdeva" format="1">
-  <advance width="1221"/>
+  <advance width="1225"/>
   <outline>
     <contour>
-      <point x="1033" y="509" type="curve" smooth="yes"/>
-      <point x="1033" y="259"/>
-      <point x="822" y="103"/>
-      <point x="605" y="103" type="curve" smooth="yes"/>
-      <point x="449" y="103"/>
-      <point x="228" y="181"/>
-      <point x="27" y="347" type="curve"/>
-      <point x="141" y="599" type="line"/>
-      <point x="320" y="450"/>
-      <point x="435" y="397"/>
-      <point x="556" y="397" type="curve" smooth="yes"/>
-      <point x="668" y="397"/>
-      <point x="728" y="451"/>
-      <point x="727" y="532" type="curve" smooth="yes"/>
-      <point x="726" y="608"/>
-      <point x="668" y="668"/>
-      <point x="578" y="668" type="curve" smooth="yes"/>
-      <point x="487" y="668"/>
-      <point x="405" y="629"/>
-      <point x="348" y="584" type="curve"/>
-      <point x="224" y="840" type="line"/>
-      <point x="296" y="894"/>
-      <point x="419" y="948"/>
-      <point x="572" y="948" type="curve" smooth="yes"/>
-      <point x="840" y="948"/>
-      <point x="1033" y="778"/>
-    </contour>
-    <contour>
       <point x="1599" y="320" type="line"/>
-      <point x="649" y="-263" type="line"/>
-      <point x="472" y="-42" type="line"/>
+      <point x="908" y="-239" type="line"/>
+      <point x="722" y="-42" type="line"/>
       <point x="1507" y="606" type="line"/>
     </contour>
-    <contour>
-      <point x="934" y="448" type="curve"/>
-      <point x="934" y="732" type="line"/>
-      <point x="978" y="721"/>
-      <point x="1037" y="717"/>
-      <point x="1123" y="717" type="curve" smooth="yes"/>
-      <point x="1196" y="717"/>
-      <point x="1350" y="756"/>
-      <point x="1476" y="822" type="curve"/>
-      <point x="1534" y="489" type="line"/>
-      <point x="1460" y="458"/>
-      <point x="1320" y="423"/>
-      <point x="1199" y="423" type="curve" smooth="yes"/>
-      <point x="1109" y="423"/>
-      <point x="986" y="436"/>
-    </contour>
-    <contour>
-      <point x="-19" y="1056" type="curve"/>
-      <point x="-19" y="1294" type="line"/>
-      <point x="1544" y="1294" type="line"/>
-      <point x="1544" y="1056" type="line"/>
-      <point x="1544" y="1056"/>
-      <point x="-19" y="1056"/>
-    </contour>
+    <component base="nyaprehalfdeva"/>
   </outline>
   <lib>
     <dict>
@@ -85,7 +34,7 @@
           <array>
           </array>
           <key>width</key>
-          <integer>1221</integer>
+          <integer>1225</integer>
         </dict>
         <key>layer1</key>
         <dict>
@@ -107,7 +56,7 @@
           <array>
           </array>
           <key>width</key>
-          <integer>1221</integer>
+          <integer>1225</integer>
         </dict>
         <key>layer2</key>
         <dict>
@@ -129,7 +78,7 @@
           <array>
           </array>
           <key>width</key>
-          <integer>1221</integer>
+          <integer>1225</integer>
         </dict>
         <key>original</key>
         <dict>
@@ -151,7 +100,7 @@
           <array>
           </array>
           <key>width</key>
-          <integer>1221</integer>
+          <integer>1225</integer>
         </dict>
       </dict>
       <key>org.robofab.fontlab.mark</key>
