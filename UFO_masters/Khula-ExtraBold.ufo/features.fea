@@ -999,109 +999,132 @@ lookup abvs29 {
 # -- ivowelsign 00 huh? --
 
 ## I removed a space after the '
-lookup abvs30 {
-    sub ivowelsigndeva' by ivowelsign00deva;
-} abvs30;
+#lookup abvs30 {
+#    sub ivowelsigndeva' by ivowelsign00deva;
+#} abvs30;
 
 
 # -- ivowelsign 00 --
 
 lookup abvs32 {
-    sub ivowelsign00deva' @abvs5 by ivowelsign00deva;
-    sub ivowelsign00deva' @abvs6 by ivowelsign00deva;
-    sub ivowelsign00deva' [gaprehalfdeva ganuktaprehalfdeva] @abvs6 by ivowelsign00deva;
-    sub ivowelsign00deva' [paprehalfdeva panuktaprehalfdeva paraprehalfdeva panuktaraprehalfdeva] @abvs6 by ivowelsign00deva;
-    sub ivowelsign00deva' [maprehalfdeva manuktaprehalfdeva] @abvs6 by ivowelsign00deva;
-    sub ivowelsign00deva' [yaprehalfdeva yanuktaprehalfdeva yaraprehalfdeva yanuktaraprehalfdeva] @abvs6 by ivowelsign00deva;
-    sub ivowelsign00deva' [garaprehalfdeva ganuktaraprehalfdeva] @abvs6 by ivowelsign00deva;
-    sub ivowelsign00deva' [ghaprehalfdeva ghanuktaprehalfdeva gharaprehalfdeva ghanuktaraprehalfdeva] @abvs6 by ivowelsign00deva;
-    sub ivowelsign00deva' [naprehalfdeva nanuktaprehalfdeva] @abvs6 by ivowelsign00deva;
-    sub ivowelsign00deva' [dhaprehalfdeva dhanuktaprehalfdeva dharaprehalfdeva dhanuktaraprehalfdeva] @abvs6 by ivowelsign00deva;
-    sub ivowelsign00deva' [taprehalfdeva tanuktaprehalfdeva] @abvs6 by ivowelsign00deva;
-    sub ivowelsign00deva' [ssaprehalfdeva ssanuktaprehalfdeva ssaraprehalfdeva ssanuktaraprehalfdeva] @abvs6 by ivowelsign00deva;
-    sub ivowelsign00deva' [taraprehalfdeva tanuktaraprehalfdeva] @abvs6 by ivowelsign00deva;
-    sub ivowelsign00deva' [naraprehalfdeva nanuktaraprehalfdeva] @abvs6 by ivowelsign00deva;
-    sub ivowelsign00deva' @abvs1 @abvs6 by ivowelsign00deva;
-    sub ivowelsign00deva' [vaprehalfdeva vanuktaprehalfdeva varaprehalfdeva vanuktaraprehalfdeva] @abvs6 by ivowelsign00deva;
-    sub ivowelsign00deva' [caprehalfdeva canuktaprehalfdeva caraprehalfdeva canuktaraprehalfdeva] @abvs6 by ivowelsign00deva;
-    sub ivowelsign00deva' [raprehalfdeva ranuktaprehalfdeva raraprehalfdeva ranuktaraprehalfdeva] @abvs6 by ivowelsign00deva;
-    sub ivowelsign00deva' [baprehalfdeva banuktaprehalfdeva baraprehalfdeva banuktaraprehalfdeva] @abvs6 by ivowelsign00deva;
-    sub ivowelsign00deva' [shaprehalfdeva shanuktaprehalfdeva shaprehalfdevaMAR shanuktaprehalfdevaMAR] @abvs6 by ivowelsign00deva;
-    sub ivowelsign00deva' janyaprehalfdeva @abvs6 by ivowelsign00deva;
-    sub ivowelsign00deva' [maraprehalfdeva manuktaraprehalfdeva] @abvs6 by ivowelsign00deva;
-    sub ivowelsign00deva' [bhaprehalfdeva bhanuktaprehalfdeva] @abvs6 by ivowelsign00deva;
-    sub ivowelsign00deva' [kassaprehalfdeva shaprehalfaltdeva] @abvs6 by ivowelsign00deva;
-    sub ivowelsign00deva' [nnaprehalfdeva nnanuktaprehalfdeva] @abvs6 by ivowelsign00deva;
-    sub ivowelsign00deva' tataprehalfdeva @abvs6 by ivowelsign00deva;
-    sub ivowelsign00deva' [jhaprehalfdeva jhanuktaprehalfdeva] @abvs6 by ivowelsign00deva;
-    sub ivowelsign00deva' [haprehalfdeva hanuktaprehalfdeva] @abvs6 by ivowelsign00deva;
-    sub ivowelsign00deva' dayaprehalfdeva @abvs6 by ivowelsign00deva;
-    sub ivowelsign00deva' [nnaraprehalfdeva nnanuktaraprehalfdeva] @abvs6 by ivowelsign00deva;
-    sub ivowelsign00deva' [laprehalfdeva lanuktaprehalfdeva laraprehalfdeva lanuktaraprehalfdeva] @abvs6 by ivowelsign00deva;
-    sub ivowelsign00deva' [ttaprehalfdeva ttanuktaprehalfdeva ttaraprehalfdeva ttanuktaraprehalfdeva] @abvs6 by ivowelsign00deva;
-    sub ivowelsign00deva' [daprehalfdeva danuktaprehalfdeva daraprehalfdeva danuktaraprehalfdeva] @abvs6 by ivowelsign00deva;
-    sub ivowelsign00deva' [shacaprehalfdeva shavaprehalfdeva] @abvs6 by ivowelsign00deva;
-    sub ivowelsign00deva' [sharaprehalfdeva shanuktaraprehalfdeva] @abvs6 by ivowelsign00deva;
-    sub ivowelsign00deva' @abvs3 @abvs6 by ivowelsign00deva;
-    sub ivowelsign00deva' [japrehalfdeva januktaprehalfdeva] @abvs6 by ivowelsign00deva;
-    sub ivowelsign00deva' [gaprehalfdeva ganuktaprehalfdeva] uni200D @abvs6 by ivowelsign00deva;
-    sub ivowelsign00deva' [paprehalfdeva panuktaprehalfdeva paraprehalfdeva panuktaraprehalfdeva] uni200D @abvs6 by ivowelsign00deva;
-    sub ivowelsign00deva' [maprehalfdeva manuktaprehalfdeva] uni200D @abvs6 by ivowelsign00deva;
-    sub ivowelsign00deva' [yaprehalfdeva yanuktaprehalfdeva yaraprehalfdeva yanuktaraprehalfdeva] uni200D @abvs6 by ivowelsign00deva;
-    sub ivowelsign00deva' [garaprehalfdeva ganuktaraprehalfdeva] uni200D @abvs6 by ivowelsign00deva;
-    sub ivowelsign00deva' [ghaprehalfdeva ghanuktaprehalfdeva gharaprehalfdeva ghanuktaraprehalfdeva] uni200D @abvs6 by ivowelsign00deva;
-    sub ivowelsign00deva' [naprehalfdeva nanuktaprehalfdeva] uni200D @abvs6 by ivowelsign00deva;
-    sub ivowelsign00deva' [dhaprehalfdeva dhanuktaprehalfdeva dharaprehalfdeva dhanuktaraprehalfdeva] uni200D @abvs6 by ivowelsign00deva;
-    sub ivowelsign00deva' [taprehalfdeva tanuktaprehalfdeva] uni200D @abvs6 by ivowelsign00deva;
-    sub ivowelsign00deva' [ssaprehalfdeva ssanuktaprehalfdeva ssaraprehalfdeva ssanuktaraprehalfdeva] uni200D @abvs6 by ivowelsign00deva;
-    sub ivowelsign00deva' [taraprehalfdeva tanuktaraprehalfdeva] uni200D @abvs6 by ivowelsign00deva;
-    sub ivowelsign00deva' [naraprehalfdeva nanuktaraprehalfdeva] uni200D @abvs6 by ivowelsign00deva;
-    sub ivowelsign00deva' @abvs1 uni200D @abvs6 by ivowelsign00deva;
-    sub ivowelsign00deva' [vaprehalfdeva vanuktaprehalfdeva varaprehalfdeva vanuktaraprehalfdeva] uni200D @abvs6 by ivowelsign00deva;
-    sub ivowelsign00deva' [caprehalfdeva canuktaprehalfdeva caraprehalfdeva canuktaraprehalfdeva] uni200D @abvs6 by ivowelsign00deva;
-    sub ivowelsign00deva' [raprehalfdeva ranuktaprehalfdeva raraprehalfdeva ranuktaraprehalfdeva] uni200D @abvs6 by ivowelsign00deva;
-    sub ivowelsign00deva' [baprehalfdeva banuktaprehalfdeva baraprehalfdeva banuktaraprehalfdeva] uni200D @abvs6 by ivowelsign00deva;
-    sub ivowelsign00deva' [shaprehalfdeva shanuktaprehalfdeva shaprehalfdevaMAR shanuktaprehalfdevaMAR] uni200D @abvs6 by ivowelsign00deva;
-    sub ivowelsign00deva' janyaprehalfdeva uni200D @abvs6 by ivowelsign00deva;
-    sub ivowelsign00deva' [maraprehalfdeva manuktaraprehalfdeva] uni200D @abvs6 by ivowelsign00deva;
-    sub ivowelsign00deva' [bhaprehalfdeva bhanuktaprehalfdeva] uni200D @abvs6 by ivowelsign00deva;
-    sub ivowelsign00deva' [kassaprehalfdeva shaprehalfaltdeva] uni200D @abvs6 by ivowelsign00deva;
-    sub ivowelsign00deva' [nnaprehalfdeva nnanuktaprehalfdeva] uni200D @abvs6 by ivowelsign00deva;
-    sub ivowelsign00deva' tataprehalfdeva uni200D @abvs6 by ivowelsign00deva;
-    sub ivowelsign00deva' [jhaprehalfdeva jhanuktaprehalfdeva] uni200D @abvs6 by ivowelsign00deva;
-    sub ivowelsign00deva' [haprehalfdeva hanuktaprehalfdeva] uni200D @abvs6 by ivowelsign00deva;
-    sub ivowelsign00deva' dayaprehalfdeva uni200D @abvs6 by ivowelsign00deva;
-    sub ivowelsign00deva' [nnaraprehalfdeva nnanuktaraprehalfdeva] uni200D @abvs6 by ivowelsign00deva;
-    sub ivowelsign00deva' [laprehalfdeva lanuktaprehalfdeva laraprehalfdeva lanuktaraprehalfdeva] uni200D @abvs6 by ivowelsign00deva;
-    sub ivowelsign00deva' [ttaprehalfdeva ttanuktaprehalfdeva ttaraprehalfdeva ttanuktaraprehalfdeva] uni200D @abvs6 by ivowelsign00deva;
-    sub ivowelsign00deva' [daprehalfdeva danuktaprehalfdeva daraprehalfdeva danuktaraprehalfdeva] uni200D @abvs6 by ivowelsign00deva;
-    sub ivowelsign00deva' [shacaprehalfdeva shavaprehalfdeva] uni200D @abvs6 by ivowelsign00deva;
-    sub ivowelsign00deva' [sharaprehalfdeva shanuktaraprehalfdeva] uni200D @abvs6 by ivowelsign00deva;
-    sub ivowelsign00deva' @abvs3 uni200D @abvs6 by ivowelsign00deva;
-    sub ivowelsign00deva' [japrehalfdeva januktaprehalfdeva] uni200D @abvs6 by ivowelsign00deva;
-} abvs32;
 
+# halfs 02  (to consonants only)
 
-#--- ivowelsign variations ---   
-
-## lookup abvs80 {
+    sub @i_00' @ih_11 @ic_02 by @i_10
+    sub @i_00' @ih_12 @ic_02 by @i_11
+    sub @i_00' @ih_13 @ic_02 by @i_12
+    sub @i_00' @ih_14 @ic_02 by @i_13
+    sub @i_00' @ih_15 @ic_02 by @i_14
+    sub @i_00' @ih_16 @ic_02 by @i_15
+    sub @i_00' @ih_18 @ic_02 by @i_17    
     
-##-- ivowelsign anusvara --   
+# halfs 03  (to consonants only)
 
-##    sub @abvs2' @abvs7 anusvaradeva' by [ivowelsignanusvaradeva ivowelsignanusvara01deva ivowelsignanusvara02deva ivowelsignanusvara03deva ivowelsignanusvara04deva ivowelsignanusvara05deva ivowelsignanusvara06deva ivowelsignanusvara07deva ivowelsignanusvara08deva ivowelsignanusvara09deva ivowelsignanusvara10deva ivowelsignanusvara11deva] dummymarkdeva;
+    sub @i_00' @ih_10 @ic_03 by @i_10  # raprehalfdevaMAR to ha
+    sub @i_00' @ih_11 @ic_03 by @i_11
+    sub @i_00' @ih_12 @ic_03 by @i_12
+    sub @i_00' @ih_13 @ic_03 by @i_13
+    sub @i_00' @ih_14 @ic_03 by @i_14
+    sub @i_00' @ih_15 @ic_03 by @i_15
+    sub @i_00' @ih_16 @ic_03 by @i_16
+    sub @i_00' @ih_18 @ic_03 by @i_18
+    
+# halfs 04  (to consonants only)
 
-##-- ivowelsign reph --   
+    sub @i_00' @ih_10 @ic_04 by @i_10  # raprehalfdevaMAR to hara
+    sub @i_00' @ih_11 @ic_04 by @i_11
+    sub @i_00' @ih_12 @ic_04 by @i_12
+    sub @i_00' @ih_13 @ic_04 by @i_13
+    sub @i_00' @ih_14 @ic_04 by @i_14
+    sub @i_00' @ih_15 @ic_04 by @i_15
+    sub @i_00' @ih_16 @ic_04 by @i_16
+    sub @i_00' @ih_18 @ic_04 by @i_18
+    
+# halfs 05  (to consonants only)
 
-##    sub @abvs2' @abvs7 rephdeva' by [ivowelsignrephdeva ivowelsignreph01deva ivowelsignreph02deva ivowelsignreph03deva ivowelsignreph04deva ivowelsignreph05deva ivowelsignreph06deva ivowelsignreph07deva ivowelsignreph08deva ivowelsignreph09deva ivowelsignreph10deva ivowelsignreph11deva] dummymarkdeva;
+    sub @i_00' @ih_10 @ic_05 by @i_11  # raprehalfdevaMAR to ya
+    sub @i_00' @ih_11 @ic_05 by @i_12
+    sub @i_00' @ih_12 @ic_05 by @i_13
+    sub @i_00' @ih_13 @ic_05 by @i_14
+    sub @i_00' @ih_14 @ic_05 by @i_15
+    sub @i_00' @ih_15 @ic_05 by @i_16
+    sub @i_00' @ih_16 @ic_05 by @i_17
+    sub @i_00' @ih_18 @ic_05 by @i_19
 
-##-- ivowelsign reph anusvara --    
+# halfs 06  (to consonants only)
 
-##    sub @abvs2' @abvs7 rephanusvaradeva' by [ivowelsignrephanusvaradeva ivowelsignrephanusvara01deva ivowelsignrephanusvara02deva ivowelsignrephanusvara03deva ivowelsignrephanusvara04deva ivowelsignrephanusvara05deva ivowelsignrephanusvara06deva ivowelsignrephanusvara07deva ivowelsignrephanusvara08deva ivowelsignrephanusvara09deva ivowelsignrephanusvara10deva ivowelsignrephanusvara11deva] dummymarkdeva;
-##} abvs80;
+    sub @i_00' @ih_11 @ic_06 by @i_13
+    sub @i_00' @ih_12 @ic_06 by @i_14
+    sub @i_00' @ih_13 @ic_06 by @i_15
+    sub @i_00' @ih_14 @ic_06 by @i_16
+    sub @i_00' @ih_15 @ic_06 by @i_17
+    sub @i_00' @ih_16 @ic_06 by @i_18
+    sub @i_00' @ih_18 @ic_06 by @i_20
+    
+# halfs 07  (to consonants only)
+
+    sub @i_00' @ih_11 @ic_07 by @i_14
+    sub @i_00' @ih_12 @ic_07 by @i_15
+    sub @i_00' @ih_13 @ic_07 by @i_16
+    sub @i_00' @ih_14 @ic_07 by @i_16
+    sub @i_00' @ih_15 @ic_07 by @i_17
+    sub @i_00' @ih_16 @ic_07 by @i_19
+    sub @i_00' @ih_18 @ic_07 by @i_21
+
+# halfs 08  (to consonants only)
+
+    sub @i_00' @ih_11 @ic_08 by @i_14
+    sub @i_00' @ih_12 @ic_08 by @i_15
+    sub @i_00' @ih_13 @ic_08 by @i_16
+    sub @i_00' @ih_14 @ic_08 by @i_17
+    sub @i_00' @ih_15 @ic_08 by @i_17
+    sub @i_00' @ih_16 @ic_08 by @i_19
+    sub @i_00' @ih_18 @ic_08 by @i_21
+    
+# halfs 09  (to consonants only)
+
+    sub @i_00' @ih_11 @ic_09 by @i_15
+    sub @i_00' @ih_12 @ic_09 by @i_16
+    sub @i_00' @ih_13 @ic_09 by @i_17
+    sub @i_00' @ih_14 @ic_09 by @i_18
+    sub @i_00' @ih_15 @ic_09 by @i_19
+    sub @i_00' @ih_16 @ic_09 by @i_21
+    sub @i_00' @ih_18 @ic_09 by @i_22
+    
+# halfs 10  (to consonants only)
+
+    sub @i_00' @ih_11 @ic_10 by @i_16
+    sub @i_00' @ih_12 @ic_10 by @i_16
+    sub @i_00' @ih_13 @ic_10 by @i_17
+    sub @i_00' @ih_14 @ic_10 by @i_18
+    sub @i_00' @ih_15 @ic_10 by @i_19
+    sub @i_00' @ih_16 @ic_10 by @i_21
+    sub @i_00' @ih_18 @ic_10 by @i_22
 
 
-##lookup abvs85 {
-##} abvs85;
+# consonants    
+    sub @i_00' @ic_01 by @i_01
+    sub @i_00' @ic_02 by @i_02
+    sub @i_00' @ic_03 by @i_03
+    sub @i_00' @ic_04 by @i_04
+    sub @i_00' @ic_05 by @i_05
+    sub @i_00' @ic_06 by @i_06
+    sub @i_00' @ic_07 by @i_07
+    sub @i_00' @ic_08 by @i_08
+    sub @i_00' @ic_09 by @i_09
+    sub @i_00' @ic_10 by @i_10
+    sub @i_00' @ic_11 by @i_11
+    sub @i_00' @ic_12 by @i_12
+    sub @i_00' @ic_13 by @i_13
+    sub @i_00' @ic_14 by @i_14
+    sub @i_00' @ic_15 by @i_15
+    sub @i_00' @ic_16 by @i_16
+    sub @i_00' @ic_17 by @i_17
+    sub @i_00' @ic_18 by @i_18
+    sub @i_00' @ic_19 by @i_19
+    
+} abvs32;
+        
 
 
  language MAR ; # Marathi
@@ -1109,7 +1132,7 @@ lookup abvs32 {
 ##lookup abvs26;
 lookup abvs28;
 lookup abvs29;
-lookup abvs30;
+##lookup abvs30;
 lookup abvs32;
 ##lookup abvs80;
 ##lookup abvs85;
@@ -1231,6 +1254,7 @@ lookup blws99;
 
 
 # ------------------- Post-base substitution??  NEW  --------------
+
 
 feature psts { # Post-base Substitutions
  script dev2; # Devanagari v.2
