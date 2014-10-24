@@ -3,7 +3,7 @@
   <advance width="0"/>
   <outline>
     <component base="uvowelsigndeva"/>
-    <component base="nuktadeva" xOffset="-310" yOffset="104"/>
+    <component base="nuktadeva" xOffset="-395" yOffset="-108"/>
     <contour>
       <point x="49" y="8" type="move" name="x37"/>
     </contour>
@@ -104,6 +104,13 @@
           <integer>0</integer>
         </dict>
       </dict>
+      <key>com.typemytype.robofont.mark</key>
+      <array>
+        <real>1.0</real>
+        <real>0.7255</real>
+        <real>0.7149</real>
+        <real>1.0</real>
+      </array>
       <key>org.robofab.fontlab.mark</key>
       <integer>210</integer>
     </dict>

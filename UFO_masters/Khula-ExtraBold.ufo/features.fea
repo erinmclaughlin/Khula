@@ -627,10 +627,21 @@ feature blws { # Below-base Substitutions
 lookup blws87 {
     
     
-    #### U VOWEL versions? ???? IMPORTANT
-    sub ddaprehalfdeva ddadeva uuvowelsigndeva by ddaddauudeva;
-    sub ttaprehalfdeva ttadeva uuvowelsigndeva by ttattauudeva;
-    sub ttaprehalfdeva tthadeva uuvowelsigndeva by ttatthauudeva;  
+#### U VOWEL versions? ???? IMPORTANT
+   sub @blws_u_0 uvowelsigndeva by @blws_u_1; 
+   sub @blws_uu_0 uuvowelsigndeva by @blws_uu_1;
+   
+   sub [dadeva danuktadeva] rvocalicvowelsigndeva by [darvocalicdeva danuktarvocalicdeva]; 
+   sub [hadeva hanuktadeva] rvocalicvowelsigndeva by [harvocalicdeva hanuktarvocalicdeva];
+   sub [hadeva hanuktadeva] rrvocalicvowelsigndeva by [harrvocalicdeva hanuktarrvocalicdeva];
+ 
+ 
+   sub @blws_low_c @blws_dflt_v' by @blws_low_v; 
+    
+    
+    
+    
+    
     
     
     
@@ -675,6 +686,11 @@ lookup blws93 {
 } blws93;
 
 lookup blws98 {
+    
+
+    
+    
+    
     sub dadeva nuktadeva uvowelsigndeva by danuktaudeva;
     sub dadeva nuktadeva uuvowelsigndeva by danuktauudeva;
     sub dadeva nuktadeva rvocalicvowelsigndeva by danuktarvocalicdeva;
@@ -707,6 +723,7 @@ lookup blws98 {
     sub hanuktadeva uuvowelsigndeva by hanuktauudeva;
     sub hanuktadeva rvocalicvowelsigndeva by hanuktarvocalicdeva;
     sub hanuktadeva rrvocalicvowelsigndeva by hanuktarrvocalicdeva;
+
     sub vattudeva uvowelsigndeva by vattuudeva;
     sub vattudeva uuvowelsigndeva by vattuuudeva;
     sub vattudeva rvocalicvowelsigndeva by vatturvocalicdeva;
@@ -714,8 +731,10 @@ lookup blws98 {
     sub vattudeva viramadeva by vattuviramadeva;
     sub vattudeva lvocalicvowelsigndeva by vattulvocalicdeva;
     sub vattudeva llvocalicvowelsigndeva by vattullvocalicdeva;
+
     sub haradeva uvowelsigndeva by haraudeva;
     sub haradeva uuvowelsigndeva by harauudeva;
+
     sub dummymarkdeva uvowelsigndeva by vattuulowdeva;
     sub dummymarkdeva uuvowelsigndeva by vattuuulowdeva;
     sub dummymarkdeva rvocalicvowelsigndeva by vatturvocaliclowdeva;
