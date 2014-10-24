@@ -405,7 +405,6 @@ lookup pres24 {
     
 } pres24;
 
-# into new pre-halfs
 
 lookup pres25 {
     
@@ -415,7 +414,7 @@ lookup pres25 {
 
 
 
-# -- ivowelsign 00 --
+# -- ivowelsign 00 --------------------------
 
 lookup pres26 {
 
@@ -572,83 +571,21 @@ lookup abvs28 {
 
 lookup abvs29 {
     
-# vowels and above base marks   
-    sub ashortdeva anusvaradeva by ashortanusvaradeva;
-    sub iideva candrabindudeva by iianusvaradeva;
-    sub iideva anusvaradeva by iianusvaradeva;
-    sub ecandradeva anusvaradeva by ecandraanusvaradeva;
-    sub eshortdeva anusvaradeva by eshortanusvaradeva;
-    sub aideva anusvaradeva by aianusvaradeva;
-    sub ocandradeva anusvaradeva by ocandraanusvaradeva;
-    sub oshortdeva anusvaradeva by oshortanusvaradeva;
-    sub odeva anusvaradeva by oanusvaradeva;
-    sub audeva anusvaradeva by auanusvaradeva;
+# vowels and above base marks  
+    sub @abvs_v_anus_0 anusvaradeva by @abvs_v_anus_1;
     
 # iivowelsigndeva above base marks ----   
-    sub @ii_dflt' candrabindudeva by @ii_candbin;  ###new
-    sub @ii_dflt' anusvaradeva by @ii_anus; ###new
-    sub @ii_dflt' rephdeva by @ii_reph; ###new
-    sub @ii_dflt' rephanusvaradeva by @ii_rephanus; ###new
+    sub @ii_dflt' candrabindudeva by @ii_candbin;  
+    sub @ii_dflt' anusvaradeva by @ii_anus; 
+    sub @ii_dflt' rephdeva by @ii_reph; 
+    sub @ii_dflt' rephanusvaradeva by @ii_rephanus; 
 
-# ecandravowelsigndeva above base marks       
-    sub ecandravowelsigndeva candrabindudeva by ecandravowelsigncandrabindudeva;
-    sub ecandravowelsigndeva anusvaradeva by ecandravowelsignanusvaradeva;
-    sub ecandravowelsigndeva rephdeva by ecandravowelsignrephdeva;
-    sub ecandravowelsigndeva rephanusvaradeva by ecandravowelsignrephanusvaradeva;
+# other vowelsigndeva above base marks ----   
+    sub @abvs_vs_dflt' candrabindudeva by @abvs_vs_candbin;  
+    sub @abvs_vs_dflt' anusvaradeva by @abvs_vs_anus; 
+    sub @abvs_vs_dflt' rephdeva by @abvs_vs_reph; 
+    sub @abvs_vs_dflt' rephanusvaradeva by @abvs_vs_rephanus; 
 
-# eshortvowelsigndeva above base marks   
-    sub eshortvowelsigndeva candrabindudeva by eshortvowelsigncandrabindudeva;
-    sub eshortvowelsigndeva anusvaradeva by eshortvowelsignanusvaradeva;
-    sub eshortvowelsigndeva rephdeva by eshortvowelsignrephdeva;
-    sub eshortvowelsigndeva rephanusvaradeva by eshortvowelsignrephanusvarade;
-
-# evowelsigndeva above base marks   
-    sub evowelsigndeva candrabindudeva by evowelsigncandrabindudeva;
-    sub evowelsigndeva anusvaradeva by evowelsignanusvaradeva;
-    sub evowelsigndeva rephdeva by evowelsignrephdeva;
-    sub evowelsigndeva rephanusvaradeva by evowelsignrephanusvaradeva;
-
-# aivowelsigndeva above base marks   
-    sub aivowelsigndeva candrabindudeva by aivowelsigncandrabindudeva;
-    sub aivowelsigndeva anusvaradeva by aivowelsignanusvaradeva;
-    sub aivowelsigndeva rephdeva by aivowelsignrephdeva;
-    sub aivowelsigndeva rephanusvaradeva by aivowelsignrephanusvaradeva;
-
-# ocandravowelsigndeva above base marks   
-    sub ocandravowelsigndeva candrabindudeva by ocandravowelsigncandrabindudeva;
-    sub ocandravowelsigndeva anusvaradeva by ocandravowelsignanusvaradeva;
-    sub ocandravowelsigndeva rephdeva by ocandravowelsignrephdeva;
-    sub ocandravowelsigndeva rephanusvaradeva by ocandravowelsignrephanusvaradeva;
-
-# oshortvowelsigndeva above base marks   
-    sub oshortvowelsigndeva candrabindudeva by oshortvowelsigncandrabindudeva;
-    sub oshortvowelsigndeva anusvaradeva by oshortvowelsignanusvaradeva;
-    sub oshortvowelsigndeva rephdeva by oshortvowelsignrephdeva;
-    sub oshortvowelsigndeva rephanusvaradeva by oshortvowelsignrephanusvaradeva;
-
-# ovowelsigndeva above base marks   
-    sub ovowelsigndeva candrabindudeva by ovowelsigncandrabindudeva;
-    sub ovowelsigndeva anusvaradeva by ovowelsignanusvaradeva;
-    sub ovowelsigndeva rephdeva by ovowelsignrephdeva;
-    sub ovowelsigndeva rephanusvaradeva by ovowelsignrephanusvaradeva;
-
-# auvowelsigndeva above base marks   
-    sub auvowelsigndeva candrabindudeva by auvowelsigncandrabindudeva;
-    sub auvowelsigndeva anusvaradeva by auvowelsignanusvaradeva;
-    sub auvowelsigndeva rephdeva by auvowelsignrephdeva;
-    sub auvowelsigndeva rephanusvaradeva by auvowelsignrephanusvaradeva;
-
-# vowels nuktadeva above base marks   
-    sub ashortnuktadeva anusvaradeva by ashortnuktaanusvaradeva;
-    sub iinuktadeva candrabindudeva by iinuktaanusvaradeva;
-    sub iinuktadeva anusvaradeva by iinuktaanusvaradeva;
-    sub ecandranuktadeva anusvaradeva by ecandranuktaanusvaradeva;
-    sub eshortnuktadeva anusvaradeva by eshortnuktaanusvaradeva;
-    sub ainuktadeva anusvaradeva by ainuktaanusvaradeva;
-    sub ocandranuktadeva anusvaradeva by ocandranuktaanusvaradeva;
-    sub oshortnuktadeva anusvaradeva by oshortnuktaanusvaradeva;
-    sub onuktadeva anusvaradeva by onuktaanusvaradeva;
-    sub aunuktadeva anusvaradeva by aunuktaanusvaradeva;
 } abvs29;
 
 
@@ -664,11 +601,14 @@ lookup abvs29 {
         
 
 
+
+
+
  language MAR ; # Marathi
  script deva; # Devanagari
 ##lookup abvs26;
-lookup abvs28;
-lookup abvs29;
+#lookup abvs28;
+#lookup abvs29;
 ##lookup abvs30;
 ##lookup abvs32;
 ##lookup abvs80;
