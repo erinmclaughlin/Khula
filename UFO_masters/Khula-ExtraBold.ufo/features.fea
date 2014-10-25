@@ -186,7 +186,7 @@ feature blwf { # Below-base Forms
  script dev2; # Devanagari v.2
  language MAR ; # Marathi
  script deva; # Devanagari
-    sub radeva viramadeva by vattudeva;
+    sub viramadeva radeva by vattudeva;
     
 #### SHTRA forms!! where????!!!!!!!!! IMPORTANT
     
@@ -203,10 +203,10 @@ feature half { # Half Forms
 lookup half17 { #consonants, nuktas, MAR
 
     sub @half_0 viramadeva by @half_1;
-    sub @half_h_0 viramadeva uni200D by @half_h_1;
+    sub @half_h_0 viramadeva uni200D by @half_h_1; ####  ??????????
     
+    #### where do these go????????
     sub ladevaMAR viramadeva by laprehalfdeva;
-    sub lanuktadevaMAR viramadeva by lanuktaprehalfdeva;
     sub radeva viramadeva uni200D by raprehalfdeva;
     sub rradeva viramadeva by raprehalfdeva;
 
@@ -217,7 +217,6 @@ lookup half18 { #rakar half forms
     sub raradeva viramadeva by raraprehalfdeva;
     sub ranuktaradeva viramadeva by raraprehalfdeva;
     sub laradevaMAR viramadeva by laraprehalfdeva;
-    sub lanuktaradevaMAR viramadeva by lanuktaraprehalfdeva;
     sub shaprehalfdevaMAR viramadeva by sharaprehalfdeva;    
     
 } half18;
@@ -228,7 +227,6 @@ lookup half18 { #rakar half forms
     sub raradeva viramadeva by raraprehalfdeva;
     sub ranuktaradeva viramadeva by raraprehalfdeva;
     sub laradevaMAR viramadeva by laraprehalfdeva;
-    sub lanuktaradevaMAR viramadeva by lanuktaraprehalfdeva;
     sub shaprehalfdevaMAR viramadeva by sharaprehalfdeva;
 
 
@@ -246,7 +244,6 @@ lookup vatu19 {
     sub @half_h_0 vattudeva uni200D by @half_h_1;
     
     sub ladevaMAR vattudeva by laprehalfdeva;
-    sub lanuktadevaMAR vattudeva by lanuktaprehalfdeva;
     sub radeva vattudeva uni200D by raprehalfdeva;
     sub rradeva vattudeva by raprehalfdeva;
     
@@ -259,7 +256,6 @@ lookup vatu20 {
     sub raradeva vattudeva by raraprehalfdeva;
     sub ranuktaradeva vattudeva by raraprehalfdeva;
     sub laradevaMAR vattudeva by laraprehalfdeva;
-    sub lanuktaradevaMAR vattudeva by lanuktaraprehalfdeva;
     sub shaprehalfdevaMAR vattudeva by sharaprehalfdeva;
     
     } vatu20;
@@ -276,8 +272,7 @@ feature cjct { # Conjunct Forms
  script dev2; # Devanagari v.2
 
 
-### prehalf conjuncts
-    sub daprehalfdeva yaprehalfdeva by dayaprehalfdeva;
+
 
 
 ### normal
@@ -333,6 +328,10 @@ feature cjct { # Conjunct Forms
 feature pres { # Pre-base Substitutions
  script dev2; # Devanagari v.2
 lookup pres24 {
+    
+    ### prehalf conjuncts
+    sub daprehalfdeva yaprehalfdeva by dayaprehalfdeva;
+    
     
 # half forms
     sub taprehalfdeva taprehalfdeva  by tataprehalfdeva;
@@ -417,6 +416,8 @@ lookup pres25 {
 # -- ivowelsign 00 --------------------------
 
 lookup pres26 {
+    
+    ## LENGTHS
 
 # halfs 02  (to consonants only)
 
