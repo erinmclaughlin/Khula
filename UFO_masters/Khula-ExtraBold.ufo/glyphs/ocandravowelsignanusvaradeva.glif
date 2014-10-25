@@ -2,8 +2,9 @@
 <glyph name="ocandravowelsignanusvaradeva" format="1">
   <advance width="683"/>
   <outline>
-    <component base="ecandravowelsignanusvaradeva" xOffset="606"/>
     <component base="aavowelsigndeva"/>
+    <component base="anusvaradeva" xOffset="670"/>
+    <component base="ecandravowelsigndeva"/>
   </outline>
   <lib>
     <dict>
