@@ -2,12 +2,12 @@
 <glyph name="viramalowdeva" format="1">
   <advance width="-1"/>
   <outline>
-    <component base="viramadeva" yOffset="-223"/>
+    <component base="viramadeva" yScale="0.914782090998" yOffset="-254"/>
     <contour>
-      <point x="49" y="8" type="move" name="x12"/>
+      <point x="49.0" y="8.0" type="move" name="x12"/>
     </contour>
     <contour>
-      <point x="-424" y="8" type="move" name="_mark0"/>
+      <point x="-424.0" y="8.0" type="move" name="_mark0"/>
     </contour>
   </outline>
   <lib>
@@ -103,6 +103,13 @@
           <integer>-1</integer>
         </dict>
       </dict>
+      <key>com.typemytype.robofont.mark</key>
+      <array>
+        <real>0.6312</real>
+        <real>1.0</real>
+        <real>0.9947</real>
+        <real>1.0</real>
+      </array>
       <key>org.robofab.fontlab.mark</key>
       <integer>210</integer>
     </dict>

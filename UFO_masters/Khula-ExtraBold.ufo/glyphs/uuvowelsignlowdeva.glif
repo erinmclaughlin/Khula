@@ -2,34 +2,7 @@
 <glyph name="uuvowelsignlowdeva" format="1">
   <advance width="0"/>
   <outline>
-    <contour>
-      <point x="-81" y="-827" type="line"/>
-      <point x="-169" y="-852"/>
-      <point x="-231" y="-865"/>
-      <point x="-332" y="-865" type="curve" smooth="yes"/>
-      <point x="-593" y="-865"/>
-      <point x="-767" y="-712"/>
-      <point x="-767" y="-542" type="curve" smooth="yes"/>
-      <point x="-767" y="-385"/>
-      <point x="-645" y="-244"/>
-      <point x="-397" y="-244" type="curve" smooth="yes"/>
-      <point x="-122" y="-244"/>
-      <point x="64" y="-341"/>
-      <point x="350" y="-601" type="curve"/>
-      <point x="195" y="-772" type="line"/>
-      <point x="-69" y="-538"/>
-      <point x="-200" y="-488"/>
-      <point x="-328" y="-488" type="curve" smooth="yes"/>
-      <point x="-398" y="-488"/>
-      <point x="-450" y="-529"/>
-      <point x="-450" y="-575" type="curve" smooth="yes"/>
-      <point x="-450" y="-625"/>
-      <point x="-411" y="-657"/>
-      <point x="-352" y="-657" type="curve" smooth="yes"/>
-      <point x="-295" y="-657"/>
-      <point x="-236" y="-648"/>
-      <point x="-148" y="-619" type="curve"/>
-    </contour>
+    <component base="uuvowelsigndeva" yScale="0.922747598779" yOffset="-217"/>
     <contour>
       <point x="49.0" y="8.0" type="move" name="x24"/>
     </contour>
@@ -73,6 +46,239 @@
           </array>
           <key>contours</key>
           <array>
+            <dict>
+              <key>points</key>
+              <array>
+                <dict>
+                  <key>segmentType</key>
+                  <string>line</string>
+                  <key>smooth</key>
+                  <false/>
+                  <key>x</key>
+                  <integer>-81</integer>
+                  <key>y</key>
+                  <integer>-827</integer>
+                </dict>
+                <dict>
+                  <key>smooth</key>
+                  <false/>
+                  <key>x</key>
+                  <integer>-169</integer>
+                  <key>y</key>
+                  <integer>-852</integer>
+                </dict>
+                <dict>
+                  <key>smooth</key>
+                  <false/>
+                  <key>x</key>
+                  <integer>-231</integer>
+                  <key>y</key>
+                  <integer>-865</integer>
+                </dict>
+                <dict>
+                  <key>segmentType</key>
+                  <string>curve</string>
+                  <key>smooth</key>
+                  <true/>
+                  <key>x</key>
+                  <integer>-332</integer>
+                  <key>y</key>
+                  <integer>-865</integer>
+                </dict>
+                <dict>
+                  <key>smooth</key>
+                  <false/>
+                  <key>x</key>
+                  <integer>-593</integer>
+                  <key>y</key>
+                  <integer>-865</integer>
+                </dict>
+                <dict>
+                  <key>smooth</key>
+                  <false/>
+                  <key>x</key>
+                  <integer>-767</integer>
+                  <key>y</key>
+                  <integer>-712</integer>
+                </dict>
+                <dict>
+                  <key>segmentType</key>
+                  <string>curve</string>
+                  <key>smooth</key>
+                  <true/>
+                  <key>x</key>
+                  <integer>-767</integer>
+                  <key>y</key>
+                  <integer>-542</integer>
+                </dict>
+                <dict>
+                  <key>smooth</key>
+                  <false/>
+                  <key>x</key>
+                  <integer>-767</integer>
+                  <key>y</key>
+                  <integer>-385</integer>
+                </dict>
+                <dict>
+                  <key>smooth</key>
+                  <false/>
+                  <key>x</key>
+                  <integer>-645</integer>
+                  <key>y</key>
+                  <integer>-244</integer>
+                </dict>
+                <dict>
+                  <key>segmentType</key>
+                  <string>curve</string>
+                  <key>smooth</key>
+                  <true/>
+                  <key>x</key>
+                  <integer>-397</integer>
+                  <key>y</key>
+                  <integer>-244</integer>
+                </dict>
+                <dict>
+                  <key>smooth</key>
+                  <false/>
+                  <key>x</key>
+                  <integer>-122</integer>
+                  <key>y</key>
+                  <integer>-244</integer>
+                </dict>
+                <dict>
+                  <key>smooth</key>
+                  <false/>
+                  <key>x</key>
+                  <integer>64</integer>
+                  <key>y</key>
+                  <integer>-341</integer>
+                </dict>
+                <dict>
+                  <key>segmentType</key>
+                  <string>curve</string>
+                  <key>smooth</key>
+                  <false/>
+                  <key>x</key>
+                  <integer>350</integer>
+                  <key>y</key>
+                  <integer>-601</integer>
+                </dict>
+                <dict>
+                  <key>segmentType</key>
+                  <string>line</string>
+                  <key>smooth</key>
+                  <false/>
+                  <key>x</key>
+                  <integer>195</integer>
+                  <key>y</key>
+                  <integer>-772</integer>
+                </dict>
+                <dict>
+                  <key>smooth</key>
+                  <false/>
+                  <key>x</key>
+                  <integer>-69</integer>
+                  <key>y</key>
+                  <integer>-538</integer>
+                </dict>
+                <dict>
+                  <key>smooth</key>
+                  <false/>
+                  <key>x</key>
+                  <integer>-200</integer>
+                  <key>y</key>
+                  <integer>-488</integer>
+                </dict>
+                <dict>
+                  <key>segmentType</key>
+                  <string>curve</string>
+                  <key>smooth</key>
+                  <true/>
+                  <key>x</key>
+                  <integer>-328</integer>
+                  <key>y</key>
+                  <integer>-488</integer>
+                </dict>
+                <dict>
+                  <key>smooth</key>
+                  <false/>
+                  <key>x</key>
+                  <integer>-398</integer>
+                  <key>y</key>
+                  <integer>-488</integer>
+                </dict>
+                <dict>
+                  <key>smooth</key>
+                  <false/>
+                  <key>x</key>
+                  <integer>-450</integer>
+                  <key>y</key>
+                  <integer>-529</integer>
+                </dict>
+                <dict>
+                  <key>segmentType</key>
+                  <string>curve</string>
+                  <key>smooth</key>
+                  <true/>
+                  <key>x</key>
+                  <integer>-450</integer>
+                  <key>y</key>
+                  <integer>-575</integer>
+                </dict>
+                <dict>
+                  <key>smooth</key>
+                  <false/>
+                  <key>x</key>
+                  <integer>-450</integer>
+                  <key>y</key>
+                  <integer>-625</integer>
+                </dict>
+                <dict>
+                  <key>smooth</key>
+                  <false/>
+                  <key>x</key>
+                  <integer>-411</integer>
+                  <key>y</key>
+                  <integer>-657</integer>
+                </dict>
+                <dict>
+                  <key>segmentType</key>
+                  <string>curve</string>
+                  <key>smooth</key>
+                  <true/>
+                  <key>x</key>
+                  <integer>-352</integer>
+                  <key>y</key>
+                  <integer>-657</integer>
+                </dict>
+                <dict>
+                  <key>smooth</key>
+                  <false/>
+                  <key>x</key>
+                  <integer>-295</integer>
+                  <key>y</key>
+                  <integer>-657</integer>
+                </dict>
+                <dict>
+                  <key>smooth</key>
+                  <false/>
+                  <key>x</key>
+                  <integer>-236</integer>
+                  <key>y</key>
+                  <integer>-648</integer>
+                </dict>
+                <dict>
+                  <key>segmentType</key>
+                  <string>curve</string>
+                  <key>smooth</key>
+                  <false/>
+                  <key>x</key>
+                  <integer>-148</integer>
+                  <key>y</key>
+                  <integer>-619</integer>
+                </dict>
+              </array>
+            </dict>
           </array>
           <key>lib</key>
           <dict>
@@ -130,6 +336,13 @@
           <integer>0</integer>
         </dict>
       </dict>
+      <key>com.typemytype.robofont.mark</key>
+      <array>
+        <real>0.6312</real>
+        <real>1.0</real>
+        <real>0.9947</real>
+        <real>1.0</real>
+      </array>
       <key>org.robofab.fontlab.mark</key>
       <integer>210</integer>
     </dict>

@@ -3,7 +3,7 @@
   <advance width="-1"/>
   <outline>
     <component base="vattudeva"/>
-    <component base="lvocalicvowelsignlowdeva" xOffset="-80" yOffset="-400"/>
+    <component base="lvocalicvowelsignlowdeva" xOffset="50" yOffset="-290"/>
     <contour>
       <point x="49.0" y="8.0" type="move" name="x59"/>
     </contour>
@@ -104,6 +104,13 @@
           <integer>-1</integer>
         </dict>
       </dict>
+      <key>com.typemytype.robofont.mark</key>
+      <array>
+        <real>0.6312</real>
+        <real>1.0</real>
+        <real>0.9947</real>
+        <real>1.0</real>
+      </array>
       <key>org.robofab.fontlab.mark</key>
       <integer>210</integer>
     </dict>

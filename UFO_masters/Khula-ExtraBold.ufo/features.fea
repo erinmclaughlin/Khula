@@ -108,6 +108,9 @@
 #abvm
 #blwm
 
+languagesystem DFLT dflt;
+languagesystem dev2 dflt;
+languagesystem deva dflt;
 
 
 # ---------- Localization -----------------
@@ -127,16 +130,24 @@ feature locl { # Localized Forms
 } locl;
 
 
+
+
+
 # ------------ Nukta forms ---------------------
 
 feature nukt { # Nukta Forms
  script dev2; # Devanagari v.2
     sub @nukt_0' nuktadeva by @nukt_1;
+    
  language MAR ; # Marathi
  
+     sub radeva' viramadeva' uni200D by raprehalfdeva;  #ITF says: sub dvRA' dvVirama' zerowidthjoiner by dvEyelash;
+     
  script deva; # Devanagari
     sub @nukt_0' nuktadeva by @nukt_1;
  language MAR ; # Marathi
+ 
+     sub radeva viramadeva by raprehalfdeva;
 } nukt;
 
 
@@ -328,6 +339,20 @@ feature cjct { # Conjunct Forms
 feature pres { # Pre-base Substitutions
  script dev2; # Devanagari v.2
 lookup pres24 {
+    
+    
+      # EYELASH
+
+  # If ZWJ has been filtered out (Core Text):
+#  sub dvEyelash dvYA by dvEyelash_YA;
+#  sub dvEyelash dvHA by dvEyelash_HA;
+
+  # Else:
+#  sub dvEyelash zerowidthjoiner dvYA by dvEyelash_YA;
+#  sub dvEyelash zerowidthjoiner dvHA by dvEyelash_HA;
+    
+    
+    
     
     ### prehalf conjuncts
     sub daprehalfdeva yaprehalfdeva by dayaprehalfdeva;
@@ -629,7 +654,7 @@ feature blws { # Below-base Substitutions
 lookup blws87 {
     
     
-#### U VOWEL versions? ???? IMPORTANT
+#### U VOWEL Ligatures !!!!
    sub @blws_u_0 uvowelsigndeva by @blws_u_1; 
    sub @blws_uu_0 uuvowelsigndeva by @blws_uu_1;
    
@@ -637,114 +662,34 @@ lookup blws87 {
    sub hadeva rvocalicvowelsigndeva by harvocalicdeva;
    sub hadeva rrvocalicvowelsigndeva by harrvocalicdeva;
  
- 
+### tall consonants  low vowel version substitutionh  
    sub @blws_low_c @blws_dflt_v' by @blws_low_v; 
     
-    
-    
-    
-    
-    
-    
-    
+### Vattu-Vowelsign variants substitution   
+   sub @blws_vattu_c_1 @blws_vattu_0 by @blws_vattu_c_0 @blws_vattu_1;
 
-## fix these?
-#    sub @blws1' [uvowelsigndeva uuvowelsigndeva rvocalicvowelsigndeva viramadeva] by [ttaprehalfdeva ttadeva ttaprehalfdeva tthadeva tthaprehalfdeva tthadeva ddaprehalfdeva ddhadeva ddaprehalfdeva ddadeva ddhaprehalfdeva ddhadeva];
+
+  # Vattu-Vowelsign variants LOW substitution   ????
+
+
     
-#    sub @blws1' [rrvocalicvowelsigndeva lvocalicvowelsigndeva llvocalicvowelsigndeva] by [ttaprehalfdeva ttadeva ttaprehalfdeva tthadeva tthaprehalfdeva tthadeva ddaprehalfdeva ddhadeva ddaprehalfdeva ddadeva ddhaprehalfdeva ddhadeva];
-    
-    sub @blws3 [uvowelsigndeva uuvowelsigndeva rvocalicvowelsigndeva viramadeva]' by [uvowelsignlowdeva uuvowelsignlowdeva rvocalicvowelsignlowdeva viramalowdeva];
-
-#    sub @blws3' [rrvocalicvowelsigndeva lvocalicvowelsigndeva llvocalicvowelsigndeva] by [daprehalfdeva ghadeva daprehalfdeva gadeva daprehalfdeva badeva daprehalfdeva bhadeva daprehalfdeva vadeva daprehalfdeva dhadeva daprehalfdeva dhaprehalfdeva yadeva daprehalfdeva dadeva shaprehalfaltdeva cadeva shaprehalfaltdeva vadeva haprehalfdeva nnadeva haprehalfdeva nadeva haprehalfdeva madeva haprehalfdeva yadeva haprehalfdeva ladeva haprehalfdeva vadeva];
-
-#    sub @blws6' [uvowelsigndeva uuvowelsigndeva rvocalicvowelsigndeva viramadeva] by [ngadeva dummymarkdeva chadeva dummymarkdeva ttadeva dummymarkdeva tthadeva dummymarkdeva ddadeva dummymarkdeva ddhadeva dummymarkdeva lladeva dummymarkdeva ngadeva nuktadeva dummymarkdeva chadeva nuktadeva dummymarkdeva ttadeva nuktadeva dummymarkdeva tthadeva nuktadeva dummymarkdeva ddadeva nuktadeva dummymarkdeva ddhadeva nuktadeva dummymarkdeva lladeva nuktadeva dummymarkdeva ssattadeva dummymarkdeva ssatthadeva dummymarkdeva ladevaMAR dummymarkdeva ladevaMAR nuktadeva dummymarkdeva];
-
-#    sub @blws6' [rrvocalicvowelsigndeva lvocalicvowelsigndeva llvocalicvowelsigndeva] by [ngaaltdeva vattudeva chaaltdeva vattudeva ttaaltdeva vattudeva tthaaltdeva vattudeva ddaaltdeva vattudeva ddhaaltdeva vattudeva llaaltdeva vattudeva nganuktaaltdeva vattudeva chanuktaaltdeva vattudeva ttanuktaaltdeva vattudeva tthanuktaaltdeva vattudeva dddhaaltdeva vattudeva rhaaltdeva vattudeva lllaaltdeva vattudeva ssaprehalfdeva ttaaltdeva vattudeva ssaprehalfdeva tthaaltdeva vattudeva laaltdevaMAR vattudeva lanuktaaltdevaMAR vattudeva];
-
-#    sub [gabardeva jabardeva ddabardeva babardeva] vattudeva' [uvowelsigndeva uuvowelsigndeva rvocalicvowelsigndeva viramadeva] by dummymarkdeva;
-
-} blws87;
+    } blws87;
 
 lookup blws92 {
 
-#    sub @blws9' [lvocalicvowelsigndeva llvocalicvowelsigndeva] by [lladeva nuktadeva jadeva nuktadeva yadeva nuktadeva ghadeva nuktadeva cadeva nuktadeva jhadeva nuktadeva nyadeva nuktadeva nnadeva nuktadeva tadeva nuktadeva thadeva nuktadeva dhadeva nuktadeva padeva nuktadeva badeva nuktadeva bhadeva nuktadeva madeva nuktadeva ladeva nuktadeva vadeva nuktadeva shadeva nuktadeva ssadeva nuktadeva gharadeva nuktadeva caradeva nuktadeva jaradeva nuktadeva nyaradeva nuktadeva nnaradeva nuktadeva taradeva nuktadeva tharadeva nuktadeva dharadeva nuktadeva paradeva nuktadeva baradeva nuktadeva bharadeva nuktadeva maradeva nuktadeva yaradeva nuktadeva laradeva nuktadeva varadeva nuktadeva sharadeva nuktadeva ssaradeva nuktadeva ladevaMAR nuktadeva shadevaMAR nuktadeva];
-
-#    sub @blws4' [lvocalicvowelsigndeva llvocalicvowelsigndeva] by [nadeva nuktadeva kadeva nuktadeva gadeva nuktadeva ddadeva nuktadeva ddhadeva nuktadeva phadeva nuktadeva ngadeva nuktadeva chadeva nuktadeva ttadeva nuktadeva tthadeva nuktadeva dadeva nuktadeva karadeva nuktadeva garadeva nuktadeva daradeva nuktadeva naradeva nuktadeva pharadeva nuktadeva];
-
-    sub @blws5 [lvocalicvowelsigndeva llvocalicvowelsigndeva]' by [lvocalicvowelsignleftdeva llvocalicvowelsignleftdeva];
 } blws92;
 
 lookup blws93 {
-    sub @blws7 uvowelsigndeva' by uvowelsignnarrowdeva;
-
-#    sub @blws2' uvowelsigndeva by [ddadeva nuktadeva ddhadeva nuktadeva ngadeva nuktadeva chadeva nuktadeva ttadeva nuktadeva tthadeva nuktadeva];
-#    sub @blws2' uuvowelsigndeva by [ddadeva nuktadeva ddhadeva nuktadeva ngadeva nuktadeva chadeva nuktadeva ttadeva nuktadeva tthadeva nuktadeva];
-#    sub @blws2' [rvocalicvowelsigndeva rrvocalicvowelsigndeva] by [ddadeva nuktadeva ddhadeva nuktadeva ngadeva nuktadeva chadeva nuktadeva ttadeva nuktadeva tthadeva nuktadeva];
-#    sub [llladeva zadeva shanuktadeva januktaradeva nyanuktaradeva nnanuktaradeva shanuktaradeva]' uvowelsigndeva by [lladeva nuktadeva jadeva nuktadeva shadeva nuktadeva jaradeva nuktadeva nyaradeva nuktadeva nnaradeva nuktadeva sharadeva nuktadeva];
-#    sub @blws8' uvowelsigndeva by [tadeva nuktadeva dhadeva nuktadeva ladeva nuktadeva karadeva nuktadeva garadeva nuktadeva gharadeva nuktadeva caradeva nuktadeva taradeva nuktadeva tharadeva nuktadeva daradeva nuktadeva dharadeva nuktadeva naradeva nuktadeva paradeva nuktadeva pharadeva nuktadeva baradeva nuktadeva bharadeva nuktadeva maradeva nuktadeva yaradeva nuktadeva laradeva nuktadeva varadeva nuktadeva ssaradeva nuktadeva ladevaMAR nuktadeva];
-#    sub @blws8' uuvowelsigndeva by [tadeva nuktadeva dhadeva nuktadeva ladeva nuktadeva karadeva nuktadeva garadeva nuktadeva gharadeva nuktadeva caradeva nuktadeva taradeva nuktadeva tharadeva nuktadeva daradeva nuktadeva dharadeva nuktadeva naradeva nuktadeva paradeva nuktadeva pharadeva nuktadeva baradeva nuktadeva bharadeva nuktadeva maradeva nuktadeva yaradeva nuktadeva laradeva nuktadeva varadeva nuktadeva ssaradeva nuktadeva ladevaMAR nuktadeva];
-#    sub @blws8' [rvocalicvowelsigndeva rrvocalicvowelsigndeva] by [tadeva nuktadeva dhadeva nuktadeva ladeva nuktadeva karadeva nuktadeva garadeva nuktadeva gharadeva nuktadeva caradeva nuktadeva taradeva nuktadeva tharadeva nuktadeva daradeva nuktadeva dharadeva nuktadeva naradeva nuktadeva paradeva nuktadeva pharadeva nuktadeva baradeva nuktadeva bharadeva nuktadeva maradeva nuktadeva yaradeva nuktadeva laradeva nuktadeva varadeva nuktadeva ssaradeva nuktadeva ladevaMAR nuktadeva];
-#    sub danuktadeva' [rvocalicvowelsigndeva rrvocalicvowelsigndeva] by [dadeva nuktadeva];
 } blws93;
 
 lookup blws98 {
     
 
     
-    
-    
-    sub dadeva nuktadeva uvowelsigndeva by danuktaudeva;
-    sub dadeva nuktadeva uuvowelsigndeva by danuktauudeva;
-    sub dadeva nuktadeva rvocalicvowelsigndeva by danuktarvocalicdeva;
-    sub dadeva uvowelsigndeva by daudeva;
-    sub dadeva uuvowelsigndeva by dauudeva;
-    sub dadeva rvocalicvowelsigndeva by darvocalicdeva;
-    sub radeva uvowelsigndeva by raudeva;
-    sub radeva uuvowelsigndeva by rauudeva;
-    sub rradeva uvowelsigndeva by ranuktaudeva;
-    sub rradeva uuvowelsigndeva by ranuktauudeva;
-    sub hadeva uvowelsigndeva by haudeva;
-    sub hadeva uuvowelsigndeva by hauudeva;
-    sub hadeva rvocalicvowelsigndeva by harvocalicdeva;
-    sub hadeva rrvocalicvowelsigndeva by harrvocalicdeva;
-    sub nuktadeva uvowelsigndeva by uvowelsignnuktadeva;
-    sub nuktadeva uuvowelsigndeva by uuvowelsignnuktadeva;
-    sub nuktadeva rvocalicvowelsigndeva by rvocalicvowelsignnuktadeva;
-    sub nuktadeva rrvocalicvowelsigndeva by rrvocalicvowelsignnuktadeva;
-    sub nuktadeva viramadeva by viramanuktadeva;
-    sub nuktadeva lvocalicvowelsigndeva by lvocalicvowelsignnuktadeva;
-    sub nuktadeva llvocalicvowelsigndeva by llvocalicvowelsignnuktadeva;
-    sub nuktadeva dummymarkdeva uvowelsigndeva by vattuulownuktadeva;
-    sub nuktadeva dummymarkdeva uuvowelsigndeva by vattuuulownuktadeva;
-    sub nuktadeva dummymarkdeva rvocalicvowelsigndeva by vatturvocaliclownuktadeva;
-    sub nuktadeva dummymarkdeva viramadeva by vattuviramalownuktadeva;
-    sub danuktadeva uvowelsigndeva by danuktaudeva;
-    sub danuktadeva uuvowelsigndeva by danuktauudeva;
-    sub danuktadeva rvocalicvowelsigndeva by danuktarvocalicdeva;
-    sub hanuktadeva uvowelsigndeva by hanuktaudeva;
-    sub hanuktadeva uuvowelsigndeva by hanuktauudeva;
-    sub hanuktadeva rvocalicvowelsigndeva by hanuktarvocalicdeva;
-    sub hanuktadeva rrvocalicvowelsigndeva by hanuktarrvocalicdeva;
 
-    sub vattudeva uvowelsigndeva by vattuudeva;
-    sub vattudeva uuvowelsigndeva by vattuuudeva;
-    sub vattudeva rvocalicvowelsigndeva by vatturvocalicdeva;
-    sub vattudeva rrvocalicvowelsigndeva by vatturrvocalicdeva;
-    sub vattudeva viramadeva by vattuviramadeva;
-    sub vattudeva lvocalicvowelsigndeva by vattulvocalicdeva;
-    sub vattudeva llvocalicvowelsigndeva by vattullvocalicdeva;
-
-    sub haradeva uvowelsigndeva by haraudeva;
-    sub haradeva uuvowelsigndeva by harauudeva;
-
-    sub dummymarkdeva uvowelsigndeva by vattuulowdeva;
-    sub dummymarkdeva uuvowelsigndeva by vattuuulowdeva;
-    sub dummymarkdeva rvocalicvowelsigndeva by vatturvocaliclowdeva;
-    sub dummymarkdeva viramadeva by vattuviramalowdeva;
 } blws98;
 
 lookup blws99 {
-    sub raradeva ranuktaradeva' by ranuktaradeva;
 } blws99;
 
  language MAR ; # Marathi
@@ -766,6 +711,8 @@ lookup blws99;
 feature psts { # Post-base Substitutions
  script dev2; # Devanagari v.2
 
+###  ii vowel sign widths
+
 lookup psts01 { 
    sub @iic_02 @ii_00' by @ii_02;
    sub @iic_03 @ii_00' by @ii03;
@@ -784,44 +731,14 @@ lookup psts01;
 
 feature haln { # Halant Forms
  script dev2; # Devanagari v.2
-    sub ngadeva vattuviramalownuktadeva by nganuktaraprehalfdeva;
-    sub ttadeva vattuviramalownuktadeva by ttanuktaraprehalfdeva;
-    sub tthadeva vattuviramalownuktadeva by tthanuktaraprehalfdeva;
-    sub ddadeva vattuviramalownuktadeva by ddanuktaraprehalfdeva;
-    sub ddhadeva vattuviramalownuktadeva by ddhanuktaraprehalfdeva;
-    sub dadeva viramanuktadeva by danuktaprehalfdeva;
-    sub dddhadeva viramadeva by ddanuktaprehalfdeva;
-    sub rhadeva viramadeva by ddhanuktaprehalfdeva;
-    sub nganuktadeva viramadeva by nganuktaprehalfdeva;
-    sub ttanuktadeva viramadeva by ttanuktaprehalfdeva;
-    sub tthanuktadeva viramadeva by tthanuktaprehalfdeva;
-    sub haradeva viramadeva by haraprehalfdeva;
-    sub hanuktaradeva viramadeva by hanuktaraprehalfdeva;
-    sub ngaaltdeva vattuviramadeva by ngaraprehalfdeva;
-    sub ttaaltdeva vattuviramadeva by ttaraprehalfdeva;
-    sub tthaaltdeva vattuviramadeva by ttharaprehalfdeva;
-    sub ddaaltdeva vattuviramadeva by ddaraprehalfdeva;
-    sub ddhaaltdeva vattuviramadeva by ddharaprehalfdeva;
+    sub @blws_vattu_c_0 vattudeva by @blws_vattu_c_1;
+    sub @half_h_0 viramadeva by @half_h_1;
+ 
+    
+    
  language MAR ; # Marathi
  script deva; # Devanagari
-    sub ngadeva vattuviramalownuktadeva by nganuktaraprehalfdeva;
-    sub ttadeva vattuviramalownuktadeva by ttanuktaraprehalfdeva;
-    sub tthadeva vattuviramalownuktadeva by tthanuktaraprehalfdeva;
-    sub ddadeva vattuviramalownuktadeva by ddanuktaraprehalfdeva;
-    sub ddhadeva vattuviramalownuktadeva by ddhanuktaraprehalfdeva;
-    sub dadeva viramanuktadeva by danuktaprehalfdeva;
-    sub dddhadeva viramadeva by ddanuktaprehalfdeva;
-    sub rhadeva viramadeva by ddhanuktaprehalfdeva;
-    sub nganuktadeva viramadeva by nganuktaprehalfdeva;
-    sub ttanuktadeva viramadeva by ttanuktaprehalfdeva;
-    sub tthanuktadeva viramadeva by tthanuktaprehalfdeva;
-    sub haradeva viramadeva by haraprehalfdeva;
-    sub hanuktaradeva viramadeva by hanuktaraprehalfdeva;
-    sub ngaaltdeva vattuviramadeva by ngaraprehalfdeva;
-    sub ttaaltdeva vattuviramadeva by ttaraprehalfdeva;
-    sub tthaaltdeva vattuviramadeva by ttharaprehalfdeva;
-    sub ddaaltdeva vattuviramadeva by ddaraprehalfdeva;
-    sub ddhaaltdeva vattuviramadeva by ddharaprehalfdeva;
+
  language MAR ; # Marathi
 } haln;
 
@@ -829,7 +746,7 @@ feature haln { # Halant Forms
 
 # ------------- Kerning ----------
 
-
+###include (../kern.fea);###
 
 feature kern {
     # Class Kerning Data Generated by MetricsMachine 4.0.6
@@ -1371,5 +1288,17 @@ feature kern {
 
 
 # ------------ Below-base mark positioning -----
+#
+#include (markclasses.fea);
+
+#feature abvm {
+#  include (abvm.fea);
+#} abvm;
+
+#feature blwm {
+#  include (blwm.fea);
+#} blwm;
+
+
 # ------------ Above-base mark positioning -----
 # ------------ Distances (half-form kerns) -----

@@ -3,7 +3,7 @@
   <advance width="1538"/>
   <outline>
     <component base="ngaaltdeva"/>
-    <component base="vattuviramadeva" xOffset="1198"/>
+    <component base="vattuviramalowdeva" xOffset="1040" yOffset="230"/>
   </outline>
   <lib>
     <dict>
@@ -98,6 +98,13 @@
           <integer>1538</integer>
         </dict>
       </dict>
+      <key>com.typemytype.robofont.mark</key>
+      <array>
+        <real>1.0</real>
+        <real>0.974</real>
+        <real>0.577</real>
+        <real>1.0</real>
+      </array>
       <key>org.robofab.fontlab.mark</key>
       <integer>210</integer>
     </dict>

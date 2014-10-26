@@ -2,8 +2,8 @@
 <glyph name="vattuviramalowdeva" format="1">
   <advance width="-1"/>
   <outline>
-    <component base="viramadeva" xOffset="-116" yOffset="-347"/>
-    <component base="vattudeva"/>
+    <component base="vattulowdeva"/>
+    <component base="viramalowdeva" xOffset="21" yOffset="-280"/>
     <contour>
       <point x="49.0" y="8.0" type="move" name="x21"/>
     </contour>
@@ -104,6 +104,13 @@
           <integer>-1</integer>
         </dict>
       </dict>
+      <key>com.typemytype.robofont.mark</key>
+      <array>
+        <real>0.6312</real>
+        <real>1.0</real>
+        <real>0.9947</real>
+        <real>1.0</real>
+      </array>
       <key>org.robofab.fontlab.mark</key>
       <integer>210</integer>
     </dict>

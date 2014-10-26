@@ -1214,20 +1214,14 @@
 	</array>
 	<key>blws_low_c</key>
 	<array>
-		<string>daghadeva</string>
-		<string>dagadeva</string>
-		<string>dabadeva</string>
-		<string>davadeva</string>
-		<string>dadhadeva</string>
-		<string>dadhayadeva</string>
-		<string>shacadeva</string>
-		<string>shavadeva</string>
-		<string>hannadeva</string>
-		<string>hanadeva</string>
-		<string>hamadeva</string>
-		<string>hayadeva</string>
-		<string>haladeva</string>
-		<string>havadeva</string>
+		<string>ttattadeva</string>
+		<string>ttatthadeva</string>
+		<string>tthatthadeva</string>
+		<string>ddaddhadeva</string>
+		<string>ddaddadeva</string>
+		<string>ddhaddhadeva</string>
+		<string>ssattadeva</string>
+		<string>ssatthadeva</string>
 	</array>
 	<key>blws_low_v</key>
 	<array>
@@ -1238,6 +1232,22 @@
 		<string>viramalowdeva</string>
 		<string>lvocalicvowelsignlowdeva</string>
 		<string>llvocalicvowelsignlowdeva</string>
+	</array>
+	<key>blws_low_vattu_0</key>
+	<array>
+		<string>vattudeva</string>
+		<string>vattuudeva</string>
+		<string>vattuuudeva</string>
+		<string>vatturvocalicdeva</string>
+		<string>vattuviramadeva</string>
+	</array>
+	<key>blws_low_vattu_1</key>
+	<array>
+		<string>vattulowdeva</string>
+		<string>vattuulowdeva</string>
+		<string>vattuuulowdeva</string>
+		<string>vatturvocaliclowdeva</string>
+		<string>vattuviramalowdeva</string>
 	</array>
 	<key>blws_u_0</key>
 	<array>
@@ -1276,6 +1286,58 @@
 		<string>dauudeva</string>
 		<string>rauudeva</string>
 		<string>ranuktauudeva</string>
+	</array>
+	<key>blws_vattu_0</key>
+	<array>
+		<string>uvowelsigndeva</string>
+		<string>uuvowelsigndeva</string>
+		<string>rvocalicvowelsigndeva</string>
+		<string>rrvocalicvowelsigndeva</string>
+		<string>viramadeva</string>
+		<string>lvocalicvowelsigndeva</string>
+		<string>llvocalicvowelsigndeva</string>
+	</array>
+	<key>blws_vattu_1</key>
+	<array>
+		<string>vattuudeva</string>
+		<string>vattuuudeva</string>
+		<string>vatturvocalicdeva</string>
+		<string>vatturrvocalicdeva</string>
+		<string>vattuviramadeva</string>
+		<string>vattulvocalicdeva</string>
+		<string>vattullvocalicdeva</string>
+	</array>
+	<key>blws_vattu_c_0</key>
+	<array>
+		<string>ngadeva</string>
+		<string>chadeva</string>
+		<string>ttadeva</string>
+		<string>tthadeva</string>
+		<string>ddadeva</string>
+		<string>ddhadeva</string>
+		<string>radeva</string>
+		<string>lladeva</string>
+		<string>dddhadeva</string>
+		<string>rhadeva</string>
+		<string>rradeva</string>
+		<string>llladeva</string>
+		<string>ladevaMAR</string>
+	</array>
+	<key>blws_vattu_c_1</key>
+	<array>
+		<string>ngaradeva</string>
+		<string>charadeva</string>
+		<string>ttaradeva</string>
+		<string>ttharadeva</string>
+		<string>ddaradeva</string>
+		<string>ddharadeva</string>
+		<string>raradeva</string>
+		<string>llaradeva</string>
+		<string>ddanuktaradeva</string>
+		<string>ddhanuktaradeva</string>
+		<string>ranuktaradeva</string>
+		<string>llanuktaradeva</string>
+		<string>laradevaMAR</string>
 	</array>
 	<key>class0</key>
 	<array>
@@ -3396,9 +3458,6 @@
 	<array>
 		<string>ivowelsigndeva</string>
 	</array>
-	<key>i_anus</key>
-	<array>
-	</array>
 	<key>i_dflt</key>
 	<array>
 		<string>ivowelsigndeva</string>
@@ -3424,12 +3483,6 @@
 		<string>ivowelsign20deva</string>
 		<string>ivowelsign21deva</string>
 		<string>ivowelsign22deva</string>
-	</array>
-	<key>i_reph</key>
-	<array>
-	</array>
-	<key>i_rephanus</key>
-	<array>
 	</array>
 	<key>ic_01</key>
 	<array>

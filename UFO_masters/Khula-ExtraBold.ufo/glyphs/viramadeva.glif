@@ -5,15 +5,15 @@
   <outline>
     <contour>
       <point x="-496" y="-47" type="line"/>
-      <point x="126" y="-281" type="line"/>
-      <point x="21" y="-543" type="line"/>
-      <point x="-608" y="-310" type="line"/>
+      <point x="129" y="-310" type="line"/>
+      <point x="24" y="-565" type="line"/>
+      <point x="-603" y="-298" type="line"/>
     </contour>
     <contour>
-      <point x="49" y="8" type="move" name="x12"/>
+      <point x="49.0" y="8.0" type="move" name="x12"/>
     </contour>
     <contour>
-      <point x="-424" y="8" type="move" name="_mark0"/>
+      <point x="-424.0" y="8.0" type="move" name="_mark0"/>
     </contour>
   </outline>
   <lib>
@@ -52,6 +52,51 @@
           </array>
           <key>contours</key>
           <array>
+            <dict>
+              <key>points</key>
+              <array>
+                <dict>
+                  <key>segmentType</key>
+                  <string>line</string>
+                  <key>smooth</key>
+                  <false/>
+                  <key>x</key>
+                  <integer>-496</integer>
+                  <key>y</key>
+                  <integer>-47</integer>
+                </dict>
+                <dict>
+                  <key>segmentType</key>
+                  <string>line</string>
+                  <key>smooth</key>
+                  <false/>
+                  <key>x</key>
+                  <integer>126</integer>
+                  <key>y</key>
+                  <integer>-281</integer>
+                </dict>
+                <dict>
+                  <key>segmentType</key>
+                  <string>line</string>
+                  <key>smooth</key>
+                  <false/>
+                  <key>x</key>
+                  <integer>21</integer>
+                  <key>y</key>
+                  <integer>-543</integer>
+                </dict>
+                <dict>
+                  <key>segmentType</key>
+                  <string>line</string>
+                  <key>smooth</key>
+                  <false/>
+                  <key>x</key>
+                  <integer>-608</integer>
+                  <key>y</key>
+                  <integer>-310</integer>
+                </dict>
+              </array>
+            </dict>
           </array>
           <key>lib</key>
           <dict>
@@ -125,6 +170,13 @@
           <integer>-1</integer>
         </dict>
       </dict>
+      <key>com.typemytype.robofont.mark</key>
+      <array>
+        <real>0.6312</real>
+        <real>1.0</real>
+        <real>0.9947</real>
+        <real>1.0</real>
+      </array>
       <key>org.robofab.fontlab.mark</key>
       <integer>210</integer>
     </dict>
