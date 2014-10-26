@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="awdevaKSH" format="1">
+  <advance width="2396"/>
+  <unicode hex="0975"/>
+  <outline>
+    <contour>
+      <point x="1953" y="1206" type="line"/>
+      <point x="1953" y="1497" type="line" smooth="yes"/>
+      <point x="1953" y="1551"/>
+      <point x="1927" y="1584"/>
+      <point x="1830" y="1584" type="curve" smooth="yes"/>
+      <point x="1774" y="1584"/>
+      <point x="1727" y="1555"/>
+      <point x="1614" y="1555" type="curve" smooth="yes"/>
+      <point x="1481" y="1555"/>
+      <point x="1390" y="1614"/>
+      <point x="1309" y="1717" type="curve"/>
+      <point x="1418" y="1883" type="line"/>
+      <point x="1499" y="1805"/>
+      <point x="1550" y="1781"/>
+      <point x="1607" y="1781" type="curve" smooth="yes"/>
+      <point x="1699" y="1781"/>
+      <point x="1781" y="1827"/>
+      <point x="1927" y="1827" type="curve" smooth="yes"/>
+      <point x="2093" y="1827"/>
+      <point x="2212" y="1716"/>
+      <point x="2212" y="1536" type="curve" smooth="yes"/>
+      <point x="2212" y="1206" type="line"/>
+    </contour>
+    <contour>
+      <point x="1763" y="1156" type="line"/>
+      <point x="1713" y="1281" type="line" smooth="yes"/>
+      <point x="1688" y="1343"/>
+      <point x="1651" y="1381"/>
+      <point x="1572" y="1381" type="curve" smooth="yes"/>
+      <point x="1505" y="1381"/>
+      <point x="1459" y="1353"/>
+      <point x="1336" y="1353" type="curve" smooth="yes"/>
+      <point x="1188" y="1353"/>
+      <point x="1081" y="1421"/>
+      <point x="984" y="1525" type="curve"/>
+      <point x="1101" y="1678" type="line"/>
+      <point x="1189" y="1600"/>
+      <point x="1256" y="1573"/>
+      <point x="1328" y="1573" type="curve" smooth="yes"/>
+      <point x="1437" y="1573"/>
+      <point x="1514" y="1615"/>
+      <point x="1616" y="1615" type="curve" smooth="yes"/>
+      <point x="1832" y="1615"/>
+      <point x="1896" y="1548"/>
+      <point x="1972" y="1329" type="curve" smooth="yes"/>
+      <point x="2032" y="1156" type="line"/>
+    </contour>
+    <component base="aadeva"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.typemytype.robofont.guides</key>
+      <array>
+        <dict>
+          <key>angle</key>
+          <real>90.0</real>
+          <key>isGlobal</key>
+          <false/>
+          <key>magnetic</key>
+          <integer>5</integer>
+          <key>name</key>
+          <string></string>
+          <key>x</key>
+          <integer>1846</integer>
+          <key>y</key>
+          <integer>886</integer>
+        </dict>
+        <dict>
+          <key>angle</key>
+          <real>90.0</real>
+          <key>isGlobal</key>
+          <false/>
+          <key>magnetic</key>
+          <integer>5</integer>
+          <key>name</key>
+          <string></string>
+          <key>x</key>
+          <integer>2212</integer>
+          <key>y</key>
+          <integer>802</integer>
+        </dict>
+      </array>
+      <key>com.typemytype.robofont.layerData</key>
+      <dict>
+      </dict>
+      <key>com.typemytype.robofont.mark</key>
+      <array>
+        <real>0.6312</real>
+        <real>1.0</real>
+        <real>0.9947</real>
+        <real>1.0</real>
+      </array>
+    </dict>
+  </lib>
+</glyph>
