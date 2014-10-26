@@ -288,15 +288,7 @@ feature cjct { # Conjunct Forms
 
 ### normal
     sub daprehalfdeva dhaprehalfdeva yadeva by dadhayadeva; 
-    sub daprehalfdeva gadeva by dagadeva;
-    sub daprehalfdeva ghadeva by daghadeva;
-    sub daprehalfdeva dadeva by dadadeva;
-    sub daprehalfdeva dhadeva by dadhadeva;
-    sub daprehalfdeva badeva by dabadeva;
-    sub daprehalfdeva bhadeva by dabhadeva;
-    sub daprehalfdeva madeva by damadeva;
-    sub daprehalfdeva yadeva by dayadeva;
-    sub daprehalfdeva vadeva by davadeva;
+    sub daprehalfdeva @cjct_da_0 by @cjct_da_1;
     
     sub ngaprehalfdeva gadeva by ngagadeva;
     sub ngaprehalfdeva madeva by ngamadeva; 
@@ -365,7 +357,6 @@ lookup pres24 {
     sub shaprehalfdeva vaprehalfdeva by shavaprehalfdeva;  
     sub shaprehalfdevaMAR vaprehalfdeva by shavaprehalfdeva; 
     
-    
 # normal
         
     sub kaprehalfdeva tadeva by katadeva;
@@ -374,15 +365,7 @@ lookup pres24 {
 
     sub taprehalfdeva tadeva by tatadeva;
 
-    sub shaprehalfdeva cadeva by shacadeva;
-    sub shaprehalfdeva nadeva by shanadeva;
-    sub shaprehalfdeva ladeva by shaladeva;
-    sub shaprehalfdeva vadeva by shavadeva;
-
-    sub shaprehalfdevaMAR cadeva by shacadeva;
-    sub shaprehalfdevaMAR vadeva by shavadeva;
-    sub shaprehalfdevaMAR ladevaMAR by shaladevaMAR;
-    sub shaprehalfdevaMAR nadeva by shanadeva;
+    sub [shaprehalfdeva shaprehalfdevaMAR] @cjct_sha_0 by @cjct_sha_1;
 
 
     sub ssaprehalfdeva ttadeva by ssattadeva;
