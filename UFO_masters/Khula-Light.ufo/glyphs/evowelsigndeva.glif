@@ -4,9 +4,9 @@
   <unicode hex="0947"/>
   <outline>
     <contour>
-      <point x="-335" y="1244" type="line"/>
-      <point x="-809" y="1704" type="line"/>
-      <point x="-747" y="1762" type="line"/>
+      <point x="-338" y="1244" type="line"/>
+      <point x="-830" y="1713" type="line"/>
+      <point x="-768" y="1772" type="line"/>
       <point x="-222" y="1244" type="line"/>
     </contour>
     <contour>
@@ -52,6 +52,51 @@
           </array>
           <key>contours</key>
           <array>
+            <dict>
+              <key>points</key>
+              <array>
+                <dict>
+                  <key>segmentType</key>
+                  <string>line</string>
+                  <key>smooth</key>
+                  <false/>
+                  <key>x</key>
+                  <integer>-335</integer>
+                  <key>y</key>
+                  <integer>1244</integer>
+                </dict>
+                <dict>
+                  <key>segmentType</key>
+                  <string>line</string>
+                  <key>smooth</key>
+                  <false/>
+                  <key>x</key>
+                  <integer>-809</integer>
+                  <key>y</key>
+                  <integer>1704</integer>
+                </dict>
+                <dict>
+                  <key>segmentType</key>
+                  <string>line</string>
+                  <key>smooth</key>
+                  <false/>
+                  <key>x</key>
+                  <integer>-747</integer>
+                  <key>y</key>
+                  <integer>1762</integer>
+                </dict>
+                <dict>
+                  <key>segmentType</key>
+                  <string>line</string>
+                  <key>smooth</key>
+                  <false/>
+                  <key>x</key>
+                  <integer>-222</integer>
+                  <key>y</key>
+                  <integer>1244</integer>
+                </dict>
+              </array>
+            </dict>
           </array>
           <key>lib</key>
           <dict>
