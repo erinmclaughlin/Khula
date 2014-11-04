@@ -4,10 +4,10 @@
   <unicode hex="0951"/>
   <outline>
     <contour>
-      <point x="-222" y="1789" type="line"/>
-      <point x="-222" y="1463" type="line"/>
-      <point x="-311" y="1463" type="line"/>
-      <point x="-311" y="1789" type="line"/>
+      <point x="-251" y="1718" type="line"/>
+      <point x="-251" y="1463" type="line"/>
+      <point x="-340" y="1463" type="line"/>
+      <point x="-340" y="1718" type="line"/>
     </contour>
     <contour>
       <point x="0" y="-30" type="move" name="x4"/>
@@ -18,6 +18,37 @@
   </outline>
   <lib>
     <dict>
+      <key>com.typemytype.robofont.guides</key>
+      <array>
+        <dict>
+          <key>angle</key>
+          <real>90.0</real>
+          <key>isGlobal</key>
+          <false/>
+          <key>magnetic</key>
+          <integer>5</integer>
+          <key>name</key>
+          <string></string>
+          <key>x</key>
+          <integer>-311</integer>
+          <key>y</key>
+          <integer>1564</integer>
+        </dict>
+        <dict>
+          <key>angle</key>
+          <real>90.0</real>
+          <key>isGlobal</key>
+          <false/>
+          <key>magnetic</key>
+          <integer>5</integer>
+          <key>name</key>
+          <string></string>
+          <key>x</key>
+          <integer>-222</integer>
+          <key>y</key>
+          <integer>1580</integer>
+        </dict>
+      </array>
       <key>com.typemytype.robofont.layerData</key>
       <dict>
         <key>background</key>
