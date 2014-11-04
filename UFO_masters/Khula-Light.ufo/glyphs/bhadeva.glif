@@ -58,6 +58,9 @@
       <point x="1020" y="569" type="line"/>
       <point x="477" y="569" type="line"/>
     </contour>
+    <contour>
+      <point x="962" y="1274" type="move" name="top"/>
+    </contour>
   </outline>
   <lib>
     <dict>
@@ -86,6 +89,20 @@
           <integer>450</integer>
           <key>y</key>
           <integer>591</integer>
+        </dict>
+        <dict>
+          <key>angle</key>
+          <real>90.0</real>
+          <key>isGlobal</key>
+          <false/>
+          <key>magnetic</key>
+          <integer>5</integer>
+          <key>name</key>
+          <string></string>
+          <key>x</key>
+          <integer>962</integer>
+          <key>y</key>
+          <integer>1229</integer>
         </dict>
       </array>
       <key>com.typemytype.robofont.layerData</key>

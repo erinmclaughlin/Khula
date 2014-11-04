@@ -28,6 +28,9 @@
       <point x="150" y="1239"/>
     </contour>
     <component base="aavowelsigndeva"/>
+    <contour>
+      <point x="133" y="1294" type="move" name="top"/>
+    </contour>
   </outline>
   <lib>
     <dict>
@@ -46,6 +49,20 @@
           <integer>490</integer>
           <key>y</key>
           <integer>1338</integer>
+        </dict>
+        <dict>
+          <key>angle</key>
+          <real>90.0</real>
+          <key>isGlobal</key>
+          <false/>
+          <key>magnetic</key>
+          <integer>5</integer>
+          <key>name</key>
+          <string></string>
+          <key>x</key>
+          <integer>133</integer>
+          <key>y</key>
+          <integer>1163</integer>
         </dict>
       </array>
       <key>com.typemytype.robofont.layerData</key>
