@@ -34,9 +34,9 @@
       <point x="-584" y="-282"/>
       <point x="-584" y="-180" type="curve" smooth="yes"/>
       <point x="-584" y="-79"/>
-      <point x="-502" y="6"/>
-      <point x="-342" y="10" type="curve" smooth="yes"/>
-      <point x="-315" y="11"/>
+      <point x="-497" y="10"/>
+      <point x="-339" y="10" type="curve" smooth="yes"/>
+      <point x="-312" y="10"/>
       <point x="-272" y="10"/>
       <point x="-250" y="10" type="curve"/>
       <point x="-250" y="-63" type="line"/>
@@ -54,10 +54,7 @@
       <point x="-194" y="-258" type="curve"/>
     </contour>
     <contour>
-      <point x="0.0" y="-30.0" type="move" name="x41"/>
-    </contour>
-    <contour>
-      <point x="-348.0" y="-30.0" type="move" name="_mark0"/>
+      <point x="-339" y="-5" type="move" name="_btm"/>
     </contour>
   </outline>
   <lib>
@@ -153,6 +150,13 @@
           <integer>0</integer>
         </dict>
       </dict>
+      <key>com.typemytype.robofont.mark</key>
+      <array>
+        <real>0.8766</real>
+        <real>1.0</real>
+        <real>0.9893</real>
+        <real>1.0</real>
+      </array>
       <key>org.robofab.fontlab.mark</key>
       <integer>210</integer>
       <key>org.robofab.fontlab.maskData</key>

@@ -32,10 +32,7 @@
       <point x="-520" y="-172" type="curve"/>
     </contour>
     <contour>
-      <point x="49" y="8" type="move" name="x24"/>
-    </contour>
-    <contour>
-      <point x="-424" y="8" type="move" name="_mark0"/>
+      <point x="-338" y="0" type="move" name="_btm"/>
     </contour>
   </outline>
   <lib>
@@ -131,6 +128,13 @@
           <integer>0</integer>
         </dict>
       </dict>
+      <key>com.typemytype.robofont.mark</key>
+      <array>
+        <real>0.8766</real>
+        <real>1.0</real>
+        <real>0.9893</real>
+        <real>1.0</real>
+      </array>
       <key>org.robofab.fontlab.mark</key>
       <integer>210</integer>
     </dict>

@@ -25,16 +25,10 @@
     </contour>
     <component base="ddadeva"/>
     <contour>
-      <point x="39" y="8" type="move" name="x56"/>
-    </contour>
-    <contour>
-      <point x="1728" y="8" type="move" name="x57"/>
-    </contour>
-    <contour>
-      <point x="844" y="8" type="move" name="mark0"/>
-    </contour>
-    <contour>
       <point x="782" y="1274" type="move" name="top"/>
+    </contour>
+    <contour>
+      <point x="526" y="76" type="move" name="btm"/>
     </contour>
   </outline>
   <lib>
@@ -54,6 +48,20 @@
           <integer>782</integer>
           <key>y</key>
           <integer>1183</integer>
+        </dict>
+        <dict>
+          <key>angle</key>
+          <real>90.0</real>
+          <key>isGlobal</key>
+          <false/>
+          <key>magnetic</key>
+          <integer>5</integer>
+          <key>name</key>
+          <string></string>
+          <key>x</key>
+          <integer>635</integer>
+          <key>y</key>
+          <integer>559</integer>
         </dict>
       </array>
       <key>com.typemytype.robofont.layerData</key>
