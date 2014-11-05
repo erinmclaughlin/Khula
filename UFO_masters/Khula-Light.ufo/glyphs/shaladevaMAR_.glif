@@ -39,7 +39,6 @@
       <point x="1005" y="674"/>
     </contour>
     <component base="ladevaMAR" xOffset="800"/>
-    <component base="rephdeva" xOffset="2152"/>
     <contour>
       <point x="1450" y="-30" type="move" name="x94"/>
     </contour>
@@ -49,9 +48,29 @@
     <contour>
       <point x="3203" y="-30" type="move" name="mark0"/>
     </contour>
+    <contour>
+      <point x="1816" y="1274" type="move" name="top"/>
+    </contour>
   </outline>
   <lib>
     <dict>
+      <key>com.typemytype.robofont.guides</key>
+      <array>
+        <dict>
+          <key>angle</key>
+          <real>90.0</real>
+          <key>isGlobal</key>
+          <false/>
+          <key>magnetic</key>
+          <integer>5</integer>
+          <key>name</key>
+          <string></string>
+          <key>x</key>
+          <integer>1816</integer>
+          <key>y</key>
+          <integer>1264</integer>
+        </dict>
+      </array>
       <key>com.typemytype.robofont.layerData</key>
       <dict>
         <key>background</key>

@@ -49,6 +49,9 @@
       <point x="1319" y="644" type="curve" smooth="yes"/>
     </contour>
     <component base="ttadeva"/>
+    <contour>
+      <point x="1958" y="1294" type="move" name="top"/>
+    </contour>
   </outline>
   <lib>
     <dict>
@@ -67,6 +70,20 @@
           <integer>1105</integer>
           <key>y</key>
           <integer>946</integer>
+        </dict>
+        <dict>
+          <key>angle</key>
+          <real>90.0</real>
+          <key>isGlobal</key>
+          <false/>
+          <key>magnetic</key>
+          <integer>5</integer>
+          <key>name</key>
+          <string></string>
+          <key>x</key>
+          <integer>1958</integer>
+          <key>y</key>
+          <integer>1074</integer>
         </dict>
       </array>
       <key>com.typemytype.robofont.layerData</key>

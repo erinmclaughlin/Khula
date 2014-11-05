@@ -5,14 +5,31 @@
     <component base="vattudeva" xOffset="1184"/>
     <component base="chadeva"/>
     <contour>
-      <point x="820" y="-174" type="move" name="x76"/>
+      <point x="820.0" y="-174.0" type="move" name="x76"/>
     </contour>
     <contour>
-      <point x="971" y="1274" type="move" name="mark0"/>
+      <point x="991" y="1274" type="move" name="top"/>
     </contour>
   </outline>
   <lib>
     <dict>
+      <key>com.typemytype.robofont.guides</key>
+      <array>
+        <dict>
+          <key>angle</key>
+          <real>90.0</real>
+          <key>isGlobal</key>
+          <false/>
+          <key>magnetic</key>
+          <integer>5</integer>
+          <key>name</key>
+          <string></string>
+          <key>x</key>
+          <integer>991</integer>
+          <key>y</key>
+          <integer>1251</integer>
+        </dict>
+      </array>
       <key>com.typemytype.robofont.layerData</key>
       <dict>
         <key>background</key>

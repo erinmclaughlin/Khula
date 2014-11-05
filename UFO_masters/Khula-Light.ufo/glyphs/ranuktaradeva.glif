@@ -5,9 +5,29 @@
     <component base="radeva"/>
     <component base="vattudeva" xOffset="971"/>
     <component base="nukta2deva" xOffset="743" yOffset="349"/>
+    <contour>
+      <point x="517" y="1274" type="move" name="top"/>
+    </contour>
   </outline>
   <lib>
     <dict>
+      <key>com.typemytype.robofont.guides</key>
+      <array>
+        <dict>
+          <key>angle</key>
+          <real>90.0</real>
+          <key>isGlobal</key>
+          <false/>
+          <key>magnetic</key>
+          <integer>5</integer>
+          <key>name</key>
+          <string></string>
+          <key>x</key>
+          <integer>517</integer>
+          <key>y</key>
+          <integer>1269</integer>
+        </dict>
+      </array>
       <key>com.typemytype.robofont.layerData</key>
       <dict>
         <key>background</key>

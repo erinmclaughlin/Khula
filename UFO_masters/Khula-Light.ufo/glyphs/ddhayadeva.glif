@@ -49,6 +49,9 @@
       <point x="1035" y="1198"/>
     </contour>
     <component base="ddhadeva"/>
+    <contour>
+      <point x="1873" y="1274" type="move" name="top"/>
+    </contour>
   </outline>
   <lib>
     <dict>
@@ -65,6 +68,20 @@
           <integer>1392</integer>
           <key>y</key>
           <integer>852</integer>
+        </dict>
+        <dict>
+          <key>angle</key>
+          <real>90.0</real>
+          <key>isGlobal</key>
+          <false/>
+          <key>magnetic</key>
+          <integer>5</integer>
+          <key>name</key>
+          <string></string>
+          <key>x</key>
+          <integer>1873</integer>
+          <key>y</key>
+          <integer>1263</integer>
         </dict>
       </array>
       <key>com.typemytype.robofont.layerData</key>

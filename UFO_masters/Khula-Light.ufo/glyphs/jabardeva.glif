@@ -12,6 +12,9 @@
       <point x="1241" y="0" type="line"/>
     </contour>
     <component base="jadeva"/>
+    <contour>
+      <point x="1172" y="1274" type="move" name="top"/>
+    </contour>
   </outline>
   <lib>
     <dict>
@@ -28,6 +31,20 @@
           <integer>1191</integer>
           <key>y</key>
           <integer>-29</integer>
+        </dict>
+        <dict>
+          <key>angle</key>
+          <real>90.0</real>
+          <key>isGlobal</key>
+          <false/>
+          <key>magnetic</key>
+          <integer>5</integer>
+          <key>name</key>
+          <string></string>
+          <key>x</key>
+          <integer>1172</integer>
+          <key>y</key>
+          <integer>1186</integer>
         </dict>
       </array>
       <key>com.typemytype.robofont.layerData</key>

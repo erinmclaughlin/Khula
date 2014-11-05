@@ -15,9 +15,29 @@
     <contour>
       <point x="826.0" y="-30.0" type="move" name="mark0"/>
     </contour>
+    <contour>
+      <point x="844" y="1274" type="move" name="top"/>
+    </contour>
   </outline>
   <lib>
     <dict>
+      <key>com.typemytype.robofont.guides</key>
+      <array>
+        <dict>
+          <key>angle</key>
+          <real>90.0</real>
+          <key>isGlobal</key>
+          <false/>
+          <key>magnetic</key>
+          <integer>5</integer>
+          <key>name</key>
+          <string></string>
+          <key>x</key>
+          <integer>844</integer>
+          <key>y</key>
+          <integer>1185</integer>
+        </dict>
+      </array>
       <key>com.typemytype.robofont.layerData</key>
       <dict>
         <key>background</key>
