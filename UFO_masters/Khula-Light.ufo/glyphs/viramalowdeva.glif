@@ -2,12 +2,14 @@
 <glyph name="viramalowdeva" format="1">
   <advance width="-1"/>
   <outline>
-    <component base="viramadeva" yOffset="-290"/>
     <contour>
-      <point x="0" y="-30" type="move" name="x16"/>
+      <point x="-361" y="-101" type="line"/>
+      <point x="91" y="-289" type="line"/>
+      <point x="65" y="-352" type="line"/>
+      <point x="-388" y="-164" type="line"/>
     </contour>
     <contour>
-      <point x="-348" y="-30" type="move" name="_mark0"/>
+      <point x="-339.0" y="0.0" type="move" name="_btm"/>
     </contour>
   </outline>
   <lib>
@@ -46,6 +48,64 @@
           </array>
           <key>contours</key>
           <array>
+            <dict>
+              <key>points</key>
+              <array>
+                <dict>
+                  <key>segmentType</key>
+                  <string>line</string>
+                  <key>smooth</key>
+                  <false/>
+                  <key>x</key>
+                  <integer>-361</integer>
+                  <key>y</key>
+                  <integer>-101</integer>
+                </dict>
+                <dict>
+                  <key>segmentType</key>
+                  <string>line</string>
+                  <key>smooth</key>
+                  <false/>
+                  <key>x</key>
+                  <integer>87</integer>
+                  <key>y</key>
+                  <integer>-341</integer>
+                </dict>
+                <dict>
+                  <key>segmentType</key>
+                  <string>line</string>
+                  <key>smooth</key>
+                  <false/>
+                  <key>x</key>
+                  <integer>52</integer>
+                  <key>y</key>
+                  <integer>-404</integer>
+                </dict>
+                <dict>
+                  <key>segmentType</key>
+                  <string>line</string>
+                  <key>smooth</key>
+                  <false/>
+                  <key>x</key>
+                  <integer>-395</integer>
+                  <key>y</key>
+                  <integer>-163</integer>
+                </dict>
+              </array>
+            </dict>
+            <dict>
+              <key>points</key>
+              <array>
+                <dict>
+                  <key>segmentType</key>
+                  <string>move</string>
+                  <key>x</key>
+                  <integer>-339</integer>
+                  <key>y</key>
+                  <integer>0</integer>
+                </dict>
+              </array>
+            </dict>
           </array>
           <key>lib</key>
           <dict>
@@ -105,9 +165,9 @@
       </dict>
       <key>com.typemytype.robofont.mark</key>
       <array>
+        <real>0.8766</real>
         <real>1.0</real>
-        <real>0.8424</real>
-        <real>0.6742</real>
+        <real>0.9893</real>
         <real>1.0</real>
       </array>
       <key>org.robofab.fontlab.mark</key>

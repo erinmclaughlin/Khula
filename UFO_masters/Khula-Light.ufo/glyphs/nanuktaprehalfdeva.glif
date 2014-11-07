@@ -2,7 +2,7 @@
 <glyph name="nanuktaprehalfdeva" format="1">
   <advance width="614"/>
   <outline>
-    <component base="nukta2deva" xOffset="840" yOffset="349"/>
+    <component base="nukta2deva" xOffset="862" yOffset="421"/>
     <component base="naprehalfdeva"/>
   </outline>
   <lib>
@@ -98,6 +98,13 @@
           <integer>614</integer>
         </dict>
       </dict>
+      <key>com.typemytype.robofont.mark</key>
+      <array>
+        <real>0.8766</real>
+        <real>1.0</real>
+        <real>0.9893</real>
+        <real>1.0</real>
+      </array>
       <key>org.robofab.fontlab.mark</key>
       <integer>1</integer>
     </dict>

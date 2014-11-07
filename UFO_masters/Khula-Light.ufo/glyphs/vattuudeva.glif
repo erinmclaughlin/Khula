@@ -2,13 +2,10 @@
 <glyph name="vattuudeva" format="1">
   <advance width="-1"/>
   <outline>
-    <component base="vattudeva" yOffset="300"/>
-    <component base="uvowelsignlowdeva" xOffset="-200" yOffset="293"/>
+    <component base="uvowelsignlowdeva" xOffset="-196" yOffset="-400"/>
+    <component base="vattudeva"/>
     <contour>
-      <point x="0.0" y="-30.0" type="move" name="x36"/>
-    </contour>
-    <contour>
-      <point x="-428.0" y="-30.0" type="move" name="_mark0"/>
+      <point x="-542.0" y="-35.0" type="move" name="_btm"/>
     </contour>
   </outline>
   <lib>
@@ -109,9 +106,9 @@
       </dict>
       <key>com.typemytype.robofont.mark</key>
       <array>
+        <real>0.8766</real>
         <real>1.0</real>
-        <real>0.8424</real>
-        <real>0.6742</real>
+        <real>0.9893</real>
         <real>1.0</real>
       </array>
       <key>org.robofab.fontlab.mark</key>

@@ -2,13 +2,13 @@
 <glyph name="ddaradeva" format="1">
   <advance width="1122"/>
   <outline>
-    <component base="vattudeva" xOffset="1108"/>
     <component base="ddadeva"/>
+    <component base="vattudeva" xOffset="1078" yOffset="110"/>
     <contour>
-      <point x="817" y="-174" type="move" name="x52"/>
+      <point x="817.0" y="-174.0" type="move" name="x52"/>
     </contour>
     <contour>
-      <point x="782" y="1274" type="move" name="top"/>
+      <point x="782.0" y="1274.0" type="move" name="top"/>
     </contour>
   </outline>
   <lib>

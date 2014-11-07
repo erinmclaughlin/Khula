@@ -2,13 +2,16 @@
 <glyph name="evowelsignrephdeva" format="1">
   <advance width="0"/>
   <outline>
+    <contour>
+      <point x="-335" y="1274" type="move"/>
+    </contour>
     <component base="evowelsigndeva"/>
     <component base="rephdeva" xOffset="14"/>
     <contour>
       <point x="49" y="8" type="move" name="x24"/>
     </contour>
     <contour>
-      <point x="-424" y="1282" type="move" name="_mark0"/>
+      <point x="-335" y="1274" type="move" name="_top"/>
     </contour>
   </outline>
   <lib>

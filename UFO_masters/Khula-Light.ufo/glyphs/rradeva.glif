@@ -3,10 +3,13 @@
   <advance width="818"/>
   <unicode hex="0931"/>
   <outline>
-    <component base="nuktadeva" xOffset="938" yOffset="236"/>
+    <component base="nuktadeva" xOffset="928" yOffset="316"/>
     <component base="radeva"/>
     <contour>
       <point x="517" y="1274" type="move" name="top"/>
+    </contour>
+    <contour>
+      <point x="369" y="-23" type="move" name="btm"/>
     </contour>
   </outline>
   <lib>

@@ -2,14 +2,10 @@
 <glyph name="llanuktaradeva" format="1">
   <advance width="1511"/>
   <outline>
-    <component base="lladeva"/>
-    <component base="vattudeva" xOffset="1516"/>
-    <component base="nuktadeva" xOffset="1337" yOffset="117"/>
+    <component base="nuktadeva" xOffset="937" yOffset="316"/>
+    <component base="llaradeva"/>
     <contour>
-      <point x="1091" y="-174" type="move" name="x66"/>
-    </contour>
-    <contour>
-      <point x="1146" y="1274" type="move" name="top"/>
+      <point x="1146.0" y="1274.0" type="move" name="top"/>
     </contour>
   </outline>
   <lib>
