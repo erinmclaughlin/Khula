@@ -162,7 +162,7 @@ feature blwf { # Below-base Forms
                 sub viramadeva radeva by vattudeva;
             } Vattu;
     
-#### SHTRA forms!! where????!!!!!!!!! IMPORTANT
+#### SSATARA forms!! where????!!!!!!!!! IMPORTANT
     
         language MAR ; # Marathi
  
@@ -268,35 +268,38 @@ feature vatu { # Vattu Variants
 feature cjct { # Conjunct Forms
     script dev2; # Devanagari v.2
 
-##### WHERE DID I END UP PUTTING HALF FORMS?
+##### WHERE DID I END UP PUTTING HALF FORMS ?
 
 ### normal
-    sub daprehalfdeva dhaprehalfdeva yadeva by dadhayadeva; 
-    sub daprehalfdeva @cjct_da_0 by @cjct_da_1;
-    
-    sub ngaprehalfdeva gadeva by ngagadeva;
-    sub ngaprehalfdeva madeva by ngamadeva; 
-    sub ngaprehalfdeva yadeva by ngayadeva;
-
-    sub ttaprehalfdeva ttadeva by ttattadeva;
-    sub ttaprehalfdeva tthadeva by ttatthadeva;
-    sub ttaprehalfdeva yadeva by ttayadeva;
+            lookup 3CharConj {
+                sub daprehalfdeva dhaprehalfdeva yadeva by dadhayadeva; 
+            } 3CharConj;
             
-    sub tthaprehalfdeva tthadeva by tthatthadeva;
-    sub tthaprehalfdeva yadeva by tthayadeva;
+            lookup 2CharConj {
+                sub daprehalfdeva @cjct_da_0 by @cjct_da_1;
+    
+                sub ngaprehalfdeva gadeva by ngagadeva;
+                sub ngaprehalfdeva madeva by ngamadeva; 
+                sub ngaprehalfdeva yadeva by ngayadeva;
 
-    sub ddaprehalfdeva ddadeva by ddaddadeva;
-    sub ddaprehalfdeva ddhadeva by ddaddhadeva;
-    sub ddaprehalfdeva yadeva by ddayadeva;
+                sub ttaprehalfdeva ttadeva by ttattadeva;
+                sub ttaprehalfdeva tthadeva by ttatthadeva;
+                sub ttaprehalfdeva yadeva by ttayadeva;
+            
+                sub tthaprehalfdeva tthadeva by tthatthadeva;
+                sub tthaprehalfdeva yadeva by tthayadeva;
     
-    sub ddhaprehalfdeva ddhadeva by ddhaddhadeva;
-    sub ddhaprehalfdeva yadeva by ddhayadeva;
+                sub ddaprehalfdeva ddadeva by ddaddadeva;
+                sub ddaprehalfdeva ddhadeva by ddaddhadeva;
+                sub ddaprehalfdeva yadeva by ddayadeva;
+    
+                sub ddhaprehalfdeva ddhadeva by ddhaddhadeva;
+                sub ddhaprehalfdeva yadeva by ddhayadeva;
       
+              } 2CharConj;
     
-    
-    
- 
  language MAR ; # Marathi
+ 
 } cjct;
 
 
@@ -315,10 +318,8 @@ feature cjct { # Conjunct Forms
 feature pres { # Pre-base Substitutions
 
     script dev2; # Devanagari v.2
-            
-            lookup pres24 {
-
-      # EYELASH
+    
+# EYELASH
 
   # If ZWJ has been filtered out (Core Text):
 #  sub dvEyelash dvYA by dvEyelash_YA;
@@ -328,235 +329,160 @@ feature pres { # Pre-base Substitutions
 #  sub dvEyelash zerowidthjoiner dvYA by dvEyelash_YA;
 #  sub dvEyelash zerowidthjoiner dvHA by dvEyelash_HA;
     
+            
+            lookup PreHalfConj { ### prehalf 
+
+                sub daprehalfdeva yaprehalfdeva by dayaprehalfdeva;
+
+                sub taprehalfdeva taprehalfdeva  by tataprehalfdeva;
+                
+                sub [shaprehalfdeva shaprehalfdevaMAR] @cjct_sha_0 by @cjct_sha_1;
+                sub shaprehalfdeva caprehalfdeva by shacaprehalfdeva;
+                sub shaprehalfdevaMAR caprehalfdeva by shacaprehalfdeva;
+                sub shaprehalfdeva vaprehalfdeva by shavaprehalfdeva;  
+                sub shaprehalfdevaMAR vaprehalfdeva by shavaprehalfdeva; 
+            
+            } PrehalfConj;
     
-    
-    
-    ### prehalf conjuncts
-    sub daprehalfdeva yaprehalfdeva by dayaprehalfdeva;
-    
-    
-# half forms
-    sub taprehalfdeva taprehalfdeva  by tataprehalfdeva;
-    sub shaprehalfdeva caprehalfdeva by shacaprehalfdeva;
-    sub shaprehalfdevaMAR caprehalfdeva by shacaprehalfdeva;
-    sub shaprehalfdeva vaprehalfdeva by shavaprehalfdeva;  
-    sub shaprehalfdevaMAR vaprehalfdeva by shavaprehalfdeva; 
-    
-# normal
+            lookup PreBaseConj { # normal
         
-    sub kaprehalfdeva tadeva by katadeva;
+                sub kaprehalfdeva tadeva by katadeva;
 
-    sub chaprehalfdeva yadeva by chayadeva;
+                sub chaprehalfdeva yadeva by chayadeva;
 
-    sub taprehalfdeva tadeva by tatadeva;
+                sub taprehalfdeva tadeva by tatadeva;
 
-    sub [shaprehalfdeva shaprehalfdevaMAR] @cjct_sha_0 by @cjct_sha_1;
+                sub ssaprehalfdeva ttadeva by ssattadeva;
+                sub ssaprehalfdeva tthadeva by ssatthadeva;
+                
+#    sub ssaprehalfdeva ttaradeva by ssattaradeva; might not be necessary
+#    sub ssaprehalfdeva ttharadeva by ssattharadeva;
 
+                sub haprehalfdeva @cjct_ha_0 by @cjct_ha_1;
 
-    sub ssaprehalfdeva ttadeva by ssattadeva;
-    sub ssaprehalfdeva tthadeva by ssatthadeva;
-    sub ssaprehalfdeva ttaradeva by ssattaradeva;
-    sub ssaprehalfdeva ttharadeva by ssattharadeva;
+                sub japrehalfdeva @cjct_ja_0 by @cjct_ja_1;
+                sub januktaprehalfdeva yadeva by januktayadeva;
+                sub januktaprehalfdeva thadeva by januktathadeva;
+                sub januktaprehalfdeva sadeva by januktasadeva;
 
-    sub haprehalfdeva @cjct_ha_0 by @cjct_ha_1;
+                sub taprehalfdeva @cjct_ta_0 by @cjct_ta_1;
 
-    
+                sub naprehalfdeva bhadeva by nabhadeva;
+                sub naprehalfdeva madeva by namadeva;
 
-## NEW ones, formerly in conjuncts
-    sub japrehalfdeva @cjct_ja_0 by @cjct_ja_1;
-    sub januktaprehalfdeva yadeva by januktayadeva;
-    sub januktaprehalfdeva thadeva by januktathadeva;
-    sub januktaprehalfdeva sadeva by januktasadeva;
-
-    sub taprehalfdeva @cjct_ta_0 by @cjct_ta_1;
-    
-    sub naprehalfdeva bhadeva by nabhadeva;
-    sub naprehalfdeva madeva by namadeva;
-
-    sub laprehalfdeva @cjct_la_0 by @cjct_la_1;
-    
-    
-} pres24;
-
-
-lookup pres25 {
-    
-
-    
-} pres25;
-
+                sub laprehalfdeva @cjct_la_0 by @cjct_la_1;
+        
+            } PreBaseConj;
 
 
 # -- ivowelsign 00 --------------------------
 
-lookup pres26 {
+            lookup IVowelHalfHalfCons { ## LENGTHS
+            
+                sub ivowelsigndeva' [@ih_06 @ih_07 @ih_08 @ih_09 @ih_10] [@ih_06 @ih_07 @ih_08 @ih_09 @ih_10] [@ic_02 @ic_03 @ic04 @ic_05 @ic_06 @ic_07 @ic_08] by ivowelsign10deva;
+            
+            } IVowelHalfHalfCons;
+            
+            
+            lookup IVowelHalfCons { ## LENGTHS
+
+           #!!!!!! IMPORTANT!!!!!!!!!   MARATHI    #sub ivowelsigndeva' @ih_10 @ic_03 by ivowelsign10deva  # raprehalfdevaMAR to ha
+                
+                
+            # halfs - to - 02 or 03 
+
+                sub ivowelsigndeva' @ih_06 [@ic_02 @ic_03] by ivowelsign06deva;
+                sub ivowelsigndeva' @ih_07 [@ic_02 @ic_03] by ivowelsign07deva;
+                sub ivowelsigndeva' @ih_08 [@ic_02 @ic_03] by ivowelsign08deva;
+                sub ivowelsigndeva' @ih_09 [@ic_02 @ic_03] by ivowelsign09deva;
+                sub ivowelsigndeva' @ih_10 [@ic_02 @ic_03] by ivowelsign10deva;
     
-    ## LENGTHS
+            # halfs - to - 04  
 
-# halfs 02  (to consonants only)
-
-    sub ivowelsigndeva' @ih_11 @ic_02 by ivowelsign10deva
-    sub ivowelsigndeva' @ih_12 @ic_02 by ivowelsign11deva
-    sub ivowelsigndeva' @ih_13 @ic_02 by ivowelsign12deva
-    sub ivowelsigndeva' @ih_14 @ic_02 by ivowelsign13deva
-    sub ivowelsigndeva' @ih_15 @ic_02 by ivowelsign14deva
-    sub ivowelsigndeva' @ih_16 @ic_02 by ivowelsign15deva
-    sub ivowelsigndeva' @ih_18 @ic_02 by ivowelsign17deva
+                sub ivowelsigndeva' @ih_06 @ic_04 by ivowelsign07deva;
+                sub ivowelsigndeva' @ih_07 @ic_04 by ivowelsign08deva;
+                sub ivowelsigndeva' @ih_08 @ic_04 by ivowelsign09deva;
+                sub ivowelsigndeva' [@ih_09 @ih_10] @ic_04 by ivowelsign10deva;
     
-# halfs 03  (to consonants only)
+            # halfs - to - 05
 
-    sub ivowelsigndeva' @ih_10 @ic_03 by ivowelsign10deva  # raprehalfdevaMAR to ha
-    sub ivowelsigndeva' @ih_11 @ic_03 by ivowelsign11deva
-    sub ivowelsigndeva' @ih_12 @ic_03 by ivowelsign12deva
-    sub ivowelsigndeva' @ih_13 @ic_03 by ivowelsign13deva
-    sub ivowelsigndeva' @ih_14 @ic_03 by ivowelsign14deva
-    sub ivowelsigndeva' @ih_15 @ic_03 by ivowelsign15deva
-    sub ivowelsigndeva' @ih_16 @ic_03 by ivowelsign16deva
-    sub ivowelsigndeva' @ih_18 @ic_03 by ivowelsign18deva
-    
-# halfs 04  (to consonants only)
+                sub ivowelsigndeva' @ih_06 @ic_05 by ivowelsign08deva;
+                sub ivowelsigndeva' @ih_07 @ic_05 by ivowelsign09deva;
+                sub ivowelsigndeva' [@ih_08 @ih_09 @ih_10] @ic_05 by ivowelsign10deva;
 
-    sub ivowelsigndeva' @ih_10 @ic_04 by ivowelsign10deva  # raprehalfdevaMAR to hara
-    sub ivowelsigndeva' @ih_11 @ic_04 by ivowelsign11deva
-    sub ivowelsigndeva' @ih_12 @ic_04 by ivowelsign12deva
-    sub ivowelsigndeva' @ih_13 @ic_04 by ivowelsign13deva
-    sub ivowelsigndeva' @ih_14 @ic_04 by ivowelsign14deva
-    sub ivowelsigndeva' @ih_15 @ic_04 by ivowelsign15deva
-    sub ivowelsigndeva' @ih_16 @ic_04 by ivowelsign16deva
-    sub ivowelsigndeva' @ih_18 @ic_04 by ivowelsign18deva
-    
-# halfs 05  (to consonants only)
+            # halfs - to - 06
 
-    sub ivowelsigndeva' @ih_10 @ic_05 by ivowelsign11deva  # raprehalfdevaMAR to ya
-    sub ivowelsigndeva' @ih_11 @ic_05 by ivowelsign12deva
-    sub ivowelsigndeva' @ih_12 @ic_05 by ivowelsign13deva
-    sub ivowelsigndeva' @ih_13 @ic_05 by ivowelsign14deva
-    sub ivowelsigndeva' @ih_14 @ic_05 by ivowelsign15deva
-    sub ivowelsigndeva' @ih_15 @ic_05 by ivowelsign16deva
-    sub ivowelsigndeva' @ih_16 @ic_05 by ivowelsign17deva
-    sub ivowelsigndeva' @ih_18 @ic_05 by ivowelsign19deva
-
-# halfs 06  (to consonants only)
-
-    sub ivowelsigndeva' @ih_11 @ic_06 by ivowelsign13deva
-    sub ivowelsigndeva' @ih_12 @ic_06 by ivowelsign14deva
-    sub ivowelsigndeva' @ih_13 @ic_06 by ivowelsign15deva
-    sub ivowelsigndeva' @ih_14 @ic_06 by ivowelsign16deva
-    sub ivowelsigndeva' @ih_15 @ic_06 by ivowelsign17deva
-    sub ivowelsigndeva' @ih_16 @ic_06 by ivowelsign18deva
-    sub ivowelsigndeva' @ih_18 @ic_06 by ivowelsign20deva
-    
-# halfs 07  (to consonants only)
-
-    sub ivowelsigndeva' @ih_11 @ic_07 by ivowelsign14deva
-    sub ivowelsigndeva' @ih_12 @ic_07 by ivowelsign15deva
-    sub ivowelsigndeva' @ih_13 @ic_07 by ivowelsign16deva
-    sub ivowelsigndeva' @ih_14 @ic_07 by ivowelsign16deva
-    sub ivowelsigndeva' @ih_15 @ic_07 by ivowelsign17deva
-    sub ivowelsigndeva' @ih_16 @ic_07 by ivowelsign19deva
-    sub ivowelsigndeva' @ih_18 @ic_07 by ivowelsign21deva
-
-# halfs 08  (to consonants only)
-
-    sub ivowelsigndeva' @ih_11 @ic_08 by ivowelsign14deva
-    sub ivowelsigndeva' @ih_12 @ic_08 by ivowelsign15deva
-    sub ivowelsigndeva' @ih_13 @ic_08 by ivowelsign16deva
-    sub ivowelsigndeva' @ih_14 @ic_08 by ivowelsign17deva
-    sub ivowelsigndeva' @ih_15 @ic_08 by ivowelsign17deva
-    sub ivowelsigndeva' @ih_16 @ic_08 by ivowelsign19deva
-    sub ivowelsigndeva' @ih_18 @ic_08 by ivowelsign21deva
-    
-# halfs 09  (to consonants only)
-
-    sub ivowelsigndeva' @ih_11 @ic_09 by ivowelsign15deva
-    sub ivowelsigndeva' @ih_12 @ic_09 by ivowelsign16deva
-    sub ivowelsigndeva' @ih_13 @ic_09 by ivowelsign17deva
-    sub ivowelsigndeva' @ih_14 @ic_09 by ivowelsign18deva
-    sub ivowelsigndeva' @ih_15 @ic_09 by ivowelsign19deva
-    sub ivowelsigndeva' @ih_16 @ic_09 by ivowelsign21deva
-    sub ivowelsigndeva' @ih_18 @ic_09 by ivowelsign22deva
-    
-# halfs 10  (to consonants only)
-
-    sub ivowelsigndeva' @ih_11 @ic_10 by ivowelsign16deva
-    sub ivowelsigndeva' @ih_12 @ic_10 by ivowelsign16deva
-    sub ivowelsigndeva' @ih_13 @ic_10 by ivowelsign17deva
-    sub ivowelsigndeva' @ih_14 @ic_10 by ivowelsign18deva
-    sub ivowelsigndeva' @ih_15 @ic_10 by ivowelsign19deva
-    sub ivowelsigndeva' @ih_16 @ic_10 by ivowelsign21deva
-    sub ivowelsigndeva' @ih_18 @ic_10 by ivowelsign22deva
-
-
-# consonants    
-    sub ivowelsigndeva' @ic_01 by ivowelsign01deva
-    sub ivowelsigndeva' @ic_02 by ivowelsign02deva
-    sub ivowelsigndeva' @ic_03 by ivowelsign03deva
-    sub ivowelsigndeva' @ic_04 by ivowelsign04deva
-    sub ivowelsigndeva' @ic_05 by ivowelsign05deva
-    sub ivowelsigndeva' @ic_06 by ivowelsign06deva
-    sub ivowelsigndeva' @ic_07 by ivowelsign07deva
-    sub ivowelsigndeva' @ic_08 by ivowelsign08deva
-    sub ivowelsigndeva' @ic_09 by ivowelsign09deva
-    sub ivowelsigndeva' @ic_10 by ivowelsign10deva
-    sub ivowelsigndeva' @ic_11 by ivowelsign11deva
-    sub ivowelsigndeva' @ic_12 by ivowelsign12deva
-    sub ivowelsigndeva' @ic_13 by ivowelsign13deva
-    sub ivowelsigndeva' @ic_14 by ivowelsign14deva
-    sub ivowelsigndeva' @ic_15 by ivowelsign15deva
-    sub ivowelsigndeva' @ic_16 by ivowelsign16deva
-    sub ivowelsigndeva' @ic_17 by ivowelsign17deva
-    sub ivowelsigndeva' @ic_18 by ivowelsign18deva
-    sub ivowelsigndeva' @ic_19 by ivowelsign19deva
-    
+                sub ivowelsigndeva' @ih_06 @ic_06 by ivowelsign09deva;
+                sub ivowelsigndeva' [@ih_07 @ih_08 @ih_09 @ih_10] @ic_06 by ivowelsign10deva;
         
-} pres26;
+            # halfs - to - 07 or 08
+
+                sub ivowelsigndeva' [@ih_06 @ih_07 @ih_08 @ih_09 @ih_10] [@ic_07 @ic_08] by ivowelsign10deva;
+
+            } IVowelHalfCons;
+            
+           
+            lookup IVowelCons {  # consonants  
+                         
+                sub ivowelsigndeva' @ic_01 by ivowelsign01deva
+                sub ivowelsigndeva' @ic_02 by ivowelsign02deva
+                sub ivowelsigndeva' @ic_03 by ivowelsign03deva
+                sub ivowelsigndeva' @ic_04 by ivowelsign04deva
+                sub ivowelsigndeva' @ic_05 by ivowelsign05deva
+                sub ivowelsigndeva' @ic_06 by ivowelsign06deva
+                sub ivowelsigndeva' @ic_07 by ivowelsign07deva
+                sub ivowelsigndeva' @ic_08 by ivowelsign08deva
+    
+            } IvowelCons;
 
 
- language MAR ; # Marathi
- script deva; # Devanagari
-lookup pres24;
-lookup pres25;
-lookup pres26;
- language MAR ; # Marathi
+    language MAR ; # Marathi
+    script deva; # Devanagari
+
+            lookup PreHalfConj;
+            lookup PreBaseConj;
+            lookup IVowelHalfHalfCons;
+            lookup IVowelHalfCons;
+            lookup IVowelCons;
+
 } pres;
 
 
-# --------------- Above-base substitutions and i vowel signs --------------
+
+# --------------- Above-base substitutions and ii vowel signs --------------
 
 feature abvs { # Above-base Substitutions
- script dev2; # Devanagari v.2
+    script dev2; # Devanagari v.2
 
 
-# -- reph anusvara -- 
-lookup abvs28 {
-    sub rephdeva candrabindudeva by rephanusvaradeva;
-    sub rephdeva anusvaradeva by rephanusvaradeva;
-} abvs28;
+        # -- reph anusvara -- 
+            
+            lookup RephAnusvara {
+                
+                sub rephdeva candrabindudeva by rephanusvaradeva;
+                sub rephdeva anusvaradeva by rephanusvaradeva;
+                
+            } RephAnusvara;
 
+    # -- substitutions with anusvara and other above-base marks ----
 
-# -- substitutions with anusvara and other above-base marks ----
-
-lookup abvs29 {
+            lookup VowelMarks {
+        # vowels and above base marks  
+                sub @abvs_v_anus_0 anusvaradeva by @abvs_v_anus_1;
     
-# vowels and above base marks  
-    sub @abvs_v_anus_0 anusvaradeva by @abvs_v_anus_1;
+        # iivowelsigndeva above base marks ----   
+                sub @ii_dflt' candrabindudeva by @ii_candbin;  
+                sub @ii_dflt' anusvaradeva by @ii_anus; 
+                sub @ii_dflt' rephdeva by @ii_reph; 
+                sub @ii_dflt' rephanusvaradeva by @ii_rephanus; 
+
+        # other vowelsigndeva above base marks ----   
+                sub @abvs_vs_dflt' candrabindudeva by @abvs_vs_candbin;  
+                sub @abvs_vs_dflt' anusvaradeva by @abvs_vs_anus; 
+                sub @abvs_vs_dflt' rephdeva by @abvs_vs_reph; 
+                sub @abvs_vs_dflt' rephanusvaradeva by @abvs_vs_rephanus; 
     
-# iivowelsigndeva above base marks ----   
-    sub @ii_dflt' candrabindudeva by @ii_candbin;  
-    sub @ii_dflt' anusvaradeva by @ii_anus; 
-    sub @ii_dflt' rephdeva by @ii_reph; 
-    sub @ii_dflt' rephanusvaradeva by @ii_rephanus; 
-
-# other vowelsigndeva above base marks ----   
-    sub @abvs_vs_dflt' candrabindudeva by @abvs_vs_candbin;  
-    sub @abvs_vs_dflt' anusvaradeva by @abvs_vs_anus; 
-    sub @abvs_vs_dflt' rephdeva by @abvs_vs_reph; 
-    sub @abvs_vs_dflt' rephanusvaradeva by @abvs_vs_rephanus; 
-
-} abvs29;
-
-
-
+            } VowelMarks;
 
 
 # -- ivowelsign 00 huh? --
@@ -568,75 +494,65 @@ lookup abvs29 {
 
 
 
- language MAR ; # Marathi
- script deva; # Devanagari
-##lookup abvs26;
-#lookup abvs28;
+    language MAR ; # Marathi
+    script deva; # Devanagari
+
+            lookup RephAnusvara;
+            lookup VowelMarks;
 #lookup abvs29;
 ##lookup abvs30;
 ##lookup abvs32;
 ##lookup abvs80;
 ##lookup abvs85;
- language MAR ; # Marathi
+    language MAR ; # Marathi
+    
 } abvs;
-
 
 
 
 # -------------- Below-base substitutions -- strange stuff -----------------
 
 feature blws { # Below-base Substitutions
- script dev2; # Devanagari v.2
+    
+    script dev2; # Devanagari v.2
 
-lookup blws87 {
-    
-    
-#### U VOWEL Ligatures !!!!
-   sub @blws_u_0 uvowelsigndeva by @blws_u_1; 
-   sub @blws_uu_0 uuvowelsigndeva by @blws_uu_1;
-   
-   sub dadeva rvocalicvowelsigndeva by darvocalicdeva; 
-   sub hadeva rvocalicvowelsigndeva by harvocalicdeva;
-   sub hadeva rrvocalicvowelsigndeva by harrvocalicdeva;
+            lookup UVowelLiga { #### U VOWEL Ligatures !!!!
  
-### tall consonants  low vowel version substitutionh  
-   sub @blws_low_c @blws_dflt_v' by @blws_low_v; 
+                sub @blws_u_0 uvowelsigndeva by @blws_u_1; 
+                sub @blws_uu_0 uuvowelsigndeva by @blws_uu_1;
+            
+            } UVowelLiga;
+  
+            lookup VocalicLiga{
+                  
+                sub dadeva rvocalicvowelsigndeva by darvocalicdeva; 
+                sub hadeva rvocalicvowelsigndeva by harvocalicdeva;
+                sub hadeva rrvocalicvowelsigndeva by harrvocalicdeva;
+            
+            } VocalicLiga;
+ 
+            lookup VowelsLow { ### tall consonants  low vowel version substitution  
+                   
+                sub @blws_low_c @blws_dflt_v' by @blws_low_v; 
+            
+            } VowelsLow;
     
-### Vattu-Vowelsign variants substitution   
-   sub @blws_vattu_c_1 @blws_vattu_0 by @blws_vattu_c_0 @blws_vattu_1;
+            lookup VattuLowVowels {### Vattu-Vowelsign variants substitution   
+        
+                sub @blws_vattu_c_1 @blws_vattu_0 by @blws_vattu_c_0 @blws_vattu_1;
+            
+            } VattuLowVowels;
 
+    language MAR ; # Marathi
+    script deva; # Devanagari
 
-  # Vattu-Vowelsign variants LOW substitution   ????
+            lookup UVowelLiga;
+            lookup VocalicLiga;
+            lookup VowelsLow;
+            lookup VattuLowVowels;
 
+    language MAR ; # Marathi
 
-    
-    } blws87;
-
-lookup blws92 {
-
-} blws92;
-
-lookup blws93 {
-} blws93;
-
-lookup blws98 {
-    
-
-    
-
-} blws98;
-
-lookup blws99 {
-} blws99;
-
- language MAR ; # Marathi
- script deva; # Devanagari
-lookup blws87;
-lookup blws92;
-lookup blws93;
-lookup blws98;
-lookup blws99;
- language MAR ; # Marathi
 } blws;
 
 
@@ -646,19 +562,24 @@ lookup blws99;
 
 
 feature psts { # Post-base Substitutions
- script dev2; # Devanagari v.2
+    
+    script dev2; # Devanagari v.2
 
 ###  ii vowel sign widths
 
-lookup psts01 { 
-   sub @iic_02 @ii_00' by @ii_02;
-   sub @iic_03 @ii_00' by @ii03;
-} psts01;
+            lookup IiVowelWidths { 
+                
+                sub @iic_02 @ii_00' by @ii_02;
+                sub @iic_03 @ii_00' by @ii03;
+
+            } IiVowelWidths;
  
- language MAR ; # Marathi
- script deva; # Devanagari
-lookup psts01;
- language MAR ; # Marathi
+    language MAR ; # Marathi
+    script deva; # Devanagari
+
+            lookup IiVowelWidths;
+
+    language MAR ; # Marathi
 
 } psts;
 
@@ -667,23 +588,30 @@ lookup psts01;
 # --------------- Halant Form substitution --------
 
 feature haln { # Halant Forms
- script dev2; # Devanagari v.2
-    sub @blws_vattu_c_0 vattudeva by @blws_vattu_c_1;
-    sub @half_h_0 viramadeva by @half_h_1;
- 
-    
-    
- language MAR ; # Marathi
- script deva; # Devanagari
 
- language MAR ; # Marathi
+    script dev2; # Devanagari v.2
+    
+            lookup FinalVattuHalant {
+                
+                sub @blws_vattu_c_0 vattudeva by @blws_vattu_c_1;
+                sub @half_h_0 viramadeva by @half_h_1;
+            
+            } FinalVattuHalant;
+ 
+    language MAR ; # Marathi
+    script deva; # Devanagari
+
+            lookup FinalVattuHalant;
+
+    language MAR ; # Marathi
+
 } haln;
 
 
 
 # ------------- Kerning ----------
 
-include (/ExBold_fea/ExBold_kern_paste.fea);
+#include (/ExBold_fea/ExBold_kern_paste.fea);
 
 
 # ------------ Below-base mark positioning -----
@@ -701,3 +629,5 @@ include (/ExBold_fea/ExBold_kern_paste.fea);
 
 # ------------ Above-base mark positioning -----
 # ------------ Distances (half-form kerns) -----
+
+# put kerns in here
