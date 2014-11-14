@@ -779,25 +779,77 @@
 	<key>eightdeva</key>
 	<dict>
 		<key>ninedeva</key>
-		<integer>-30</integer>
+		<integer>-35</integer>
+		<key>onedevaNEP</key>
+		<integer>-40</integer>
+		<key>threedeva</key>
+		<integer>30</integer>
+	</dict>
+	<key>eightdevaNEP</key>
+	<dict>
+		<key>fourdeva</key>
+		<integer>60</integer>
+		<key>ninedeva</key>
+		<integer>10</integer>
+		<key>sevendeva</key>
+		<integer>30</integer>
+		<key>threedeva</key>
+		<integer>40</integer>
 	</dict>
 	<key>fivedeva</key>
 	<dict>
 		<key>fourdeva</key>
-		<integer>-30</integer>
+		<integer>-80</integer>
 		<key>ninedeva</key>
-		<integer>-20</integer>
+		<integer>-70</integer>
+		<key>onedeva</key>
+		<integer>-50</integer>
 		<key>onedevaNEP</key>
+		<integer>-50</integer>
+		<key>sixdeva</key>
 		<integer>-30</integer>
+		<key>twodeva</key>
+		<integer>-25</integer>
+		<key>zerodeva</key>
+		<integer>-30</integer>
+	</dict>
+	<key>fivedevaNEP</key>
+	<dict>
+		<key>fourdeva</key>
+		<integer>50</integer>
+		<key>ninedeva</key>
+		<integer>20</integer>
+		<key>onedevaNEP</key>
+		<integer>20</integer>
+		<key>sevendeva</key>
+		<integer>40</integer>
+		<key>threedeva</key>
+		<integer>20</integer>
 	</dict>
 	<key>fourdeva</key>
 	<dict>
 		<key>eightdeva</key>
 		<integer>-40</integer>
 		<key>eightdevaNEP</key>
-		<integer>10</integer>
+		<integer>70</integer>
 		<key>fivedeva</key>
 		<integer>-10</integer>
+		<key>fivedevaNEP</key>
+		<integer>50</integer>
+		<key>fourdeva</key>
+		<integer>20</integer>
+		<key>ninedeva</key>
+		<integer>35</integer>
+		<key>onedeva</key>
+		<integer>30</integer>
+		<key>onedevaNEP</key>
+		<integer>30</integer>
+		<key>sevendeva</key>
+		<integer>20</integer>
+		<key>threedeva</key>
+		<integer>50</integer>
+		<key>twodeva</key>
+		<integer>50</integer>
 		<key>zerodeva</key>
 		<integer>-50</integer>
 	</dict>
@@ -879,19 +931,63 @@
 	</dict>
 	<key>ninedeva</key>
 	<dict>
-		<key>fivedeva</key>
-		<integer>-30</integer>
+		<key>eightdevaNEP</key>
+		<integer>40</integer>
+		<key>fivedevaNEP</key>
+		<integer>50</integer>
+		<key>fourdeva</key>
+		<integer>10</integer>
+		<key>onedeva</key>
+		<integer>40</integer>
+		<key>onedevaNEP</key>
+		<integer>5</integer>
+		<key>sevendeva</key>
+		<integer>35</integer>
+		<key>sixdeva</key>
+		<integer>50</integer>
 		<key>threedeva</key>
+		<integer>50</integer>
+		<key>twodeva</key>
+		<integer>10</integer>
+	</dict>
+	<key>ninedevaNEP</key>
+	<dict>
+		<key>fourdeva</key>
+		<integer>70</integer>
+		<key>ninedeva</key>
+		<integer>45</integer>
+		<key>sevendeva</key>
 		<integer>30</integer>
+		<key>threedeva</key>
+		<integer>40</integer>
 	</dict>
 	<key>onedeva</key>
 	<dict>
 		<key>eightdeva</key>
 		<integer>-30</integer>
 		<key>fivedeva</key>
-		<integer>-30</integer>
-		<key>sevendeva</key>
+		<integer>-10</integer>
+		<key>fourdeva</key>
+		<integer>10</integer>
+		<key>ninedeva</key>
+		<integer>35</integer>
+		<key>onedeva</key>
+		<integer>5</integer>
+		<key>threedeva</key>
+		<integer>10</integer>
+		<key>twodeva</key>
+		<integer>20</integer>
+	</dict>
+	<key>onedevaNEP</key>
+	<dict>
+		<key>fourdeva</key>
 		<integer>-20</integer>
+		<key>ninedeva</key>
+		<integer>-15</integer>
+		<key>sevendeva</key>
+		<integer>20</integer>
+		<key>sixdeva</key>
+		<integer>20</integer>
 	</dict>
 	<key>raudeva</key>
 	<dict>
@@ -1007,16 +1103,61 @@
 	<key>sevendeva</key>
 	<dict>
 		<key>fourdeva</key>
-		<integer>-40</integer>
+		<integer>-50</integer>
+		<key>ninedeva</key>
+		<integer>-10</integer>
+		<key>onedeva</key>
+		<integer>-10</integer>
 		<key>onedevaNEP</key>
 		<integer>-20</integer>
+		<key>sixdeva</key>
+		<integer>-10</integer>
+		<key>threedeva</key>
+		<integer>-35</integer>
 	</dict>
 	<key>sixdeva</key>
 	<dict>
 		<key>eightdeva</key>
 		<integer>30</integer>
+		<key>eightdevaNEP</key>
+		<integer>-20</integer>
+		<key>fivedeva</key>
+		<integer>-10</integer>
+		<key>fivedevaNEP</key>
+		<integer>50</integer>
+		<key>fourdeva</key>
+		<integer>-40</integer>
+		<key>ninedeva</key>
+		<integer>-55</integer>
+		<key>onedevaNEP</key>
+		<integer>-90</integer>
+		<key>sixdeva</key>
+		<integer>-30</integer>
+		<key>zerodeva</key>
+		<integer>-30</integer>
+	</dict>
+	<key>threedeva</key>
+	<dict>
+		<key>eightdevaNEP</key>
+		<integer>-20</integer>
+		<key>fivedeva</key>
+		<integer>-30</integer>
+		<key>fivedevaNEP</key>
+		<integer>-10</integer>
+		<key>fourdeva</key>
+		<integer>-40</integer>
+		<key>ninedeva</key>
+		<integer>-25</integer>
+		<key>ninedevaNEP</key>
+		<integer>-30</integer>
+		<key>onedeva</key>
+		<integer>-20</integer>
 		<key>onedevaNEP</key>
 		<integer>-50</integer>
+		<key>sevendeva</key>
+		<integer>-10</integer>
+		<key>sixdeva</key>
+		<integer>-20</integer>
 	</dict>
 	<key>tthadeva</key>
 	<dict>
@@ -1067,6 +1208,10 @@
 		<integer>-20</integer>
 		<key>fivedeva</key>
 		<integer>-20</integer>
+		<key>ninedeva</key>
+		<integer>20</integer>
+		<key>onedeva</key>
+		<integer>20</integer>
 		<key>sixdeva</key>
 		<integer>40</integer>
 	</dict>
@@ -1074,6 +1219,10 @@
 	<dict>
 		<key>fourdeva</key>
 		<integer>-50</integer>
+		<key>onedevaNEP</key>
+		<integer>-20</integer>
+		<key>threedeva</key>
+		<integer>-20</integer>
 	</dict>
 </dict>
 </plist>
