@@ -62,7 +62,7 @@
     </contour>
     <component base="taradeva"/>
     <contour>
-      <point x="-30.0" y="-30.0" type="move" name="x92"/>
+      <point x="-30" y="-30" type="move" name="x92"/>
     </contour>
     <contour>
       <point x="731" y="1274" type="move" name="top"/>
@@ -79,8 +79,6 @@
           <false/>
           <key>magnetic</key>
           <integer>5</integer>
-          <key>name</key>
-          <string></string>
           <key>x</key>
           <integer>731</integer>
           <key>y</key>

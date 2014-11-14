@@ -626,8 +626,19 @@ feature haln { # Halant Forms
 #  include (blwm.fea);
 #} blwm;
 
+feature blwm {
+    
+} blwm;
+
+
 
 # ------------ Above-base mark positioning -----
+
+feature abvm {
+    
+} abvm;
+
+
 # ------------ Distances (half-form kerns) -----
 
 # put kerns in here

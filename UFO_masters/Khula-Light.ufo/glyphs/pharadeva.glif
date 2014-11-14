@@ -13,13 +13,13 @@
       <point x="20" y="-30" type="move" name="x51"/>
     </contour>
     <contour>
+      <point x="743" y="1274" type="move" name="top"/>
+    </contour>
+    <contour>
       <point x="797" y="-30" type="move" name="x0"/>
     </contour>
     <contour>
       <point x="797" y="-30" type="move" name="mark0"/>
-    </contour>
-    <contour>
-      <point x="743" y="1274" type="move" name="top"/>
     </contour>
   </outline>
   <lib>
@@ -33,8 +33,6 @@
           <false/>
           <key>magnetic</key>
           <integer>5</integer>
-          <key>name</key>
-          <string></string>
           <key>x</key>
           <integer>743</integer>
           <key>y</key>

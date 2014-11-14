@@ -10,16 +10,16 @@
     </contour>
     <component base="kadeva"/>
     <contour>
-      <point x="779" y="-30" type="move" name="x25"/>
+      <point x="779" y="-30" type="move" name="mark0"/>
+    </contour>
+    <contour>
+      <point x="722" y="1274" type="move" name="top"/>
     </contour>
     <contour>
       <point x="20" y="-30" type="move" name="x57"/>
     </contour>
     <contour>
-      <point x="779" y="-30" type="move" name="mark0"/>
-    </contour>
-    <contour>
-      <point x="722" y="1274" type="move" name="top"/>
+      <point x="779" y="-30" type="move" name="x25"/>
     </contour>
   </outline>
   <lib>
@@ -33,8 +33,6 @@
           <false/>
           <key>magnetic</key>
           <integer>5</integer>
-          <key>name</key>
-          <string></string>
           <key>x</key>
           <integer>722</integer>
           <key>y</key>

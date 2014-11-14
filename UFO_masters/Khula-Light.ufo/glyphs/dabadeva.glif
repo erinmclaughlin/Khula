@@ -10,19 +10,19 @@
     </contour>
     <component base="davadeva"/>
     <contour>
-      <point x="20.0" y="-30.0" type="move" name="x76"/>
+      <point x="626" y="-196" type="move" name="btm"/>
     </contour>
     <contour>
-      <point x="1309.0" y="-30.0" type="move" name="x77"/>
+      <point x="20" y="-30" type="move" name="x76"/>
     </contour>
     <contour>
-      <point x="1077.0" y="-30.0" type="move" name="mark0"/>
+      <point x="689" y="1274" type="move" name="top"/>
     </contour>
     <contour>
-      <point x="689.0" y="1274.0" type="move" name="top"/>
+      <point x="1309" y="-30" type="move" name="x77"/>
     </contour>
     <contour>
-      <point x="626.0" y="-196.0" type="move" name="btm"/>
+      <point x="1077" y="-30" type="move" name="mark0"/>
     </contour>
   </outline>
   <lib>
@@ -36,8 +36,6 @@
           <false/>
           <key>magnetic</key>
           <integer>5</integer>
-          <key>name</key>
-          <string></string>
           <key>x</key>
           <integer>689</integer>
           <key>y</key>

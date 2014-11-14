@@ -40,16 +40,16 @@
     </contour>
     <component base="ladevaMAR" xOffset="800"/>
     <contour>
-      <point x="1521.0" y="20.0" type="move" name="btm"/>
+      <point x="1521" y="20" type="move" name="btm"/>
     </contour>
     <contour>
-      <point x="3672.0" y="-30.0" type="move" name="x95"/>
+      <point x="3203" y="-30" type="move" name="mark0"/>
     </contour>
     <contour>
-      <point x="3203.0" y="-30.0" type="move" name="mark0"/>
+      <point x="1816" y="1274" type="move" name="top"/>
     </contour>
     <contour>
-      <point x="1816.0" y="1274.0" type="move" name="top"/>
+      <point x="3672" y="-30" type="move" name="x95"/>
     </contour>
   </outline>
   <lib>
@@ -63,8 +63,6 @@
           <false/>
           <key>magnetic</key>
           <integer>5</integer>
-          <key>name</key>
-          <string></string>
           <key>x</key>
           <integer>1816</integer>
           <key>y</key>

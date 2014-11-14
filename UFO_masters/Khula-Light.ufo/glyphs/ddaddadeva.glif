@@ -51,7 +51,7 @@
     </contour>
     <component base="ddaaltdeva"/>
     <contour>
-      <point x="40.0" y="-30.0" type="move" name="x89"/>
+      <point x="40" y="-30" type="move" name="x89"/>
     </contour>
     <contour>
       <point x="782" y="1274" type="move" name="top"/>
@@ -83,8 +83,6 @@
           <false/>
           <key>magnetic</key>
           <integer>5</integer>
-          <key>name</key>
-          <string></string>
           <key>x</key>
           <integer>782</integer>
           <key>y</key>

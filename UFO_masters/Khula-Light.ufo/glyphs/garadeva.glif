@@ -10,10 +10,10 @@
     </contour>
     <component base="gadeva"/>
     <contour>
-      <point x="826.0" y="-30.0" type="move" name="x25"/>
+      <point x="826" y="-30" type="move" name="x25"/>
     </contour>
     <contour>
-      <point x="826.0" y="-30.0" type="move" name="mark0"/>
+      <point x="826" y="-30" type="move" name="mark0"/>
     </contour>
     <contour>
       <point x="844" y="1274" type="move" name="top"/>
@@ -30,8 +30,6 @@
           <false/>
           <key>magnetic</key>
           <integer>5</integer>
-          <key>name</key>
-          <string></string>
           <key>x</key>
           <integer>844</integer>
           <key>y</key>

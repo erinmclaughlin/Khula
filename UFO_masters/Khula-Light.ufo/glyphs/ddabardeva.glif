@@ -13,16 +13,16 @@
     </contour>
     <component base="ddadeva"/>
     <contour>
-      <point x="0" y="-30" type="move" name="x54"/>
+      <point x="782" y="-30" type="move" name="mark0"/>
     </contour>
     <contour>
       <point x="1285" y="-30" type="move" name="x55"/>
     </contour>
     <contour>
-      <point x="782" y="-30" type="move" name="mark0"/>
+      <point x="782" y="1274" type="move" name="top"/>
     </contour>
     <contour>
-      <point x="782" y="1274" type="move" name="top"/>
+      <point x="0" y="-30" type="move" name="x54"/>
     </contour>
   </outline>
   <lib>
@@ -36,8 +36,6 @@
           <false/>
           <key>magnetic</key>
           <integer>5</integer>
-          <key>name</key>
-          <string></string>
           <key>x</key>
           <integer>782</integer>
           <key>y</key>

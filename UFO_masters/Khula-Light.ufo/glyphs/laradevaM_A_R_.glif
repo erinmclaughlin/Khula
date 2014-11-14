@@ -1,19 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="jharadevaNEP" format="1">
-  <advance width="1738"/>
+<glyph name="laradevaMAR" format="1">
+  <advance width="1451"/>
   <outline>
+    <component base="ladevaMAR"/>
+    <component base="vattudeva" xOffset="1263" yOffset="55"/>
     <contour>
-      <point x="1019" y="506" type="line"/>
-      <point x="430" y="-12" type="line"/>
-      <point x="373" y="47" type="line"/>
-      <point x="968" y="568" type="line"/>
-    </contour>
-    <component base="jhadevaNEP"/>
-    <contour>
-      <point x="962" y="1274" type="move" name="top"/>
-    </contour>
-    <contour>
-      <point x="962" y="0" type="move" name="btm"/>
+      <point x="1016" y="1274" type="move" name="top"/>
     </contour>
   </outline>
   <lib>
@@ -27,12 +19,10 @@
           <false/>
           <key>magnetic</key>
           <integer>5</integer>
-          <key>name</key>
-          <string></string>
           <key>x</key>
-          <integer>962</integer>
+          <integer>1016</integer>
           <key>y</key>
-          <integer>1225</integer>
+          <integer>1249</integer>
         </dict>
       </array>
       <key>com.typemytype.robofont.layerData</key>
@@ -52,12 +42,12 @@
           <dict>
           </dict>
           <key>name</key>
-          <string>jharadevaNEP</string>
+          <string>laradevaMAR</string>
           <key>unicodes</key>
           <array>
           </array>
           <key>width</key>
-          <integer>1738</integer>
+          <integer>1451</integer>
         </dict>
         <key>layer1</key>
         <dict>
@@ -74,12 +64,12 @@
           <dict>
           </dict>
           <key>name</key>
-          <string>jharadevaNEP</string>
+          <string>laradevaMAR</string>
           <key>unicodes</key>
           <array>
           </array>
           <key>width</key>
-          <integer>1738</integer>
+          <integer>1451</integer>
         </dict>
         <key>layer2</key>
         <dict>
@@ -96,12 +86,12 @@
           <dict>
           </dict>
           <key>name</key>
-          <string>jharadevaNEP</string>
+          <string>laradevaMAR</string>
           <key>unicodes</key>
           <array>
           </array>
           <key>width</key>
-          <integer>1738</integer>
+          <integer>1451</integer>
         </dict>
         <key>original</key>
         <dict>
@@ -118,14 +108,16 @@
           <dict>
           </dict>
           <key>name</key>
-          <string>jharadevaNEP</string>
+          <string>laradevaMAR</string>
           <key>unicodes</key>
           <array>
           </array>
           <key>width</key>
-          <integer>1738</integer>
+          <integer>1451</integer>
         </dict>
       </dict>
+      <key>org.robofab.fontlab.mark</key>
+      <integer>130</integer>
     </dict>
   </lib>
 </glyph>
