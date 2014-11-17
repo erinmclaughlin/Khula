@@ -386,8 +386,11 @@ feature pres { # Pre-base Substitutions
             
             lookup IVowelHalfCons { ## LENGTHS
 
-           #!!!!!! IMPORTANT!!!!!!!!!   MARATHI    #sub ivowelsigndeva' @ih_10 @ic_03 by ivowelsign10deva  # raprehalfdevaMAR to ha
+           # raprehalfdevaMAR to ha and ya
                 
+                sub ivowelsigndeva' @ih_05_yaha [@ic_02 @ic_03] by ivowelsign05deva;
+                sub ivowelsigndeva' @ih_05_yaha @ic_04 by ivowelsign06deva;
+                sub ivowelsigndeva' @ih_05_yaha @ic_05 by ivowelsign07deva;
                 
             # halfs - to - 02 or 03 
 
