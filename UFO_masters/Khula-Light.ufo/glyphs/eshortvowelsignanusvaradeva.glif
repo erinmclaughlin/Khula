@@ -6,7 +6,7 @@
       <point x="-342" y="1274" type="move"/>
     </contour>
     <component base="eshortvowelsigndeva"/>
-    <component base="anusvaradeva" xOffset="210"/>
+    <component base="anusvaradeva" xOffset="187"/>
     <contour>
       <point x="0" y="-30" type="move" name="x42"/>
     </contour>
@@ -107,13 +107,6 @@
           <integer>0</integer>
         </dict>
       </dict>
-      <key>com.typemytype.robofont.mark</key>
-      <array>
-        <real>0.8766</real>
-        <real>1.0</real>
-        <real>0.9893</real>
-        <real>1.0</real>
-      </array>
       <key>org.robofab.fontlab.mark</key>
       <integer>210</integer>
       <key>org.robofab.fontlab.maskData</key>

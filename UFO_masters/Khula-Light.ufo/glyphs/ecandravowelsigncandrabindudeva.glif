@@ -2,13 +2,16 @@
 <glyph name="ecandravowelsigncandrabindudeva" format="1">
   <advance width="0"/>
   <outline>
-    <component base="ecandravowelsigndeva" xOffset="-285" yOffset="-2"/>
-    <component base="candrabindusmalldeva" xOffset="99" yOffset="128"/>
+    <contour>
+      <point x="-339" y="1274" type="move"/>
+    </contour>
+    <component base="ecandravowelsigndeva" xOffset="-263" yOffset="-2"/>
+    <component base="candrabindusmalldeva" xOffset="1"/>
     <contour>
       <point x="0" y="-30" type="move" name="x61"/>
     </contour>
     <contour>
-      <point x="-348" y="1244" type="move" name="_mark0"/>
+      <point x="-339" y="1274" type="move" name="_top"/>
     </contour>
   </outline>
   <lib>

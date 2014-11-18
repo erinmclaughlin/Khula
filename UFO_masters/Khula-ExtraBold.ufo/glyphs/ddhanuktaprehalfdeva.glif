@@ -2,8 +2,9 @@
 <glyph name="ddhanuktaprehalfdeva" format="1">
   <advance width="1320"/>
   <outline>
-    <component base="ddhadeva"/>
     <component base="viramanuktadeva" xOffset="1039"/>
+    <component base="ddhaprehalfdeva"/>
+    <component base="nuktadeva" xOffset="1144" yOffset="165"/>
   </outline>
   <lib>
     <dict>
