@@ -3,12 +3,9 @@
   <advance width="1052"/>
   <outline>
     <contour>
-      <point x="1082" y="1198" type="line"/>
-      <point x="846" y="1198" type="line"/>
-      <point x="846" y="1274" type="line"/>
-      <point x="1082" y="1274" type="line"/>
-    </contour>
-    <contour>
+      <point x="1145" y="674" type="line"/>
+      <point x="1145" y="674"/>
+      <point x="1085" y="674"/>
       <point x="1085" y="674" type="curve"/>
       <point x="396" y="674"/>
       <point x="212" y="867"/>
@@ -40,9 +37,6 @@
       <point x="1086" y="750"/>
       <point x="1119" y="750"/>
       <point x="1129" y="750" type="curve"/>
-      <point x="1145" y="674" type="line"/>
-      <point x="1145" y="674"/>
-      <point x="1085" y="674"/>
     </contour>
   </outline>
   <lib>
@@ -81,6 +75,51 @@
           </array>
           <key>contours</key>
           <array>
+            <dict>
+              <key>points</key>
+              <array>
+                <dict>
+                  <key>segmentType</key>
+                  <string>line</string>
+                  <key>smooth</key>
+                  <false/>
+                  <key>x</key>
+                  <integer>1082</integer>
+                  <key>y</key>
+                  <integer>1198</integer>
+                </dict>
+                <dict>
+                  <key>segmentType</key>
+                  <string>line</string>
+                  <key>smooth</key>
+                  <false/>
+                  <key>x</key>
+                  <integer>846</integer>
+                  <key>y</key>
+                  <integer>1198</integer>
+                </dict>
+                <dict>
+                  <key>segmentType</key>
+                  <string>line</string>
+                  <key>smooth</key>
+                  <false/>
+                  <key>x</key>
+                  <integer>846</integer>
+                  <key>y</key>
+                  <integer>1274</integer>
+                </dict>
+                <dict>
+                  <key>segmentType</key>
+                  <string>line</string>
+                  <key>smooth</key>
+                  <false/>
+                  <key>x</key>
+                  <integer>1082</integer>
+                  <key>y</key>
+                  <integer>1274</integer>
+                </dict>
+              </array>
+            </dict>
           </array>
           <key>lib</key>
           <dict>

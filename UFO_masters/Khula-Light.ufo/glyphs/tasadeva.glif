@@ -3,14 +3,6 @@
   <advance width="2051"/>
   <outline>
     <contour>
-      <point x="-30" y="1198" type="curve"/>
-      <point x="-30" y="1274" type="line"/>
-      <point x="664" y="1274" type="line"/>
-      <point x="664" y="1198" type="line"/>
-      <point x="664" y="1198"/>
-      <point x="-30" y="1198"/>
-    </contour>
-    <contour>
       <point x="763" y="833" type="line"/>
       <point x="758" y="757" type="line"/>
       <point x="541" y="757" type="line" smooth="yes"/>
@@ -27,6 +19,14 @@
       <point x="144" y="699"/>
       <point x="260" y="833"/>
       <point x="508" y="833" type="curve" smooth="yes"/>
+    </contour>
+    <contour>
+      <point x="-30" y="1198" type="curve"/>
+      <point x="-30" y="1274" type="line"/>
+      <point x="664" y="1274" type="line"/>
+      <point x="664" y="1198" type="line"/>
+      <point x="664" y="1198"/>
+      <point x="-30" y="1198"/>
     </contour>
     <component base="sadeva" xOffset="667"/>
     <contour>
