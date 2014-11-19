@@ -4,8 +4,8 @@
   <outline>
     <contour>
       <point x="605" y="186" type="line"/>
-      <point x="970" y="186" type="line"/>
-      <point x="970" y="-193" type="line"/>
+      <point x="960" y="186" type="line"/>
+      <point x="960" y="-193" type="line"/>
       <point x="652" y="-193" type="line" smooth="yes"/>
       <point x="428" y="-193"/>
       <point x="359" y="-273"/>
@@ -13,9 +13,9 @@
       <point x="359" y="-476"/>
       <point x="493" y="-547"/>
       <point x="706" y="-547" type="curve" smooth="yes"/>
-      <point x="858" y="-547"/>
-      <point x="931" y="-530"/>
-      <point x="931" y="-487" type="curve" smooth="yes"/>
+      <point x="887" y="-547"/>
+      <point x="931" y="-517"/>
+      <point x="931" y="-484" type="curve" smooth="yes"/>
       <point x="931" y="-451"/>
       <point x="897" y="-434"/>
       <point x="837" y="-434" type="curve" smooth="yes"/>
@@ -33,9 +33,9 @@
       <point x="554" y="-268"/>
       <point x="823" y="-268" type="curve" smooth="yes"/>
       <point x="1092" y="-268"/>
-      <point x="1212" y="-376"/>
-      <point x="1212" y="-484" type="curve" smooth="yes"/>
-      <point x="1212" y="-607"/>
+      <point x="1182" y="-376"/>
+      <point x="1182" y="-484" type="curve" smooth="yes"/>
+      <point x="1182" y="-607"/>
       <point x="1034" y="-728"/>
       <point x="704" y="-728" type="curve" smooth="yes"/>
       <point x="271" y="-728"/>
@@ -49,10 +49,10 @@
     </contour>
     <component base="ddhaaltdeva"/>
     <contour>
-      <point x="440" y="-712" type="move" name="btm"/>
+      <point x="460" y="-730" type="move" name="btm"/>
     </contour>
     <contour>
-      <point x="665" y="1294" type="move" name="top"/>
+      <point x="665.0" y="1294.0" type="move" name="top"/>
     </contour>
   </outline>
   <lib>
