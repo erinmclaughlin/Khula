@@ -518,6 +518,13 @@ feature abvs { # Above-base Substitutions
 feature blws { # Below-base Substitutions
     
     script dev2; # Devanagari v.2
+    
+            lookup NuktVowels { ### alt nukta substitution for u/uu vowels
+            
+                sub rhadeva' @blws_nuktvowels by ddhanukta2deva;
+                sub dddhadeva' @blws_nuktvowels by ddanukta2deva;
+            
+            } NuktVowels;
 
             lookup UVowelLiga { #### U VOWEL Ligatures !!!!
  
