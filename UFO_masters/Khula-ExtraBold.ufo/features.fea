@@ -336,7 +336,7 @@ feature pres { # Pre-base Substitutions
 
                 sub taprehalfdeva taprehalfdeva  by tataprehalfdeva;
                 
-                sub [shaprehalfdeva shaprehalfdevaMAR] @cjct_sha_0 by @cjct_sha_1;
+                sub [shaprehalfdeva shaprehalfdevaMAR] @cjct_sha_0 by @cjct_sha_1; 
                 sub shaprehalfdeva caprehalfdeva by shacaprehalfdeva;
                 sub shaprehalfdevaMAR caprehalfdeva by shacaprehalfdeva;
                 sub shaprehalfdeva vaprehalfdeva by shavaprehalfdeva;  
@@ -352,11 +352,11 @@ feature pres { # Pre-base Substitutions
 
                 sub taprehalfdeva tadeva by tatadeva;
 
-                sub ssaprehalfdeva ttadeva by ssattadeva;
+                sub ssaprehalfdeva ttadeva by ssattadeva; 
                 sub ssaprehalfdeva tthadeva by ssatthadeva;
                 
-#    sub ssaprehalfdeva ttaradeva by ssattaradeva; might not be necessary
-#    sub ssaprehalfdeva ttharadeva by ssattharadeva;
+#    where ssattaradeva?!?!?!?!
+
 
                 sub haprehalfdeva @cjct_ha_0 by @cjct_ha_1;
 
@@ -534,6 +534,8 @@ feature blws { # Below-base Substitutions
             
             } VocalicLiga;
  
+
+            
             lookup VowelsLow { ### tall consonants  low vowel version substitution  
                    
                 sub @blws_low_c @blws_dflt_v' by @blws_low_v; 
@@ -658,7 +660,7 @@ feature blwm {
                 markClass @blwm_btm <anchor -552 0> @m_btm; #grps
                 
                 
-                
+    
             
                 pos base @blwb_Ka <anchor 680 0> mark @m_btm;
                 pos base ngadeva <anchor 509 -20> mark @m_btm;
