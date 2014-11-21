@@ -635,10 +635,87 @@ feature haln { # Halant Forms
 #feature blwm {
 #  include (blwm.fea);
 #} blwm;
+feature abvm {
+
+            lookup AbvMarks {
+                
+                @abvm_top = [candrabindudeva anusvaradeva ecandravowelsigndeva eshortvowelsigndeva evowelsigndeva aivowelsigndeva rephdeva rephanusvaradeva ecandravowelsignanusvaradeva ecandravowelsignrephdeva ecandravowelsignrephanusvaradeva eshortvowelsignanusvaradeva eshortvowelsignrephdeva eshortvowelsignrephanusvarade evowelsignanusvaradeva evowelsignrephdeva evowelsignrephanusvaradeva aivowelsignanusvaradeva aivowelsignrephdeva aivowelsignrephanusvaradeva candrabindusmalldeva ecandravowelsigncandrabindudeva eshortvowelsigncandrabindudeva evowelsigncandrabindudeva aivowelsigncandrabindudeva invertedcandrabindu candralongevowelsigndeva oevowelsigndevaKSH] # grps
+                
+                markClass @abvm_top <anchor -552 1294> @m_top; #grps
+                
+                
+                pos base @abvb_Ka <anchor 680 1294> mark @m_top;
+                pos base @abvb_Pha <anchor 774 1294> mark @m_top;
+                pos base @abvb_JhaNEP <anchor 1011 1294> mark @m_top;
+                pos base katadeva <anchor 949 1294> mark @m_top;
+                pos base @abvb_SsaTta <anchor 845 1294> mark @m_top;
+                pos base @abvb_Ra <anchor 527 1294> mark @m_top;
+                
+            } AbvMarks;
+} abvm;
+
+#feature blwm {
+#  include (blwm.fea);
+
+            
+                
+                
+#} blwm;
 
 feature blwm {
     
+            lookup BlwMarks {
+                
+                @blwm_btm = [uvowelsigndeva uuvowelsigndeva rvocalicvowelsigndeva rrvocalicvowelsigndeva viramadeva vattudeva lvocalicvowelsigndeva llvocalicvowelsigndeva anudattadeva vattuudeva vattuulowdeva vattuuudeva vattuuulowdeva vatturvocalicdeva vatturvocaliclowdeva vatturrvocalicdeva vattulvocalicdeva vattullvocalicdeva vattuviramadeva vattuviramalowdeva uvowelsignlowdeva uuvowelsignlowdeva rvocalicvowelsignlowdeva rrvocaliclowdeva lvocalicvowelsignlowdeva llvocalicvowelsignlowdeva viramalowdeva vattulowdeva uevowelsigndevaKSH uuevowelsigndevaKSH] # grps
+                
+                markClass @blwm_btm <anchor -552 0> @m_btm; #grps
+                
+                
+    
+            
+                pos base @blwb_Ka <anchor 680 0> mark @m_btm;
+                pos base ngadeva <anchor 536 75> mark @m_btm;
+                pos base chadeva <anchor 612 99> mark @m_btm;
+                pos base @blwb_Tta <anchor 562 99> mark @m_btm;
+                pos base ddadeva <anchor 536 75> mark @m_btm; 
+                pos base ddhadeva <anchor 572 95> mark @m_btm;
+                pos base @blwb_Da <anchor 866 -133> mark @m_btm;
+                pos base @blwb_Pha <anchor 743 0> mark @m_btm; 
+                pos base @blwb_Ra <anchor 369 -23> mark @m_btm;
+                pos base @blwb_Lla <anchor 1044 32> mark @m_btm;
+#pos base @blwb_Ddda <anchor > mark @m_btm;
+#pos base @blwb_Rha <anchor > mark @m_btm;
+                pos base ladevaMAR <anchor 721 20> mark @m_btm;
+                pos base @blwb_JhaNEP <anchor 962 0> mark @m_btm; 
+                pos base gabardeva <anchor 844 -768> mark @m_btm; 
+                pos base jabardeva <anchor 1172 -768> mark @m_btm;
+                pos base ddabardeva <anchor 535 -238> mark @m_btm;
+                pos base ddadevaMAW <anchor 470 55> mark @m_btm; 
+                pos base katadeva <anchor 901 0> mark @m_btm; 
+                pos base @blwb_NgaGa <anchor 531 -460> mark @m_btm;
+                pos base @blwb_TtaTta <anchor 558 -455> mark @m_btm;
+                pos base @blwb_DaGha <anchor 946 -196> mark @m_btm;
+                pos base dagadeva <anchor 626 -155> mark @m_btm;  
+                pos base @blwb_DaBa <anchor 626 -196> mark @m_btm;
+                pos base dabhadeva <anchor 976 -196> mark @m_btm; 
+                pos base dadhayadeva <anchor 1643 -230> mark @m_btm; 
+                pos base dadadeva <anchor 476 -196> mark @m_btm; 
+                pos base damadeva<anchor 1087 0> mark @m_btm; 
+                pos base dayadeva <anchor 991 0> mark @m_btm; 
+                pos base @blwb_ShaCa <anchor 1054 -67> mark @m_btm;
+                pos base @blwb_SsaTta <anchor 551 0> mark @m_btm;
+                pos base shaladevaMAR<anchor 1521 20> mark @m_btm; 
+                pos base @blwb_HaNna <anchor 1099 -166> mark @m_btm;
+                pos base hanadeva <anchor 1099 -166> mark @m_btm; 
+                pos base hamadeva <anchor 1340 -240> mark @m_btm; 
+                pos base hayadeva <anchor 1370 -320> mark @m_btm; 
+                pos base havadeva <anchor 1099 -166> mark @m_btm; 
+                
+            } BlwMarks;
+    
 } blwm;
+
+
 
 
 

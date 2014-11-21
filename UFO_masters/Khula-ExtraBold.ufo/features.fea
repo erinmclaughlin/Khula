@@ -630,7 +630,7 @@ feature haln { # Halant Forms
 #
 #include (markclasses.fea);
 
-#feature abvm {
+feature abvm {
 #  include (abvm.fea);
 
             lookup AbvMarks {
@@ -648,7 +648,7 @@ feature haln { # Halant Forms
                 pos base @abvb_Ra <anchor 527 1294> mark @m_top;
                 
             } AbvMarks;
-#} abvm;
+} abvm;
 
 #feature blwm {
 #  include (blwm.fea);
@@ -675,8 +675,7 @@ feature blwm {
                 pos base @blwb_Tta <anchor 527 20> mark @m_btm;
                 pos base ddadeva <anchor 469 -15> mark @m_btm; 
                 pos base ddhadeva <anchor 552 10> mark @m_btm;
-                pos base @blwb_Da <anchor 864 -195> mark @m_btm;
-                pos base ddadeva <anchor 469 -15> mark @m_btm; 
+                pos base @blwb_Da <anchor 864 -195> mark @m_btm; 
                 pos base @blwb_Pha <anchor 774 0> mark @m_btm; 
                 pos base @blwb_Ra <anchor 482 56> mark @m_btm;
                 pos base @blwb_Lla <anchor 1023 0> mark @m_btm;

@@ -2,10 +2,10 @@
 <glyph name="vattuuudeva" format="1">
   <advance width="-1"/>
   <outline>
-    <component base="uuvowelsignlowdeva" xOffset="-217" yOffset="-414"/>
-    <component base="vattudeva"/>
+    <component base="uuvowelsignlowdeva" xOffset="-27" yOffset="-368"/>
+    <component base="vattudeva" yOffset="-20"/>
     <contour>
-      <point x="-542" y="-35" type="move" name="_btm"/>
+      <point x="-339" y="0" type="move" name="_btm"/>
     </contour>
   </outline>
   <lib>
@@ -44,6 +44,91 @@
           </array>
           <key>contours</key>
           <array>
+            <dict>
+              <key>points</key>
+              <array>
+                <dict>
+                  <key>segmentType</key>
+                  <string>line</string>
+                  <key>smooth</key>
+                  <false/>
+                  <key>x</key>
+                  <integer>-280</integer>
+                  <key>y</key>
+                  <integer>15</integer>
+                </dict>
+                <dict>
+                  <key>segmentType</key>
+                  <string>line</string>
+                  <key>smooth</key>
+                  <false/>
+                  <key>x</key>
+                  <integer>96</integer>
+                  <key>y</key>
+                  <integer>-270</integer>
+                </dict>
+                <dict>
+                  <key>segmentType</key>
+                  <string>line</string>
+                  <key>smooth</key>
+                  <false/>
+                  <key>x</key>
+                  <integer>47</integer>
+                  <key>y</key>
+                  <integer>-327</integer>
+                </dict>
+                <dict>
+                  <key>segmentType</key>
+                  <string>line</string>
+                  <key>smooth</key>
+                  <false/>
+                  <key>x</key>
+                  <integer>-334</integer>
+                  <key>y</key>
+                  <integer>-41</integer>
+                </dict>
+                <dict>
+                  <key>segmentType</key>
+                  <string>line</string>
+                  <key>smooth</key>
+                  <false/>
+                  <key>x</key>
+                  <integer>-262</integer>
+                  <key>y</key>
+                  <integer>-41</integer>
+                </dict>
+                <dict>
+                  <key>segmentType</key>
+                  <string>line</string>
+                  <key>smooth</key>
+                  <false/>
+                  <key>x</key>
+                  <integer>-639</integer>
+                  <key>y</key>
+                  <integer>-328</integer>
+                </dict>
+                <dict>
+                  <key>segmentType</key>
+                  <string>line</string>
+                  <key>smooth</key>
+                  <false/>
+                  <key>x</key>
+                  <integer>-691</integer>
+                  <key>y</key>
+                  <integer>-271</integer>
+                </dict>
+                <dict>
+                  <key>segmentType</key>
+                  <string>line</string>
+                  <key>smooth</key>
+                  <false/>
+                  <key>x</key>
+                  <integer>-317</integer>
+                  <key>y</key>
+                  <integer>15</integer>
+                </dict>
+              </array>
+            </dict>
           </array>
           <key>lib</key>
           <dict>

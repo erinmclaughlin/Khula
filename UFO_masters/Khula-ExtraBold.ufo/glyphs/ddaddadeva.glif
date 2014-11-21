@@ -49,7 +49,59 @@
       <point x="704" y="49" type="line"/>
       <point x="635" y="-19" type="line"/>
     </contour>
-    <component base="ddaaltdeva"/>
+    <contour>
+      <point x="655" y="1076" type="line"/>
+      <point x="1021" y="1076" type="line"/>
+      <point x="1021" y="736" type="line"/>
+      <point x="535" y="736" type="line" smooth="yes"/>
+      <point x="462" y="736"/>
+      <point x="432" y="710"/>
+      <point x="432" y="674" type="curve" smooth="yes"/>
+      <point x="432" y="641"/>
+      <point x="458" y="623"/>
+      <point x="520" y="601" type="curve"/>
+      <point x="404" y="619" type="line"/>
+      <point x="493" y="656"/>
+      <point x="605" y="682"/>
+      <point x="731" y="682" type="curve" smooth="yes"/>
+      <point x="1007" y="682"/>
+      <point x="1162" y="561"/>
+      <point x="1162" y="394" type="curve" smooth="yes"/>
+      <point x="1162" y="231"/>
+      <point x="1018" y="86"/>
+      <point x="661" y="86" type="curve" smooth="yes"/>
+      <point x="473" y="86"/>
+      <point x="280" y="134"/>
+      <point x="75" y="235" type="curve"/>
+      <point x="133" y="476" type="line"/>
+      <point x="331" y="366"/>
+      <point x="491" y="321"/>
+      <point x="624" y="321" type="curve" smooth="yes"/>
+      <point x="774" y="321"/>
+      <point x="830" y="358"/>
+      <point x="830" y="395" type="curve" smooth="yes"/>
+      <point x="830" y="430"/>
+      <point x="790" y="452"/>
+      <point x="709" y="452" type="curve" smooth="yes"/>
+      <point x="622" y="452"/>
+      <point x="539" y="431"/>
+      <point x="471" y="401" type="curve"/>
+      <point x="463" y="401" type="line"/>
+      <point x="231" y="488"/>
+      <point x="119" y="605"/>
+      <point x="119" y="731" type="curve" smooth="yes"/>
+      <point x="119" y="834"/>
+      <point x="207" y="949"/>
+      <point x="453" y="949" type="curve" smooth="yes"/>
+      <point x="724" y="949" type="line"/>
+      <point x="655" y="881" type="line"/>
+    </contour>
+    <contour>
+      <point x="1300" y="1056" type="line"/>
+      <point x="-30" y="1056" type="line"/>
+      <point x="-30" y="1294" type="line"/>
+      <point x="1300" y="1294" type="line"/>
+    </contour>
     <contour>
       <point x="460" y="-730" type="move" name="btm"/>
     </contour>
