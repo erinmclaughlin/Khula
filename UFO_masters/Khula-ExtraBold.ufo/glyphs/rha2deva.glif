@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="ddhadeva" format="1">
+<glyph name="rha2deva" format="1">
   <advance width="1320"/>
-  <unicode hex="0922"/>
   <outline>
     <contour>
       <point x="1350" y="1056" type="line"/>
@@ -54,6 +53,7 @@
       <point x="743" y="909" type="line"/>
       <point x="702" y="875" type="line"/>
     </contour>
+    <component base="nuktadeva" xOffset="940" yOffset="209"/>
     <contour>
       <point x="552.0" y="10.0" type="move" name="btm"/>
     </contour>
@@ -111,7 +111,7 @@
           <dict>
           </dict>
           <key>name</key>
-          <string>ddhadeva</string>
+          <string>rha2deva</string>
           <key>unicodes</key>
           <array>
           </array>
@@ -133,7 +133,7 @@
           <dict>
           </dict>
           <key>name</key>
-          <string>ddhadeva</string>
+          <string>rha2deva</string>
           <key>unicodes</key>
           <array>
           </array>
@@ -179,7 +179,7 @@
           <dict>
           </dict>
           <key>name</key>
-          <string>ddhadeva</string>
+          <string>rha2deva</string>
           <key>unicodes</key>
           <array>
           </array>
@@ -265,7 +265,7 @@
           <dict>
           </dict>
           <key>name</key>
-          <string>ddhadeva</string>
+          <string>rha2deva</string>
           <key>unicodes</key>
           <array>
           </array>
@@ -273,6 +273,13 @@
           <integer>1320</integer>
         </dict>
       </dict>
+      <key>com.typemytype.robofont.mark</key>
+      <array>
+        <real>1.0</real>
+        <real>0.974</real>
+        <real>0.577</real>
+        <real>1.0</real>
+      </array>
       <key>org.robofab.fontlab.mark</key>
       <integer>210</integer>
     </dict>
