@@ -1,0 +1,292 @@
+
+# -------------- Localization -----------------
+
+feature locl {
+    
+    script dev2;
+        
+        language MAR exclude_dflt;
+            
+            lookup Marathi{ # Marathi
+                sub @locl_mar_deva by @locl_mar;
+            } Marathi;
+            
+        language NEP exclude_dflt; 
+            
+            lookup Nepali{ # Nepali
+                sub @locl_nep_deva by @locl_nep;
+            } Nepali;
+
+
+    script deva;
+        language MAR exclude_dflt;
+            lookup Marathi;
+        language NEP exclude_dflt;
+            lookup Nepali;
+        
+} locl;
+
+# ---------------- Nukta forms ------------------
+
+feature nukt {
+    
+    script dev2;
+    
+            lookup Nukta { # Nukta forms
+                sub @nukt_0' nuktadeva by @nukt_1;
+            } Nukta;
+    
+        language MAR;
+            lookup Nukta;
+        language NEP;
+            lookup Nukta;
+    
+    
+    script deva; 
+            lookup Nukta;
+        language MAR;
+            lookup Nukta;
+        language NEP;
+            lookup Nukta;
+
+} nukt;
+
+# ---------------- Akhand letters ---------------
+
+feature akhn {
+
+    script dev2;
+        
+            lookup Akhand { # Akhands
+                sub kadeva viramadeva ssadeva by kassadeva;
+                sub jadeva viramadeva nyadeva by janyadeva;
+            } Akhand;
+            
+        language MAR;
+        
+            lookup EyelashRa { # Marathi eyelash Ra  
+                 sub radeva' viramadeva' uni200D by raprehalfdeva;
+                 sub rradeva' viramadeva' uni200D by ranuktaprehalfdeva;
+            } EyelashRa;
+            
+            lookup Akhand;
+        
+        language NEP;
+            lookup Akhand;
+    
+    
+    script deva;
+            lookup Akhand;
+        language MAR;
+            lookup EyelashRa;
+            lookup Akhand;
+        language NEP;
+            lookup Akhand;
+ 
+} akhn;
+
+
+# -------------------- Reph -----------------------
+
+feature rphf {
+
+    script dev2;
+    
+            lookup Reph { # Reph substitution
+                sub radeva viramadeva by rephdeva;
+            } Reph;
+            
+        language MAR;
+            lookup Reph;
+        language NEP;
+            lookup Reph;
+            
+            
+    script deva;
+            lookup Reph;
+        language MAR;
+            lookup Reph;
+        language NEP;
+            lookup Reph;
+         
+} rphf;
+
+# -------------------- Rakar ---------------------
+
+feature rkrf {
+    
+    script dev2;
+    
+            lookup Rakar { # Rakar pre-base substitution
+                sub @rkrf_0 viramadeva radeva by @rkrf_1;
+            } Rakar;
+            
+        language MAR;
+            lookup RakarMAR { # Rakar for Marathi characters
+                sub ladevaMAR viramadeva radeva by laradevaMAR;
+                sub shadevaMAR viramadeva radeva by sharadeva;
+            } RakarMAR;
+            lookup Rakar;
+        language NEP;
+            lookup Rakar;
+            
+            
+    script deva;
+            lookup Reph;
+        language MAR;
+            lookup RakarMAR;
+            lookup Rakar;
+        language NEP;
+            lookup Rakar;
+        
+} rkrf;
+
+# ---------------- Vattu (Below-Base)  ----------------
+
+feature blwf {
+
+    script DFLT;
+            
+            lookup Vattu_dev2 { # Virama + Ra = Vattu
+                sub viramadeva radeva by vattudeva;
+            } Vattu_dev2;
+        
+    script dev2;
+            lookup Vattu_dev2;
+        
+        language MAR;
+            lookup Vattu_dev2;
+        language NEP;
+            lookup Vattu_dev2;
+            
+    script deva;
+    
+            lookup Vattu_deva { # Ra + Virama = Vattu
+                sub radeva viramadeva by vattudeva;
+            } Vattu_deva;
+
+        language MAR;
+            lookup Vattu_dev2;
+        language NEP;
+            lookup Vattu_dev2;            
+ 
+} blwf;
+
+# ----------------- Half-forms ------------------
+
+feature half {
+    
+    script dev2;
+        
+            lookup Halfforms { # Half forms
+                sub @half_0 viramadeva by @half_1;
+            } Halfforms;
+
+            lookup HalfRakar { # Half Rakar forms
+                sub @half_r_0 viramadeva by @half_r_1;
+            } HalfRakar;
+
+        language MAR;        
+            lookup HalfMAR { # Marathi prehalf
+                sub ladevaMAR viramadeva by laprehalfdeva;
+            } HalfMAR;
+            lookup Halfforms;
+            lookup HalfRakar;    
+        language NEP;
+            lookup Halfforms;
+            lookup HalfRakar;            
+    
+    script deva;
+            lookup Halfforms;
+            lookup HalfRakar;
+        language MAR;        
+            lookup HalfMAR;
+            lookup Halfforms;
+            lookup HalfRakar;    
+        language NEP;
+            lookup Halfforms;
+            lookup HalfRakar; 
+
+} half;
+
+# --------------- Vattu variants ----------------  
+
+feature vatu {
+
+    script deva;
+            
+            lookup Vattuforms { # Vattu variant Rakars for backwards-compatibility
+                sub @rkrf_0 vattudeva by @rkrf_1;
+            } HalfVattuforms;
+            
+            lookup VattuHalf { # Vattu variant Half Rakars for backwards-compatibility
+                sub @half_r_0 vattudeva by @half_r_1;
+            } HalfRakar;
+
+        language MAR;
+            lookup VattuMAR { # Rakar for Marathi characters for backwards-compatibility
+                sub ladevaMAR vattudeva by laradevaMAR;
+                sub shadevaMAR vattudeva by sharadeva;
+            } VattuMAR; 
+            lookup Vattuforms;
+            lookup VattuHalf;
+        language NEP;
+            lookup Vattuforms;
+            lookup VattuHalf;
+
+} vatu;
+
+# ----------------- Conjuncts -------------------
+
+feature cjct {
+    script dev2;
+
+            lookup Conj3 { # 3-Consonant conjuncts
+                sub daprehalfdeva dhaprehalfdeva yadeva by dadhayadeva; 
+            } Conj3;
+            
+            lookup Conj2 { # 2-Consonant conjuncts
+                sub daprehalfdeva @cjct_da_0 by @cjct_da_1;
+                sub ngaprehalfdeva gadeva by ngagadeva;
+                sub ngaprehalfdeva madeva by ngamadeva; 
+                sub ngaprehalfdeva yadeva by ngayadeva;
+                sub ttaprehalfdeva ttadeva by ttattadeva;
+                sub ttaprehalfdeva tthadeva by ttatthadeva;
+                sub ttaprehalfdeva yadeva by ttayadeva;
+                sub tthaprehalfdeva tthadeva by tthatthadeva;
+                sub tthaprehalfdeva yadeva by tthayadeva;    
+                sub ddaprehalfdeva ddadeva by ddaddadeva;
+                sub ddaprehalfdeva ddhadeva by ddaddhadeva;
+                sub ddaprehalfdeva yadeva by ddayadeva;
+                sub ddhaprehalfdeva ddhadeva by ddhaddhadeva;
+                sub ddhaprehalfdeva yadeva by ddhayadeva;     
+              } Conj2;
+    
+        language MAR ; 
+            lookup ConjMAR { # Marathi ShaLa
+                sub shaprehalfdevaMAR ladevaMAR by shaladevaMAR;
+            } ConjMAR;
+            lookup Conj3;
+            lookup Conj2;
+        language NEP ; 
+            lookup Conj3;
+            lookup Conj2;
+
+    script deva;
+            lookup Conj3;
+            lookup Conj2;
+        language MAR;        
+            lookup ConjMAR;
+            lookup Conj3;
+            lookup Conj2;  
+        language NEP;
+            lookup Conj3;
+            lookup Conj2;             
+                 
+} cjct;
+
+
+
+
+
+

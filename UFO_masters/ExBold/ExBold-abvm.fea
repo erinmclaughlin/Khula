@@ -1,0 +1,29 @@
+# ExBold
+
+# ------------ Above-base mark positioning ------------
+
+feature abvm {
+           
+            lookup AbvMarks { # above-base mark positioning                
+                pos base @abvb_Ka <anchor 680 1294> mark @m_top;
+                pos base @abvb_Pha <anchor 774 1294> mark @m_top;
+                pos base @abvb_JhaNEP <anchor 1011 1294> mark @m_top;
+                pos base katadeva <anchor 949 1294> mark @m_top;
+                pos base @abvb_SsaTta <anchor 845 1294> mark @m_top;
+                pos base @abvb_Ra <anchor 527 1294> mark @m_top;
+            } AbvMarks;
+
+        language MAR;        
+            lookup AbvMarks;
+        language NEP;        
+            lookup AbvMarks;
+            
+    script deva;
+            lookup AbvMarks;
+        language MAR;        
+            lookup AbvMarks;
+        language NEP;        
+            lookup AbvMarks;            
+            
+} abvm;
+
