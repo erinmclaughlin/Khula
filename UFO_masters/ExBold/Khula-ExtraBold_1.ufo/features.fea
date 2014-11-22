@@ -1,0 +1,1399 @@
+
+languagesystem DFLT dflt;
+languagesystem dev2 dflt;
+languagesystem deva dflt;
+
+
+# -------------- Groups --------------
+#include (/ExBold_fea/ExBold_groups_paste.fea);
+
+# ---------- Localization -----------------
+
+# ------------ Nukta forms -----------------
+
+feature nukt {
+    
+            lookup Nukta {
+                sub @nukt_0' nuktadeva by @nukt_1;
+            } Nukta;
+
+} nukt;
+
+
+
+# ---------- Akhand letters -------------
+
+feature akhn {
+
+    script DFLT;
+        
+            lookup Akhand {
+                sub kadeva viramadeva ssadeva by kassadeva;
+                sub jadeva viramadeva nyadeva by janyadeva;
+            } Akhand;
+        
+            lookup EyelashRa {
+                 sub radeva' viramadeva' uni200D by raprehalfdeva;
+                 sub rradeva' viramadeva' uni200D by ranuktaprehalfdeva;
+            } EyelashRa;
+
+    script dev2;
+            lookup Akhand;
+            lookup EyelashRa;  
+    
+    script deva;
+            lookup Akhand;
+
+} akhn;
+
+
+# ------------ Reph -------------------
+
+
+feature rphf {
+    
+            lookup Reph {
+                sub radeva viramadeva by rephdeva;
+            } Reph;
+            
+} rphf;
+
+
+# ------------- Rakar ---------------------
+
+
+feature rkrf {
+    
+    script DFLT;
+    
+            lookup Rakar {
+                sub kadeva viramadeva radeva by karadeva;
+                sub khadeva viramadeva radeva by kharadeva;
+                sub gadeva viramadeva radeva by garadeva;
+                sub ghadeva viramadeva radeva by gharadeva;
+                sub ngadeva viramadeva radeva by ngaradeva;
+                sub cadeva viramadeva radeva by caradeva;
+                sub chadeva viramadeva radeva by charadeva;
+                sub jadeva viramadeva radeva by jaradeva;
+                sub jhadeva viramadeva radeva by jharadeva;
+                sub nyadeva viramadeva radeva by nyaradeva;
+                sub ttadeva viramadeva radeva by ttaradeva;
+                sub tthadeva viramadeva radeva by ttharadeva;
+                sub ddadeva viramadeva radeva by ddaradeva;
+                sub ddhadeva viramadeva radeva by ddharadeva;
+                sub nnadeva viramadeva radeva by nnaradeva;
+                sub tadeva viramadeva radeva by taradeva;
+                sub thadeva viramadeva radeva by tharadeva;
+                sub dadeva viramadeva radeva by daradeva;
+                sub dhadeva viramadeva radeva by dharadeva;
+                sub nadeva viramadeva radeva by naradeva;
+                sub padeva viramadeva radeva by paradeva;
+                sub phadeva viramadeva radeva by pharadeva;
+                sub badeva viramadeva radeva by baradeva;
+                sub bhadeva viramadeva radeva by bharadeva;
+                sub madeva viramadeva radeva by maradeva;
+                sub yadeva viramadeva radeva by yaradeva;
+                sub radeva viramadeva radeva by raradeva;
+                sub ladeva viramadeva radeva by laradeva;
+                sub lladeva viramadeva radeva by llaradeva;
+                sub vadeva viramadeva radeva by varadeva;
+                sub shadeva viramadeva radeva by sharadeva;
+                sub ssadeva viramadeva radeva by ssaradeva;
+                sub sadeva viramadeva radeva by saradeva;
+                sub hadeva viramadeva radeva by haradeva;
+                sub kassadeva viramadeva radeva by kassaradeva;
+                sub janyadeva viramadeva radeva by janyaradeva;
+                sub qadeva viramadeva radeva by kanuktaradeva;
+                sub khhadeva viramadeva radeva by khanuktaradeva;
+                sub ghhadeva viramadeva radeva by ganuktaradeva;
+                sub zadeva viramadeva radeva by januktaradeva;
+                sub dddhadeva viramadeva radeva by ddanuktaradeva;
+                sub rhadeva viramadeva radeva by ddhanuktaradeva;
+                sub nnnadeva viramadeva radeva by nanuktaradeva;
+                sub fadeva viramadeva radeva by phanuktaradeva;
+                sub yyadeva viramadeva radeva by yanuktaradeva;
+                sub rradeva viramadeva radeva by ranuktaradeva;
+                sub llladeva viramadeva radeva by llanuktaradeva; 
+                sub ladevaMAR viramadeva radeva by laradevaMAR;
+                sub shadevaMAR viramadeva radeva by sharadeva;
+                sub jhadevaNEP viramadeva radeva by jharadevaNEP;                    
+            } Rakar;
+
+    script dev2;
+            lookup Rakar;
+        
+} rkrf;
+
+
+# ---------- Below-Base Form (Vattu) --------------------
+
+
+feature blwf {
+
+    script DFLT;
+            
+            lookup Vattu_dev2 {
+                sub viramadeva radeva by vattudeva;
+            } Vattu_dev2;
+        
+    script dev2;
+            lookup Vattu_dev2;
+            
+    script deva;
+            lookup Vattu_deva {
+                sub radeva viramadeva by vattudeva;
+            } Vattu_deva;
+          
+} blwf;
+
+# ---------- Half-forms -----------------
+
+feature half {
+    
+    script DFLT;
+    
+            lookup Halfforms {
+            
+                sub kadeva viramadeva by kaprehalfdeva;
+                sub khadeva viramadeva by khaprehalfdeva;
+                sub gadeva viramadeva by gaprehalfdeva;
+                sub ghadeva viramadeva by ghaprehalfdeva;
+                sub ngadeva viramadeva by ngaprehalfdeva;
+                sub cadeva viramadeva by caprehalfdeva;
+                sub chadeva viramadeva by chaprehalfdeva;                
+                sub jadeva viramadeva by japrehalfdeva;
+                sub jhadeva viramadeva by jhaprehalfdeva;
+                sub nyadeva viramadeva by nyaprehalfdeva;
+                sub ttadeva viramadeva by ttaprehalfdeva;
+                sub tthadeva viramadeva by tthaprehalfdeva;
+                sub ddadeva viramadeva by ddaprehalfdeva;
+                sub ddhadeva viramadeva by ddhaprehalfdeva;
+                sub nnadeva viramadeva by nnaprehalfdeva;
+                sub tadeva viramadeva by taprehalfdeva;
+                sub thadeva viramadeva by thaprehalfdeva;
+                sub dadeva viramadeva by daprehalfdeva;               
+                sub dhadeva viramadeva by dhaprehalfdeva;                                 
+                sub nadeva viramadeva by naprehalfdeva;                 
+                sub padeva viramadeva by paprehalfdeva;                 
+                sub phadeva viramadeva by phaprehalfdeva;                 
+                sub badeva viramadeva by baprehalfdeva;                 
+                sub bhadeva viramadeva by bhaprehalfdeva;
+                sub madeva viramadeva by maprehalfdeva;
+                sub yadeva viramadeva by yaprehalfdeva;
+                sub ladeva viramadeva by laprehalfdeva;
+                sub lladeva viramadeva by llaprehalfdeva;
+                sub shadeva viramadeva by shaprehalfdeva;
+                sub ssadeva viramadeva by ssaprehalfdeva;
+                sub sadeva viramadeva by saprehalfdeva;
+                sub hadeva viramadeva by haprehalfdeva;
+                sub qadeva viramadeva by kanuktaprehalfdeva;
+                sub khhadeva viramadeva by khanuktaprehalfdeva;
+                sub ghhadeva viramadeva by ganuktaprehalfdeva;
+                sub zadeva viramadeva by januktaprehalfdeva;
+                sub dddhadeva viramadeva by ddanuktaprehalfdeva;
+                sub rhadeva viramadeva by ddhanuktaprehalfdeva;
+                sub nnnadeva viramadeva by nanuktaprehalfdeva;
+                sub fadeva viramadeva by phanuktaprehalfdeva;
+                sub yyadeva viramadeva by yanuktaprehalfdeva;
+                sub llladeva viramadeva by llanuktaprehalfdeva;
+                sub shadevaMAR viramadeva by shaprehalfdevaMAR;
+                sub ladevaMAR viramadeva by laprehalfdevaMAR;
+                sub jhadevaNEP viramadeva by jhaprehalfdevaMAR;
+                
+#                sub kassadeva viramadeva by kassaprehalfdeva;
+#                sub janyadeva viramadeva by janyaprehalfdeva;
+                                 
+            } Halfforms;
+ 
+            lookup HalfRakar {
+            
+                sub karadeva viramadeva by karaprehalfdeva;
+                sub kharadeva viramadeva by kharaprehalfdeva;
+                sub garadeva viramadeva by garaprehalfdeva;
+                sub gharadeva viramadeva by gharaprehalfdeva;
+                sub ngaradeva viramadeva by ngaraprehalfdeva;
+                sub caradeva viramadeva by caraprehalfdeva;
+                sub charadeva viramadeva by charaprehalfdeva;                
+                sub jaradeva viramadeva by jaraprehalfdeva;
+                sub jharadeva viramadeva by jharaprehalfdeva;
+                sub nyaradeva viramadeva by nyaraprehalfdeva;
+                sub ttaradeva viramadeva by ttaraprehalfdeva;
+                sub ttharadeva viramadeva by ttharaprehalfdeva;
+                sub ddaradeva viramadeva by ddaraprehalfdeva;
+                sub ddharadeva viramadeva by ddharaprehalfdeva;
+                sub nnaradeva viramadeva by nnaraprehalfdeva;
+                sub taradeva viramadeva by taraprehalfdeva;
+                sub tharadeva viramadeva by tharaprehalfdeva;
+                sub daradeva viramadeva by daraprehalfdeva;               
+                sub dharadeva viramadeva by dharaprehalfdeva;                                 
+                sub naradeva viramadeva by naraprehalfdeva;                 
+                sub paradeva viramadeva by paraprehalfdeva;                 
+                sub pharadeva viramadeva by pharaprehalfdeva;                 
+                sub baradeva viramadeva by baraprehalfdeva;                 
+                sub bharadeva viramadeva by bharaprehalfdeva;
+                sub maradeva viramadeva by maraprehalfdeva;
+                sub yaradeva viramadeva by yaraprehalfdeva;
+                sub laradeva viramadeva by laraprehalfdeva;
+                sub llaradeva viramadeva by llaraprehalfdeva;
+                sub sharadeva viramadeva by sharaprehalfdeva;
+                sub ssaradeva viramadeva by ssaraprehalfdeva;
+                sub saradeva viramadeva by saraprehalfdeva;
+                sub haradeva viramadeva by haraprehalfdeva;
+                sub qaradeva viramadeva by kanuktaraprehalfdeva;
+                sub khharadeva viramadeva by khanuktaraprehalfdeva;
+                sub ghharadeva viramadeva by ganuktaraprehalfdeva;
+                sub zaradeva viramadeva by januktaraprehalfdeva;
+                sub dddharadeva viramadeva by ddanuktaraprehalfdeva;
+                sub rharadeva viramadeva by ddhanuktaraprehalfdeva;
+                sub nnnaradeva viramadeva by nanuktaraprehalfdeva;
+                sub faradeva viramadeva by phanuktaraprehalfdeva;
+                sub yyaradeva viramadeva by yanuktaraprehalfdeva;
+                sub lllaradeva viramadeva by llanuktaraprehalfdeva;
+                sub sharadevaMAR viramadeva by sharaprehalfdevaMAR;
+                sub ladraevaMAR viramadeva by laraprehalfdeva;
+                sub jharadevaNEP viramadeva by jharaprehalfdevaMAR;
+                
+#                sub kassaradeva viramadeva by kassaraprehalfdeva;
+#                sub janyaradeva viramadeva by janyaraprehalfdeva;
+                                 
+            } HalfRakar; 
+
+    script dev2;
+            lookup Halfforms;
+            lookup HalfRakar;
+                
+    script deva;
+            lookup Halfforms; 
+    
+} half;
+
+
+
+
+# --------------- Vattu variants ----------------  
+
+
+feature vatu { # Vattu Variants
+
+    script deva; # Devanagari
+            
+            lookup HalfVattuforms { 
+                sub @half_0 vattudeva by @half_1;
+            } HalfVattuforms;
+            
+            lookup HalfViramaVattu { 
+                sub @half_h_0 vattu uni200D by @half_h_1;
+            } HalfViramaVattu;
+    
+    #### where do these go????????
+#                sub ladevaMAR vattudeva by laprehalfdeva;
+#    sub radeva viramadeva uni200D by raprehalfdeva;
+#    sub rradeva viramadeva by raprehalfdeva;
+
+            lookup HalfVattuRakar { 
+                sub @half_r_0 vattudeva by @half_r_1;
+            } HalfVattuRakar;
+
+#                sub raradeva vattudeva by raraprehalfdeva;
+#                sub ranuktaradeva vattudeva by raraprehalfdeva;
+#                sub laradevaMAR vattudeva by laraprehalfdeva;
+#                sub shaprehalfdevaMAR vattudeva by sharaprehalfdeva;    
+    
+
+        language MAR ; # Marathi, no rakar forms needed?????  ????????? MARATHI IMPORTANT
+    
+    script deva; # Devanagari
+
+#            lookup Halfforms;
+#            lookup HalfVirama;
+#            lookup HalfRakar;
+
+
+        language MAR ; # Marathi
+} vatu;
+
+
+
+# ---------------- Conjuncts -------------------
+
+
+feature cjct { # Conjunct Forms
+    script dev2; # Devanagari v.2
+
+##### WHERE DID I END UP PUTTING HALF FORMS ?
+
+### normal
+            lookup 3CharConj {
+                sub daprehalfdeva dhaprehalfdeva yadeva by dadhayadeva; 
+            } 3CharConj;
+            
+            lookup 2CharConj {
+                sub daprehalfdeva @cjct_da_0 by @cjct_da_1;
+    
+                sub ngaprehalfdeva gadeva by ngagadeva;
+                sub ngaprehalfdeva madeva by ngamadeva; 
+                sub ngaprehalfdeva yadeva by ngayadeva;
+
+                sub ttaprehalfdeva ttadeva by ttattadeva;
+                sub ttaprehalfdeva tthadeva by ttatthadeva;
+                sub ttaprehalfdeva yadeva by ttayadeva;
+            
+                sub tthaprehalfdeva tthadeva by tthatthadeva;
+                sub tthaprehalfdeva yadeva by tthayadeva;
+    
+                sub ddaprehalfdeva ddadeva by ddaddadeva;
+                sub ddaprehalfdeva ddhadeva by ddaddhadeva;
+                sub ddaprehalfdeva yadeva by ddayadeva;
+    
+                sub ddhaprehalfdeva ddhadeva by ddhaddhadeva;
+                sub ddhaprehalfdeva yadeva by ddhayadeva;
+      
+              } 2CharConj;
+    
+ language MAR ; # Marathi
+ 
+} cjct;
+
+
+# --------------------- Presentation Forms SECTION ------------------
+
+
+
+
+
+
+
+
+
+# --------------------- Pre-Base substitutions ------------------
+
+feature pres { # Pre-base Substitutions
+
+    script dev2; # Devanagari v.2
+    
+# EYELASH
+
+  # If ZWJ has been filtered out (Core Text):
+#  sub dvEyelash dvYA by dvEyelash_YA;
+#  sub dvEyelash dvHA by dvEyelash_HA;
+
+  # Else:
+#  sub dvEyelash zerowidthjoiner dvYA by dvEyelash_YA;
+#  sub dvEyelash zerowidthjoiner dvHA by dvEyelash_HA;
+    
+            
+            lookup PreHalfConj { ### prehalf 
+
+                sub daprehalfdeva yaprehalfdeva by dayaprehalfdeva;
+
+                sub taprehalfdeva taprehalfdeva  by tataprehalfdeva;
+                
+                sub [shaprehalfdeva shaprehalfdevaMAR] @cjct_sha_0 by @cjct_sha_1;
+                sub shaprehalfdeva caprehalfdeva by shacaprehalfdeva;
+                sub shaprehalfdevaMAR caprehalfdeva by shacaprehalfdeva;
+                sub shaprehalfdeva vaprehalfdeva by shavaprehalfdeva;  
+                sub shaprehalfdevaMAR vaprehalfdeva by shavaprehalfdeva; 
+            
+            } PrehalfConj;
+    
+            lookup PreBaseConj { # normal
+        
+                sub kaprehalfdeva tadeva by katadeva;
+
+                sub chaprehalfdeva yadeva by chayadeva;
+
+                sub taprehalfdeva tadeva by tatadeva;
+
+                sub ssaprehalfdeva ttadeva by ssattadeva;
+                sub ssaprehalfdeva tthadeva by ssatthadeva;
+                
+#    sub ssaprehalfdeva ttaradeva by ssattaradeva; might not be necessary
+#    sub ssaprehalfdeva ttharadeva by ssattharadeva;
+
+                sub haprehalfdeva @cjct_ha_0 by @cjct_ha_1;
+
+                sub japrehalfdeva @cjct_ja_0 by @cjct_ja_1;
+                sub januktaprehalfdeva yadeva by januktayadeva;
+                sub januktaprehalfdeva thadeva by januktathadeva;
+                sub januktaprehalfdeva sadeva by januktasadeva;
+
+                sub taprehalfdeva @cjct_ta_0 by @cjct_ta_1;
+
+                sub naprehalfdeva bhadeva by nabhadeva;
+                sub naprehalfdeva madeva by namadeva;
+
+                sub laprehalfdeva @cjct_la_0 by @cjct_la_1;
+        
+            } PreBaseConj;
+
+
+# -- ivowelsign 00 --------------------------
+
+            lookup IVowelHalfHalfCons { ## LENGTHS
+            
+                sub ivowelsigndeva' [@ih_06 @ih_07 @ih_08 @ih_09 @ih_10] [@ih_06 @ih_07 @ih_08 @ih_09 @ih_10] [@ic_02 @ic_03 @ic04 @ic_05 @ic_06 @ic_07 @ic_08] by ivowelsign10deva;
+            
+            } IVowelHalfHalfCons;
+            
+            
+            lookup IVowelHalfCons { ## LENGTHS
+
+           # raprehalfdevaMAR to ha and ya
+                
+                sub ivowelsigndeva' @ih_05_yaha [@ic_02 @ic_03] by ivowelsign05deva;
+                sub ivowelsigndeva' @ih_05_yaha @ic_04 by ivowelsign06deva;
+                sub ivowelsigndeva' @ih_05_yaha @ic_05 by ivowelsign07deva;
+                
+            # halfs - to - 02 or 03 
+
+                sub ivowelsigndeva' @ih_06 [@ic_02 @ic_03] by ivowelsign06deva;
+                sub ivowelsigndeva' @ih_07 [@ic_02 @ic_03] by ivowelsign07deva;
+                sub ivowelsigndeva' @ih_08 [@ic_02 @ic_03] by ivowelsign08deva;
+                sub ivowelsigndeva' @ih_09 [@ic_02 @ic_03] by ivowelsign09deva;
+                sub ivowelsigndeva' @ih_10 [@ic_02 @ic_03] by ivowelsign10deva;
+    
+            # halfs - to - 04  
+
+                sub ivowelsigndeva' @ih_06 @ic_04 by ivowelsign07deva;
+                sub ivowelsigndeva' @ih_07 @ic_04 by ivowelsign08deva;
+                sub ivowelsigndeva' @ih_08 @ic_04 by ivowelsign09deva;
+                sub ivowelsigndeva' [@ih_09 @ih_10] @ic_04 by ivowelsign10deva;
+    
+            # halfs - to - 05
+
+                sub ivowelsigndeva' @ih_06 @ic_05 by ivowelsign08deva;
+                sub ivowelsigndeva' @ih_07 @ic_05 by ivowelsign09deva;
+                sub ivowelsigndeva' [@ih_08 @ih_09 @ih_10] @ic_05 by ivowelsign10deva;
+
+            # halfs - to - 06
+
+                sub ivowelsigndeva' @ih_06 @ic_06 by ivowelsign09deva;
+                sub ivowelsigndeva' [@ih_07 @ih_08 @ih_09 @ih_10] @ic_06 by ivowelsign10deva;
+        
+            # halfs - to - 07 or 08
+
+                sub ivowelsigndeva' [@ih_06 @ih_07 @ih_08 @ih_09 @ih_10] [@ic_07 @ic_08] by ivowelsign10deva;
+
+            } IVowelHalfCons;
+            
+           
+            lookup IVowelCons {  # consonants  
+                         
+                sub ivowelsigndeva' @ic_01 by ivowelsign01deva
+                sub ivowelsigndeva' @ic_02 by ivowelsign02deva
+                sub ivowelsigndeva' @ic_03 by ivowelsign03deva
+                sub ivowelsigndeva' @ic_04 by ivowelsign04deva
+                sub ivowelsigndeva' @ic_05 by ivowelsign05deva
+                sub ivowelsigndeva' @ic_06 by ivowelsign06deva
+                sub ivowelsigndeva' @ic_07 by ivowelsign07deva
+                sub ivowelsigndeva' @ic_08 by ivowelsign08deva
+    
+            } IvowelCons;
+
+
+    language MAR ; # Marathi
+    script deva; # Devanagari
+
+            lookup PreHalfConj;
+            lookup PreBaseConj;
+            lookup IVowelHalfHalfCons;
+            lookup IVowelHalfCons;
+            lookup IVowelCons;
+
+} pres;
+
+
+
+# --------------- Above-base substitutions and ii vowel signs --------------
+
+feature abvs { # Above-base Substitutions
+    script dev2; # Devanagari v.2
+
+
+        # -- reph anusvara -- 
+            
+            lookup RephAnusvara {
+                
+                sub rephdeva candrabindudeva by rephanusvaradeva;
+                sub rephdeva anusvaradeva by rephanusvaradeva;
+                
+            } RephAnusvara;
+
+    # -- substitutions with anusvara and other above-base marks ----
+
+            lookup VowelMarks {
+        # vowels and above base marks  
+                sub @abvs_v_anus_0 anusvaradeva by @abvs_v_anus_1;
+    
+        # iivowelsigndeva above base marks ----   
+                sub @ii_dflt' candrabindudeva by @ii_candbin;  
+                sub @ii_dflt' anusvaradeva by @ii_anus; 
+                sub @ii_dflt' rephdeva by @ii_reph; 
+                sub @ii_dflt' rephanusvaradeva by @ii_rephanus; 
+
+        # other vowelsigndeva above base marks ----   
+                sub @abvs_vs_dflt' candrabindudeva by @abvs_vs_candbin;  
+                sub @abvs_vs_dflt' anusvaradeva by @abvs_vs_anus; 
+                sub @abvs_vs_dflt' rephdeva by @abvs_vs_reph; 
+                sub @abvs_vs_dflt' rephanusvaradeva by @abvs_vs_rephanus; 
+    
+            } VowelMarks;
+
+
+# -- ivowelsign 00 huh? --
+
+## I removed a space after the '
+#lookup abvs30 {
+#    sub ivowelsigndeva' by ivowelsign00deva;
+#} abvs30;
+
+
+
+    language MAR ; # Marathi
+    script deva; # Devanagari
+
+            lookup RephAnusvara;
+            lookup VowelMarks;
+#lookup abvs29;
+##lookup abvs30;
+##lookup abvs32;
+##lookup abvs80;
+##lookup abvs85;
+    language MAR ; # Marathi
+    
+} abvs;
+
+
+
+# -------------- Below-base substitutions -- strange stuff -----------------
+
+feature blws { # Below-base Substitutions
+    
+    script dev2; # Devanagari v.2
+
+            lookup UVowelLiga { #### U VOWEL Ligatures !!!!
+ 
+                sub @blws_u_0 uvowelsigndeva by @blws_u_1; 
+                sub @blws_uu_0 uuvowelsigndeva by @blws_uu_1;
+            
+            } UVowelLiga;
+  
+            lookup VocalicLiga{
+                  
+                sub dadeva rvocalicvowelsigndeva by darvocalicdeva; 
+                sub hadeva rvocalicvowelsigndeva by harvocalicdeva;
+                sub hadeva rrvocalicvowelsigndeva by harrvocalicdeva;
+            
+            } VocalicLiga;
+ 
+            lookup VowelsLow { ### tall consonants  low vowel version substitution  
+                   
+                sub @blws_low_c @blws_dflt_v' by @blws_low_v; 
+            
+            } VowelsLow;
+    
+            lookup VattuLowVowels {### Vattu-Vowelsign variants substitution   
+        
+                sub @blws_vattu_c_1 @blws_vattu_0 by @blws_vattu_c_0 @blws_vattu_1;
+            
+            } VattuLowVowels;
+
+    language MAR ; # Marathi
+    script deva; # Devanagari
+
+            lookup UVowelLiga;
+            lookup VocalicLiga;
+            lookup VowelsLow;
+            lookup VattuLowVowels;
+
+    language MAR ; # Marathi
+
+} blws;
+
+
+
+
+# ------------------- Post-base substitution??  NEW  --------------
+
+
+feature psts { # Post-base Substitutions
+    
+    script dev2; # Devanagari v.2
+
+###  ii vowel sign widths
+
+            lookup IiVowelWidths { 
+                
+                sub @iic_02 @ii_00' by @ii_02;
+                sub @iic_03 @ii_00' by @ii03;
+
+            } IiVowelWidths;
+ 
+    language MAR ; # Marathi
+    script deva; # Devanagari
+
+            lookup IiVowelWidths;
+
+    language MAR ; # Marathi
+
+} psts;
+
+
+
+# --------------- Halant Form substitution --------
+
+feature haln { # Halant Forms
+
+    script dev2; # Devanagari v.2
+    
+            lookup FinalVattuHalant {
+                
+                sub @blws_vattu_c_0 vattudeva by @blws_vattu_c_1;
+                sub @half_h_0 viramadeva by @half_h_1;
+            
+            } FinalVattuHalant;
+ 
+    language MAR ; # Marathi
+    script deva; # Devanagari
+
+            lookup FinalVattuHalant;
+
+    language MAR ; # Marathi
+
+} haln;
+
+
+
+# ------------- Kerning ----------
+
+#include (/ExBold_fea/ExBold_kern_paste.fea);
+
+
+# ------------ Below-base mark positioning -----
+#
+#include (markclasses.fea);
+
+#feature abvm {
+#  include (abvm.fea);
+
+            lookup AbvMarks {
+                
+                @abvm_top = [candrabindudeva anusvaradeva ecandravowelsigndeva eshortvowelsigndeva evowelsigndeva aivowelsigndeva rephdeva rephanusvaradeva ecandravowelsignanusvaradeva ecandravowelsignrephdeva ecandravowelsignrephanusvaradeva eshortvowelsignanusvaradeva eshortvowelsignrephdeva eshortvowelsignrephanusvarade evowelsignanusvaradeva evowelsignrephdeva evowelsignrephanusvaradeva aivowelsignanusvaradeva aivowelsignrephdeva aivowelsignrephanusvaradeva candrabindusmalldeva ecandravowelsigncandrabindudeva eshortvowelsigncandrabindudeva evowelsigncandrabindudeva aivowelsigncandrabindudeva invertedcandrabindu candralongevowelsigndeva oevowelsigndevaKSH] # grps
+                
+                markClass @abvm_top <anchor -552 1294> @m_top; #grps
+                
+                
+                pos base @abvb_Ka <anchor 680 1294> mark @m_top;
+                pos base @abvb_Pha <anchor 774 1294> mark @m_top;
+                pos base @abvb_JhaNEP <anchor 1011 1294> mark @m_top;
+                pos base katadeva <anchor 949 1294> mark @m_top;
+                pos base @abvb_SsaTta <anchor 845 1294> mark @m_top;
+                pos base @abvb_Ra <anchor 527 1294> mark @m_top;
+                
+            } AbvMarks;
+#} abvm;
+
+#feature blwm {
+#  include (blwm.fea);
+
+            
+                
+                
+#} blwm;
+
+feature blwm {
+    
+            lookup BlwMarks {
+                
+                @blwm_btm = [uvowelsigndeva uuvowelsigndeva rvocalicvowelsigndeva rrvocalicvowelsigndeva viramadeva vattudeva lvocalicvowelsigndeva llvocalicvowelsigndeva anudattadeva vattuudeva vattuulowdeva vattuuudeva vattuuulowdeva vatturvocalicdeva vatturvocaliclowdeva vatturrvocalicdeva vattulvocalicdeva vattullvocalicdeva vattuviramadeva vattuviramalowdeva uvowelsignlowdeva uuvowelsignlowdeva rvocalicvowelsignlowdeva rrvocaliclowdeva lvocalicvowelsignlowdeva llvocalicvowelsignlowdeva viramalowdeva vattulowdeva uevowelsigndevaKSH uuevowelsigndevaKSH] # grps
+                
+                markClass @blwm_btm <anchor -552 0> @m_btm; #grps
+                
+                
+                
+            
+                pos base @blwb_Ka <anchor 680 0> mark @m_btm;
+                pos base ngadeva <anchor 509 -20> mark @m_btm;
+                pos base chadeva <anchor 592 9> mark @m_btm;
+                pos base @blwb_Tta <anchor 527 20> mark @m_btm;
+                pos base ddadeva <anchor 469 -15> mark @m_btm; 
+                pos base ddhadeva <anchor 552 10> mark @m_btm;
+                pos base @blwb_Da <anchor 864 -195> mark @m_btm;
+                pos base ddadeva <anchor 469 -15> mark @m_btm; 
+                pos base @blwb_Pha <anchor 774 0> mark @m_btm; 
+                pos base @blwb_Ra <anchor 482 56> mark @m_btm;
+                pos base @blwb_Lla <anchor 1023 0> mark @m_btm;
+#pos base @blwb_Ddda <anchor 476 -509> mark @m_btm;
+#pos base @blwb_Rha <anchor 539 -458> mark @m_btm;
+                pos base ladevaMAR <anchor 681 -18> mark @m_btm;
+                pos base @blwb_JhaNEP <anchor 1011 0> mark @m_btm; 
+                pos base gabardeva <anchor 968 -208> mark @m_btm; 
+                pos base jabardeva <anchor 1148 -208> mark @m_btm;
+                pos base ddabardeva <anchor 458 -288> mark @m_btm;
+                pos base ddadevaMAW <anchor 458 0> mark @m_btm;  
+                pos base katadeva <anchor 949 0> mark @m_btm; 
+                pos base @blwb_NgaGa <anchor 443 -721> mark @m_btm;
+                pos base @blwb_TtaTta <anchor 460 -730> mark @m_btm;
+                pos base @blwb_DaGha <anchor 950 -510> mark @m_btm;
+                pos base dagadeva <anchor 579 -510> mark @m_btm;  
+                pos base @blwb_DaBa <anchor 660 -510> mark @m_btm;
+                pos base dabhadeva <anchor 1149 -510> mark @m_btm; 
+                pos base dadhayadeva <anchor 1719 -510> mark @m_btm; 
+                pos base dadadeva <anchor 540 -510> mark @m_btm; 
+                pos base damadeva<anchor 1219 -90> mark @m_btm; 
+                pos base dayadeva <anchor 1120 -90> mark @m_btm; 
+                pos base @blwb_ShaCa <anchor 1092 -357> mark @m_btm;
+                pos base @blwb_SsaTta <anchor 500 -230> mark @m_btm;
+                pos base shaladevaMAR<anchor 1582 -22> mark @m_btm; 
+                pos base @blwb_HaNna <anchor 1318 -366> mark @m_btm;
+                pos base hanadeva <anchor 1148 -366> mark @m_btm; 
+                pos base hamadeva <anchor 1384 -356> mark @m_btm; 
+                pos base hayadeva <anchor 1436 -506> mark @m_btm; 
+                pos base havadeva <anchor 1198 -366> mark @m_btm; 
+                
+            } BlwMarks;
+    
+} blwm;
+
+
+
+# ------------ Above-base mark positioning -----
+
+feature abvm {
+    
+} abvm;
+
+
+# ------------ Distances (half-form kerns) -----
+
+# put kerns in here
+
+feature dist {
+    # Class Kerning Data Generated by MetricsMachine 4.0.6
+    # UFO: /Users/erinmclaughlin/Desktop/_Google OPEN/Khula/UFO_masters/Khula-ExtraBold.ufo
+    # Date: Thursday November 13, 2014 23:15:53
+    @MMK_L_L_C = [caprehalfdeva caraprehalfdeva dayaprehalfdeva shacaprehalfdeva shaprehalfaltdeva sharaprehalfdeva shavaprehalfdeva taraprehalfdeva];
+    @MMK_L_L_Cha = [chaaltdeva chaprehalfdeva charadeva charaprehalfdeva];
+    @MMK_L_L_Da = [dabadeva dadaaltdeva dadadeva dadeva dagadeva daprehalfdeva daradeva daraprehalfdeva darvocalicdeva daudeva dauudeva davadeva];
+    @MMK_L_L_DaDha = [dabhaaltdeva dabhadeva dadhadeva daghadeva];
+    @MMK_L_L_G = [ganuktaprehalfdeva ganuktaraprehalfdeva gaprehalfdeva garaprehalfdeva];
+    @MMK_L_L_Gh = [dhaprehalfdeva dharaprehalfdeva ghaprehalfdeva gharaprehalfdeva];
+    @MMK_L_L_H = [haprehalfdeva];
+    @MMK_L_L_Ha = [haladeva hanadeva hannadeva haradeva haraprehalfdeva haraudeva harauudeva harrvocalicdeva harvocalicdeva haudeva hauudeva havadeva];
+    @MMK_L_L_Jany = [janyaprehalfdeva janyaraprehalfdeva];
+    @MMK_L_L_Jh = [jhaprehalfdeva jharaprehalfdeva];
+    @MMK_L_L_Ka = [fadeva jhadevaNEP jharadevaNEP kadeva kanuktaradeva karadeva katadeva phadeva phanuktaradeva pharadeva qadeva ranuktaudeva uudeva];
+    @MMK_L_L_KaSh = [kassaprehalfdeva kassaraprehalfdeva];
+    @MMK_L_L_Kh = [khanuktaprehalfdeva khanuktaraprehalfdeva khaprehalfdeva kharaprehalfdeva];
+    @MMK_L_L_L = [laprehalfdeva laraprehalfdeva];
+    @MMK_L_L_Ll = [lvocalicdeva];
+    @MMK_L_L_M = [bhaprehalfdeva bharaprehalfdeva maprehalfdeva maraprehalfdeva];
+    @MMK_L_L_N = [nanuktaprehalfdeva nanuktaraprehalfdeva naprehalfdeva naraprehalfdeva];
+    @MMK_L_L_Ng = [ngaprehalfdeva ngaraprehalfUIdeva ngaraprehalfdeva];
+    @MMK_L_L_Nn = [nnaprehalfdeva nnaraprehalfdeva];
+    @MMK_L_L_Ny = [nyaprehalfdeva nyaraprehalfdeva ranuktaprehalfdeva ranuktaraprehalfdeva raprehalfdeva raraprehalfdeva];
+    @MMK_L_L_P = [paprehalfdeva paraprehalfdeva ssaprehalfdeva ssaraprehalfdeva];
+    @MMK_L_L_Ph = [jhaprehalfdevaNEP jharaprehalfdevaNEP kanuktaprehalfdeva kanuktaraprehalfdeva kaprehalfdeva karaprehalfdeva phanuktaprehalfdeva phanuktaraprehalfdeva phaprehalfdeva pharaprehalfdeva];
+    @MMK_L_L_Ra = [radeva ranuktaradeva raradeva rradeva];
+    @MMK_L_L_Rr = [rvocalicdeva];
+    @MMK_L_L_S = [saprehalfdeva saraprehalfdeva];
+    @MMK_L_L_Sh = [shaprehalfdeva];
+    @MMK_L_L_ShMAR = [shaprehalfdevaMAR];
+    @MMK_L_L_T = [januktaprehalfdeva januktaraprehalfdeva japrehalfdeva jaraprehalfdeva taprehalfdeva tataprehalfdeva];
+    @MMK_L_L_V = [baprehalfdeva baraprehalfdeva llanuktaprehalfdeva llaprehalfdeva llaraprehalfdeva vaprehalfdeva varaprehalfdeva];
+    @MMK_L_L_Y = [thaprehalfdeva tharaprehalfdeva yanuktaprehalfdeva yanuktaraprehalfdeva yaprehalfdeva yaraprehalfdeva];
+    @MMK_R_R_A = [aadeva acandraanusvaradeva acandradeva adeva ashortanusvaradeva ashortdeva auanusvaradeva audeva oanusvaradeva ocandraanusvaradeva ocandradeva odeva omdeva oshortdeva];
+    @MMK_R_R_Bha = [bhadeva bhaprehalfdeva bharadeva bharaprehalfdeva jhadevaNEP jhaprehalfdevaNEP jharadevaNEP jharaprehalfdevaNEP];
+    @MMK_R_R_Ca = [cadeva caprehalfdeva caradeva caraprehalfdeva katadeva tatadeva tataprehalfdeva];
+    @MMK_R_R_Cha = [chaaltdeva chadeva chaprehalfdeva charadeva charaprehalfdeva chayadeva];
+    @MMK_R_R_Da = [dadeva daprehalfdeva daradeva daraprehalfdeva darvocalicdeva daudeva dauudeva davadeva ddhadeva ddhanuktaprehalfdeva ddhanuktaradeva ddhanuktaraprehalfdeva ddharadeva ddharaprehalfdeva ddhayadeva rhadeva ttadeva ttaprehalfdeva ttaradeva ttaraprehalfdeva ttayadeva tthadeva tthaprehalfdeva ttharadeva ttharaprehalfdeva tthayadeva];
+    @MMK_R_R_DaAlt = [ddhaaltdeva ddhanuktaraprehalfUIdeva ddhaprehalfdeva ddharaprehalfUIdeva];
+    @MMK_R_R_DaBha = [dabhaaltdeva dabhadeva dadhadeva dadhayadeva daghadeva];
+    @MMK_R_R_DaGa = [dabadeva dagadeva];
+    @MMK_R_R_Dda = [ddabardeva ddadeva ddanuktaprehalfdeva ddanuktaradeva ddanuktaraprehalfdeva ddaprehalfdeva ddaradeva ddaraprehalfdeva ddayadeva dddhadeva ngadeva ngaprehalfdeva ngaradeva ngaraprehalfdeva ngayadeva];
+    @MMK_R_R_DdaAlt = [ddaaltdeva ddanuktaraprehalfUIdeva ddaraprehalfUIdeva dddhaaltdeva];
+    @MMK_R_R_Dha = [dhadeva dhaprehalfdeva dharadeva dharaprehalfdeva];
+    @MMK_R_R_E = [aianusvaradeva aideva ecandraanusvaradeva ecandradeva edeva eshortanusvaradeva eshortdeva];
+    @MMK_R_R_Ga = [gabardeva gadeva ganuktaprehalfdeva ganuktaradeva ganuktaraprehalfdeva gaprehalfdeva garadeva garaprehalfdeva ghhadeva];
+    @MMK_R_R_Gha = [ghadeva ghaprehalfdeva gharadeva gharaprehalfdeva];
+    @MMK_R_R_Ha = [dadaaltdeva dadadeva damadeva dayadeva dayaprehalfdeva hadeva haladeva hamadeva hanadeva hannadeva haprehalfdeva haradeva haraprehalfdeva haraudeva harauudeva harrvocalicdeva harvocalicdeva haudeva hauudeva havadeva hayadeva];
+    @MMK_R_R_I = [ddaddadeva ddaddauudeva ddaddhadeva ddhaddhadeva ideva iianusvaradeva iideva janyadeva janyaprehalfdeva janyaradeva janyaraprehalfdeva jhadeva jhaprehalfdeva jharadeva jharaprehalfdeva ngaraprehalfUIdeva];
+    @MMK_R_R_Ja = [jabardeva jadeva jajadeva januktaprehalfdeva januktaradeva januktaraprehalfdeva januktathadeva januktayadeva japrehalfdeva jaradeva jaraprehalfdeva jathadeva jayadeva zadeva zhadeva];
+    @MMK_R_R_Ka = [kadeva kanuktaprehalfdeva kanuktaradeva kanuktaraprehalfdeva kaprehalfdeva karadeva karaprehalfdeva qadeva];
+    @MMK_R_R_KaSsa = [kassadeva kassaprehalfdeva kassaradeva kassaraprehalfdeva];
+    @MMK_R_R_La = [laaltdevaMAR labhadeva ladeva ladevaMAR lajadeva lamadeva laprehalfdeva laradeva laradevaMAR laraprehalfdeva lathadeva layadeva lazadeva llvocalicdeva lvocalicdeva];
+    @MMK_R_R_Lla = [llaaltdeva lladeva llanuktaprehalfdeva llanuktaradeva llanuktaraprehalfdeva llaprehalfdeva llaradeva llaraprehalfdeva lllaaltdeva llladeva];
+    @MMK_R_R_Ma = [ddadevaMAW madeva maprehalfdeva maradeva maraprehalfdeva];
+    @MMK_R_R_Na = [nabhadeva nadeva namadeva nanuktaradeva nanuktaraprehalfdeva naprehalfdeva naradeva naraprehalfdeva nnnadeva];
+    @MMK_R_R_Nna = [nnadeva nnaprehalfdeva nnaradeva nnaraprehalfdeva];
+    @MMK_R_R_Nya = [nyadeva nyaprehalfdeva nyaradeva nyaraprehalfdeva];
+    @MMK_R_R_Pa = [padeva paprehalfdeva paradeva paraprehalfdeva ssadeva ssaprehalfdeva ssaradeva ssaraprehalfdeva];
+    @MMK_R_R_Pha = [fadeva phadeva phanuktaprehalfdeva phanuktaradeva phanuktaraprehalfdeva phaprehalfdeva pharadeva pharaprehalfdeva];
+    @MMK_R_R_RMAR = [ranuktaprehalfdeva ranuktaraprehalfdeva raprehalfdeva raraprehalfdeva];
+    @MMK_R_R_Ra = [khadeva khanuktaprehalfdeva khanuktaradeva khanuktaraprehalfdeva khaprehalfdeva kharadeva kharaprehalfdeva khhadeva radeva ranuktaradeva ranuktaudeva ranuktauudeva raradeva raudeva rauudeva rradeva sadeva saprehalfdeva saradeva saraprehalfdeva];
+    @MMK_R_R_Sha = [shadeva shadevaMAR shaprehalfdeva];
+    @MMK_R_R_ShaRa = [shacadeva shacaprehalfdeva shaladeva shaladevaMAR shanadeva shaprehalfaltdeva sharadeva sharaprehalfdeva shavadeva shavaprehalfdeva];
+    @MMK_R_R_Ta = [tadeva takhadeva tanadeva taprehalfdeva tasadeva tathadeva tayadeva];
+    @MMK_R_R_TaRa = [rrvocalicdeva rvocalicdeva taradeva taraprehalfdeva];
+    @MMK_R_R_Tha = [thadeva thaprehalfdeva tharadeva tharaprehalfdeva];
+    @MMK_R_R_U = [udeva uudeva];
+    @MMK_R_R_Va = [babardeva badeva baprehalfdeva baradeva baraprehalfdeva vadeva vaprehalfdeva varadeva varaprehalfdeva];
+    @MMK_R_R_Ya = [jjyadeva yadeva yanuktaprehalfdeva yanuktaradeva yanuktaraprehalfdeva yaprehalfdeva yaradeva yaraprehalfdeva yyadeva];
+
+    # glyph, glyph
+    pos eightdeva ninedeva -35;
+    pos eightdeva onedevaNEP -40;
+    pos eightdeva threedeva 30;
+    pos eightdevaNEP fourdeva 60;
+    pos eightdevaNEP ninedeva 10;
+    pos eightdevaNEP sevendeva 30;
+    pos eightdevaNEP threedeva 40;
+    pos fivedeva fourdeva -80;
+    pos fivedeva ninedeva -70;
+    pos fivedeva onedeva -50;
+    pos fivedeva onedevaNEP -50;
+    pos fivedeva sixdeva -30;
+    pos fivedeva twodeva -25;
+    pos fivedeva zerodeva -30;
+    pos fivedevaNEP fourdeva 50;
+    pos fivedevaNEP ninedeva 20;
+    pos fivedevaNEP onedevaNEP 20;
+    pos fivedevaNEP sevendeva 40;
+    pos fivedevaNEP threedeva 20;
+    pos fourdeva eightdeva -40;
+    pos fourdeva eightdevaNEP 70;
+    pos fourdeva fivedeva -10;
+    pos fourdeva fivedevaNEP 50;
+    pos fourdeva fourdeva 20;
+    pos fourdeva ninedeva 35;
+    pos fourdeva onedeva 30;
+    pos fourdeva onedevaNEP 30;
+    pos fourdeva sevendeva 20;
+    pos fourdeva threedeva 50;
+    pos fourdeva twodeva 50;
+    pos fourdeva zerodeva -50;
+    pos ninedeva eightdevaNEP 40;
+    pos ninedeva fivedevaNEP 50;
+    pos ninedeva fourdeva 10;
+    pos ninedeva onedeva 40;
+    pos ninedeva onedevaNEP 5;
+    pos ninedeva sevendeva 35;
+    pos ninedeva sixdeva 50;
+    pos ninedeva threedeva 50;
+    pos ninedeva twodeva 10;
+    pos ninedevaNEP fourdeva 70;
+    pos ninedevaNEP ninedeva 45;
+    pos ninedevaNEP sevendeva 30;
+    pos ninedevaNEP threedeva 40;
+    pos onedeva eightdeva -30;
+    pos onedeva fivedeva -10;
+    pos onedeva fourdeva 10;
+    pos onedeva ninedeva 35;
+    pos onedeva onedeva 5;
+    pos onedeva threedeva 10;
+    pos onedeva twodeva 20;
+    pos onedevaNEP fourdeva -20;
+    pos onedevaNEP ninedeva -15;
+    pos onedevaNEP sevendeva 20;
+    pos onedevaNEP sixdeva 20;
+    pos sevendeva fourdeva -50;
+    pos sevendeva ninedeva -10;
+    pos sevendeva onedeva -10;
+    pos sevendeva onedevaNEP -20;
+    pos sevendeva sixdeva -10;
+    pos sevendeva threedeva -35;
+    pos sixdeva eightdeva 30;
+    pos sixdeva eightdevaNEP -20;
+    pos sixdeva fivedeva -10;
+    pos sixdeva fivedevaNEP 50;
+    pos sixdeva fourdeva -40;
+    pos sixdeva ninedeva -55;
+    pos sixdeva onedevaNEP -90;
+    pos sixdeva sixdeva -30;
+    pos sixdeva zerodeva -30;
+    pos threedeva eightdevaNEP -20;
+    pos threedeva fivedeva -30;
+    pos threedeva fivedevaNEP -10;
+    pos threedeva fourdeva -40;
+    pos threedeva ninedeva -25;
+    pos threedeva ninedevaNEP -30;
+    pos threedeva onedeva -20;
+    pos threedeva onedevaNEP -50;
+    pos threedeva sevendeva -10;
+    pos threedeva sixdeva -20;
+    pos twodeva eightdeva -20;
+    pos twodeva fivedeva -20;
+    pos twodeva ninedeva 20;
+    pos twodeva onedeva 20;
+    pos twodeva sixdeva 40;
+    pos zerodeva fourdeva -50;
+    pos zerodeva onedevaNEP -20;
+    pos zerodeva threedeva -20;
+
+    # glyph, group
+    pos chadeva @MMK_R_R_Bha 30;
+    pos chadeva @MMK_R_R_Ca 40;
+    pos chadeva @MMK_R_R_Da 30;
+    pos chadeva @MMK_R_R_DaBha 20;
+    pos chadeva @MMK_R_R_Dda 10;
+    pos chadeva @MMK_R_R_Dha 20;
+    pos chadeva @MMK_R_R_Gha 20;
+    pos chadeva @MMK_R_R_Ha 30;
+    pos chadeva @MMK_R_R_I 40;
+    pos chadeva @MMK_R_R_Ja 10;
+    pos chadeva @MMK_R_R_Ka 30;
+    pos chadeva @MMK_R_R_KaSsa 30;
+    pos chadeva @MMK_R_R_La 30;
+    pos chadeva @MMK_R_R_Ma 30;
+    pos chadeva @MMK_R_R_Na 10;
+    pos chadeva @MMK_R_R_Nya 10;
+    pos chadeva @MMK_R_R_Ra 40;
+    pos chadeva @MMK_R_R_Sha 40;
+    pos chadeva @MMK_R_R_ShaRa 40;
+    pos chadeva @MMK_R_R_Va 30;
+    pos hadeva @MMK_R_R_A 10;
+    pos hadeva @MMK_R_R_Ca 10;
+    pos hadeva @MMK_R_R_DaBha 30;
+    pos hadeva @MMK_R_R_Dda 10;
+    pos hadeva @MMK_R_R_I 30;
+    pos hadeva @MMK_R_R_Ja -10;
+    pos hadeva @MMK_R_R_La 20;
+    pos hadeva @MMK_R_R_Sha 30;
+    pos hadeva @MMK_R_R_ShaRa 10;
+    pos hadeva @MMK_R_R_U 10;
+    pos ladevaMAR @MMK_R_R_A 20;
+    pos ladevaMAR @MMK_R_R_Bha 10;
+    pos ladevaMAR @MMK_R_R_Ca 20;
+    pos ladevaMAR @MMK_R_R_Cha 30;
+    pos ladevaMAR @MMK_R_R_Da 40;
+    pos ladevaMAR @MMK_R_R_DaBha 40;
+    pos ladevaMAR @MMK_R_R_Dda 30;
+    pos ladevaMAR @MMK_R_R_Dha 20;
+    pos ladevaMAR @MMK_R_R_Ha 30;
+    pos ladevaMAR @MMK_R_R_I 40;
+    pos ladevaMAR @MMK_R_R_Ja 20;
+    pos ladevaMAR @MMK_R_R_Ka 40;
+    pos ladevaMAR @MMK_R_R_KaSsa 30;
+    pos ladevaMAR @MMK_R_R_La 30;
+    pos ladevaMAR @MMK_R_R_Lla 50;
+    pos ladevaMAR @MMK_R_R_Ma 30;
+    pos ladevaMAR @MMK_R_R_Na 20;
+    pos ladevaMAR @MMK_R_R_Nna 30;
+    pos ladevaMAR @MMK_R_R_Nya 40;
+    pos ladevaMAR @MMK_R_R_Ra 30;
+    pos ladevaMAR @MMK_R_R_Sha 50;
+    pos ladevaMAR @MMK_R_R_ShaRa 40;
+    pos ladevaMAR @MMK_R_R_Ta 30;
+    pos ladevaMAR @MMK_R_R_U 10;
+    pos ladevaMAR @MMK_R_R_Va 30;
+    pos raudeva @MMK_R_R_A 10;
+    pos raudeva @MMK_R_R_Ca 20;
+    pos raudeva @MMK_R_R_Cha 10;
+    pos raudeva @MMK_R_R_Da 20;
+    pos raudeva @MMK_R_R_DaBha 40;
+    pos raudeva @MMK_R_R_Dda 20;
+    pos raudeva @MMK_R_R_Dha 10;
+    pos raudeva @MMK_R_R_Ha 30;
+    pos raudeva @MMK_R_R_I 40;
+    pos raudeva @MMK_R_R_Ja 30;
+    pos raudeva @MMK_R_R_Ka 40;
+    pos raudeva @MMK_R_R_KaSsa 20;
+    pos raudeva @MMK_R_R_La 40;
+    pos raudeva @MMK_R_R_Lla 40;
+    pos raudeva @MMK_R_R_Ma 20;
+    pos raudeva @MMK_R_R_Na 30;
+    pos raudeva @MMK_R_R_Nya 40;
+    pos raudeva @MMK_R_R_Ra 40;
+    pos raudeva @MMK_R_R_Sha 40;
+    pos raudeva @MMK_R_R_ShaRa 40;
+    pos raudeva @MMK_R_R_Ta 30;
+    pos raudeva @MMK_R_R_TaRa 20;
+    pos raudeva @MMK_R_R_Va 20;
+    pos rauudeva @MMK_R_R_A 10;
+    pos rauudeva @MMK_R_R_Bha -20;
+    pos rauudeva @MMK_R_R_Ca -20;
+    pos rauudeva @MMK_R_R_Da 40;
+    pos rauudeva @MMK_R_R_DaBha 40;
+    pos rauudeva @MMK_R_R_Dda 20;
+    pos rauudeva @MMK_R_R_Dha -10;
+    pos rauudeva @MMK_R_R_Gha -20;
+    pos rauudeva @MMK_R_R_Ha 10;
+    pos rauudeva @MMK_R_R_I 30;
+    pos rauudeva @MMK_R_R_Ja 10;
+    pos rauudeva @MMK_R_R_Ka 40;
+    pos rauudeva @MMK_R_R_KaSsa 30;
+    pos rauudeva @MMK_R_R_La 40;
+    pos rauudeva @MMK_R_R_Lla 40;
+    pos rauudeva @MMK_R_R_Ma 30;
+    pos rauudeva @MMK_R_R_Na 30;
+    pos rauudeva @MMK_R_R_Nya 20;
+    pos rauudeva @MMK_R_R_Pa -20;
+    pos rauudeva @MMK_R_R_Pha -20;
+    pos rauudeva @MMK_R_R_Ra 10;
+    pos rauudeva @MMK_R_R_Sha 40;
+    pos rauudeva @MMK_R_R_ShaRa 40;
+    pos rauudeva @MMK_R_R_Ta 20;
+    pos rauudeva @MMK_R_R_U 10;
+    pos rauudeva @MMK_R_R_Va 30;
+    pos rrvocalicdeva @MMK_R_R_Dha -30;
+    pos rrvocalicdeva @MMK_R_R_Gha -50;
+    pos tthadeva @MMK_R_R_Bha -10;
+    pos tthadeva @MMK_R_R_Ca 20;
+    pos tthadeva @MMK_R_R_Da 30;
+    pos tthadeva @MMK_R_R_DaBha 40;
+    pos tthadeva @MMK_R_R_Dda 30;
+    pos tthadeva @MMK_R_R_Gha -10;
+    pos tthadeva @MMK_R_R_Ha 10;
+    pos tthadeva @MMK_R_R_I 30;
+    pos tthadeva @MMK_R_R_Ja 30;
+    pos tthadeva @MMK_R_R_Ka 10;
+    pos tthadeva @MMK_R_R_KaSsa 20;
+    pos tthadeva @MMK_R_R_La 30;
+    pos tthadeva @MMK_R_R_Lla 40;
+    pos tthadeva @MMK_R_R_Na 10;
+    pos tthadeva @MMK_R_R_Nya 30;
+    pos tthadeva @MMK_R_R_Ra 20;
+    pos tthadeva @MMK_R_R_Sha 40;
+    pos tthadeva @MMK_R_R_ShaRa 40;
+    pos tthadeva @MMK_R_R_Ta 30;
+    pos tthadeva @MMK_R_R_Va 20;
+
+    # group, group
+    pos @MMK_L_L_C @MMK_R_R_Bha -90;
+    pos @MMK_L_L_C @MMK_R_R_Ca -100;
+    pos @MMK_L_L_C @MMK_R_R_Cha -70;
+    pos @MMK_L_L_C @MMK_R_R_Da 20;
+    pos @MMK_L_L_C @MMK_R_R_Dda 10;
+    pos @MMK_L_L_C @MMK_R_R_Dha -95;
+    pos @MMK_L_L_C @MMK_R_R_Ga -30;
+    pos @MMK_L_L_C @MMK_R_R_Gha -110;
+    pos @MMK_L_L_C @MMK_R_R_I -20;
+    pos @MMK_L_L_C @MMK_R_R_Ka -20;
+    pos @MMK_L_L_C @MMK_R_R_Ma 20;
+    pos @MMK_L_L_C @MMK_R_R_Nna -20;
+    pos @MMK_L_L_C @MMK_R_R_Nya 10;
+    pos @MMK_L_L_C @MMK_R_R_Pa -30;
+    pos @MMK_L_L_C @MMK_R_R_Pha -50;
+    pos @MMK_L_L_C @MMK_R_R_Ta 10;
+    pos @MMK_L_L_C @MMK_R_R_Tha -30;
+    pos @MMK_L_L_C @MMK_R_R_Ya 20;
+    pos @MMK_L_L_Da @MMK_R_R_A 10;
+    pos @MMK_L_L_Da @MMK_R_R_Bha 10;
+    pos @MMK_L_L_Da @MMK_R_R_DaBha 30;
+    pos @MMK_L_L_Da @MMK_R_R_Dda 30;
+    pos @MMK_L_L_Da @MMK_R_R_Dha 20;
+    pos @MMK_L_L_Da @MMK_R_R_Ha 20;
+    pos @MMK_L_L_Da @MMK_R_R_I 20;
+    pos @MMK_L_L_Da @MMK_R_R_KaSsa 30;
+    pos @MMK_L_L_Da @MMK_R_R_La 20;
+    pos @MMK_L_L_Da @MMK_R_R_Lla 20;
+    pos @MMK_L_L_Da @MMK_R_R_Ra 20;
+    pos @MMK_L_L_Da @MMK_R_R_Sha 40;
+    pos @MMK_L_L_Da @MMK_R_R_ShaRa 30;
+    pos @MMK_L_L_Da @MMK_R_R_Ta 20;
+    pos @MMK_L_L_Da @MMK_R_R_TaRa 10;
+    pos @MMK_L_L_Da @MMK_R_R_U 10;
+    pos @MMK_L_L_Gh @MMK_R_R_Bha -70;
+    pos @MMK_L_L_Gh @MMK_R_R_Ca -95;
+    pos @MMK_L_L_Gh @MMK_R_R_Cha -60;
+    pos @MMK_L_L_Gh @MMK_R_R_Da 30;
+    pos @MMK_L_L_Gh @MMK_R_R_Dha -110;
+    pos @MMK_L_L_Gh @MMK_R_R_Gha -130;
+    pos @MMK_L_L_Gh @MMK_R_R_La 2;
+    pos @MMK_L_L_Gh @MMK_R_R_Nna -20;
+    pos @MMK_L_L_Gh @MMK_R_R_Pa -40;
+    pos @MMK_L_L_Gh @MMK_R_R_Pha -50;
+    pos @MMK_L_L_Gh @MMK_R_R_Ra 20;
+    pos @MMK_L_L_Gh @MMK_R_R_Sha -60;
+    pos @MMK_L_L_Gh @MMK_R_R_Tha -30;
+    pos @MMK_L_L_H @MMK_R_R_Ca -30;
+    pos @MMK_L_L_H @MMK_R_R_Cha 20;
+    pos @MMK_L_L_H @MMK_R_R_Dda 60;
+    pos @MMK_L_L_H @MMK_R_R_Ga -10;
+    pos @MMK_L_L_H @MMK_R_R_Gha -20;
+    pos @MMK_L_L_H @MMK_R_R_Ha -20;
+    pos @MMK_L_L_H @MMK_R_R_Ja 40;
+    pos @MMK_L_L_H @MMK_R_R_Ka 10;
+    pos @MMK_L_L_H @MMK_R_R_Nna -45;
+    pos @MMK_L_L_H @MMK_R_R_Pa -50;
+    pos @MMK_L_L_H @MMK_R_R_Pha -120;
+    pos @MMK_L_L_H @MMK_R_R_Ra 30;
+    pos @MMK_L_L_H @MMK_R_R_Tha -85;
+    pos @MMK_L_L_Jh @MMK_R_R_Bha -120;
+    pos @MMK_L_L_Jh @MMK_R_R_Ca -120;
+    pos @MMK_L_L_Jh @MMK_R_R_Cha -30;
+    pos @MMK_L_L_Jh @MMK_R_R_Da 30;
+    pos @MMK_L_L_Jh @MMK_R_R_Dda -100;
+    pos @MMK_L_L_Jh @MMK_R_R_Dha -45;
+    pos @MMK_L_L_Jh @MMK_R_R_Ga -40;
+    pos @MMK_L_L_Jh @MMK_R_R_Gha -60;
+    pos @MMK_L_L_Jh @MMK_R_R_Ha -60;
+    pos @MMK_L_L_Jh @MMK_R_R_I -70;
+    pos @MMK_L_L_Jh @MMK_R_R_Ja 30;
+    pos @MMK_L_L_Jh @MMK_R_R_Ka 30;
+    pos @MMK_L_L_Jh @MMK_R_R_La 30;
+    pos @MMK_L_L_Jh @MMK_R_R_Nya 40;
+    pos @MMK_L_L_Jh @MMK_R_R_Pa -45;
+    pos @MMK_L_L_Jh @MMK_R_R_Pha -120;
+    pos @MMK_L_L_Jh @MMK_R_R_Ra -40;
+    pos @MMK_L_L_Jh @MMK_R_R_Sha -40;
+    pos @MMK_L_L_Jh @MMK_R_R_Ta 20;
+    pos @MMK_L_L_Jh @MMK_R_R_Tha -60;
+    pos @MMK_L_L_Ka @MMK_R_R_Ca 10;
+    pos @MMK_L_L_Ka @MMK_R_R_Da 20;
+    pos @MMK_L_L_Ka @MMK_R_R_DaBha 20;
+    pos @MMK_L_L_Ka @MMK_R_R_Dda 10;
+    pos @MMK_L_L_Ka @MMK_R_R_Gha -30;
+    pos @MMK_L_L_Ka @MMK_R_R_Ha 10;
+    pos @MMK_L_L_Ka @MMK_R_R_I 20;
+    pos @MMK_L_L_Ka @MMK_R_R_Ja 30;
+    pos @MMK_L_L_Ka @MMK_R_R_Ka 10;
+    pos @MMK_L_L_Ka @MMK_R_R_KaSsa 20;
+    pos @MMK_L_L_Ka @MMK_R_R_La 20;
+    pos @MMK_L_L_Ka @MMK_R_R_Lla 20;
+    pos @MMK_L_L_Ka @MMK_R_R_Na 20;
+    pos @MMK_L_L_Ka @MMK_R_R_Nya 30;
+    pos @MMK_L_L_Ka @MMK_R_R_Ra 40;
+    pos @MMK_L_L_Ka @MMK_R_R_Sha 30;
+    pos @MMK_L_L_Ka @MMK_R_R_ShaRa 30;
+    pos @MMK_L_L_Ka @MMK_R_R_Ta 20;
+    pos @MMK_L_L_Ka @MMK_R_R_Va 20;
+    pos @MMK_L_L_Ka @MMK_R_R_Ya 20;
+    pos @MMK_L_L_Kh @MMK_R_R_Ca -5;
+    pos @MMK_L_L_Kh @MMK_R_R_Cha -20;
+    pos @MMK_L_L_Kh @MMK_R_R_Da 40;
+    pos @MMK_L_L_Kh @MMK_R_R_Dda 40;
+    pos @MMK_L_L_Kh @MMK_R_R_Dha -10;
+    pos @MMK_L_L_Kh @MMK_R_R_Gha -50;
+    pos @MMK_L_L_Kh @MMK_R_R_Ha -10;
+    pos @MMK_L_L_Kh @MMK_R_R_I 20;
+    pos @MMK_L_L_Kh @MMK_R_R_Ja 40;
+    pos @MMK_L_L_Kh @MMK_R_R_La 40;
+    pos @MMK_L_L_Kh @MMK_R_R_Na -10;
+    pos @MMK_L_L_Kh @MMK_R_R_Nna -30;
+    pos @MMK_L_L_Kh @MMK_R_R_Nya 40;
+    pos @MMK_L_L_Kh @MMK_R_R_Pa -40;
+    pos @MMK_L_L_Kh @MMK_R_R_Pha -40;
+    pos @MMK_L_L_Kh @MMK_R_R_Ra 8;
+    pos @MMK_L_L_Kh @MMK_R_R_Sha -40;
+    pos @MMK_L_L_Kh @MMK_R_R_Ta 25;
+    pos @MMK_L_L_Kh @MMK_R_R_Tha -60;
+    pos @MMK_L_L_Kh @MMK_R_R_Va -20;
+    pos @MMK_L_L_Kh @MMK_R_R_Ya -20;
+    pos @MMK_L_L_L @MMK_R_R_Bha -150;
+    pos @MMK_L_L_L @MMK_R_R_Ca -30;
+    pos @MMK_L_L_L @MMK_R_R_Cha -70;
+    pos @MMK_L_L_L @MMK_R_R_Da -40;
+    pos @MMK_L_L_L @MMK_R_R_Dda 30;
+    pos @MMK_L_L_L @MMK_R_R_Dha -180;
+    pos @MMK_L_L_L @MMK_R_R_Ga -90;
+    pos @MMK_L_L_L @MMK_R_R_Gha -140;
+    pos @MMK_L_L_L @MMK_R_R_Ja 50;
+    pos @MMK_L_L_L @MMK_R_R_Ka -20;
+    pos @MMK_L_L_L @MMK_R_R_La -15;
+    pos @MMK_L_L_L @MMK_R_R_Ma -90;
+    pos @MMK_L_L_L @MMK_R_R_Nna -70;
+    pos @MMK_L_L_L @MMK_R_R_Nya -50;
+    pos @MMK_L_L_L @MMK_R_R_Pa -110;
+    pos @MMK_L_L_L @MMK_R_R_Pha -120;
+    pos @MMK_L_L_L @MMK_R_R_Ra -40;
+    pos @MMK_L_L_L @MMK_R_R_Ta -65;
+    pos @MMK_L_L_L @MMK_R_R_Tha -160;
+    pos @MMK_L_L_L @MMK_R_R_Va -25;
+    pos @MMK_L_L_L @MMK_R_R_Ya -65;
+    pos @MMK_L_L_M @MMK_R_R_Bha -70;
+    pos @MMK_L_L_M @MMK_R_R_Ca -60;
+    pos @MMK_L_L_M @MMK_R_R_Cha -30;
+    pos @MMK_L_L_M @MMK_R_R_Da -30;
+    pos @MMK_L_L_M @MMK_R_R_Dda -50;
+    pos @MMK_L_L_M @MMK_R_R_Dha -50;
+    pos @MMK_L_L_M @MMK_R_R_Ga -100;
+    pos @MMK_L_L_M @MMK_R_R_Gha -70;
+    pos @MMK_L_L_M @MMK_R_R_Ha -10;
+    pos @MMK_L_L_M @MMK_R_R_I -20;
+    pos @MMK_L_L_M @MMK_R_R_La -30;
+    pos @MMK_L_L_M @MMK_R_R_Ma -110;
+    pos @MMK_L_L_M @MMK_R_R_Na 10;
+    pos @MMK_L_L_M @MMK_R_R_Nna -20;
+    pos @MMK_L_L_M @MMK_R_R_Nya 40;
+    pos @MMK_L_L_M @MMK_R_R_Pa -20;
+    pos @MMK_L_L_M @MMK_R_R_Pha -30;
+    pos @MMK_L_L_M @MMK_R_R_Sha -20;
+    pos @MMK_L_L_M @MMK_R_R_Tha -25;
+    pos @MMK_L_L_M @MMK_R_R_Va -20;
+    pos @MMK_L_L_M @MMK_R_R_Ya -100;
+    pos @MMK_L_L_N @MMK_R_R_Bha -135;
+    pos @MMK_L_L_N @MMK_R_R_Ca -100;
+    pos @MMK_L_L_N @MMK_R_R_Cha -70;
+    pos @MMK_L_L_N @MMK_R_R_Da 40;
+    pos @MMK_L_L_N @MMK_R_R_Dda -20;
+    pos @MMK_L_L_N @MMK_R_R_Dha -90;
+    pos @MMK_L_L_N @MMK_R_R_Ga -40;
+    pos @MMK_L_L_N @MMK_R_R_Gha -120;
+    pos @MMK_L_L_N @MMK_R_R_I -20;
+    pos @MMK_L_L_N @MMK_R_R_Ja 40;
+    pos @MMK_L_L_N @MMK_R_R_Nna -30;
+    pos @MMK_L_L_N @MMK_R_R_Nya 40;
+    pos @MMK_L_L_N @MMK_R_R_Pa -40;
+    pos @MMK_L_L_N @MMK_R_R_Pha -65;
+    pos @MMK_L_L_N @MMK_R_R_Ta 30;
+    pos @MMK_L_L_N @MMK_R_R_Tha -40;
+    pos @MMK_L_L_Ny @MMK_R_R_Bha -140;
+    pos @MMK_L_L_Ny @MMK_R_R_Ca -100;
+    pos @MMK_L_L_Ny @MMK_R_R_Cha -80;
+    pos @MMK_L_L_Ny @MMK_R_R_Da 30;
+    pos @MMK_L_L_Ny @MMK_R_R_Dda -60;
+    pos @MMK_L_L_Ny @MMK_R_R_Dha -100;
+    pos @MMK_L_L_Ny @MMK_R_R_Ga -35;
+    pos @MMK_L_L_Ny @MMK_R_R_Gha -150;
+    pos @MMK_L_L_Ny @MMK_R_R_I -30;
+    pos @MMK_L_L_Ny @MMK_R_R_Ja 50;
+    pos @MMK_L_L_Ny @MMK_R_R_Ka -10;
+    pos @MMK_L_L_Ny @MMK_R_R_La 10;
+    pos @MMK_L_L_Ny @MMK_R_R_Nya 20;
+    pos @MMK_L_L_Ny @MMK_R_R_Pa -60;
+    pos @MMK_L_L_Ny @MMK_R_R_Pha -75;
+    pos @MMK_L_L_Ny @MMK_R_R_Sha -20;
+    pos @MMK_L_L_Ny @MMK_R_R_Ta 20;
+    pos @MMK_L_L_P @MMK_R_R_Ca -20;
+    pos @MMK_L_L_P @MMK_R_R_Dha -40;
+    pos @MMK_L_L_P @MMK_R_R_Ga -20;
+    pos @MMK_L_L_P @MMK_R_R_Gha -65;
+    pos @MMK_L_L_P @MMK_R_R_Ja 50;
+    pos @MMK_L_L_P @MMK_R_R_Ka 25;
+    pos @MMK_L_L_P @MMK_R_R_La 30;
+    pos @MMK_L_L_P @MMK_R_R_Na 30;
+    pos @MMK_L_L_P @MMK_R_R_Nya 40;
+    pos @MMK_L_L_P @MMK_R_R_Pa -10;
+    pos @MMK_L_L_P @MMK_R_R_Pha -30;
+    pos @MMK_L_L_P @MMK_R_R_Ra 30;
+    pos @MMK_L_L_P @MMK_R_R_Tha -35;
+    pos @MMK_L_L_P @MMK_R_R_Va 50;
+    pos @MMK_L_L_P @MMK_R_R_Ya 30;
+    pos @MMK_L_L_Ph @MMK_R_R_Bha -140;
+    pos @MMK_L_L_Ph @MMK_R_R_Ca -130;
+    pos @MMK_L_L_Ph @MMK_R_R_Cha -55;
+    pos @MMK_L_L_Ph @MMK_R_R_Dda -60;
+    pos @MMK_L_L_Ph @MMK_R_R_Dha -50;
+    pos @MMK_L_L_Ph @MMK_R_R_Ga -80;
+    pos @MMK_L_L_Ph @MMK_R_R_Gha -70;
+    pos @MMK_L_L_Ph @MMK_R_R_Ja 50;
+    pos @MMK_L_L_Ph @MMK_R_R_Ka 40;
+    pos @MMK_L_L_Ph @MMK_R_R_La 20;
+    pos @MMK_L_L_Ph @MMK_R_R_Pa -15;
+    pos @MMK_L_L_Ph @MMK_R_R_Pha -40;
+    pos @MMK_L_L_Ph @MMK_R_R_Tha -35;
+    pos @MMK_L_L_Ph @MMK_R_R_Va 20;
+    pos @MMK_L_L_Ra @MMK_R_R_Ca -20;
+    pos @MMK_L_L_Ra @MMK_R_R_Da -30;
+    pos @MMK_L_L_Ra @MMK_R_R_Ha -10;
+    pos @MMK_L_L_Ra @MMK_R_R_Ja -50;
+    pos @MMK_L_L_Ra @MMK_R_R_Ka -30;
+    pos @MMK_L_L_Ra @MMK_R_R_La -40;
+    pos @MMK_L_L_Ra @MMK_R_R_Na -20;
+    pos @MMK_L_L_Ra @MMK_R_R_Nya -20;
+    pos @MMK_L_L_Ra @MMK_R_R_Ra -40;
+    pos @MMK_L_L_Ra @MMK_R_R_Ta -30;
+    pos @MMK_L_L_Ra @MMK_R_R_Va -50;
+    pos @MMK_L_L_Rr @MMK_R_R_A 30;
+    pos @MMK_L_L_Rr @MMK_R_R_Cha 10;
+    pos @MMK_L_L_Rr @MMK_R_R_Da 20;
+    pos @MMK_L_L_Rr @MMK_R_R_DaBha 50;
+    pos @MMK_L_L_Rr @MMK_R_R_Dda 40;
+    pos @MMK_L_L_Rr @MMK_R_R_Dha -10;
+    pos @MMK_L_L_Rr @MMK_R_R_Gha -40;
+    pos @MMK_L_L_Rr @MMK_R_R_Ha 20;
+    pos @MMK_L_L_Rr @MMK_R_R_I 50;
+    pos @MMK_L_L_Rr @MMK_R_R_Ja 20;
+    pos @MMK_L_L_Rr @MMK_R_R_Ka 40;
+    pos @MMK_L_L_Rr @MMK_R_R_KaSsa 40;
+    pos @MMK_L_L_Rr @MMK_R_R_La 45;
+    pos @MMK_L_L_Rr @MMK_R_R_Lla 40;
+    pos @MMK_L_L_Rr @MMK_R_R_Ma 10;
+    pos @MMK_L_L_Rr @MMK_R_R_Na 20;
+    pos @MMK_L_L_Rr @MMK_R_R_Nya 30;
+    pos @MMK_L_L_Rr @MMK_R_R_Ra 40;
+    pos @MMK_L_L_Rr @MMK_R_R_Sha 40;
+    pos @MMK_L_L_Rr @MMK_R_R_ShaRa 40;
+    pos @MMK_L_L_Rr @MMK_R_R_Ta 30;
+    pos @MMK_L_L_Rr @MMK_R_R_U 40;
+    pos @MMK_L_L_Rr @MMK_R_R_Va 30;
+    pos @MMK_L_L_S @MMK_R_R_Bha -30;
+    pos @MMK_L_L_S @MMK_R_R_Ca -40;
+    pos @MMK_L_L_S @MMK_R_R_Da -20;
+    pos @MMK_L_L_S @MMK_R_R_Dda -10;
+    pos @MMK_L_L_S @MMK_R_R_Dha -30;
+    pos @MMK_L_L_S @MMK_R_R_Ga -60;
+    pos @MMK_L_L_S @MMK_R_R_Gha -40;
+    pos @MMK_L_L_S @MMK_R_R_Ja 40;
+    pos @MMK_L_L_S @MMK_R_R_La -20;
+    pos @MMK_L_L_S @MMK_R_R_Ma -50;
+    pos @MMK_L_L_S @MMK_R_R_Na 20;
+    pos @MMK_L_L_S @MMK_R_R_Nya 50;
+    pos @MMK_L_L_S @MMK_R_R_Pha -10;
+    pos @MMK_L_L_S @MMK_R_R_Ra -40;
+    pos @MMK_L_L_S @MMK_R_R_Ta -20;
+    pos @MMK_L_L_S @MMK_R_R_Tha -20;
+    pos @MMK_L_L_S @MMK_R_R_Va -20;
+    pos @MMK_L_L_S @MMK_R_R_Ya -45;
+    pos @MMK_L_L_T @MMK_R_R_Bha -180;
+    pos @MMK_L_L_T @MMK_R_R_Ca -210;
+    pos @MMK_L_L_T @MMK_R_R_Cha -120;
+    pos @MMK_L_L_T @MMK_R_R_Da -35;
+    pos @MMK_L_L_T @MMK_R_R_Dda -20;
+    pos @MMK_L_L_T @MMK_R_R_Dha -200;
+    pos @MMK_L_L_T @MMK_R_R_Ga -85;
+    pos @MMK_L_L_T @MMK_R_R_Gha -220;
+    pos @MMK_L_L_T @MMK_R_R_Ha -30;
+    pos @MMK_L_L_T @MMK_R_R_I -60;
+    pos @MMK_L_L_T @MMK_R_R_Ka -40;
+    pos @MMK_L_L_T @MMK_R_R_La -50;
+    pos @MMK_L_L_T @MMK_R_R_Ma -50;
+    pos @MMK_L_L_T @MMK_R_R_Nna -90;
+    pos @MMK_L_L_T @MMK_R_R_Nya -80;
+    pos @MMK_L_L_T @MMK_R_R_Pa -120;
+    pos @MMK_L_L_T @MMK_R_R_Pha -130;
+    pos @MMK_L_L_T @MMK_R_R_Ra -80;
+    pos @MMK_L_L_T @MMK_R_R_Ta -50;
+    pos @MMK_L_L_T @MMK_R_R_Tha -150;
+    pos @MMK_L_L_T @MMK_R_R_Va -60;
+    pos @MMK_L_L_T @MMK_R_R_Ya -100;
+    pos @MMK_L_L_V @MMK_R_R_Bha -160;
+    pos @MMK_L_L_V @MMK_R_R_Ca -60;
+    pos @MMK_L_L_V @MMK_R_R_Cha -80;
+    pos @MMK_L_L_V @MMK_R_R_Dda -50;
+    pos @MMK_L_L_V @MMK_R_R_Dha -130;
+    pos @MMK_L_L_V @MMK_R_R_Gha -170;
+    pos @MMK_L_L_V @MMK_R_R_I 30;
+    pos @MMK_L_L_V @MMK_R_R_Ja 30;
+    pos @MMK_L_L_V @MMK_R_R_Ka 30;
+    pos @MMK_L_L_V @MMK_R_R_La 50;
+    pos @MMK_L_L_V @MMK_R_R_Ma 40;
+    pos @MMK_L_L_V @MMK_R_R_Na 20;
+    pos @MMK_L_L_V @MMK_R_R_Nna -20;
+    pos @MMK_L_L_V @MMK_R_R_Nya 50;
+    pos @MMK_L_L_V @MMK_R_R_Pa -40;
+    pos @MMK_L_L_V @MMK_R_R_Pha -50;
+    pos @MMK_L_L_V @MMK_R_R_Ra -30;
+    pos @MMK_L_L_V @MMK_R_R_Sha 30;
+    pos @MMK_L_L_V @MMK_R_R_Tha -50;
+    pos @MMK_L_L_V @MMK_R_R_Va 10;
+    pos @MMK_L_L_V @MMK_R_R_Ya 40;
+    pos @MMK_L_L_Y @MMK_R_R_Bha -30;
+    pos @MMK_L_L_Y @MMK_R_R_Ca -40;
+    pos @MMK_L_L_Y @MMK_R_R_Cha -30;
+    pos @MMK_L_L_Y @MMK_R_R_Da -10;
+    pos @MMK_L_L_Y @MMK_R_R_Dda -20;
+    pos @MMK_L_L_Y @MMK_R_R_Dha -60;
+    pos @MMK_L_L_Y @MMK_R_R_Ga -20;
+    pos @MMK_L_L_Y @MMK_R_R_Gha -70;
+    pos @MMK_L_L_Y @MMK_R_R_Ja 15;
+    pos @MMK_L_L_Y @MMK_R_R_Nna -10;
+    pos @MMK_L_L_Y @MMK_R_R_Nya 40;
+    pos @MMK_L_L_Y @MMK_R_R_Pa -25;
+    pos @MMK_L_L_Y @MMK_R_R_Pha -30;
+    pos @MMK_L_L_Y @MMK_R_R_Ta -30;
+    pos @MMK_L_L_Y @MMK_R_R_Tha -50;
+    pos @MMK_L_L_Y @MMK_R_R_Va -20;
+    pos @MMK_L_L_Y @MMK_R_R_Ya -20;
+} dist;

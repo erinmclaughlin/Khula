@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="uudeva" format="1">
+  <advance width="1658"/>
+  <unicode hex="090A"/>
+  <outline>
+    <contour>
+      <point x="943" y="295" type="curve"/>
+      <point x="754" y="638" type="line"/>
+      <point x="862" y="699"/>
+      <point x="989" y="743"/>
+      <point x="1121" y="743" type="curve" smooth="yes"/>
+      <point x="1412" y="743"/>
+      <point x="1593" y="558"/>
+      <point x="1593" y="334" type="curve" smooth="yes"/>
+      <point x="1593" y="194"/>
+      <point x="1541" y="66"/>
+      <point x="1471" y="-24" type="curve"/>
+      <point x="1153" y="95" type="line"/>
+      <point x="1222" y="190"/>
+      <point x="1274" y="281"/>
+      <point x="1274" y="367" type="curve" smooth="yes"/>
+      <point x="1274" y="424"/>
+      <point x="1240" y="460"/>
+      <point x="1176" y="460" type="curve" smooth="yes"/>
+      <point x="1098" y="460"/>
+      <point x="1013" y="401"/>
+    </contour>
+    <contour>
+      <point x="1154" y="1056" type="curve"/>
+      <point x="1144" y="1294" type="line"/>
+      <point x="1688" y="1294" type="line"/>
+      <point x="1688" y="1056" type="line"/>
+      <point x="1688" y="1056"/>
+      <point x="1154" y="1056"/>
+    </contour>
+    <component base="udeva"/>
+    <contour>
+      <point x="49.0" y="8.0" type="move" name="x53"/>
+    </contour>
+    <contour>
+      <point x="881.0" y="1282.0" type="move" name="mark0"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.typemytype.robofont.layerData</key>
+      <dict>
+        <key>background</key>
+        <dict>
+          <key>anchors</key>
+          <array>
+          </array>
+          <key>components</key>
+          <array>
+          </array>
+          <key>contours</key>
+          <array>
+          </array>
+          <key>lib</key>
+          <dict>
+          </dict>
+          <key>name</key>
+          <string>uudeva</string>
+          <key>unicodes</key>
+          <array>
+          </array>
+          <key>width</key>
+          <integer>1658</integer>
+        </dict>
+        <key>layer1</key>
+        <dict>
+          <key>anchors</key>
+          <array>
+          </array>
+          <key>components</key>
+          <array>
+          </array>
+          <key>contours</key>
+          <array>
+          </array>
+          <key>lib</key>
+          <dict>
+          </dict>
+          <key>name</key>
+          <string>uudeva</string>
+          <key>unicodes</key>
+          <array>
+          </array>
+          <key>width</key>
+          <integer>1658</integer>
+        </dict>
+        <key>layer2</key>
+        <dict>
+          <key>anchors</key>
+          <array>
+            <dict>
+              <key>name</key>
+              <string>x53</string>
+              <key>x</key>
+              <real>49.0</real>
+              <key>y</key>
+              <real>8.0</real>
+            </dict>
+            <dict>
+              <key>name</key>
+              <string>mark0</string>
+              <key>x</key>
+              <real>881.0</real>
+              <key>y</key>
+              <real>1282.0</real>
+            </dict>
+          </array>
+          <key>components</key>
+          <array>
+          </array>
+          <key>contours</key>
+          <array>
+          </array>
+          <key>lib</key>
+          <dict>
+          </dict>
+          <key>name</key>
+          <string>uudeva</string>
+          <key>unicodes</key>
+          <array>
+          </array>
+          <key>width</key>
+          <integer>1658</integer>
+        </dict>
+        <key>original</key>
+        <dict>
+          <key>anchors</key>
+          <array>
+          </array>
+          <key>components</key>
+          <array>
+          </array>
+          <key>contours</key>
+          <array>
+          </array>
+          <key>lib</key>
+          <dict>
+          </dict>
+          <key>name</key>
+          <string>uudeva</string>
+          <key>unicodes</key>
+          <array>
+          </array>
+          <key>width</key>
+          <integer>1658</integer>
+        </dict>
+      </dict>
+      <key>org.robofab.fontlab.mark</key>
+      <integer>210</integer>
+    </dict>
+  </lib>
+</glyph>
