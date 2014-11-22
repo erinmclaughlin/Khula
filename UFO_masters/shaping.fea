@@ -115,7 +115,7 @@ feature rphf {
 
 feature rkrf {
     
-    script dev2;
+    script DFLT;
     
             lookup Rakar { # Rakar pre-base substitution
                 sub @rkrf_0 viramadeva radeva by @rkrf_1;
@@ -129,10 +129,17 @@ feature rkrf {
             lookup Rakar;
         language NEP;
             lookup Rakar;
-            
-            
+
+    script dev2;
+            lookup Rakar;
+        language MAR;
+            lookup RakarMAR;
+            lookup Rakar;
+        language NEP;
+            lookup Rakar;            
+        
     script deva;
-            lookup Reph;
+            lookup Rakar;
         language MAR;
             lookup RakarMAR;
             lookup Rakar;
@@ -176,7 +183,7 @@ feature blwf {
 
 feature half {
     
-    script dev2;
+    script DFLT;
         
             lookup Halfforms { # Half forms
                 sub @half_0 viramadeva by @half_1;
@@ -195,7 +202,18 @@ feature half {
         language NEP;
             lookup Halfforms;
             lookup HalfRakar;            
-    
+
+    script dev2;
+            lookup Halfforms;
+            lookup HalfRakar;
+        language MAR;        
+            lookup HalfMAR;
+            lookup Halfforms;
+            lookup HalfRakar;    
+        language NEP;
+            lookup Halfforms;
+            lookup HalfRakar; 
+                
     script deva;
             lookup Halfforms;
             lookup HalfRakar;
@@ -216,12 +234,12 @@ feature vatu {
     script deva;
             
             lookup Vattuforms { # Vattu variant Rakars for backwards-compatibility
-                sub @rkrf_0 vattudeva by @rkrf_1;
-            } HalfVattuforms;
+##                sub @rkrf_0 vattudeva by @rkrf_1;
+            } Vattuforms;
             
             lookup VattuHalf { # Vattu variant Half Rakars for backwards-compatibility
                 sub @half_r_0 vattudeva by @half_r_1;
-            } HalfRakar;
+            } VattuHalf;
 
         language MAR;
             lookup VattuMAR { # Rakar for Marathi characters for backwards-compatibility

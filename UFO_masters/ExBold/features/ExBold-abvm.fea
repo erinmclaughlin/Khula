@@ -3,6 +3,8 @@
 # ------------ Above-base mark positioning ------------
 
 feature abvm {
+    
+            markClass @abvm_top <anchor -552 1294> @m_top; 
            
             lookup AbvMarks { # above-base mark positioning                
                 pos base @abvb_Ka <anchor 680 1294> mark @m_top;

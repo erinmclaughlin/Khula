@@ -4,6 +4,8 @@
 
 feature blwm {
     
+            markClass @blwm_btm <anchor -552 0> @m_btm;
+    
             lookup BlwMarks { # below-base mark positioning  
                 pos base @blwb_Ka <anchor 680 0> mark @m_btm;
                 pos base ngadeva <anchor 509 -20> mark @m_btm;

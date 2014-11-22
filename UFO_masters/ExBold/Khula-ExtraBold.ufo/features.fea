@@ -1,10 +1,10 @@
 # ------------- Language systems ----------
 
-include (.../lang.fea);
+include (../lang.fea);
 
 # ---------------- Groups -------------------
 
-include (ExBold_groups.fea);
+include (features/ExBold-groups.fea);
 
 # ------------- Localization ----------------
 
@@ -24,11 +24,11 @@ include (ExBold_groups.fea);
 
 # ----------------- Conjuncts -------------------
 
-include (.../shaping.fea);
+include (../shaping.fea);
 
 # -------------- Pre-Base substitutions -------------
 
-include (ExBold-prebase.fea);
+include (features/ExBold-prebase.fea);
 
 # ---------------- Above-base substitutions ---------------
 
@@ -38,16 +38,18 @@ include (ExBold-prebase.fea);
 
 # --------------- Halant Form substitution ----------
 
-include (.../presentation.fea);
+include (../presentation.fea);
 
 # ------------ Above-base mark positioning ------------
 
-include (ExBold-avbm.fea);
+include (features/ExBold-avbm.fea);
 
 # ------------ Below-base mark positioning ------------
 
-include (ExBold-blwm.fea); 
+include (features/ExBold-blwm.fea); 
 
 # ------------ Distances (half-form kerns) ----------
 
-include (ExBold-kern.fea);
+include (features/ExBold-kern.fea);
+
+
