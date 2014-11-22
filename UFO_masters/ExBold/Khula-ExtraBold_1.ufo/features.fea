@@ -273,212 +273,249 @@ feature half {
 # --------------- Vattu variants ----------------  
 
 
-feature vatu { # Vattu Variants
+feature vatu {
 
-    script deva; # Devanagari
+    script deva;
             
-            lookup HalfVattuforms { 
-                sub @half_0 vattudeva by @half_1;
-            } HalfVattuforms;
+            lookup Vattuforms { 
+                
+                sub kadeva vattudeva by karadeva;
+                sub khadeva vattudeva by kharadeva;
+                sub gadeva vattudeva by garadeva;
+                sub ghadeva vattudeva by gharadeva;
+                sub ngadeva vattudeva by ngaradeva;
+                sub cadeva vattudeva by caradeva;
+                sub chadeva vattudeva by charadeva;
+                sub jadeva vattudeva by jaradeva;
+                sub jhadeva vattudeva by jharadeva;
+                sub nyadeva vattudeva by nyaradeva;
+                sub ttadeva vattudeva by ttaradeva;
+                sub tthadeva vattudeva by ttharadeva;
+                sub ddadeva vattudeva by ddaradeva;
+                sub ddhadeva vattudeva by ddharadeva;
+                sub nnadeva vattudeva by nnaradeva;
+                sub tadeva vattudeva by taradeva;
+                sub thadeva vattudeva by tharadeva;
+                sub dadeva vattudeva by daradeva;
+                sub dhadeva vattudeva by dharadeva;
+                sub nadeva vattudeva by naradeva;
+                sub padeva vattudeva by paradeva;
+                sub phadeva vattudeva by pharadeva;
+                sub badeva vattudeva by baradeva;
+                sub bhadeva vattudeva by bharadeva;
+                sub madeva vattudeva by maradeva;
+                sub yadeva vattudeva by yaradeva;
+                sub radeva vattudeva by raradeva;
+                sub ladeva vattudeva by laradeva;
+                sub lladeva vattudeva by llaradeva;
+                sub vadeva vattudeva by varadeva;
+                sub shadeva vattudeva by sharadeva;
+                sub ssadeva vattudeva by ssaradeva;
+                sub sadeva vattudeva by saradeva;
+                sub hadeva vattudeva by haradeva;
+                sub kassadeva vattudeva by kassaradeva;
+                sub janyadeva vattudeva by janyaradeva;
+                sub qadeva vattudeva by kanuktaradeva;
+                sub khhadeva vattudeva by khanuktaradeva;
+                sub ghhadeva vattudeva by ganuktaradeva;
+                sub zadeva vattudeva by januktaradeva;
+                sub dddhadeva vattudeva by ddanuktaradeva;
+                sub rhadeva vattudeva by ddhanuktaradeva;
+                sub nnnadeva vattudeva by nanuktaradeva;
+                sub fadeva vattudeva by phanuktaradeva;
+                sub yyadeva vattudeva by yanuktaradeva;
+                sub rradeva vattudeva by ranuktaradeva;
+                sub llladeva vattudeva by llanuktaradeva;     
+                sub shadevaMAR vattudeva by sharadeva;
+                sub ladevaMAR vattudeva by laradevaMAR;
+                sub jhadevaNEP vattudeva by jharadevaNEP;
+                
+            } Vattuforms;
             
-            lookup HalfViramaVattu { 
-                sub @half_h_0 vattu uni200D by @half_h_1;
-            } HalfViramaVattu;
-    
-    #### where do these go????????
-#                sub ladevaMAR vattudeva by laprehalfdeva;
-#    sub radeva viramadeva uni200D by raprehalfdeva;
-#    sub rradeva viramadeva by raprehalfdeva;
+            lookup VattuHalf {
+                sub karadeva vattudeva by karaprehalfdeva;
+                sub kharadeva vattudeva by kharaprehalfdeva;
+                sub garadeva vattudeva by garaprehalfdeva;
+                sub gharadeva vattudeva by gharaprehalfdeva;
+                sub ngaradeva vattudeva by ngaraprehalfdeva;
+                sub caradeva vattudeva by caraprehalfdeva;
+                sub charadeva vattudeva by charaprehalfdeva;
+                sub jaradeva vattudeva by jaraprehalfdeva;
+                sub jharadeva vattudeva by jharaprehalfdeva;
+                sub nyaradeva vattudeva by nyaraprehalfdeva;
+                sub ttaaradeva vattudeva by ttaraprehalfdeva;
+                sub ttharadeva vattudeva by ttharaprehalfdeva;
+                sub ddaradeva vattudeva by ddaraprehalfdeva;
+                sub dddharadeva vattudeva by ddanuktaraprehalfdeva;
+                sub ddharadeva vattudeva by ddharaprehalfdeva;
+                sub rharadeva vattudeva by ddhanuktaraprehalfdeva;
+                sub nnaradeva vattudeva by nnaraprehalfdeva;
+                sub taradeva vattudeva by taraprehalfdeva;
+                sub tharadeva vattudeva by tharaprehalfdeva;
+                sub daradeva vattudeva by daraprehalfdeva;
+                sub dharadeva vattudeva by dharaprehalfdeva; 
+                sub naradeva vattudeva by naraprehalfdeva; 
+                sub paradeva vattudeva by paraprehalfdeva; 
+                sub pharadeva vattudeva by pharaprehalfdeva; 
+                sub baradeva vattudeva by baraprehalfdeva; 
+                sub bharadeva vattudeva by bharaprehalfdeva; 
+                sub maradeva vattudeva by maraprehalfdeva; 
+                sub yaradeva vattudeva by yaraprehalfdeva; 
+                sub laradeva vattudeva by laraprehalfdeva; 
+                sub llaradeva vattudeva by llaraprehalfdeva; 
+                sub varadeva vattudeva by varaprehalfdeva; 
+                sub saradeva vattudeva by sharaprehalfdeva; 
+                sub ssaradeva vattudeva by ssaraprehalfdeva; 
+                sub saradeva vattudeva by saraprehalfdeva; 
+                sub haradeva vattudeva by haraprehalfdeva; 
+                sub kassaradeva vattudeva by kassaraprehalfdeva; 
+                sub janyaradeva vattudeva by janyaraprehalfdeva; 
+                sub kanuktaradeva vattudeva by kanuktaraprehalfdeva; 
+                sub khanuktaradeva vattudeva by khanuktaraprehalfdeva; 
+                sub ghanuktaradeva vattudeva by ganuktaraprehalfdeva; 
+                sub januktaradeva vattudeva by januktaraprehalfdeva; 
+                sub nanuktaradeva vattudeva by nanuktaraprehalfdeva; 
+                sub phanuktaradeva vattudeva by phanuktaraprehalfdeva; 
+                sub yanuktaradeva vattudeva by yanuktaraprehalfdeva; 
+                sub llanuktaradeva vattudeva by llanuktaraprehalfdeva;
+                sub laradevaMAR vattudeva by laraprehalfdeva; 
+                sub sharadevaMAR vattudeva by sharaprehalfdevaMAR; 
+                sub jharadevaNEP vattudeva by jharaprehalfdevaNEP;
+                
+            } VattuHalf;
 
-            lookup HalfVattuRakar { 
-                sub @half_r_0 vattudeva by @half_r_1;
-            } HalfVattuRakar;
+} vatu;             
 
-#                sub raradeva vattudeva by raraprehalfdeva;
-#                sub ranuktaradeva vattudeva by raraprehalfdeva;
-#                sub laradevaMAR vattudeva by laraprehalfdeva;
-#                sub shaprehalfdevaMAR vattudeva by sharaprehalfdeva;    
-    
+# ----------------- Conjuncts -------------------
 
-        language MAR ; # Marathi, no rakar forms needed?????  ????????? MARATHI IMPORTANT
-    
-    script deva; # Devanagari
+feature cjct {
 
-#            lookup Halfforms;
-#            lookup HalfVirama;
-#            lookup HalfRakar;
-
-
-        language MAR ; # Marathi
-} vatu;
-
-
-
-# ---------------- Conjuncts -------------------
-
-
-feature cjct { # Conjunct Forms
-    script dev2; # Devanagari v.2
-
-##### WHERE DID I END UP PUTTING HALF FORMS ?
-
-### normal
-            lookup 3CharConj {
+            lookup Conj3 { # 3-Consonant conjuncts
                 sub daprehalfdeva dhaprehalfdeva yadeva by dadhayadeva; 
-            } 3CharConj;
+            } Conj3;
             
-            lookup 2CharConj {
-                sub daprehalfdeva @cjct_da_0 by @cjct_da_1;
-    
+            lookup Conj2 { # 2-Consonant conjuncts
+                sub daprehalfdeva gadeva by dagadeva;
+                sub daprehalfdeva ghadeva by daghadeva;
+                sub daprehalfdeva dadeva by dadadeva;
+                sub daprehalfdeva dhadeva by dadhadeva;                
+                sub daprehalfdeva badeva by dabadeva;                
+                sub daprehalfdeva bhadeva by dabhadeva;
+                sub daprehalfdeva madeva by damadeva;  
+                sub daprehalfdeva yadeva by dayadeva;
+                sub daprehalfdeva vadeva by davadeva;                                                                              
                 sub ngaprehalfdeva gadeva by ngagadeva;
                 sub ngaprehalfdeva madeva by ngamadeva; 
                 sub ngaprehalfdeva yadeva by ngayadeva;
-
                 sub ttaprehalfdeva ttadeva by ttattadeva;
                 sub ttaprehalfdeva tthadeva by ttatthadeva;
                 sub ttaprehalfdeva yadeva by ttayadeva;
-            
                 sub tthaprehalfdeva tthadeva by tthatthadeva;
-                sub tthaprehalfdeva yadeva by tthayadeva;
-    
+                sub tthaprehalfdeva yadeva by tthayadeva;    
                 sub ddaprehalfdeva ddadeva by ddaddadeva;
                 sub ddaprehalfdeva ddhadeva by ddaddhadeva;
                 sub ddaprehalfdeva yadeva by ddayadeva;
-    
                 sub ddhaprehalfdeva ddhadeva by ddhaddhadeva;
-                sub ddhaprehalfdeva yadeva by ddhayadeva;
-      
-              } 2CharConj;
-    
- language MAR ; # Marathi
- 
+                sub ddhaprehalfdeva yadeva by ddhayadeva;     
+              } Conj2;
+          
+                 
 } cjct;
 
 
-# --------------------- Presentation Forms SECTION ------------------
+# -------------- Pre-Base substitutions -------------
 
+feature pres {
 
-
-
-
-
-
-
-
-# --------------------- Pre-Base substitutions ------------------
-
-feature pres { # Pre-base Substitutions
-
-    script dev2; # Devanagari v.2
-    
-# EYELASH
-
-  # If ZWJ has been filtered out (Core Text):
-#  sub dvEyelash dvYA by dvEyelash_YA;
-#  sub dvEyelash dvHA by dvEyelash_HA;
-
-  # Else:
-#  sub dvEyelash zerowidthjoiner dvYA by dvEyelash_YA;
-#  sub dvEyelash zerowidthjoiner dvHA by dvEyelash_HA;
-    
-            
-            lookup PreHalfConj { ### prehalf 
-
+            lookup PreHalfConj {
                 sub daprehalfdeva yaprehalfdeva by dayaprehalfdeva;
-
-                sub taprehalfdeva taprehalfdeva  by tataprehalfdeva;
-                
-                sub [shaprehalfdeva shaprehalfdevaMAR] @cjct_sha_0 by @cjct_sha_1;
+                sub taprehalfdeva taprehalfdeva by tataprehalfdeva;               
                 sub shaprehalfdeva caprehalfdeva by shacaprehalfdeva;
+                sub shaprehalfdeva vaprehalfdeva by shavaprehalfdeva;
                 sub shaprehalfdevaMAR caprehalfdeva by shacaprehalfdeva;
-                sub shaprehalfdeva vaprehalfdeva by shavaprehalfdeva;  
-                sub shaprehalfdevaMAR vaprehalfdeva by shavaprehalfdeva; 
-            
+                sub shaprehalfdevaMAR vaprehalfdeva by shavaprehalfdeva;            
             } PrehalfConj;
     
-            lookup PreBaseConj { # normal
-        
+            lookup PresConj {
+                sub shaprehalfdeva cadeva by shacadeva; 
+                sub shaprehalfdeva vadeva by shavadeva;                 
+                sub shaprehalfdeva ladeva by shaladeva; 
+                sub shaprehalfdevaMAR cadeva by shacadeva; 
+                sub shaprehalfdevaMAR vadeva by shavadeva;                 
+                sub shaprehalfdevaMAR ladevaMAR by shaladevaMAR;                                 
+                sub shaprehalfdeva nadeva by shanadeva;                 
                 sub kaprehalfdeva tadeva by katadeva;
-
                 sub chaprehalfdeva yadeva by chayadeva;
-
                 sub taprehalfdeva tadeva by tatadeva;
-
-                sub ssaprehalfdeva ttadeva by ssattadeva;
+                sub ssaprehalfdeva ttadeva by ssattadeva; 
                 sub ssaprehalfdeva tthadeva by ssatthadeva;
-                
-#    sub ssaprehalfdeva ttaradeva by ssattaradeva; might not be necessary
-#    sub ssaprehalfdeva ttharadeva by ssattharadeva;
-
-                sub haprehalfdeva @cjct_ha_0 by @cjct_ha_1;
-
-                sub japrehalfdeva @cjct_ja_0 by @cjct_ja_1;
+                sub haprehalfdeva nnadeva by hannadeva;
+                sub haprehalfdeva nadeva by hanadeva;                
+                sub haprehalfdeva madeva by hamadeva;                  
+                sub haprehalfdeva yadeva by hayadeva;  
+                sub haprehalfdeva ladeva by haladeva;
+                sub haprehalfdeva vadeva by havadeva;                                    
+                sub japrehalfdeva jadeva by jajadeva;
+                sub japrehalfdeva thaadeva by jathadeva;                
+                sub japrehalfdeva yadeva by jayadeva;                
+                sub japrehalfdeva sadeva by jasadeva;                
                 sub januktaprehalfdeva yadeva by januktayadeva;
                 sub januktaprehalfdeva thadeva by januktathadeva;
                 sub januktaprehalfdeva sadeva by januktasadeva;
-
-                sub taprehalfdeva @cjct_ta_0 by @cjct_ta_1;
-
+                sub taprehalfdeva khadeva by takhadeva;
+                sub taprehalfdeva thadeva by tathadeva;
+                sub taprehalfdeva nadeva by tanadeva;
+                sub taprehalfdeva sadeva by tasadeva;                
+                sub taprehalfdeva yadeva by tayadeva;                
+                sub taprehalfdeva tadeva by tatadeva;                                                
                 sub naprehalfdeva bhadeva by nabhadeva;
                 sub naprehalfdeva madeva by namadeva;
+                sub laprehalfdeva jadeva by lajadeva;      
+                sub laprehalfdeva zadeva by lazadeva;        
+                sub laprehalfdeva thadeva by lathadeva;             
+                sub laprehalfdeva bhadeva by labhadeva;             
+                sub laprehalfdeva madeva by lamadeva; 
+                sub laprehalfdeva yadeva by layadeva;         
+                            
+            } PresConj;            
 
-                sub laprehalfdeva @cjct_la_0 by @cjct_la_1;
-        
-            } PreBaseConj;
 
-
-# -- ivowelsign 00 --------------------------
-
-            lookup IVowelHalfHalfCons { ## LENGTHS
-            
+           # --------- ExBold I vowelsign lengths --------
+## FINISH THIS ##
+           #    half+half+consonant
+            lookup IVowelHalfHalfCons { 
+                
                 sub ivowelsigndeva' [@ih_06 @ih_07 @ih_08 @ih_09 @ih_10] [@ih_06 @ih_07 @ih_08 @ih_09 @ih_10] [@ic_02 @ic_03 @ic04 @ic_05 @ic_06 @ic_07 @ic_08] by ivowelsign10deva;
-            
             } IVowelHalfHalfCons;
             
-            
-            lookup IVowelHalfCons { ## LENGTHS
-
-           # raprehalfdevaMAR to ha and ya
-                
+            lookup IVowelHalfCons { # I vowelsign lengths half+consonant
+           # raprehalfdevaMAR to ha and ya 
                 sub ivowelsigndeva' @ih_05_yaha [@ic_02 @ic_03] by ivowelsign05deva;
                 sub ivowelsigndeva' @ih_05_yaha @ic_04 by ivowelsign06deva;
-                sub ivowelsigndeva' @ih_05_yaha @ic_05 by ivowelsign07deva;
-                
+                sub ivowelsigndeva' @ih_05_yaha @ic_05 by ivowelsign07deva;    
             # halfs - to - 02 or 03 
-
                 sub ivowelsigndeva' @ih_06 [@ic_02 @ic_03] by ivowelsign06deva;
                 sub ivowelsigndeva' @ih_07 [@ic_02 @ic_03] by ivowelsign07deva;
                 sub ivowelsigndeva' @ih_08 [@ic_02 @ic_03] by ivowelsign08deva;
                 sub ivowelsigndeva' @ih_09 [@ic_02 @ic_03] by ivowelsign09deva;
                 sub ivowelsigndeva' @ih_10 [@ic_02 @ic_03] by ivowelsign10deva;
-    
             # halfs - to - 04  
-
                 sub ivowelsigndeva' @ih_06 @ic_04 by ivowelsign07deva;
                 sub ivowelsigndeva' @ih_07 @ic_04 by ivowelsign08deva;
                 sub ivowelsigndeva' @ih_08 @ic_04 by ivowelsign09deva;
                 sub ivowelsigndeva' [@ih_09 @ih_10] @ic_04 by ivowelsign10deva;
-    
             # halfs - to - 05
-
                 sub ivowelsigndeva' @ih_06 @ic_05 by ivowelsign08deva;
                 sub ivowelsigndeva' @ih_07 @ic_05 by ivowelsign09deva;
                 sub ivowelsigndeva' [@ih_08 @ih_09 @ih_10] @ic_05 by ivowelsign10deva;
-
             # halfs - to - 06
-
                 sub ivowelsigndeva' @ih_06 @ic_06 by ivowelsign09deva;
                 sub ivowelsigndeva' [@ih_07 @ih_08 @ih_09 @ih_10] @ic_06 by ivowelsign10deva;
-        
             # halfs - to - 07 or 08
-
                 sub ivowelsigndeva' [@ih_06 @ih_07 @ih_08 @ih_09 @ih_10] [@ic_07 @ic_08] by ivowelsign10deva;
-
             } IVowelHalfCons;
             
-           
             lookup IVowelCons {  # consonants  
-                         
                 sub ivowelsigndeva' @ic_01 by ivowelsign01deva
                 sub ivowelsigndeva' @ic_02 by ivowelsign02deva
                 sub ivowelsigndeva' @ic_03 by ivowelsign03deva
@@ -487,244 +524,135 @@ feature pres { # Pre-base Substitutions
                 sub ivowelsigndeva' @ic_06 by ivowelsign06deva
                 sub ivowelsigndeva' @ic_07 by ivowelsign07deva
                 sub ivowelsigndeva' @ic_08 by ivowelsign08deva
-    
-            } IvowelCons;
+            } IvowelCons;            
 
-
-    language MAR ; # Marathi
-    script deva; # Devanagari
-
-            lookup PreHalfConj;
-            lookup PreBaseConj;
-            lookup IVowelHalfHalfCons;
-            lookup IVowelHalfCons;
-            lookup IVowelCons;
 
 } pres;
 
 
+# ---------------- Above-base substitutions ---------------
 
-# --------------- Above-base substitutions and ii vowel signs --------------
+feature abvs {
 
-feature abvs { # Above-base Substitutions
-    script dev2; # Devanagari v.2
-
-
-        # -- reph anusvara -- 
+## FINISH typing these ##
             
-            lookup RephAnusvara {
-                
+            lookup AbvsMarks { # Vowel sign + mark combinations 
                 sub rephdeva candrabindudeva by rephanusvaradeva;
                 sub rephdeva anusvaradeva by rephanusvaradeva;
-                
-            } RephAnusvara;
-
-    # -- substitutions with anusvara and other above-base marks ----
-
-            lookup VowelMarks {
-        # vowels and above base marks  
-                sub @abvs_v_anus_0 anusvaradeva by @abvs_v_anus_1;
-    
-        # iivowelsigndeva above base marks ----   
-                sub @ii_dflt' candrabindudeva by @ii_candbin;  
-                sub @ii_dflt' anusvaradeva by @ii_anus; 
-                sub @ii_dflt' rephdeva by @ii_reph; 
-                sub @ii_dflt' rephanusvaradeva by @ii_rephanus; 
-
-        # other vowelsigndeva above base marks ----   
-                sub @abvs_vs_dflt' candrabindudeva by @abvs_vs_candbin;  
-                sub @abvs_vs_dflt' anusvaradeva by @abvs_vs_anus; 
-                sub @abvs_vs_dflt' rephdeva by @abvs_vs_reph; 
-                sub @abvs_vs_dflt' rephanusvaradeva by @abvs_vs_rephanus; 
-    
-            } VowelMarks;
+                sub @abvs_v_anus_0 anusvaradeva by @abvs_v_anus_1; 
+                sub @ii_dflt candrabindudeva by @ii_candbin;  
+                sub @ii_dflt anusvaradeva by @ii_anus; 
+                sub @ii_dflt rephdeva by @ii_reph; 
+                sub @ii_dflt rephanusvaradeva by @ii_rephanus; 
+                sub @abvs_vs_dflt candrabindudeva by @abvs_vs_candbin;  
+                sub @abvs_vs_dflt anusvaradeva by @abvs_vs_anus; 
+                sub @abvs_vs_dflt rephdeva by @abvs_vs_reph; 
+                sub @abvs_vs_dflt rephanusvaradeva by @abvs_vs_rephanus; 
+            } AbvsMarks;
 
 
-# -- ivowelsign 00 huh? --
-
-## I removed a space after the '
-#lookup abvs30 {
-#    sub ivowelsigndeva' by ivowelsign00deva;
-#} abvs30;
-
-
-
-    language MAR ; # Marathi
-    script deva; # Devanagari
-
-            lookup RephAnusvara;
-            lookup VowelMarks;
-#lookup abvs29;
-##lookup abvs30;
-##lookup abvs32;
-##lookup abvs80;
-##lookup abvs85;
-    language MAR ; # Marathi
     
 } abvs;
 
 
+# -------------- Below-base substitutions -------------------
 
-# -------------- Below-base substitutions -- strange stuff -----------------
+feature blws {
 
-feature blws { # Below-base Substitutions
+## finish typing these ##
     
-    script dev2; # Devanagari v.2
+            lookup NuktAlt { # alt nukta substitution when followed by u/uu vowels
+                sub rhadeva' @blws_nuktvowels by rha2deva;
+                sub dddhadeva' @blws_nuktvowels by dddha2deva;
+            } NuktAlt;
 
-            lookup UVowelLiga { #### U VOWEL Ligatures !!!!
- 
+            lookup VowelLiga { # U and Rvocalic Vowel Ligatures 
                 sub @blws_u_0 uvowelsigndeva by @blws_u_1; 
                 sub @blws_uu_0 uuvowelsigndeva by @blws_uu_1;
-            
-            } UVowelLiga;
-  
-            lookup VocalicLiga{
-                  
                 sub dadeva rvocalicvowelsigndeva by darvocalicdeva; 
                 sub hadeva rvocalicvowelsigndeva by harvocalicdeva;
                 sub hadeva rrvocalicvowelsigndeva by harrvocalicdeva;
-            
-            } VocalicLiga;
- 
-            lookup VowelsLow { ### tall consonants  low vowel version substitution  
-                   
-                sub @blws_low_c @blws_dflt_v' by @blws_low_v; 
-            
-            } VowelsLow;
-    
-            lookup VattuLowVowels {### Vattu-Vowelsign variants substitution   
-        
+            } VowelLiga;
+
+            lookup VattuLowVowels {# Vattu variant + Vowelsign substitution ERINS THING  
                 sub @blws_vattu_c_1 @blws_vattu_0 by @blws_vattu_c_0 @blws_vattu_1;
-            
             } VattuLowVowels;
-
-    language MAR ; # Marathi
-    script deva; # Devanagari
-
-            lookup UVowelLiga;
-            lookup VocalicLiga;
-            lookup VowelsLow;
-            lookup VattuLowVowels;
-
-    language MAR ; # Marathi
+            
+            lookup VowelsLow { # low vowelsign substitution ERINS THING     
+                sub @blws_low_c @blws_dflt_v' by @blws_low_v; 
+            } VowelsLow;
 
 } blws;
 
 
 
+# --------------- Post-base substitution  --------------
 
-# ------------------- Post-base substitution??  NEW  --------------
+feature psts {
 
-
-feature psts { # Post-base Substitutions
-    
-    script dev2; # Devanagari v.2
-
-###  ii vowel sign widths
-
+## FINISH ##
             lookup IiVowelWidths { 
-                
                 sub @iic_02 @ii_00' by @ii_02;
                 sub @iic_03 @ii_00' by @ii03;
-
             } IiVowelWidths;
  
-    language MAR ; # Marathi
-    script deva; # Devanagari
-
-            lookup IiVowelWidths;
-
-    language MAR ; # Marathi
 
 } psts;
 
+# --------------- Halant Form substitution ----------
 
+feature haln { 
 
-# --------------- Halant Form substitution --------
-
-feature haln { # Halant Forms
-
-    script dev2; # Devanagari v.2
+## FINISH paste this ##
     
-            lookup FinalVattuHalant {
-                
+            lookup FinalVattuHalant { # Halant Forms
                 sub @blws_vattu_c_0 vattudeva by @blws_vattu_c_1;
                 sub @half_h_0 viramadeva by @half_h_1;
-            
+                sub ladevaMAR viramadeva by laprehalfdeva;
             } FinalVattuHalant;
- 
-    language MAR ; # Marathi
-    script deva; # Devanagari
-
-            lookup FinalVattuHalant;
-
-    language MAR ; # Marathi
-
+            
 } haln;
-
 
 
 # ------------- Kerning ----------
 
-#include (/ExBold_fea/ExBold_kern_paste.fea);
 
+# ------------ Above-base mark positioning -----
 
-# ------------ Below-base mark positioning -----
-#
-#include (markclasses.fea);
-
-#feature abvm {
-#  include (abvm.fea);
-
-            lookup AbvMarks {
-                
-                @abvm_top = [candrabindudeva anusvaradeva ecandravowelsigndeva eshortvowelsigndeva evowelsigndeva aivowelsigndeva rephdeva rephanusvaradeva ecandravowelsignanusvaradeva ecandravowelsignrephdeva ecandravowelsignrephanusvaradeva eshortvowelsignanusvaradeva eshortvowelsignrephdeva eshortvowelsignrephanusvarade evowelsignanusvaradeva evowelsignrephdeva evowelsignrephanusvaradeva aivowelsignanusvaradeva aivowelsignrephdeva aivowelsignrephanusvaradeva candrabindusmalldeva ecandravowelsigncandrabindudeva eshortvowelsigncandrabindudeva evowelsigncandrabindudeva aivowelsigncandrabindudeva invertedcandrabindu candralongevowelsigndeva oevowelsigndevaKSH] # grps
-                
-                markClass @abvm_top <anchor -552 1294> @m_top; #grps
-                
-                
+feature abvm {
+    
+            markClass @abvm_top <anchor -552 1294> @m_top; 
+           
+            lookup AbvMarks { # above-base mark positioning                
                 pos base @abvb_Ka <anchor 680 1294> mark @m_top;
                 pos base @abvb_Pha <anchor 774 1294> mark @m_top;
                 pos base @abvb_JhaNEP <anchor 1011 1294> mark @m_top;
                 pos base katadeva <anchor 949 1294> mark @m_top;
                 pos base @abvb_SsaTta <anchor 845 1294> mark @m_top;
                 pos base @abvb_Ra <anchor 527 1294> mark @m_top;
-                
-            } AbvMarks;
-#} abvm;
-
-#feature blwm {
-#  include (blwm.fea);
-
+            } AbvMarks;           
             
-                
-                
-#} blwm;
+} abvm;
+
+
+
+# ------------ Below-base mark positioning ------------
 
 feature blwm {
     
-            lookup BlwMarks {
-                
-                @blwm_btm = [uvowelsigndeva uuvowelsigndeva rvocalicvowelsigndeva rrvocalicvowelsigndeva viramadeva vattudeva lvocalicvowelsigndeva llvocalicvowelsigndeva anudattadeva vattuudeva vattuulowdeva vattuuudeva vattuuulowdeva vatturvocalicdeva vatturvocaliclowdeva vatturrvocalicdeva vattulvocalicdeva vattullvocalicdeva vattuviramadeva vattuviramalowdeva uvowelsignlowdeva uuvowelsignlowdeva rvocalicvowelsignlowdeva rrvocaliclowdeva lvocalicvowelsignlowdeva llvocalicvowelsignlowdeva viramalowdeva vattulowdeva uevowelsigndevaKSH uuevowelsigndevaKSH] # grps
-                
-                markClass @blwm_btm <anchor -552 0> @m_btm; #grps
-                
-                
-                
-            
+            markClass @blwm_btm <anchor -552 0> @m_btm;
+    
+            lookup BlwMarks { # below-base mark positioning  
                 pos base @blwb_Ka <anchor 680 0> mark @m_btm;
                 pos base ngadeva <anchor 509 -20> mark @m_btm;
                 pos base chadeva <anchor 592 9> mark @m_btm;
                 pos base @blwb_Tta <anchor 527 20> mark @m_btm;
                 pos base ddadeva <anchor 469 -15> mark @m_btm; 
                 pos base ddhadeva <anchor 552 10> mark @m_btm;
-                pos base @blwb_Da <anchor 864 -195> mark @m_btm;
-                pos base ddadeva <anchor 469 -15> mark @m_btm; 
+                pos base @blwb_Da <anchor 864 -195> mark @m_btm; 
                 pos base @blwb_Pha <anchor 774 0> mark @m_btm; 
                 pos base @blwb_Ra <anchor 482 56> mark @m_btm;
                 pos base @blwb_Lla <anchor 1023 0> mark @m_btm;
-#pos base @blwb_Ddda <anchor 476 -509> mark @m_btm;
-#pos base @blwb_Rha <anchor 539 -458> mark @m_btm;
                 pos base ladevaMAR <anchor 681 -18> mark @m_btm;
                 pos base @blwb_JhaNEP <anchor 1011 0> mark @m_btm; 
                 pos base gabardeva <anchor 968 -208> mark @m_btm; 
@@ -750,32 +678,22 @@ feature blwm {
                 pos base hamadeva <anchor 1384 -356> mark @m_btm; 
                 pos base hayadeva <anchor 1436 -506> mark @m_btm; 
                 pos base havadeva <anchor 1198 -366> mark @m_btm; 
-                
             } BlwMarks;
-    
+                
 } blwm;
 
 
 
-# ------------ Above-base mark positioning -----
-
-feature abvm {
-    
-} abvm;
-
-
-# ------------ Distances (half-form kerns) -----
-
-# put kerns in here
 
 feature dist {
+
     # Class Kerning Data Generated by MetricsMachine 4.0.6
-    # UFO: /Users/erinmclaughlin/Desktop/_Google OPEN/Khula/UFO_masters/Khula-ExtraBold.ufo
-    # Date: Thursday November 13, 2014 23:15:53
-    @MMK_L_L_C = [caprehalfdeva caraprehalfdeva dayaprehalfdeva shacaprehalfdeva shaprehalfaltdeva sharaprehalfdeva shavaprehalfdeva taraprehalfdeva];
-    @MMK_L_L_Cha = [chaaltdeva chaprehalfdeva charadeva charaprehalfdeva];
-    @MMK_L_L_Da = [dabadeva dadaaltdeva dadadeva dadeva dagadeva daprehalfdeva daradeva daraprehalfdeva darvocalicdeva daudeva dauudeva davadeva];
-    @MMK_L_L_DaDha = [dabhaaltdeva dabhadeva dadhadeva daghadeva];
+    # UFO: /Users/erinmclaughlin/Desktop/_Google OPEN/Khula/UFO_masters/ExBold/Khula-ExtraBold.ufo
+    # Date: Friday November 21, 2014 22:57:30
+    @MMK_L_L_C = [caprehalfdeva caraprehalfdeva dayaprehalfdeva shacaprehalfdeva sharaprehalfdeva shavaprehalfdeva taraprehalfdeva];
+    @MMK_L_L_Cha = [chaprehalfdeva charadeva charaprehalfdeva];
+    @MMK_L_L_Da = [dabadeva dadadeva dadeva dagadeva daprehalfdeva daradeva daraprehalfdeva darvocalicdeva daudeva dauudeva davadeva];
+    @MMK_L_L_DaDha = [dabhadeva dadhadeva daghadeva];
     @MMK_L_L_G = [ganuktaprehalfdeva ganuktaraprehalfdeva gaprehalfdeva garaprehalfdeva];
     @MMK_L_L_Gh = [dhaprehalfdeva dharaprehalfdeva ghaprehalfdeva gharaprehalfdeva];
     @MMK_L_L_H = [haprehalfdeva];
@@ -789,7 +707,7 @@ feature dist {
     @MMK_L_L_Ll = [lvocalicdeva];
     @MMK_L_L_M = [bhaprehalfdeva bharaprehalfdeva maprehalfdeva maraprehalfdeva];
     @MMK_L_L_N = [nanuktaprehalfdeva nanuktaraprehalfdeva naprehalfdeva naraprehalfdeva];
-    @MMK_L_L_Ng = [ngaprehalfdeva ngaraprehalfUIdeva ngaraprehalfdeva];
+    @MMK_L_L_Ng = [ngaprehalfdeva ngaraprehalfdeva];
     @MMK_L_L_Nn = [nnaprehalfdeva nnaraprehalfdeva];
     @MMK_L_L_Ny = [nyaprehalfdeva nyaraprehalfdeva ranuktaprehalfdeva ranuktaraprehalfdeva raprehalfdeva raraprehalfdeva];
     @MMK_L_L_P = [paprehalfdeva paraprehalfdeva ssaprehalfdeva ssaraprehalfdeva];
@@ -802,29 +720,27 @@ feature dist {
     @MMK_L_L_T = [januktaprehalfdeva januktaraprehalfdeva japrehalfdeva jaraprehalfdeva taprehalfdeva tataprehalfdeva];
     @MMK_L_L_V = [baprehalfdeva baraprehalfdeva llanuktaprehalfdeva llaprehalfdeva llaraprehalfdeva vaprehalfdeva varaprehalfdeva];
     @MMK_L_L_Y = [thaprehalfdeva tharaprehalfdeva yanuktaprehalfdeva yanuktaraprehalfdeva yaprehalfdeva yaraprehalfdeva];
-    @MMK_R_R_A = [aadeva acandraanusvaradeva acandradeva adeva ashortanusvaradeva ashortdeva auanusvaradeva audeva oanusvaradeva ocandraanusvaradeva ocandradeva odeva omdeva oshortdeva];
+    @MMK_R_R_A = [aadeva acandraanusvaradeva acandradeva adeva ashortanusvaradeva ashortdeva auanusvaradeva audeva awdevaKSH oanusvaradeva ocandraanusvaradeva ocandradeva odeva oedevaKSH omdeva ooedevaKSH oshortanusvaradeva oshortdeva uedevaKSH uuedevaKSH];
     @MMK_R_R_Bha = [bhadeva bhaprehalfdeva bharadeva bharaprehalfdeva jhadevaNEP jhaprehalfdevaNEP jharadevaNEP jharaprehalfdevaNEP];
     @MMK_R_R_Ca = [cadeva caprehalfdeva caradeva caraprehalfdeva katadeva tatadeva tataprehalfdeva];
-    @MMK_R_R_Cha = [chaaltdeva chadeva chaprehalfdeva charadeva charaprehalfdeva chayadeva];
-    @MMK_R_R_Da = [dadeva daprehalfdeva daradeva daraprehalfdeva darvocalicdeva daudeva dauudeva davadeva ddhadeva ddhanuktaprehalfdeva ddhanuktaradeva ddhanuktaraprehalfdeva ddharadeva ddharaprehalfdeva ddhayadeva rhadeva ttadeva ttaprehalfdeva ttaradeva ttaraprehalfdeva ttayadeva tthadeva tthaprehalfdeva ttharadeva ttharaprehalfdeva tthayadeva];
-    @MMK_R_R_DaAlt = [ddhaaltdeva ddhanuktaraprehalfUIdeva ddhaprehalfdeva ddharaprehalfUIdeva];
-    @MMK_R_R_DaBha = [dabhaaltdeva dabhadeva dadhadeva dadhayadeva daghadeva];
+    @MMK_R_R_Cha = [chadeva chaprehalfdeva charadeva charaprehalfdeva chayadeva];
+    @MMK_R_R_Da = [dadeva daprehalfdeva daradeva daraprehalfdeva darvocalicdeva daudeva dauudeva davadeva ddhadeva ddhanuktaprehalfdeva ddhanuktaradeva ddhanuktaraprehalfdeva ddhaprehalfdeva ddharadeva ddharaprehalfdeva ddhayadeva rha2deva rhadeva ttadeva ttaprehalfdeva ttaradeva ttaraprehalfdeva ttayadeva tthadeva tthaprehalfdeva ttharadeva ttharaprehalfdeva tthayadeva];
+    @MMK_R_R_DaBha = [dabhadeva dadhadeva dadhayadeva daghadeva];
     @MMK_R_R_DaGa = [dabadeva dagadeva];
-    @MMK_R_R_Dda = [ddabardeva ddadeva ddanuktaprehalfdeva ddanuktaradeva ddanuktaraprehalfdeva ddaprehalfdeva ddaradeva ddaraprehalfdeva ddayadeva dddhadeva ngadeva ngaprehalfdeva ngaradeva ngaraprehalfdeva ngayadeva];
-    @MMK_R_R_DdaAlt = [ddaaltdeva ddanuktaraprehalfUIdeva ddaraprehalfUIdeva dddhaaltdeva];
+    @MMK_R_R_Dda = [ddabardeva ddadeva ddanuktaprehalfdeva ddanuktaradeva ddanuktaraprehalfdeva ddaprehalfdeva ddaradeva ddaraprehalfdeva ddayadeva dddha2deva dddhadeva ngadeva ngaprehalfdeva ngaradeva ngaraprehalfdeva ngayadeva];
     @MMK_R_R_Dha = [dhadeva dhaprehalfdeva dharadeva dharaprehalfdeva];
     @MMK_R_R_E = [aianusvaradeva aideva ecandraanusvaradeva ecandradeva edeva eshortanusvaradeva eshortdeva];
     @MMK_R_R_Ga = [gabardeva gadeva ganuktaprehalfdeva ganuktaradeva ganuktaraprehalfdeva gaprehalfdeva garadeva garaprehalfdeva ghhadeva];
     @MMK_R_R_Gha = [ghadeva ghaprehalfdeva gharadeva gharaprehalfdeva];
-    @MMK_R_R_Ha = [dadaaltdeva dadadeva damadeva dayadeva dayaprehalfdeva hadeva haladeva hamadeva hanadeva hannadeva haprehalfdeva haradeva haraprehalfdeva haraudeva harauudeva harrvocalicdeva harvocalicdeva haudeva hauudeva havadeva hayadeva];
-    @MMK_R_R_I = [ddaddadeva ddaddauudeva ddaddhadeva ddhaddhadeva ideva iianusvaradeva iideva janyadeva janyaprehalfdeva janyaradeva janyaraprehalfdeva jhadeva jhaprehalfdeva jharadeva jharaprehalfdeva ngaraprehalfUIdeva];
-    @MMK_R_R_Ja = [jabardeva jadeva jajadeva januktaprehalfdeva januktaradeva januktaraprehalfdeva januktathadeva januktayadeva japrehalfdeva jaradeva jaraprehalfdeva jathadeva jayadeva zadeva zhadeva];
+    @MMK_R_R_Ha = [dadadeva damadeva dayadeva dayaprehalfdeva hadeva haladeva hamadeva hanadeva hannadeva haprehalfdeva haradeva haraprehalfdeva haraudeva harauudeva harrvocalicdeva harvocalicdeva haudeva hauudeva havadeva hayadeva];
+    @MMK_R_R_I = [ddaddadeva ddaddhadeva ddhaddhadeva ideva iianusvaradeva iideva janyadeva janyaprehalfdeva janyaradeva janyaraprehalfdeva jhadeva jhaprehalfdeva jharadeva jharaprehalfdeva ngagadeva ngamadeva ssattadeva ssattaradeva ssatthadeva ssattharadeva ttattadeva ttatthadeva tthatthadeva];
+    @MMK_R_R_Ja = [jabardeva jadeva jajadeva januktaprehalfdeva januktaradeva januktaraprehalfdeva januktasadeva januktathadeva januktayadeva japrehalfdeva jaradeva jaraprehalfdeva jasadeva jathadeva jayadeva zadeva zhadeva];
     @MMK_R_R_Ka = [kadeva kanuktaprehalfdeva kanuktaradeva kanuktaraprehalfdeva kaprehalfdeva karadeva karaprehalfdeva qadeva];
     @MMK_R_R_KaSsa = [kassadeva kassaprehalfdeva kassaradeva kassaraprehalfdeva];
-    @MMK_R_R_La = [laaltdevaMAR labhadeva ladeva ladevaMAR lajadeva lamadeva laprehalfdeva laradeva laradevaMAR laraprehalfdeva lathadeva layadeva lazadeva llvocalicdeva lvocalicdeva];
-    @MMK_R_R_Lla = [llaaltdeva lladeva llanuktaprehalfdeva llanuktaradeva llanuktaraprehalfdeva llaprehalfdeva llaradeva llaraprehalfdeva lllaaltdeva llladeva];
+    @MMK_R_R_La = [labhadeva ladeva ladevaMAR lajadeva lamadeva laprehalfdeva laradeva laradevaMAR laraprehalfdeva lathadeva layadeva lazadeva llvocalicdeva lvocalicdeva];
+    @MMK_R_R_Lla = [lladeva llanuktaprehalfdeva llanuktaradeva llanuktaraprehalfdeva llaprehalfdeva llaradeva llaraprehalfdeva llladeva];
     @MMK_R_R_Ma = [ddadevaMAW madeva maprehalfdeva maradeva maraprehalfdeva];
-    @MMK_R_R_Na = [nabhadeva nadeva namadeva nanuktaradeva nanuktaraprehalfdeva naprehalfdeva naradeva naraprehalfdeva nnnadeva];
+    @MMK_R_R_Na = [nabhadeva nadeva namadeva nanuktaprehalfdeva nanuktaradeva nanuktaraprehalfdeva naprehalfdeva naradeva naraprehalfdeva nnnadeva];
     @MMK_R_R_Nna = [nnadeva nnaprehalfdeva nnaradeva nnaraprehalfdeva];
     @MMK_R_R_Nya = [nyadeva nyaprehalfdeva nyaradeva nyaraprehalfdeva];
     @MMK_R_R_Pa = [padeva paprehalfdeva paradeva paraprehalfdeva ssadeva ssaprehalfdeva ssaradeva ssaraprehalfdeva];
@@ -832,7 +748,7 @@ feature dist {
     @MMK_R_R_RMAR = [ranuktaprehalfdeva ranuktaraprehalfdeva raprehalfdeva raraprehalfdeva];
     @MMK_R_R_Ra = [khadeva khanuktaprehalfdeva khanuktaradeva khanuktaraprehalfdeva khaprehalfdeva kharadeva kharaprehalfdeva khhadeva radeva ranuktaradeva ranuktaudeva ranuktauudeva raradeva raudeva rauudeva rradeva sadeva saprehalfdeva saradeva saraprehalfdeva];
     @MMK_R_R_Sha = [shadeva shadevaMAR shaprehalfdeva];
-    @MMK_R_R_ShaRa = [shacadeva shacaprehalfdeva shaladeva shaladevaMAR shanadeva shaprehalfaltdeva sharadeva sharaprehalfdeva shavadeva shavaprehalfdeva];
+    @MMK_R_R_ShaRa = [shacadeva shacaprehalfdeva shaladeva shaladevaMAR shanadeva sharadeva sharaprehalfdeva shavadeva shavaprehalfdeva];
     @MMK_R_R_Ta = [tadeva takhadeva tanadeva taprehalfdeva tasadeva tathadeva tayadeva];
     @MMK_R_R_TaRa = [rrvocalicdeva rvocalicdeva taradeva taraprehalfdeva];
     @MMK_R_R_Tha = [thadeva thaprehalfdeva tharadeva tharaprehalfdeva];
@@ -1397,3 +1313,4 @@ feature dist {
     pos @MMK_L_L_Y @MMK_R_R_Va -20;
     pos @MMK_L_L_Y @MMK_R_R_Ya -20;
 } dist;
+
