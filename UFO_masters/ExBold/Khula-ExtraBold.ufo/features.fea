@@ -1,55 +1,11 @@
-# ------------- Language systems ----------
-
 include (../lang.fea);
-
-# ---------------- Groups -------------------
-
 include (features/ExBold-groups.fea);
-
-# ------------- Localization ----------------
-
-# ---------------- Nukta forms ------------------
-
-# ---------------- Akhand letters ---------------
-
-# -------------------- Reph -----------------------
-
-# -------------------- Rakar ---------------------
-
-# -------------- Vattu (Below-Base) --------------
-
-# ----------------- Half-forms ------------------
-
-# --------------- Vattu variants ----------------  
-
-# ----------------- Conjuncts -------------------
-
 include (../shaping.fea);
-
-# -------------- Pre-Base substitutions -------------
-
-include (features/ExBold-prebase.fea);
-
-# ---------------- Above-base substitutions ---------------
-
-# -------------- Below-base substitutions -------------------
-
-# --------------- Post-base substitution  --------------
-
-# --------------- Halant Form substitution ----------
-
+include (../prebase.fea);
+include (features/ExBold-Ivowel.fea);
 include (../presentation.fea);
-
-# ------------ Above-base mark positioning ------------
-
 include (features/ExBold-avbm.fea);
-
-# ------------ Below-base mark positioning ------------
-
 include (features/ExBold-blwm.fea); 
-
-# ------------ Distances (half-form kerns) ----------
-
 include (features/ExBold-kern.fea);
 
 

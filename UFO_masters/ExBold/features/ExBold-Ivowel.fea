@@ -1,60 +1,6 @@
 # ExBold
 
-# -------------- Pre-Base substitutions -------------
-
-feature pres {
-    script dev2;
-
-            lookup PreHalfConj {
-                sub daprehalfdeva yaprehalfdeva by dayaprehalfdeva;
-                sub taprehalfdeva taprehalfdeva by tataprehalfdeva;               
-                sub shaprehalfdeva caprehalfdeva by shacaprehalfdeva;
-                sub shaprehalfdeva vaprehalfdeva by shavaprehalfdeva;            
-            } PrehalfConj;
-    
-            lookup PresConj {
-                sub shaprehalfdeva cadeva by shacadeva; 
-                sub shaprehalfdeva vadeva by shavadeva;                 
-                sub shaprehalfdeva ladeva by shaladeva;                 
-                sub shaprehalfdeva ladevaMAR by shaladevaMAR; 
-                sub shaprehalfdeva nadeva by shanadeva;                 
-                sub kaprehalfdeva tadeva by katadeva;
-                sub chaprehalfdeva yadeva by chayadeva;
-                sub taprehalfdeva tadeva by tatadeva;
-                sub ssaprehalfdeva ttadeva by ssattadeva; 
-                sub ssaprehalfdeva tthadeva by ssatthadeva;
-                sub haprehalfdeva nnadeva by hannadeva;
-                sub haprehalfdeva nadeva by hanadeva;                
-                sub haprehalfdeva madeva by hamadeva;                  
-                sub haprehalfdeva yadeva by hayadeva;  
-                sub haprehalfdeva ladeva by haladeva;
-                sub haprehalfdeva vadeva by havadeva;                                    
-                sub japrehalfdeva jadeva by jajadeva;
-                sub japrehalfdeva thaadeva by jathadeva;                
-                sub japrehalfdeva yadeva by jayadeva;                
-                sub japrehalfdeva sadeva by jasadeva;                
-                sub januktaprehalfdeva yadeva by januktayadeva;
-                sub januktaprehalfdeva thadeva by januktathadeva;
-                sub januktaprehalfdeva sadeva by januktasadeva;
-                sub taprehalfdeva khadeva by takhadeva;
-                sub taprehalfdeva thadeva by tathadeva;
-                sub taprehalfdeva nadeva by tanadeva;
-                sub taprehalfdeva sadeva by tasadeva;                
-                sub taprehalfdeva yadeva by tayadeva;                
-                sub taprehalfdeva tadeva by tatadeva;                                                
-                sub naprehalfdeva bhadeva by nabhadeva;
-                sub naprehalfdeva madeva by namadeva;
-                sub laprehalfdeva jadeva by lajadeva;      
-                sub laprehalfdeva zadeva by lazadeva;        
-                sub laprehalfdeva thadeva by lathadeva;             
-                sub laprehalfdeva bhadeva by labhadeva;             
-                sub laprehalfdeva madeva by lamadeva; 
-                sub laprehalfdeva yadeva by layadeva;                 
-                            
-            } PresConj;            
-
-
-# I vowelsign lengths half+half+consonant
+#I vowelsign lengths half+half+consonant
 
 
             lookup IVowelHalfHalfCons { 
@@ -103,15 +49,7 @@ feature pres {
         language MAR;
             lookup PreHalfConjMAR { # conjunct half-forms with Marathi 
                 sub shaprehalfdevaMAR @cjct_sha_0 by @cjct_sha_1;
-                sub shaprehalfdevaMAR caprehalfdeva by shacaprehalfdeva;
-                sub shaprehalfdevaMAR vaprehalfdeva by shavaprehalfdeva;
-            } PreHalfConjMAR;
-            lookup PrehalfConj;
-            lookup PresConj;
-            lookup IVowelHalfHalfCons;
-            lookup IVowelHalfCons;
-            lookup IVowelCons;            
-
+                sub shaprehalfdevaMAR capre
         language NEP;
             lookup PreHalfConj;
             lookup PreBaseConj;
@@ -138,6 +76,14 @@ feature pres {
             lookup IVowelHalfHalfCons;
             lookup IVowelHalfCons;
             lookup IVowelCons;
+halfdeva by shacaprehalfdeva;
+                sub shaprehalfdevaMAR vaprehalfdeva by shavaprehalfdeva;
+            } PreHalfConjMAR;
+            lookup PrehalfConj;
+            lookup PresConj;
+            lookup IVowelHalfHalfCons;
+            lookup IVowelHalfCons;
+            lookup IVowelCons;            
 
 } pres;
 
