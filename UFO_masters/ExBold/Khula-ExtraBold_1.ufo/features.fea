@@ -5,7 +5,7 @@ languagesystem deva dflt;
 
 
 # -------------- Groups --------------
-#include (/ExBold_fea/ExBold_groups_paste.fea);
+include (feat/ExBold-groups.fea);
 
 # ---------- Localization -----------------
 
@@ -197,8 +197,8 @@ feature half {
                 sub yyadeva viramadeva by yanuktaprehalfdeva;
                 sub llladeva viramadeva by llanuktaprehalfdeva;
                 sub shadevaMAR viramadeva by shaprehalfdevaMAR;
-                sub ladevaMAR viramadeva by laprehalfdevaMAR;
-                sub jhadevaNEP viramadeva by jhaprehalfdevaMAR;
+                sub ladevaMAR viramadeva by laprehalfdeva;
+                sub jhadevaNEP viramadeva by jhaprehalfdevaNEP;
                 
 #                sub kassadeva viramadeva by kassaprehalfdeva;
 #                sub janyadeva viramadeva by janyaprehalfdeva;
@@ -239,19 +239,17 @@ feature half {
                 sub ssaradeva viramadeva by ssaraprehalfdeva;
                 sub saradeva viramadeva by saraprehalfdeva;
                 sub haradeva viramadeva by haraprehalfdeva;
-                sub qaradeva viramadeva by kanuktaraprehalfdeva;
-                sub khharadeva viramadeva by khanuktaraprehalfdeva;
-                sub ghharadeva viramadeva by ganuktaraprehalfdeva;
-                sub zaradeva viramadeva by januktaraprehalfdeva;
-                sub dddharadeva viramadeva by ddanuktaraprehalfdeva;
-                sub rharadeva viramadeva by ddhanuktaraprehalfdeva;
-                sub nnnaradeva viramadeva by nanuktaraprehalfdeva;
-                sub faradeva viramadeva by phanuktaraprehalfdeva;
-                sub yyaradeva viramadeva by yanuktaraprehalfdeva;
-                sub lllaradeva viramadeva by llanuktaraprehalfdeva;
-                sub sharadevaMAR viramadeva by sharaprehalfdevaMAR;
-                sub ladraevaMAR viramadeva by laraprehalfdeva;
-                sub jharadevaNEP viramadeva by jharaprehalfdevaMAR;
+                sub kanuktaradeva viramadeva by kanuktaraprehalfdeva;
+                sub khanuktaradeva viramadeva by khanuktaraprehalfdeva;
+                sub ganuktaradeva viramadeva by ganuktaraprehalfdeva;
+                sub januktaradeva viramadeva by januktaraprehalfdeva;
+                sub ddanuktaradeva viramadeva by ddanuktaraprehalfdeva;
+                sub ddhanuktaradeva viramadeva by ddhanuktaraprehalfdeva;
+                sub nanuktaradeva viramadeva by nanuktaraprehalfdeva;
+                sub phanuktaradeva viramadeva by phanuktaraprehalfdeva;
+                sub yanuktaradeva viramadeva by yanuktaraprehalfdeva;
+                sub llanuktaradeva viramadeva by llanuktaraprehalfdeva;
+                sub jharadevaNEP viramadeva by jharaprehalfdevaNEP;
                 
 #                sub kassaradeva viramadeva by kassaraprehalfdeva;
 #                sub janyaradeva viramadeva by janyaraprehalfdeva;
@@ -343,12 +341,10 @@ feature vatu {
                 sub jaradeva vattudeva by jaraprehalfdeva;
                 sub jharadeva vattudeva by jharaprehalfdeva;
                 sub nyaradeva vattudeva by nyaraprehalfdeva;
-                sub ttaaradeva vattudeva by ttaraprehalfdeva;
+                sub ttaradeva vattudeva by ttaraprehalfdeva;
                 sub ttharadeva vattudeva by ttharaprehalfdeva;
                 sub ddaradeva vattudeva by ddaraprehalfdeva;
-                sub dddharadeva vattudeva by ddanuktaraprehalfdeva;
                 sub ddharadeva vattudeva by ddharaprehalfdeva;
-                sub rharadeva vattudeva by ddhanuktaraprehalfdeva;
                 sub nnaradeva vattudeva by nnaraprehalfdeva;
                 sub taradeva vattudeva by taraprehalfdeva;
                 sub tharadeva vattudeva by tharaprehalfdeva;
@@ -364,7 +360,7 @@ feature vatu {
                 sub laradeva vattudeva by laraprehalfdeva; 
                 sub llaradeva vattudeva by llaraprehalfdeva; 
                 sub varadeva vattudeva by varaprehalfdeva; 
-                sub saradeva vattudeva by sharaprehalfdeva; 
+                sub sharadeva vattudeva by sharaprehalfdeva; 
                 sub ssaradeva vattudeva by ssaraprehalfdeva; 
                 sub saradeva vattudeva by saraprehalfdeva; 
                 sub haradeva vattudeva by haraprehalfdeva; 
@@ -372,14 +368,15 @@ feature vatu {
                 sub janyaradeva vattudeva by janyaraprehalfdeva; 
                 sub kanuktaradeva vattudeva by kanuktaraprehalfdeva; 
                 sub khanuktaradeva vattudeva by khanuktaraprehalfdeva; 
-                sub ghanuktaradeva vattudeva by ganuktaraprehalfdeva; 
-                sub januktaradeva vattudeva by januktaraprehalfdeva; 
+                sub ganuktaradeva vattudeva by ganuktaraprehalfdeva; 
+                sub januktaradeva vattudeva by januktaraprehalfdeva;
+                sub ddanuktaradeva vattudeva by ddanuktaraprehalfdeva;                
+                sub ddhanuktaradeva vattudeva by ddhanuktaraprehalfdeva; 
                 sub nanuktaradeva vattudeva by nanuktaraprehalfdeva; 
                 sub phanuktaradeva vattudeva by phanuktaraprehalfdeva; 
                 sub yanuktaradeva vattudeva by yanuktaraprehalfdeva; 
                 sub llanuktaradeva vattudeva by llanuktaraprehalfdeva;
-                sub laradevaMAR vattudeva by laraprehalfdeva; 
-                sub sharadevaMAR vattudeva by sharaprehalfdevaMAR; 
+                sub laradevaMAR vattudeva by laraprehalfdeva;
                 sub jharadevaNEP vattudeva by jharaprehalfdevaNEP;
                 
             } VattuHalf;
@@ -434,7 +431,7 @@ feature pres {
                 sub shaprehalfdeva vaprehalfdeva by shavaprehalfdeva;
                 sub shaprehalfdevaMAR caprehalfdeva by shacaprehalfdeva;
                 sub shaprehalfdevaMAR vaprehalfdeva by shavaprehalfdeva;            
-            } PrehalfConj;
+            } PreHalfConj;
     
             lookup PresConj {
                 sub shaprehalfdeva cadeva by shacadeva; 
@@ -456,7 +453,7 @@ feature pres {
                 sub haprehalfdeva ladeva by haladeva;
                 sub haprehalfdeva vadeva by havadeva;                                    
                 sub japrehalfdeva jadeva by jajadeva;
-                sub japrehalfdeva thaadeva by jathadeva;                
+                sub japrehalfdeva thadeva by jathadeva;                
                 sub japrehalfdeva yadeva by jayadeva;                
                 sub japrehalfdeva sadeva by jasadeva;                
                 sub januktaprehalfdeva yadeva by januktayadeva;
@@ -466,8 +463,7 @@ feature pres {
                 sub taprehalfdeva thadeva by tathadeva;
                 sub taprehalfdeva nadeva by tanadeva;
                 sub taprehalfdeva sadeva by tasadeva;                
-                sub taprehalfdeva yadeva by tayadeva;                
-                sub taprehalfdeva tadeva by tatadeva;                                                
+                sub taprehalfdeva yadeva by tayadeva;                                                                
                 sub naprehalfdeva bhadeva by nabhadeva;
                 sub naprehalfdeva madeva by namadeva;
                 sub laprehalfdeva jadeva by lajadeva;      
@@ -485,7 +481,7 @@ feature pres {
            #    half+half+consonant
             lookup IVowelHalfHalfCons { 
                 
-                sub ivowelsigndeva' [@ih_06 @ih_07 @ih_08 @ih_09 @ih_10] [@ih_06 @ih_07 @ih_08 @ih_09 @ih_10] [@ic_02 @ic_03 @ic04 @ic_05 @ic_06 @ic_07 @ic_08] by ivowelsign10deva;
+                sub ivowelsigndeva' [@ih_06 @ih_07 @ih_08 @ih_09 @ih_10] [@ih_06 @ih_07 @ih_08 @ih_09 @ih_10] [@ic_02 @ic_03 @ic_04 @ic_05 @ic_06 @ic_07 @ic_08] by ivowelsign10deva;
             } IVowelHalfHalfCons;
             
             lookup IVowelHalfCons { # I vowelsign lengths half+consonant
@@ -516,15 +512,15 @@ feature pres {
             } IVowelHalfCons;
             
             lookup IVowelCons {  # consonants  
-                sub ivowelsigndeva' @ic_01 by ivowelsign01deva
-                sub ivowelsigndeva' @ic_02 by ivowelsign02deva
-                sub ivowelsigndeva' @ic_03 by ivowelsign03deva
-                sub ivowelsigndeva' @ic_04 by ivowelsign04deva
-                sub ivowelsigndeva' @ic_05 by ivowelsign05deva
-                sub ivowelsigndeva' @ic_06 by ivowelsign06deva
-                sub ivowelsigndeva' @ic_07 by ivowelsign07deva
-                sub ivowelsigndeva' @ic_08 by ivowelsign08deva
-            } IvowelCons;            
+                sub ivowelsigndeva' @ic_01 by ivowelsign01deva;
+                sub ivowelsigndeva' @ic_02 by ivowelsign02deva;
+                sub ivowelsigndeva' @ic_03 by ivowelsign03deva;
+                sub ivowelsigndeva' @ic_04 by ivowelsign04deva;
+                sub ivowelsigndeva' @ic_05 by ivowelsign05deva;
+                sub ivowelsigndeva' @ic_06 by ivowelsign06deva;
+                sub ivowelsigndeva' @ic_07 by ivowelsign07deva;
+                sub ivowelsigndeva' @ic_08 by ivowelsign08deva;
+            } IVowelCons;            
 
 
 } pres;
@@ -539,15 +535,70 @@ feature abvs {
             lookup AbvsMarks { # Vowel sign + mark combinations 
                 sub rephdeva candrabindudeva by rephanusvaradeva;
                 sub rephdeva anusvaradeva by rephanusvaradeva;
-                sub @abvs_v_anus_0 anusvaradeva by @abvs_v_anus_1; 
-                sub @ii_dflt candrabindudeva by @ii_candbin;  
-                sub @ii_dflt anusvaradeva by @ii_anus; 
-                sub @ii_dflt rephdeva by @ii_reph; 
-                sub @ii_dflt rephanusvaradeva by @ii_rephanus; 
-                sub @abvs_vs_dflt candrabindudeva by @abvs_vs_candbin;  
-                sub @abvs_vs_dflt anusvaradeva by @abvs_vs_anus; 
-                sub @abvs_vs_dflt rephdeva by @abvs_vs_reph; 
-                sub @abvs_vs_dflt rephanusvaradeva by @abvs_vs_rephanus; 
+
+                sub ashortdeva anusvaradeva by ashortanusvaradeva;
+                sub iideva anusvaradeva by iianusvaradeva;
+                sub ecandradeva anusvaradeva by ecandraanusvaradeva;
+                sub eshortdeva anusvaradeva by eshortanusvaradeva;
+                sub aideva anusvaradeva by aianusvaradeva;
+                sub ocandradeva anusvaradeva by ocandraanusvaradeva;
+                sub oshortdeva anusvaradeva by oshortanusvaradeva;
+                sub odeva anusvaradeva by oanusvaradeva;
+                sub audeva anusvaradeva by auanusvaradeva;
+                sub acandradeva anusvaradeva by acandraanusvaradeva;
+                
+                sub iivowelsigndeva candrabindudeva by iivowelcandrabindudeva;
+                sub iivowelsign2deva candrabindudeva by iivowelcandrabindu2deva;
+                sub iivowelsign3deva candrabindudeva by iivowelcandrabindu3deva;                
+                                
+                sub iivowelsigndeva anusvaradeva by iivowelsignanusvaradeva;
+                sub iivowelsign2deva anusvaradeva by iivowelsignanusvara2deva;
+                sub iivowelsign3deva anusvaradeva by iivowelsignanusvara3deva; 
+                
+                sub iivowelsigndeva rephanusvaradeva by iivowelsignrephanusvaradeva;
+                sub iivowelsign2deva rephanusvaradeva by iivowelsignrephanusvara2deva;
+                sub iivowelsign3deva rephanusvaradeva by iivowelsignrephanusvara3deva; 
+                
+                sub iivowelsigndeva rephdeva by iivowelsignrephdeva;
+                sub iivowelsign2deva rephdeva by iivowelsignreph2deva;
+                sub iivowelsign3deva rephdeva by iivowelsignreph3deva; 
+                
+                sub ecandravowelsigndeva candrabindudeva by ecandravowelsigncandrabindudeva;
+                sub eshortvowelsigndeva candrabindudeva by eshortvowelsigncandrabindudeva;
+                sub evowelsigndeva candrabindudeva by evowelsigncandrabindudeva; 
+                sub aivowelsigndeva candrabindudeva by aivowelsigncandrabindudeva; 
+                sub ocandravowelsigndeva candrabindudeva by ocandravowelsigncandrabindudeva; 
+                sub oshortvowelsigndeva candrabindudeva by oshortvowelsigncandrabindudeva; 
+                sub ovowelsigndeva candrabindudeva by ovowelsigncandrabindudeva; 
+                sub auvowelsigndeva candrabindudeva by auvowelsigncandrabindudeva;
+                
+                sub ecandravowelsigndeva anusvaradeva by ecandravowelsignanusvaradeva;
+                sub eshortvowelsigndeva anusvaradeva by eshortvowelsignanusvaradeva;
+                sub evowelsigndeva anusvaradeva by evowelsignanusvaradeva; 
+                sub aivowelsigndeva anusvaradeva by aivowelsignanusvaradeva; 
+                sub ocandravowelsigndeva anusvaradeva by ocandravowelsignanusvaradeva; 
+                sub oshortvowelsigndeva anusvaradeva by oshortvowelsignanusvaradeva; 
+                sub ovowelsigndeva anusvaradeva by ovowelsignanusvaradeva; 
+                sub auvowelsigndeva anusvaradeva by auvowelsignanusvaradeva;                               
+ 
+                sub ecandravowelsigndeva rephanusvaradeva by ecandravowelsignrephanusvaradeva;
+                sub eshortvowelsigndeva rephanusvaradeva by eshortvowelsignrephanusvaradeva;
+                sub evowelsigndeva rephanusvaradeva by evowelsignrephanusvaradeva; 
+                sub aivowelsigndeva rephanusvaradeva by aivowelsignrephanusvaradeva; 
+                sub ocandravowelsigndeva rephanusvaradeva by ocandravowelsignrephanusvaradeva; 
+                sub oshortvowelsigndeva rephanusvaradeva by oshortvowelsignrephanusvaradeva; 
+                sub ovowelsigndeva rephanusvaradeva by ovowelsignrephanusvaradeva; 
+                sub auvowelsigndeva rephanusvaradeva by auvowelsignrephanusvaradeva;
+
+                sub ecandravowelsigndeva rephdeva by ecandravowelsignrephdeva;
+                sub eshortvowelsigndeva rephdeva by eshortvowelsignrephdeva;
+                sub evowelsigndeva rephdeva by evowelsignrephdeva; 
+                sub aivowelsigndeva rephdeva by aivowelsignrephdeva; 
+                sub ocandravowelsigndeva rephdeva by ocandravowelsignrephdeva; 
+                sub oshortvowelsigndeva rephdeva by oshortvowelsignrephdeva; 
+                sub ovowelsigndeva rephdeva by ovowelsignrephdeva; 
+                sub auvowelsigndeva rephdeva by auvowelsignrephdeva;
+                
             } AbvsMarks;
 
 
@@ -567,15 +618,26 @@ feature blws {
             } NuktAlt;
 
             lookup VowelLiga { # U and Rvocalic Vowel Ligatures 
-                sub @blws_u_0 uvowelsigndeva by @blws_u_1; 
-                sub @blws_uu_0 uuvowelsigndeva by @blws_uu_1;
+                sub hadeva uvowelsigndeva by haudeva;
+                sub haradeva uvowelsigndeva by haraudeva;
+                sub dadeva uvowelsigndeva by daudeva;
+                sub radeva uvowelsigndeva by raudeva;
+                sub rradeva uvowelsigndeva by ranuktaudeva; 
+                
+                sub hadeva uuvowelsigndeva by hauudeva;
+                sub haradeva uuvowelsigndeva by harauudeva;
+                sub dadeva uuvowelsigndeva by dauudeva;
+                sub radeva uuvowelsigndeva by rauudeva;
+                sub rradeva uuvowelsigndeva by ranuktauudeva; 
+
                 sub dadeva rvocalicvowelsigndeva by darvocalicdeva; 
                 sub hadeva rvocalicvowelsigndeva by harvocalicdeva;
                 sub hadeva rrvocalicvowelsigndeva by harrvocalicdeva;
             } VowelLiga;
 
             lookup VattuLowVowels {# Vattu variant + Vowelsign substitution ERINS THING  
-                sub @blws_vattu_c_1 @blws_vattu_0 by @blws_vattu_c_0 @blws_vattu_1;
+                sub @blws_vattu_c_1' @blws_vattu_0 by @blws_vattu_c_0;
+                sub @blws_vattu_c_0 @blws_vattu_0' by @blws_vattu_1;
             } VattuLowVowels;
             
             lookup VowelsLow { # low vowelsign substitution ERINS THING     
