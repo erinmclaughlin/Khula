@@ -69,11 +69,17 @@ feature blwm {
                 pos base laradevaMAR <anchor 1072 -414> mark @m_btm;
                 pos base ranuktaradeva <anchor 405 -414> mark @m_btm;
                 pos base raradeva <anchor 405 -414> mark @m_btm;
-                pos base @blwb_TtaRa <anchor 543 -414> mark @m_btm;
+                pos base ttaradeva <anchor 543 -414> mark @m_btm;
+                pos base ttharadeva <anchor 543 -414> mark @m_btm;
+                pos base ddaradeva <anchor 543 -414> mark @m_btm;
+                pos base ddharadeva <anchor 543 -414> mark @m_btm;   
+                pos base ddanuktaradeva <anchor 543 -414> mark @m_btm;
+                pos base ddhanuktaradeva <anchor 543 -414> mark @m_btm;                              
+                pos base ngaradeva <anchor 543 -414> mark @m_btm;                
                 pos base llaradeva <anchor 1053 -414> mark @m_btm;
                 pos base llanuktaradeva <anchor 1053 -414> mark @m_btm;
                 pos base charadeva <anchor 683 -414> mark @m_btm;
-                pos base ngaradeva <anchor 685 1294> mark @m_btm;
+
              
  
             } BlwMarks;

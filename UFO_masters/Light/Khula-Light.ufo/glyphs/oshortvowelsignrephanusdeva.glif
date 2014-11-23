@@ -1,12 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="ocandravowelsignrephanusvaradeva" format="1">
+<glyph name="oshortvowelsignrephanusdeva" format="1">
   <advance width="567"/>
   <outline>
     <component base="aavowelsigndeva"/>
-    <component base="ecandravowelsignrephanusvaradeva" xOffset="560"/>
+    <component base="eshortvowelsignrephanusdeva" xOffset="570"/>
   </outline>
   <lib>
     <dict>
+      <key>com.typemytype.robofont.guides</key>
+      <array>
+        <dict>
+          <key>angle</key>
+          <real>90.0</real>
+          <key>isGlobal</key>
+          <false/>
+          <key>magnetic</key>
+          <integer>5</integer>
+          <key>x</key>
+          <integer>228</integer>
+          <key>y</key>
+          <integer>1157</integer>
+        </dict>
+      </array>
       <key>com.typemytype.robofont.layerData</key>
       <dict>
         <key>background</key>
@@ -24,7 +39,7 @@
           <dict>
           </dict>
           <key>name</key>
-          <string>ocandravowelsignrephanusvaradeva</string>
+          <string>oshortvowelsignrephanusdeva</string>
           <key>unicodes</key>
           <array>
           </array>
@@ -46,7 +61,7 @@
           <dict>
           </dict>
           <key>name</key>
-          <string>ocandravowelsignrephanusvaradeva</string>
+          <string>oshortvowelsignrephanusdeva</string>
           <key>unicodes</key>
           <array>
           </array>
@@ -68,7 +83,7 @@
           <dict>
           </dict>
           <key>name</key>
-          <string>ocandravowelsignrephanusvaradeva</string>
+          <string>oshortvowelsignrephanusdeva</string>
           <key>unicodes</key>
           <array>
           </array>
@@ -90,7 +105,7 @@
           <dict>
           </dict>
           <key>name</key>
-          <string>ocandravowelsignrephanusvaradeva</string>
+          <string>oshortvowelsignrephanusdeva</string>
           <key>unicodes</key>
           <array>
           </array>
@@ -98,6 +113,13 @@
           <integer>567</integer>
         </dict>
       </dict>
+      <key>com.typemytype.robofont.mark</key>
+      <array>
+        <real>1.0</real>
+        <real>0.7255</real>
+        <real>0.7149</real>
+        <real>1.0</real>
+      </array>
       <key>org.robofab.fontlab.mark</key>
       <integer>30</integer>
     </dict>

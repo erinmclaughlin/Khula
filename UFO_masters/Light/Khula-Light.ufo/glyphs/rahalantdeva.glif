@@ -1,9 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="oshortvowelsignrephanusvaradeva" format="1">
-  <advance width="567"/>
+<glyph name="rahalantdeva" format="1">
+  <advance width="818"/>
   <outline>
-    <component base="aavowelsigndeva"/>
-    <component base="eshortvowelsignrephanusvarade" xOffset="570"/>
+    <component base="radeva"/>
+    <component base="viramadeva" xOffset="593" yOffset="30"/>
+    <contour>
+      <point x="369.0" y="-23.0" type="move" name="btm"/>
+    </contour>
+    <contour>
+      <point x="517.0" y="1274.0" type="move" name="top"/>
+    </contour>
   </outline>
   <lib>
     <dict>
@@ -17,9 +23,9 @@
           <key>magnetic</key>
           <integer>5</integer>
           <key>x</key>
-          <integer>228</integer>
+          <integer>517</integer>
           <key>y</key>
-          <integer>1157</integer>
+          <integer>1218</integer>
         </dict>
       </array>
       <key>com.typemytype.robofont.layerData</key>
@@ -39,12 +45,12 @@
           <dict>
           </dict>
           <key>name</key>
-          <string>oshortvowelsignrephanusvaradeva</string>
+          <string>rahalantdeva</string>
           <key>unicodes</key>
           <array>
           </array>
           <key>width</key>
-          <integer>567</integer>
+          <integer>818</integer>
         </dict>
         <key>layer1</key>
         <dict>
@@ -61,17 +67,33 @@
           <dict>
           </dict>
           <key>name</key>
-          <string>oshortvowelsignrephanusvaradeva</string>
+          <string>rahalantdeva</string>
           <key>unicodes</key>
           <array>
           </array>
           <key>width</key>
-          <integer>567</integer>
+          <integer>818</integer>
         </dict>
         <key>layer2</key>
         <dict>
           <key>anchors</key>
           <array>
+            <dict>
+              <key>name</key>
+              <string>x27</string>
+              <key>x</key>
+              <real>-6.597446785930487</real>
+              <key>y</key>
+              <real>8.0</real>
+            </dict>
+            <dict>
+              <key>name</key>
+              <string>mark0</string>
+              <key>x</key>
+              <real>507.4025532140695</real>
+              <key>y</key>
+              <real>8.0</real>
+            </dict>
           </array>
           <key>components</key>
           <array>
@@ -83,17 +105,49 @@
           <dict>
           </dict>
           <key>name</key>
-          <string>oshortvowelsignrephanusvaradeva</string>
+          <string>rahalantdeva</string>
           <key>unicodes</key>
           <array>
           </array>
           <key>width</key>
-          <integer>567</integer>
+          <integer>818</integer>
         </dict>
         <key>original</key>
         <dict>
           <key>anchors</key>
           <array>
+            <dict>
+              <key>name</key>
+              <string>x27</string>
+              <key>x</key>
+              <real>-6.597446785930487</real>
+              <key>y</key>
+              <real>8.0</real>
+            </dict>
+            <dict>
+              <key>name</key>
+              <string>mark0</string>
+              <key>x</key>
+              <real>507.4025532140695</real>
+              <key>y</key>
+              <real>8.0</real>
+            </dict>
+            <dict>
+              <key>name</key>
+              <string>x27</string>
+              <key>x</key>
+              <real>-6.597446785930487</real>
+              <key>y</key>
+              <real>8.0</real>
+            </dict>
+            <dict>
+              <key>name</key>
+              <string>mark0</string>
+              <key>x</key>
+              <real>507.4025532140695</real>
+              <key>y</key>
+              <real>8.0</real>
+            </dict>
           </array>
           <key>components</key>
           <array>
@@ -105,16 +159,23 @@
           <dict>
           </dict>
           <key>name</key>
-          <string>oshortvowelsignrephanusvaradeva</string>
+          <string>rahalantdeva</string>
           <key>unicodes</key>
           <array>
           </array>
           <key>width</key>
-          <integer>567</integer>
+          <integer>818</integer>
         </dict>
       </dict>
+      <key>com.typemytype.robofont.mark</key>
+      <array>
+        <real>1.0</real>
+        <real>0.7255</real>
+        <real>0.7149</real>
+        <real>1.0</real>
+      </array>
       <key>org.robofab.fontlab.mark</key>
-      <integer>30</integer>
+      <integer>210</integer>
     </dict>
   </lib>
 </glyph>

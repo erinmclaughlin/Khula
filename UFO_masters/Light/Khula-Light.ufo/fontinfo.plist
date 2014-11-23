@@ -10,18 +10,18 @@
 	<string>Copyright 2012 Google Inc. All Rights Reserved.</string>
 	<key>descender</key>
 	<integer>-836</integer>
+	<key>familyName</key>
+	<string>Khula</string>
 	<key>macintoshFONDFamilyID</key>
 	<integer>128</integer>
 	<key>macintoshFONDName</key>
-	<string>Open Sans Devanagari</string>
+	<string>Khula</string>
 	<key>openTypeHeadCreated</key>
 	<string>2014/07/02 18:19:43</string>
 	<key>openTypeHeadLowestRecPPEM</key>
 	<integer>9</integer>
 	<key>openTypeNameCompatibleFullName</key>
 	<string>Khula Light</string>
-	<key>openTypeNameDescription</key>
-	<string>Designed by Monotype design team</string>
 	<key>openTypeNameDesigner</key>
 	<string>Monotype Design team</string>
 	<key>openTypeNameDesignerURL</key>
@@ -39,7 +39,7 @@
 	<key>openTypeNamePreferredSubfamilyName</key>
 	<string>Light</string>
 	<key>openTypeNameUniqueID</key>
-	<string>Monotype Imaging - Khula</string>
+	<string>Khula Light</string>
 	<key>openTypeNameVersion</key>
 	<string>Version 1.03</string>
 	<key>openTypeOS2CodePageRanges</key>
@@ -103,7 +103,7 @@
 	<key>postscriptBlueFuzz</key>
 	<integer>1</integer>
 	<key>postscriptBlueScale</key>
-	<real>0.039600000000000003</real>
+	<real>0.0396</real>
 	<key>postscriptBlueShift</key>
 	<integer>7</integer>
 	<key>postscriptBlueValues</key>
@@ -111,12 +111,18 @@
 	</array>
 	<key>postscriptDefaultWidthX</key>
 	<integer>500</integer>
+	<key>postscriptFamilyBlues</key>
+	<array>
+	</array>
+	<key>postscriptFamilyOtherBlues</key>
+	<array>
+	</array>
 	<key>postscriptFontName</key>
-	<string>OpenSansDevanagari-Light</string>
+	<string>Khula-Light</string>
 	<key>postscriptForceBold</key>
 	<false/>
 	<key>postscriptFullName</key>
-	<string>Open Sans Devanagari Light</string>
+	<string>Khula Light</string>
 	<key>postscriptIsFixedPitch</key>
 	<false/>
 	<key>postscriptOtherBlues</key>
@@ -124,6 +130,12 @@
 	</array>
 	<key>postscriptSlantAngle</key>
 	<real>0.0</real>
+	<key>postscriptStemSnapH</key>
+	<array>
+	</array>
+	<key>postscriptStemSnapV</key>
+	<array>
+	</array>
 	<key>postscriptUniqueID</key>
 	<integer>-1</integer>
 	<key>postscriptWindowsCharacterSet</key>
@@ -131,7 +143,7 @@
 	<key>styleMapStyleName</key>
 	<string>regular</string>
 	<key>styleName</key>
-	<string>Regular</string>
+	<string>Light</string>
 	<key>trademark</key>
 	<string>Noto is a trademark of Google Inc. and may be registered in certain jurisdictions.</string>
 	<key>unitsPerEm</key>
@@ -139,7 +151,7 @@
 	<key>versionMajor</key>
 	<integer>1</integer>
 	<key>versionMinor</key>
-	<integer>3</integer>
+	<integer>0</integer>
 	<key>xHeight</key>
 	<integer>1274</integer>
 	<key>year</key>
