@@ -2,11 +2,52 @@
 
 feature abvs {
             
-            lookup AbvsMarks {
+            lookup AbvsSubs {            
+                
+                sub ecandravowelsigndeva rephdeva anusvaradeva by ecandravowelsignrephanusdeva;
+                sub eshortvowelsigndeva rephdeva anusvaradeva by eshortvowelsignrephanusdeva;
+                sub evowelsigndeva rephdeva anusvaradeva by evowelsignrephanusvaradeva; 
+                sub aivowelsigndeva rephdeva anusvaradeva by aivowelsignrephanusvaradeva; 
+                sub ocandravowelsigndeva rephdeva anusvaradeva by ocandravowelsignrephanusdeva; 
+                sub oshortvowelsigndeva rephdeva anusvaradeva by oshortvowelsignrephanusdeva; 
+                sub ovowelsigndeva rephdeva anusvaradeva by ovowelsignrephanusvaradeva; 
+                sub auvowelsigndeva rephdeva anusvaradeva by auvowelsignrephanusvaradeva;
 
-                sub rephdeva candrabindudeva by rephanusvaradeva;
-                sub rephdeva anusvaradeva by rephanusvaradeva;
+                sub ecandravowelsigndeva ecandravowelsigndeva anusvaradeva by ecandravowelsigncandrabindudeva;
+                sub eshortvowelsigndeva ecandravowelsigndeva anusvaradeva by eshortvowelsigncandrabindudeva;
+                sub evowelsigndeva ecandravowelsigndeva anusvaradeva by evowelsigncandrabindudeva; 
+                sub aivowelsigndeva ecandravowelsigndeva anusvaradeva by aivowelsigncandrabindudeva; 
+                sub ocandravowelsigndeva ecandravowelsigndeva anusvaradeva by ocandravowelsigncandrabindudeva; 
+                sub oshortvowelsigndeva ecandravowelsigndeva anusvaradeva by oshortvowelsigncandrabindudeva; 
+                sub ovowelsigndeva ecandravowelsigndeva anusvaradeva by ovowelsigncandrabindudeva; 
+                sub auvowelsigndeva ecandravowelsigndeva anusvaradeva by auvowelsigncandrabindudeva;                   
 
+                sub ecandravowelsigndeva candrabindudeva by ecandravowelsigncandrabindudeva;
+                sub eshortvowelsigndeva candrabindudeva by eshortvowelsigncandrabindudeva;
+                sub evowelsigndeva candrabindudeva by evowelsigncandrabindudeva; 
+                sub aivowelsigndeva candrabindudeva by aivowelsigncandrabindudeva; 
+                sub ocandravowelsigndeva candrabindudeva by ocandravowelsigncandrabindudeva; 
+                sub oshortvowelsigndeva candrabindudeva by oshortvowelsigncandrabindudeva; 
+                sub ovowelsigndeva candrabindudeva by ovowelsigncandrabindudeva; 
+                sub auvowelsigndeva candrabindudeva by auvowelsigncandrabindudeva; 
+                                          
+                sub ecandravowelsigndeva rephdeva by ecandravowelsignrephdeva;
+                sub eshortvowelsigndeva rephdeva by eshortvowelsignrephdeva;
+                sub evowelsigndeva rephdeva by evowelsignrephdeva; 
+                sub aivowelsigndeva rephdeva by aivowelsignrephdeva; 
+                sub ocandravowelsigndeva rephdeva by ocandravowelsignrephdeva; 
+                sub oshortvowelsigndeva rephdeva by oshortvowelsignrephdeva; 
+                sub ovowelsigndeva rephdeva by ovowelsignrephdeva; 
+                sub auvowelsigndeva rephdeva by auvowelsignrephdeva;  
+                
+                sub eshortvowelsigndeva anusvaradeva by eshortvowelsignanusvaradeva;
+                sub evowelsigndeva anusvaradeva by evowelsignanusvaradeva; 
+                sub aivowelsigndeva anusvaradeva by aivowelsignanusvaradeva; 
+                sub ocandravowelsigndeva anusvaradeva by ocandravowelsignanusvaradeva; 
+                sub oshortvowelsigndeva anusvaradeva by oshortvowelsignanusvaradeva; 
+                sub ovowelsigndeva anusvaradeva by ovowelsignanusvaradeva; 
+                sub auvowelsigndeva anusvaradeva by auvowelsignanusvaradeva;                    
+                
                 sub ashortdeva anusvaradeva by ashortanusvaradeva;
                 sub iideva anusvaradeva by iianusvaradeva;
                 sub ecandradeva anusvaradeva by ecandraanusvaradeva;
@@ -18,60 +59,33 @@ feature abvs {
                 sub audeva anusvaradeva by auanusvaradeva;
                 sub acandradeva anusvaradeva by acandraanusvaradeva;
                 
+                sub iivowelsigndeva rephdeva anusvaradeva by iivowelsignrephanusvaradeva;
+                sub iivowelsign2deva rephdeva anusvaradeva by iivowelsignrephanusvara2deva;
+                sub iivowelsign3deva rephdeva anusvaradeva by iivowelsignrephanusvara3deva;
+
+                sub iivowelsigndeva ecandravowelsigndeva anusvaradeva by iivowelcandrabindudeva;
+                sub iivowelsign2deva ecandravowelsigndeva anusvaradeva by iivowelcandrabindu2deva;
+                sub iivowelsign3deva ecandravowelsigndeva anusvaradeva by iivowelcandrabindu3deva;                
+
                 sub iivowelsigndeva candrabindudeva by iivowelcandrabindudeva;
                 sub iivowelsign2deva candrabindudeva by iivowelcandrabindu2deva;
-                sub iivowelsign3deva candrabindudeva by iivowelcandrabindu3deva;                
-                                
-                sub iivowelsigndeva anusvaradeva by iivowelsignanusvaradeva;
-                sub iivowelsign2deva anusvaradeva by iivowelsignanusvara2deva;
-                sub iivowelsign3deva anusvaradeva by iivowelsignanusvara3deva; 
-                
-                sub iivowelsigndeva rephanusvaradeva by iivowelsignrephanusvaradeva;
-                sub iivowelsign2deva rephanusvaradeva by iivowelsignrephanusvara2deva;
-                sub iivowelsign3deva rephanusvaradeva by iivowelsignrephanusvara3deva; 
+                sub iivowelsign3deva candrabindudeva by iivowelcandrabindu3deva;      
                 
                 sub iivowelsigndeva rephdeva by iivowelsignrephdeva;
                 sub iivowelsign2deva rephdeva by iivowelsignreph2deva;
-                sub iivowelsign3deva rephdeva by iivowelsignreph3deva; 
-                
-                sub ecandravowelsigndeva candrabindudeva by ecandravowelsigncandrabindudeva;
-                sub eshortvowelsigndeva candrabindudeva by eshortvowelsigncandrabindudeva;
-                sub evowelsigndeva candrabindudeva by evowelsigncandrabindudeva; 
-                sub aivowelsigndeva candrabindudeva by aivowelsigncandrabindudeva; 
-                sub ocandravowelsigndeva candrabindudeva by ocandravowelsigncandrabindudeva; 
-                sub oshortvowelsigndeva candrabindudeva by oshortvowelsigncandrabindudeva; 
-                sub ovowelsigndeva candrabindudeva by ovowelsigncandrabindudeva; 
-                sub auvowelsigndeva candrabindudeva by auvowelsigncandrabindudeva;
-                
-                sub ecandravowelsigndeva anusvaradeva by ecandravowelsignanusvaradeva;
-                sub eshortvowelsigndeva anusvaradeva by eshortvowelsignanusvaradeva;
-                sub evowelsigndeva anusvaradeva by evowelsignanusvaradeva; 
-                sub aivowelsigndeva anusvaradeva by aivowelsignanusvaradeva; 
-                sub ocandravowelsigndeva anusvaradeva by ocandravowelsignanusvaradeva; 
-                sub oshortvowelsigndeva anusvaradeva by oshortvowelsignanusvaradeva; 
-                sub ovowelsigndeva anusvaradeva by ovowelsignanusvaradeva; 
-                sub auvowelsigndeva anusvaradeva by auvowelsignanusvaradeva;                               
- 
-                sub ecandravowelsigndeva rephanusvaradeva by ecandravowelsignrephanusdeva;
-                sub eshortvowelsigndeva rephanusvaradeva by eshortvowelsignrephanusdeva;
-                sub evowelsigndeva rephanusvaradeva by evowelsignrephanusvaradeva; 
-                sub aivowelsigndeva rephanusvaradeva by aivowelsignrephanusvaradeva; 
-                sub ocandravowelsigndeva rephanusvaradeva by ocandravowelsignrephanusdeva; 
-                sub oshortvowelsigndeva rephanusvaradeva by oshortvowelsignrephanusdeva; 
-                sub ovowelsigndeva rephanusvaradeva by ovowelsignrephanusvaradeva; 
-                sub auvowelsigndeva rephanusvaradeva by auvowelsignrephanusvaradeva;
+                sub iivowelsign3deva rephdeva by iivowelsignreph3deva;                  
 
-                sub ecandravowelsigndeva rephdeva by ecandravowelsignrephdeva;
-                sub eshortvowelsigndeva rephdeva by eshortvowelsignrephdeva;
-                sub evowelsigndeva rephdeva by evowelsignrephdeva; 
-                sub aivowelsigndeva rephdeva by aivowelsignrephdeva; 
-                sub ocandravowelsigndeva rephdeva by ocandravowelsignrephdeva; 
-                sub oshortvowelsigndeva rephdeva by oshortvowelsignrephdeva; 
-                sub ovowelsigndeva rephdeva by ovowelsignrephdeva; 
-                sub auvowelsigndeva rephdeva by auvowelsignrephdeva;
-                
-            } AbvsMarks;
+                sub iivowelsigndeva anusvaradeva by iivowelsignanusvaradeva;
+                sub iivowelsign2deva anusvaradeva by iivowelsignanusvara2deva;
+                sub iivowelsign3deva anusvaradeva by iivowelsignanusvara3deva;                 
 
+                sub rephdeva candrabindudeva by rephanusvaradeva;
+                sub rephdeva anusvaradeva by rephanusvaradeva;
+
+                sub ecandravowelsigndeva anusvaradeva by candrabindudeva;                
+                                
+            } AbvsSubs;
+            
 } abvs;
 
 # -------------- Below-base substitutions -------------------

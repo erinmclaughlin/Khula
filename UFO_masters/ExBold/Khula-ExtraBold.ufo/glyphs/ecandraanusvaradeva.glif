@@ -2,8 +2,8 @@
 <glyph name="ecandraanusvaradeva" format="1">
   <advance width="1347"/>
   <outline>
-    <component base="ecandravowelsignanusvaradeva" xOffset="1710"/>
     <component base="edeva"/>
+    <component base="candrabindudeva" xOffset="1021"/>
   </outline>
   <lib>
     <dict>
@@ -98,6 +98,13 @@
           <integer>1347</integer>
         </dict>
       </dict>
+      <key>com.typemytype.robofont.mark</key>
+      <array>
+        <real>1.0</real>
+        <real>0.7255</real>
+        <real>0.7149</real>
+        <real>1.0</real>
+      </array>
       <key>org.robofab.fontlab.mark</key>
       <integer>210</integer>
     </dict>

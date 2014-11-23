@@ -2,23 +2,7 @@
 <glyph name="ecandravowelsigncandrabindudeva" format="1">
   <advance width="0"/>
   <outline>
-    <contour>
-      <point x="-490" y="1598" type="line"/>
-      <point x="-571" y="1492"/>
-      <point x="-687" y="1434"/>
-      <point x="-816" y="1434" type="curve" smooth="yes"/>
-      <point x="-951" y="1434"/>
-      <point x="-1066" y="1484"/>
-      <point x="-1166" y="1587" type="curve"/>
-      <point x="-1135" y="1661" type="line"/>
-      <point x="-1036" y="1555"/>
-      <point x="-926" y="1516"/>
-      <point x="-824" y="1516" type="curve" smooth="yes"/>
-      <point x="-716" y="1516"/>
-      <point x="-616" y="1556"/>
-      <point x="-529" y="1660" type="curve"/>
-    </contour>
-    <component base="candrabindusmalldeva" xOffset="1"/>
+    <component base="candrabindudeva"/>
     <contour>
       <point x="0" y="-30" type="move" name="x61"/>
     </contour>
@@ -248,6 +232,13 @@
           <integer>0</integer>
         </dict>
       </dict>
+      <key>com.typemytype.robofont.mark</key>
+      <array>
+        <real>0.5163</real>
+        <real>0.5163</real>
+        <real>0.5163</real>
+        <real>1.0</real>
+      </array>
       <key>org.robofab.fontlab.mark</key>
       <integer>210</integer>
       <key>org.robofab.fontlab.maskData</key>

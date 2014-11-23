@@ -89,7 +89,7 @@
       <point x="1044" y="562"/>
       <point x="1083" y="643"/>
     </contour>
-    <component base="candrabindudeva" xOffset="1552"/>
+    <component base="candrabindudeva" xOffset="1552" yOffset="-86"/>
   </outline>
   <lib>
     <dict>
@@ -184,6 +184,13 @@
           <integer>2093</integer>
         </dict>
       </dict>
+      <key>com.typemytype.robofont.mark</key>
+      <array>
+        <real>1.0</real>
+        <real>0.8424</real>
+        <real>0.6742</real>
+        <real>1.0</real>
+      </array>
       <key>org.robofab.fontlab.mark</key>
       <integer>210</integer>
     </dict>
