@@ -185,6 +185,8 @@ feature half {
                 sub bhadeva viramadeva by bhaprehalfdeva;
                 sub madeva viramadeva by maprehalfdeva;
                 sub yadeva viramadeva by yaprehalfdeva;
+                sub radeva viramadeva by raprehalfdeva; #
+                sub rradeva viramadeva by raprehalfdeva;
                 sub ladeva viramadeva by laprehalfdeva;
                 sub lladeva viramadeva by llaprehalfdeva;
                 sub vadeva viramadeva by vaprehalfdeva;
@@ -428,6 +430,16 @@ feature cjct {
 # -------------- Pre-Base substitutions -------------
 
 feature pres {
+
+#            lookup Eyelash {
+                
+#                sub raprehalfdeva yadeva by rayadeva;
+#                sub raprehalfdeva hadeva by rahadeva;
+                
+#                sub raprehalfdeva U200C yadeva by rayadeva;
+#                sub raprehalfdeva U200C hadeva by rahadeva;
+                
+#                }
 
             lookup PreHalfConj {
            
