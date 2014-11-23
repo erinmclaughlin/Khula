@@ -1,34 +1,5 @@
 # Khula ExtraBold Groups
        
-@abvb_JhaNEP = [jhadevaNEP jharadevaNEP];
-@abvb_Ka = [kadeva qadeva karadeva kanuktaradeva];
-@abvb_Pha = [phadeva fadeva pharadeva phanuktaradeva];
-@abvb_Ra = [radeva rradeva raradeva ranuktaradeva];
-@abvb_SsaTta = [ssattadeva ssatthadeva ssattaradeva ssattharadeva];
-@abvm_top = [candrabindudeva anusvaradeva ecandravowelsigndeva eshortvowelsigndeva evowelsigndeva aivowelsigndeva rephdeva rephanusvaradeva udattadeva ecandravowelsignanusvaradeva ecandravowelsignrephdeva ecandravowelsignrephanusdeva eshortvowelsignanusvaradeva eshortvowelsignrephdeva eshortvowelsignrephanusdeva evowelsignanusvaradeva evowelsignrephdeva evowelsignrephanusvaradeva aivowelsignanusvaradeva aivowelsignrephdeva aivowelsignrephanusvaradeva candrabindusmalldeva ecandravowelsigncandrabindudeva eshortvowelsigncandrabindudeva evowelsigncandrabindudeva aivowelsigncandrabindudeva invertedcandrabindu candralongevowelsigndeva oevowelsigndevaKSH];
-@blwb_Da = [dadeva daradeva];
-@blwb_DaBa = [dabadeva davadeva];
-@blwb_DaGha = [daghadeva dadhadeva];
-@blwb_HaNna = [hannadeva haladeva];
-@blwb_JhaNEP = [jhadevaNEP jharadevaNEP];
-@blwb_Ka = [kadeva qadeva karadeva kanuktaradeva];
-@blwb_Lla = [lladeva llladeva];
-@blwb_NgaGa = [ngagadeva ngamadeva];
-@blwb_Pha = [phadeva fadeva pharadeva phanuktaradeva];
-@blwb_Ra = [radeva rradeva];
-@blwb_ShaCa = [shacadeva shavadeva];
-@blwb_SsaTta = [ssattadeva ssatthadeva];
-@blwb_Tta = [ttadeva tthadeva];
-@blwb_TtaTta = [ttattadeva ttatthadeva tthatthadeva ddaddhadeva ddaddadeva ddhaddhadeva];
-@blwm_btm = [uvowelsigndeva uuvowelsigndeva rvocalicvowelsigndeva rrvocalicvowelsigndeva viramadeva vattudeva lvocalicvowelsigndeva llvocalicvowelsigndeva anudattadeva vattuudeva vattuuudeva vatturvocalicdeva vatturrvocalicdeva vattulvocalicdeva vattullvocalicdeva vattuviramadeva uevowelsigndevaKSH uuevowelsigndevaKSH vattuulowdeva vattuuulowdeva vatturvocaliclowdeva vattuviramalowdeva uvowelsignlowdeva uuvowelsignlowdeva rvocalicvowelsignlowdeva rrvocaliclowdeva lvocalicvowelsignlowdeva llvocalicvowelsignlowdeva viramalowdeva vattulowdeva];
-@blws_dflt_v = [uvowelsigndeva uuvowelsigndeva rvocalicvowelsigndeva rrvocalicvowelsigndeva viramadeva lvocalicvowelsigndeva llvocalicvowelsigndeva];
-@blws_low_c = [ttattadeva ttatthadeva tthatthadeva ddaddhadeva ddaddadeva ddhaddhadeva ngagadeva ngamadeva daghadeva dagadeva dabadeva dabhadeva davadeva dadhadeva dadhayadeva dadadeva shacadeva shavadeva ssattadeva ssatthadeva hannadeva hanadeva hamadeva hayadeva haladeva havadeva];
-@blws_low_v = [uvowelsignlowdeva uuvowelsignlowdeva rvocalicvowelsignlowdeva rrvocaliclowdeva viramalowdeva lvocalicvowelsignlowdeva llvocalicvowelsignlowdeva];
-@blws_nuktvowels = [uvowelsigndeva uuvowelsigndeva rvocalicvowelsigndeva rrvocalicvowelsigndeva lvocalicvowelsigndeva llvocalicvowelsigndeva];
-@blws_vattu_0 = [uvowelsigndeva uuvowelsigndeva rvocalicvowelsigndeva rrvocalicvowelsigndeva viramadeva lvocalicvowelsigndeva llvocalicvowelsigndeva];
-@blws_vattu_1 = [vattuudeva vattuuudeva vatturvocalicdeva vatturrvocalicdeva vattuviramadeva vattulvocalicdeva vattullvocalicdeva];
-@blws_vattu_c_0 = [ngadeva chadeva ttadeva tthadeva ddadeva ddhadeva radeva lladeva dddhadeva rhadeva rradeva llladeva ladevaMAR ssattadeva ssatthadeva];
-@blws_vattu_c_1 = [ngaradeva charadeva ttaradeva ttharadeva ddaradeva ddharadeva raradeva llaradeva ddanuktaradeva ddhanuktaradeva ranuktaradeva llanuktaradeva laradevaMAR ssattaradeva ssattharadeva];
 @ic_01 = [radeva rradeva raradeva ranuktaradeva ddadevaMAW];
 @ic_02 = [kadeva qadeva karadeva kanuktaradeva ngadeva ngaradeva ttadeva ttaradeva tthadeva ttharadeva ddadeva dddhadeva ddaradeva ddanuktaradeva ddabardeva ddhadeva rhadeva ddharadeva ddhanuktaradeva dadeva daradeva tadeva taradeva padeva paradeva phadeva fadeva pharadeva phanuktaradeva badeva baradeva babardeva vadeva varadeva ssadeva ssaradeva hadeva haradeva ngagadeva ngamadeva ttattadeva ttatthadeva tthatthadeva ddaddhadeva ddaddadeva daudeva dauudeva darvocalicdeva davadeva dagadeva dabadeva dadadeva];
 @ic_03 = [gadeva garadeva ghadeva gharadeva cadeva caradeva thadeva tharadeva dhadeva dharadeva nadeva naradeva nnnadeva nanuktaradeva madeva maradeva yadeva yaradeva yyadeva yanuktaradeva katadeva tatadeva ssattadeva ssattaradeva ssatthadeva ssattharadeva jjyadeva];
@@ -48,14 +19,3 @@
 @ii_03 = [iivowelsign3deva iivowelsignanusvara3deva iivowelsignreph3deva iivowelsignrephanusvara3deva iivowelcandrabindu3deva];
 @iic_02 = [radeva rradeva raradeva ranuktaradeva ssattadeva ssattaradeva ssatthadeva ssattharadeva];
 @iic_03 = [kadeva qadeva karadeva kanuktaradeva phadeva fadeva pharadeva phanuktaradeva katadeva jhadevaNEP jharadevaNEP];
-@marks = [uvowelsigndeva uuvowelsigndeva rvocalicvowelsigndeva rrvocalicvowelsigndeva viramadeva vattudeva lvocalicvowelsigndeva llvocalicvowelsigndeva uevowelsigndevaKSH uuevowelsigndevaKSH nuktadeva anudattadeva vattuudeva vattuulowdeva vattuuudeva vattuuulowdeva vatturvocalicdeva vatturvocaliclowdeva vatturrvocalicdeva vattulvocalicdeva vattullvocalicdeva vattuviramadeva vattuviramalowdeva uvowelsignlowdeva uuvowelsignlowdeva rvocalicvowelsignlowdeva rrvocaliclowdeva lvocalicvowelsignlowdeva llvocalicvowelsignlowdeva viramalowdeva vattulowdeva udattadeva anusvaradeva candrabindudeva candrabindusmalldeva candralongevowelsigndeva invertedcandrabindu ecandravowelsigndeva ecandravowelsignanusvaradeva ecandravowelsigncandrabindudeva ecandravowelsignrephdeva ecandravowelsignrephanusdeva eshortvowelsigndeva eshortvowelsignanusvaradeva eshortvowelsigncandrabindudeva eshortvowelsignrephdeva eshortvowelsignrephanusdeva evowelsigndeva evowelsignanusvaradeva evowelsigncandrabindudeva evowelsignrephdeva evowelsignrephanusvaradeva aivowelsigndeva aivowelsignanusvaradeva aivowelsigncandrabindudeva aivowelsignrephdeva aivowelsignrephanusvaradeva oevowelsigndevaKSH rephdeva rephanusvaradeva uni0953 uni0954 uni02BC uni0971];
-@nukt_0 = [nadeva radeva lladeva kadeva khadeva gadeva jadeva ddadeva ddhadeva phadeva yadeva];
-@nukt_1 = [nnnadeva rradeva llladeva qadeva khhadeva ghhadeva zadeva dddhadeva rhadeva fadeva yyadeva];
-
-
-table GDEF {
-    
-    GlyphClassDef ,,@marks,;
-
-} GDEF;
-         

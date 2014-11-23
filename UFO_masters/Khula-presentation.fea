@@ -1,0 +1,164 @@
+# ---------------- Above-base substitutions ---------------
+
+feature abvs {
+            
+            lookup AbvsMarks {
+
+                sub rephdeva candrabindudeva by rephanusvaradeva;
+                sub rephdeva anusvaradeva by rephanusvaradeva;
+
+                sub ashortdeva anusvaradeva by ashortanusvaradeva;
+                sub iideva anusvaradeva by iianusvaradeva;
+                sub ecandradeva anusvaradeva by ecandraanusvaradeva;
+                sub eshortdeva anusvaradeva by eshortanusvaradeva;
+                sub aideva anusvaradeva by aianusvaradeva;
+                sub ocandradeva anusvaradeva by ocandraanusvaradeva;
+                sub oshortdeva anusvaradeva by oshortanusvaradeva;
+                sub odeva anusvaradeva by oanusvaradeva;
+                sub audeva anusvaradeva by auanusvaradeva;
+                sub acandradeva anusvaradeva by acandraanusvaradeva;
+                
+                sub iivowelsigndeva candrabindudeva by iivowelcandrabindudeva;
+                sub iivowelsign2deva candrabindudeva by iivowelcandrabindu2deva;
+                sub iivowelsign3deva candrabindudeva by iivowelcandrabindu3deva;                
+                                
+                sub iivowelsigndeva anusvaradeva by iivowelsignanusvaradeva;
+                sub iivowelsign2deva anusvaradeva by iivowelsignanusvara2deva;
+                sub iivowelsign3deva anusvaradeva by iivowelsignanusvara3deva; 
+                
+                sub iivowelsigndeva rephanusvaradeva by iivowelsignrephanusvaradeva;
+                sub iivowelsign2deva rephanusvaradeva by iivowelsignrephanusvara2deva;
+                sub iivowelsign3deva rephanusvaradeva by iivowelsignrephanusvara3deva; 
+                
+                sub iivowelsigndeva rephdeva by iivowelsignrephdeva;
+                sub iivowelsign2deva rephdeva by iivowelsignreph2deva;
+                sub iivowelsign3deva rephdeva by iivowelsignreph3deva; 
+                
+                sub ecandravowelsigndeva candrabindudeva by ecandravowelsigncandrabindudeva;
+                sub eshortvowelsigndeva candrabindudeva by eshortvowelsigncandrabindudeva;
+                sub evowelsigndeva candrabindudeva by evowelsigncandrabindudeva; 
+                sub aivowelsigndeva candrabindudeva by aivowelsigncandrabindudeva; 
+                sub ocandravowelsigndeva candrabindudeva by ocandravowelsigncandrabindudeva; 
+                sub oshortvowelsigndeva candrabindudeva by oshortvowelsigncandrabindudeva; 
+                sub ovowelsigndeva candrabindudeva by ovowelsigncandrabindudeva; 
+                sub auvowelsigndeva candrabindudeva by auvowelsigncandrabindudeva;
+                
+                sub ecandravowelsigndeva anusvaradeva by ecandravowelsignanusvaradeva;
+                sub eshortvowelsigndeva anusvaradeva by eshortvowelsignanusvaradeva;
+                sub evowelsigndeva anusvaradeva by evowelsignanusvaradeva; 
+                sub aivowelsigndeva anusvaradeva by aivowelsignanusvaradeva; 
+                sub ocandravowelsigndeva anusvaradeva by ocandravowelsignanusvaradeva; 
+                sub oshortvowelsigndeva anusvaradeva by oshortvowelsignanusvaradeva; 
+                sub ovowelsigndeva anusvaradeva by ovowelsignanusvaradeva; 
+                sub auvowelsigndeva anusvaradeva by auvowelsignanusvaradeva;                               
+ 
+                sub ecandravowelsigndeva rephanusvaradeva by ecandravowelsignrephanusdeva;
+                sub eshortvowelsigndeva rephanusvaradeva by eshortvowelsignrephanusdeva;
+                sub evowelsigndeva rephanusvaradeva by evowelsignrephanusvaradeva; 
+                sub aivowelsigndeva rephanusvaradeva by aivowelsignrephanusvaradeva; 
+                sub ocandravowelsigndeva rephanusvaradeva by ocandravowelsignrephanusdeva; 
+                sub oshortvowelsigndeva rephanusvaradeva by oshortvowelsignrephanusdeva; 
+                sub ovowelsigndeva rephanusvaradeva by ovowelsignrephanusvaradeva; 
+                sub auvowelsigndeva rephanusvaradeva by auvowelsignrephanusvaradeva;
+
+                sub ecandravowelsigndeva rephdeva by ecandravowelsignrephdeva;
+                sub eshortvowelsigndeva rephdeva by eshortvowelsignrephdeva;
+                sub evowelsigndeva rephdeva by evowelsignrephdeva; 
+                sub aivowelsigndeva rephdeva by aivowelsignrephdeva; 
+                sub ocandravowelsigndeva rephdeva by ocandravowelsignrephdeva; 
+                sub oshortvowelsigndeva rephdeva by oshortvowelsignrephdeva; 
+                sub ovowelsigndeva rephdeva by ovowelsignrephdeva; 
+                sub auvowelsigndeva rephdeva by auvowelsignrephdeva;
+                
+            } AbvsMarks;
+
+} abvs;
+
+# -------------- Below-base substitutions -------------------
+
+feature blws {
+    
+            lookup NuktAlt {
+          
+                sub rhadeva' @blws_nuktvowels by rha2deva;
+                sub dddhadeva' @blws_nuktvowels by dddha2deva;
+          
+            } NuktAlt;
+
+            lookup VowelLiga { 
+          
+                sub hadeva uvowelsigndeva by haudeva;
+                sub haradeva uvowelsigndeva by haraudeva;
+                sub dadeva uvowelsigndeva by daudeva;
+                sub radeva uvowelsigndeva by raudeva;
+                sub rradeva uvowelsigndeva by ranuktaudeva; 
+                
+                sub hadeva uuvowelsigndeva by hauudeva;
+                sub haradeva uuvowelsigndeva by harauudeva;
+                sub dadeva uuvowelsigndeva by dauudeva;
+                sub radeva uuvowelsigndeva by rauudeva;
+                sub rradeva uuvowelsigndeva by ranuktauudeva; 
+
+                sub dadeva rvocalicvowelsigndeva by darvocalicdeva; 
+                sub hadeva rvocalicvowelsigndeva by harvocalicdeva;
+                sub hadeva rrvocalicvowelsigndeva by harrvocalicdeva;
+           
+            } VowelLiga;
+
+            lookup VattuLowVowels { 
+          
+                sub @blws_vattu_c_1 @blws_vattu_0' by @blws_vattu_1;
+
+            } VattuLowVowels;
+            
+            lookup VowelsLow {    
+
+                sub @blws_low_c @blws_dflt_v' by @blws_low_v; 
+
+            } VowelsLow;
+
+} blws;
+
+# --------------- Post-base substitution  --------------
+
+feature psts {
+
+            lookup IiVowelWidths { 
+
+                sub @iic_02 @ii_00' by @ii_02;
+                sub @iic_03 @ii_00' by @ii_03;
+
+            } IiVowelWidths;
+ 
+
+} psts;
+
+# --------------- Halant Form substitution ----------
+
+feature haln { 
+
+            lookup FinalVattuHalant {
+   
+                sub ngaradeva viramadeva by ngaraprehalfdeva;
+                sub ttaradeva viramadeva by ttaraprehalfdeva;
+                sub ttharadeva viramadeva by ttharaprehalfdeva; 
+                sub ddaradeva viramadeva by ddaraprehalfdeva; 
+                sub ddharadeva viramadeva by ddharaprehalfdeva; 
+                sub ddhanuktaradeva viramadeva by ddhanuktaraprehalfdeva; 
+                sub ddanuktaradeva viramadeva by ddhanuktaraprehalfdeva; 
+                sub daradeva viramadeva by daraprehalfdeva;
+                
+                sub ngadeva viramadeva by ngaprehalfdeva;
+                sub ttadeva viramadeva by ttaprehalfdeva;
+                sub tthadeva viramadeva by tthaprehalfdeva; 
+                sub ddadeva viramadeva by ddaprehalfdeva; 
+                sub ddhadeva viramadeva by ddhaprehalfdeva; 
+                sub rhadeva viramadeva by ddhanuktaprehalfdeva; 
+                sub dddhadeva viramadeva by ddhanuktaprehalfdeva; 
+                sub dadeva viramadeva by daprehalfdeva;   
+                
+                sub radeva viramadeva by rahalantdeva;             
+
+            } FinalVattuHalant;
+            
+} haln;
