@@ -8,8 +8,8 @@
     <data name="horizontalPreviewAxis" value="weight"/>
     <data name="lineViewFilled" value="True"/>
     <data name="lineStacked" value="sequence"/>
-    <data name="generateFontsAtFolder" value="/Users/erinmclaughlin/Desktop/_Google OPEN/OpenSansDev/OpenSansDev/instances"/>
-    <data name="previewtext" value="EEim/adeva"/>
+    <data name="generateFontsAtFolder" value="/Users/erinmclaughlin/Desktop/_Google OPEN/Khula/instances"/>
+    <data name="previewtext" value="/adeva"/>
     <data name="verticalPreviewAxis" value="None"/>
     <!-- don't generate these glyphs -->
     <ignore glyphs=""/>
@@ -18,7 +18,7 @@
         <color a="1.000" b="0.764" g="0.000" r="0.989"/>
     </axis>
     <!-- master definitions -->
-    <master familyname="Unnamed Font" filename="Khula-ExtraBold.ufo" sortorder="0" stylename="Regular">
+    <master familyname="Khula" filename="UFO_masters/ExBold/Khula-ExtraBold.ufo" sortorder="0" stylename="ExraBold">
         <location>
             <dimension name="weight" xvalue="1000.000000"/>
         </location>
@@ -28,14 +28,14 @@
         <provideLib state="1"/>
         <provideInfo state="1"/>
     </master>
-    <master familyname="Khula" filename="Khula-Light.ufo" sortorder="1" stylename="Light">
+    <master familyname="Khula" filename="UFO_masters/Light/Khula-Light.ufo" sortorder="1" stylename="Light">
         <location>
             <dimension name="weight" xvalue="0.000000"/>
         </location>
         <color a="1.000" b="0.300" g="0.300" r="0.300"/>
     </master>
     <!-- instance definitions -->
-    <instance familyname="Khula" filename="/Users/erinmclaughlin/Desktop/_Google OPEN/OpenSansDev/OpenSansDev/instances/Khula-wt232.83.ufo" sortorder="2" stylename="wt232.83">
+    <instance familyname="Khula" filename="instances/Khula-wt232.83.ufo" sortorder="2" stylename="wt232.83">
         <location>
             <dimension name="weight" xvalue="232.831916"/>
         </location>
@@ -44,7 +44,7 @@
         <provideLib state="1"/>
         <provideInfo state="1"/>
     </instance>
-    <instance familyname="Khula" filename="/Users/erinmclaughlin/Desktop/_Google OPEN/OpenSansDev/OpenSansDev/instances/Khula-wt937.36.ufo" sortorder="3" stylename="wt937.36">
+    <instance familyname="Khula" filename="instances/Khula-wt937.36.ufo" sortorder="3" stylename="wt937.36">
         <location>
             <dimension name="weight" xvalue="937.362637"/>
         </location>
@@ -53,7 +53,7 @@
         <provideLib state="1"/>
         <provideInfo state="1"/>
     </instance>
-    <instance familyname="Khula" filename="/Users/erinmclaughlin/Desktop/_Google OPEN/OpenSansDev/OpenSansDev/instances/Khula-wt439.67.ufo" sortorder="4" stylename="wt439.67">
+    <instance familyname="Khula" filename="instances/Khula-wt439.67.ufo" sortorder="4" stylename="wt439.67">
         <location>
             <dimension name="weight" xvalue="439.673517"/>
         </location>
@@ -62,7 +62,7 @@
         <provideLib state="1"/>
         <provideInfo state="1"/>
     </instance>
-    <instance familyname="Khula" filename="/Users/erinmclaughlin/Desktop/_Google OPEN/OpenSansDev/OpenSansDev/instances/Khula-wt719.83.ufo" sortorder="5" stylename="wt719.83">
+    <instance familyname="Khula" filename="instances/Khula-wt719.83.ufo" sortorder="5" stylename="wt719.83">
         <location>
             <dimension name="weight" xvalue="719.829159"/>
         </location>
@@ -71,7 +71,7 @@
         <provideLib state="1"/>
         <provideInfo state="1"/>
     </instance>
-    <instance familyname="Khula" filename="/Users/erinmclaughlin/Desktop/_Google OPEN/OpenSansDev/OpenSansDev/instances/Khula-wt221.97.ufo" sortorder="6" stylename="wt221.97">
+    <instance familyname="Khula" filename="instances/Khula-wt221.97.ufo" sortorder="6" stylename="wt221.97">
         <location>
             <dimension name="weight" xvalue="221.968563"/>
         </location>

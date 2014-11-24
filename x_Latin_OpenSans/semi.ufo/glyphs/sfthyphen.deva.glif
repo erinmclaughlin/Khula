@@ -3,18 +3,19 @@
   <advance width="647"/>
   <unicode hex="00AF"/>
   <outline>
-    <component base="hyphen.deva" yOffset="46" xScale="0.90" yScale="0.90"/>
+    <component base="hyphen.deva" xScale="0.9" yScale="0.9" yOffset="46"/>
   </outline>
   <lib>
     <dict>
       <key>com.typemytype.robofont.layerData</key>
-      <dict/>
+      <dict>
+      </dict>
       <key>com.typemytype.robofont.mark</key>
       <array>
-        <real>1</real>
-        <real>0.72550000000000003</real>
-        <real>0.71489999999999998</real>
-        <real>1</real>
+        <real>1.0</real>
+        <real>0.7255</real>
+        <real>0.7149</real>
+        <real>1.0</real>
       </array>
       <key>org.robofab.fontlab.mark</key>
       <integer>80</integer>

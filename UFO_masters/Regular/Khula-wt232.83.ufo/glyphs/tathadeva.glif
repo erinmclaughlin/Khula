@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="tathadeva" format="1">
+  <advance width="1847"/>
+  <outline>
+    <contour>
+      <point x="820" y="701" type="curve"/>
+      <point x="749" y="581" type="line"/>
+      <point x="665" y="655"/>
+      <point x="572" y="693"/>
+      <point x="458" y="693" type="curve" smooth="yes"/>
+      <point x="296" y="693"/>
+      <point x="225" y="600"/>
+      <point x="225" y="481" type="curve" smooth="yes"/>
+      <point x="225" y="369"/>
+      <point x="286" y="236"/>
+      <point x="426" y="36" type="curve"/>
+      <point x="301" y="-10" type="line"/>
+      <point x="154" y="197"/>
+      <point x="81" y="379"/>
+      <point x="81" y="512" type="curve" smooth="yes"/>
+      <point x="82" y="688"/>
+      <point x="201" y="824"/>
+      <point x="426" y="824" type="curve" smooth="yes"/>
+      <point x="580" y="824"/>
+      <point x="716" y="772"/>
+    </contour>
+    <contour>
+      <point x="-30" y="1165" type="line"/>
+      <point x="-30" y="1279" type="line"/>
+      <point x="592" y="1279" type="line"/>
+      <point x="592" y="1165" type="line"/>
+    </contour>
+    <component base="thadeva" xOffset="525"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.typemytype.robofont.guides</key>
+      <array>
+        <dict>
+          <key>angle</key>
+          <real>90.0</real>
+          <key>isGlobal</key>
+          <false/>
+          <key>magnetic</key>
+          <integer>5</integer>
+          <key>x</key>
+          <integer>1395</integer>
+          <key>y</key>
+          <integer>1267</integer>
+        </dict>
+      </array>
+      <key>com.typemytype.robofont.layerData</key>
+      <dict>
+        <key>Original</key>
+        <dict>
+          <key>anchors</key>
+          <array>
+          </array>
+          <key>components</key>
+          <array>
+          </array>
+          <key>contours</key>
+          <array>
+          </array>
+          <key>lib</key>
+          <dict>
+          </dict>
+          <key>name</key>
+          <string>tathadeva</string>
+          <key>unicodes</key>
+          <array>
+          </array>
+          <key>width</key>
+          <integer>1847</integer>
+        </dict>
+        <key>layer01</key>
+        <dict>
+          <key>anchors</key>
+          <array>
+          </array>
+          <key>components</key>
+          <array>
+          </array>
+          <key>contours</key>
+          <array>
+          </array>
+          <key>lib</key>
+          <dict>
+          </dict>
+          <key>name</key>
+          <string>tathadeva</string>
+          <key>unicodes</key>
+          <array>
+          </array>
+          <key>width</key>
+          <integer>1847</integer>
+        </dict>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="rha2deva" format="1">
+  <advance width="1145"/>
+  <outline>
+    <contour>
+      <point x="1175" y="1166" type="line"/>
+      <point x="-30" y="1166" type="line"/>
+      <point x="-30" y="1278" type="line"/>
+      <point x="1175" y="1278" type="line"/>
+    </contour>
+    <contour>
+      <point x="734" y="1196" type="line"/>
+      <point x="884" y="1196" type="line"/>
+      <point x="884" y="776" type="line"/>
+      <point x="630" y="776" type="line"/>
+      <point x="384" y="776"/>
+      <point x="262" y="671"/>
+      <point x="262" y="488" type="curve" smooth="yes"/>
+      <point x="262" y="317"/>
+      <point x="432" y="170"/>
+      <point x="667" y="170" type="curve" smooth="yes"/>
+      <point x="861" y="170"/>
+      <point x="934" y="244"/>
+      <point x="934" y="325" type="curve" smooth="yes"/>
+      <point x="934" y="388"/>
+      <point x="883" y="441"/>
+      <point x="795" y="441" type="curve" smooth="yes"/>
+      <point x="695" y="441"/>
+      <point x="641" y="376"/>
+      <point x="641" y="288" type="curve" smooth="yes"/>
+      <point x="641" y="233"/>
+      <point x="657" y="186"/>
+      <point x="692" y="138" type="curve"/>
+      <point x="573" y="126" type="line"/>
+      <point x="537" y="181"/>
+      <point x="519" y="242"/>
+      <point x="519" y="308" type="curve" smooth="yes"/>
+      <point x="519" y="439"/>
+      <point x="614" y="546"/>
+      <point x="786" y="546" type="curve" smooth="yes"/>
+      <point x="948" y="546"/>
+      <point x="1051" y="441"/>
+      <point x="1051" y="314" type="curve" smooth="yes"/>
+      <point x="1051" y="177"/>
+      <point x="922" y="69"/>
+      <point x="688" y="69" type="curve" smooth="yes"/>
+      <point x="336" y="69"/>
+      <point x="123" y="282"/>
+      <point x="123" y="526" type="curve" smooth="yes"/>
+      <point x="123" y="743"/>
+      <point x="284" y="891"/>
+      <point x="566" y="891" type="curve" smooth="yes"/>
+      <point x="775" y="891" type="line"/>
+      <point x="734" y="857" type="line"/>
+    </contour>
+    <component base="nuktadeva" xOffset="891" yOffset="291"/>
+    <contour>
+      <point x="568" y="76" type="move" name="btm"/>
+    </contour>
+    <contour>
+      <point x="734" y="1278" type="move" name="top"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.typemytype.robofont.guides</key>
+      <array>
+        <dict>
+          <key>angle</key>
+          <real>90.0</real>
+          <key>isGlobal</key>
+          <false/>
+          <key>magnetic</key>
+          <integer>5</integer>
+          <key>x</key>
+          <integer>743</integer>
+          <key>y</key>
+          <integer>1247</integer>
+        </dict>
+      </array>
+      <key>com.typemytype.robofont.layerData</key>
+      <dict>
+        <key>Original</key>
+        <dict>
+          <key>anchors</key>
+          <array>
+          </array>
+          <key>components</key>
+          <array>
+          </array>
+          <key>contours</key>
+          <array>
+          </array>
+          <key>lib</key>
+          <dict>
+          </dict>
+          <key>name</key>
+          <string>rha2deva</string>
+          <key>unicodes</key>
+          <array>
+          </array>
+          <key>width</key>
+          <integer>1145</integer>
+        </dict>
+        <key>layer01</key>
+        <dict>
+          <key>anchors</key>
+          <array>
+          </array>
+          <key>components</key>
+          <array>
+          </array>
+          <key>contours</key>
+          <array>
+          </array>
+          <key>lib</key>
+          <dict>
+          </dict>
+          <key>name</key>
+          <string>rha2deva</string>
+          <key>unicodes</key>
+          <array>
+          </array>
+          <key>width</key>
+          <integer>1145</integer>
+        </dict>
+      </dict>
+      <key>org.robofab.fontlab.mark</key>
+      <integer>210</integer>
+    </dict>
+  </lib>
+</glyph>

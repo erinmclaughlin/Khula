@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="jhadevaNEP" format="1">
+  <advance width="1817"/>
+  <outline>
+    <contour>
+      <point x="1186" y="1165" type="line"/>
+      <point x="1186" y="1279" type="line"/>
+      <point x="1847" y="1279" type="line"/>
+      <point x="1847" y="1165" type="line"/>
+    </contour>
+    <contour>
+      <point x="1104" y="520" type="curve"/>
+      <point x="1086" y="703" type="line"/>
+      <point x="1149" y="747"/>
+      <point x="1254" y="795"/>
+      <point x="1359" y="795" type="curve" smooth="yes"/>
+      <point x="1571" y="795"/>
+      <point x="1693" y="661"/>
+      <point x="1693" y="480" type="curve" smooth="yes"/>
+      <point x="1693" y="354"/>
+      <point x="1643" y="237"/>
+      <point x="1563" y="132" type="curve"/>
+      <point x="1434" y="182" type="line"/>
+      <point x="1511" y="284"/>
+      <point x="1556" y="390"/>
+      <point x="1556" y="487" type="curve" smooth="yes"/>
+      <point x="1556" y="597"/>
+      <point x="1492" y="666"/>
+      <point x="1376" y="666" type="curve" smooth="yes"/>
+      <point x="1279" y="666"/>
+      <point x="1181" y="605"/>
+    </contour>
+    <component base="bhadeva"/>
+    <contour>
+      <point x="973" y="0" type="move" name="btm"/>
+    </contour>
+    <contour>
+      <point x="973" y="1279" type="move" name="top"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.typemytype.robofont.guides</key>
+      <array>
+        <dict>
+          <key>angle</key>
+          <real>90.0</real>
+          <key>isGlobal</key>
+          <false/>
+          <key>magnetic</key>
+          <integer>5</integer>
+          <key>x</key>
+          <integer>962</integer>
+          <key>y</key>
+          <integer>1253</integer>
+        </dict>
+      </array>
+      <key>com.typemytype.robofont.layerData</key>
+      <dict>
+        <key>Original</key>
+        <dict>
+          <key>anchors</key>
+          <array>
+          </array>
+          <key>components</key>
+          <array>
+          </array>
+          <key>contours</key>
+          <array>
+          </array>
+          <key>lib</key>
+          <dict>
+          </dict>
+          <key>name</key>
+          <string>jhadevaNEP</string>
+          <key>unicodes</key>
+          <array>
+          </array>
+          <key>width</key>
+          <integer>1817</integer>
+        </dict>
+        <key>layer01</key>
+        <dict>
+          <key>anchors</key>
+          <array>
+          </array>
+          <key>components</key>
+          <array>
+          </array>
+          <key>contours</key>
+          <array>
+          </array>
+          <key>lib</key>
+          <dict>
+          </dict>
+          <key>name</key>
+          <string>jhadevaNEP</string>
+          <key>unicodes</key>
+          <array>
+          </array>
+          <key>width</key>
+          <integer>1817</integer>
+        </dict>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

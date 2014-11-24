@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="rephdeva" format="1">
+  <advance width="-1"/>
+  <outline>
+    <contour>
+      <point x="-529" y="1244" type="line"/>
+      <point x="-582" y="1311"/>
+      <point x="-624" y="1407"/>
+      <point x="-624" y="1503" type="curve" smooth="yes"/>
+      <point x="-624" y="1667"/>
+      <point x="-475" y="1822"/>
+      <point x="-212" y="1822" type="curve" smooth="yes"/>
+      <point x="-149" y="1822"/>
+      <point x="-96" y="1814"/>
+      <point x="-43" y="1801" type="curve"/>
+      <point x="-54" y="1597" type="line"/>
+      <point x="-91" y="1605"/>
+      <point x="-120" y="1608"/>
+      <point x="-173" y="1608" type="curve" smooth="yes"/>
+      <point x="-264" y="1608"/>
+      <point x="-331" y="1529"/>
+      <point x="-331" y="1435" type="curve" smooth="yes"/>
+      <point x="-331" y="1370"/>
+      <point x="-310" y="1316"/>
+      <point x="-257" y="1244" type="curve"/>
+    </contour>
+    <contour>
+      <point x="-539" y="1293" type="move" name="_top"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.typemytype.robofont.guides</key>
+      <array>
+        <dict>
+          <key>angle</key>
+          <real>90.0</real>
+          <key>isGlobal</key>
+          <false/>
+          <key>magnetic</key>
+          <integer>5</integer>
+          <key>x</key>
+          <integer>-335</integer>
+          <key>y</key>
+          <integer>1249</integer>
+        </dict>
+      </array>
+      <key>com.typemytype.robofont.layerData</key>
+      <dict>
+      </dict>
+      <key>org.robofab.fontlab.mark</key>
+      <integer>210</integer>
+    </dict>
+  </lib>
+</glyph>

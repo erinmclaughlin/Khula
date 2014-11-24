@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="lamadeva" format="1">
+  <advance width="2608"/>
+  <outline>
+    <contour>
+      <point x="1023" y="623" type="curve"/>
+      <point x="811" y="454" type="line"/>
+      <point x="733" y="566"/>
+      <point x="653" y="615"/>
+      <point x="570" y="615" type="curve" smooth="yes"/>
+      <point x="449" y="615"/>
+      <point x="384" y="536"/>
+      <point x="384" y="437" type="curve" smooth="yes"/>
+      <point x="384" y="325"/>
+      <point x="451" y="231"/>
+      <point x="555" y="116" type="curve"/>
+      <point x="321" y="-14" type="line"/>
+      <point x="192" y="116"/>
+      <point x="70" y="322"/>
+      <point x="70" y="508" type="curve" smooth="yes"/>
+      <point x="70" y="737"/>
+      <point x="232" y="905"/>
+      <point x="493" y="905" type="curve" smooth="yes"/>
+      <point x="710" y="905"/>
+      <point x="891" y="805"/>
+    </contour>
+    <contour>
+      <point x="881" y="237" type="curve"/>
+      <point x="604" y="366" type="line"/>
+      <point x="718" y="656"/>
+      <point x="903" y="850"/>
+      <point x="1137" y="850" type="curve" smooth="yes"/>
+      <point x="1313" y="850"/>
+      <point x="1448" y="776"/>
+      <point x="1575" y="643" type="curve"/>
+      <point x="1364" y="455" type="line"/>
+      <point x="1306" y="521"/>
+      <point x="1255" y="548"/>
+      <point x="1178" y="548" type="curve" smooth="yes"/>
+      <point x="1075" y="548"/>
+      <point x="973" y="449"/>
+    </contour>
+    <contour>
+      <point x="-30" y="1065" type="line"/>
+      <point x="-30" y="1293" type="line"/>
+      <point x="1213" y="1293" type="line"/>
+      <point x="1213" y="1065" type="line"/>
+    </contour>
+    <component base="madeva" xOffset="1210"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.typemytype.robofont.guides</key>
+      <array>
+        <dict>
+          <key>angle</key>
+          <real>90.0</real>
+          <key>isGlobal</key>
+          <false/>
+          <key>magnetic</key>
+          <integer>5</integer>
+          <key>x</key>
+          <integer>1833</integer>
+          <key>y</key>
+          <integer>1260</integer>
+        </dict>
+      </array>
+      <key>com.typemytype.robofont.layerData</key>
+      <dict>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

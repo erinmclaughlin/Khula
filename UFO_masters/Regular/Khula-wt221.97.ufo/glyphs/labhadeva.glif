@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="labhadeva" format="1">
+  <advance width="2258"/>
+  <outline>
+    <contour>
+      <point x="-30" y="1166" type="line"/>
+      <point x="-30" y="1278" type="line"/>
+      <point x="1048" y="1278" type="line"/>
+      <point x="1048" y="1166" type="line"/>
+    </contour>
+    <contour>
+      <point x="844" y="623" type="curve"/>
+      <point x="749" y="549" type="line"/>
+      <point x="664" y="661"/>
+      <point x="578" y="722"/>
+      <point x="463" y="722" type="curve" smooth="yes"/>
+      <point x="329" y="722"/>
+      <point x="254" y="631"/>
+      <point x="254" y="515" type="curve" smooth="yes"/>
+      <point x="254" y="399"/>
+      <point x="328" y="271"/>
+      <point x="514" y="99" type="curve"/>
+      <point x="412" y="29" type="line"/>
+      <point x="229" y="200"/>
+      <point x="117" y="378"/>
+      <point x="117" y="542" type="curve" smooth="yes"/>
+      <point x="117" y="709"/>
+      <point x="234" y="852"/>
+      <point x="442" y="852" type="curve" smooth="yes"/>
+      <point x="613" y="852"/>
+      <point x="744" y="758"/>
+    </contour>
+    <contour>
+      <point x="696" y="341" type="curve"/>
+      <point x="580" y="400" type="line"/>
+      <point x="698" y="664"/>
+      <point x="837" y="788"/>
+      <point x="1004" y="788" type="curve" smooth="yes"/>
+      <point x="1124" y="788"/>
+      <point x="1217" y="735"/>
+      <point x="1304" y="644" type="curve"/>
+      <point x="1211" y="560" type="line"/>
+      <point x="1153" y="629"/>
+      <point x="1100" y="659"/>
+      <point x="1018" y="659" type="curve" smooth="yes"/>
+      <point x="916" y="659"/>
+      <point x="803" y="576"/>
+    </contour>
+    <component base="bhadeva" xOffset="900"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.typemytype.robofont.guides</key>
+      <array>
+        <dict>
+          <key>angle</key>
+          <real>90.0</real>
+          <key>isGlobal</key>
+          <false/>
+          <key>magnetic</key>
+          <integer>5</integer>
+          <key>x</key>
+          <integer>1813</integer>
+          <key>y</key>
+          <integer>1261</integer>
+        </dict>
+      </array>
+      <key>com.typemytype.robofont.layerData</key>
+      <dict>
+        <key>Original</key>
+        <dict>
+          <key>anchors</key>
+          <array>
+          </array>
+          <key>components</key>
+          <array>
+          </array>
+          <key>contours</key>
+          <array>
+          </array>
+          <key>lib</key>
+          <dict>
+          </dict>
+          <key>name</key>
+          <string>labhadeva</string>
+          <key>unicodes</key>
+          <array>
+          </array>
+          <key>width</key>
+          <integer>2258</integer>
+        </dict>
+        <key>layer01</key>
+        <dict>
+          <key>anchors</key>
+          <array>
+          </array>
+          <key>components</key>
+          <array>
+          </array>
+          <key>contours</key>
+          <array>
+          </array>
+          <key>lib</key>
+          <dict>
+          </dict>
+          <key>name</key>
+          <string>labhadeva</string>
+          <key>unicodes</key>
+          <array>
+          </array>
+          <key>width</key>
+          <integer>2258</integer>
+        </dict>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

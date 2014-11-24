@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="nadeva" format="1">
+  <advance width="1197"/>
+  <unicode hex="0928"/>
+  <outline>
+    <contour>
+      <point x="830" y="789" type="line"/>
+      <point x="830" y="664" type="line"/>
+      <point x="285" y="664" type="line"/>
+      <point x="335" y="715" type="line"/>
+      <point x="335" y="462" type="line"/>
+      <point x="335" y="416"/>
+      <point x="314" y="394"/>
+      <point x="284" y="394" type="curve" smooth="yes"/>
+      <point x="265" y="394"/>
+      <point x="249" y="402"/>
+      <point x="230" y="421" type="curve" smooth="yes"/>
+      <point x="186" y="465"/>
+      <point x="134" y="609"/>
+      <point x="134" y="708" type="curve" smooth="yes"/>
+      <point x="134" y="759"/>
+      <point x="163" y="789"/>
+      <point x="222" y="789" type="curve" smooth="yes"/>
+    </contour>
+    <contour>
+      <point x="-30" y="1166" type="line"/>
+      <point x="-30" y="1278" type="line"/>
+      <point x="1227" y="1278" type="line"/>
+      <point x="1227" y="1166" type="line"/>
+    </contour>
+    <contour>
+      <point x="811" y="1197" type="line"/>
+      <point x="962" y="1197" type="line"/>
+      <point x="962" y="0" type="line"/>
+      <point x="811" y="0" type="line"/>
+    </contour>
+    <contour>
+      <point x="811" y="1278" type="move" name="top"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.typemytype.robofont.guides</key>
+      <array>
+        <dict>
+          <key>angle</key>
+          <real>90.0</real>
+          <key>isGlobal</key>
+          <false/>
+          <key>magnetic</key>
+          <integer>5</integer>
+          <key>x</key>
+          <integer>818</integer>
+          <key>y</key>
+          <integer>1249</integer>
+        </dict>
+      </array>
+      <key>com.typemytype.robofont.layerData</key>
+      <dict>
+        <key>Original</key>
+        <dict>
+          <key>anchors</key>
+          <array>
+          </array>
+          <key>components</key>
+          <array>
+          </array>
+          <key>contours</key>
+          <array>
+          </array>
+          <key>lib</key>
+          <dict>
+          </dict>
+          <key>name</key>
+          <string>nadeva</string>
+          <key>unicodes</key>
+          <array>
+          </array>
+          <key>width</key>
+          <integer>1197</integer>
+        </dict>
+        <key>layer01</key>
+        <dict>
+          <key>anchors</key>
+          <array>
+          </array>
+          <key>components</key>
+          <array>
+          </array>
+          <key>contours</key>
+          <array>
+          </array>
+          <key>lib</key>
+          <dict>
+          </dict>
+          <key>name</key>
+          <string>nadeva</string>
+          <key>unicodes</key>
+          <array>
+          </array>
+          <key>width</key>
+          <integer>1197</integer>
+        </dict>
+      </dict>
+      <key>org.robofab.fontlab.mark</key>
+      <integer>210</integer>
+    </dict>
+  </lib>
+</glyph>
