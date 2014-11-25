@@ -3,12 +3,6 @@
   <advance width="675"/>
   <outline>
     <contour>
-      <point x="936" y="381" type="line"/>
-      <point x="370" y="-49" type="line"/>
-      <point x="288" y="57" type="line"/>
-      <point x="857" y="491" type="line"/>
-    </contour>
-    <contour>
       <point x="705" y="1165" type="line"/>
       <point x="-30" y="1165" type="line"/>
       <point x="-30" y="1279" type="line"/>
@@ -29,6 +23,12 @@
       <point x="331" y="684" type="line"/>
       <point x="300" y="652" type="line"/>
       <point x="300" y="1203" type="line"/>
+    </contour>
+    <contour>
+      <point x="960" y="471" type="line"/>
+      <point x="429" y="-23" type="line"/>
+      <point x="342" y="73" type="line"/>
+      <point x="876" y="567" type="line"/>
     </contour>
   </outline>
   <lib>
@@ -67,19 +67,6 @@
           </array>
           <key>components</key>
           <array>
-            <dict>
-              <key>baseGlyph</key>
-              <string>garadeva</string>
-              <key>transformation</key>
-              <array>
-                <integer>1</integer>
-                <integer>0</integer>
-                <integer>0</integer>
-                <integer>1</integer>
-                <integer>0</integer>
-                <integer>0</integer>
-              </array>
-            </dict>
           </array>
           <key>contours</key>
           <array>
