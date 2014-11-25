@@ -5,8 +5,8 @@
     <contour>
       <point x="-392" y="-88" type="line"/>
       <point x="100" y="-289" type="line"/>
-      <point x="55" y="-391" type="line"/>
-      <point x="-438" y="-190" type="line"/>
+      <point x="51" y="-399" type="line"/>
+      <point x="-442" y="-198" type="line"/>
     </contour>
     <contour>
       <point x="-389" y="0" type="move" name="_btm"/>
@@ -48,6 +48,51 @@
           </array>
           <key>contours</key>
           <array>
+            <dict>
+              <key>points</key>
+              <array>
+                <dict>
+                  <key>segmentType</key>
+                  <string>line</string>
+                  <key>smooth</key>
+                  <false/>
+                  <key>x</key>
+                  <integer>-392</integer>
+                  <key>y</key>
+                  <integer>-88</integer>
+                </dict>
+                <dict>
+                  <key>segmentType</key>
+                  <string>line</string>
+                  <key>smooth</key>
+                  <false/>
+                  <key>x</key>
+                  <integer>100</integer>
+                  <key>y</key>
+                  <integer>-289</integer>
+                </dict>
+                <dict>
+                  <key>segmentType</key>
+                  <string>line</string>
+                  <key>smooth</key>
+                  <false/>
+                  <key>x</key>
+                  <integer>55</integer>
+                  <key>y</key>
+                  <integer>-391</integer>
+                </dict>
+                <dict>
+                  <key>segmentType</key>
+                  <string>line</string>
+                  <key>smooth</key>
+                  <false/>
+                  <key>x</key>
+                  <integer>-438</integer>
+                  <key>y</key>
+                  <integer>-190</integer>
+                </dict>
+              </array>
+            </dict>
             <dict>
               <key>points</key>
               <array>
