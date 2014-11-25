@@ -4,9 +4,9 @@
   <outline>
     <contour>
       <point x="726" y="63" type="line"/>
-      <point x="616" y="-14" type="line"/>
-      <point x="99" y="698" type="line"/>
-      <point x="75" y="730"/>
+      <point x="615" y="-15" type="line"/>
+      <point x="98" y="697" type="line" smooth="yes"/>
+      <point x="75" y="729"/>
       <point x="61" y="753"/>
       <point x="61" y="781" type="curve" smooth="yes"/>
       <point x="61" y="816"/>
@@ -19,16 +19,16 @@
       <point x="358" y="569" type="line"/>
     </contour>
     <contour>
-      <point x="243" y="614" type="line"/>
-      <point x="418" y="656"/>
+      <point x="243" y="618" type="line"/>
+      <point x="417" y="660"/>
       <point x="496" y="763"/>
       <point x="496" y="936" type="curve" smooth="yes"/>
       <point x="496" y="1202" type="line"/>
-      <point x="650" y="1202" type="line"/>
-      <point x="650" y="913" type="line"/>
-      <point x="650" y="736"/>
-      <point x="572" y="565"/>
-      <point x="329" y="498" type="curve"/>
+      <point x="644" y="1202" type="line"/>
+      <point x="644" y="913" type="line" smooth="yes"/>
+      <point x="644" y="733"/>
+      <point x="572" y="560"/>
+      <point x="329" y="493" type="curve"/>
     </contour>
     <contour>
       <point x="-30" y="1165" type="line"/>
@@ -37,10 +37,10 @@
       <point x="934" y="1165" type="line"/>
     </contour>
     <contour>
-      <point x="486" y="578" type="curve"/>
+      <point x="486" y="577" type="curve"/>
       <point x="538" y="691" type="line"/>
-      <point x="656" y="634"/>
-      <point x="776" y="611"/>
+      <point x="654" y="632"/>
+      <point x="773" y="611"/>
       <point x="880" y="611" type="curve" smooth="yes"/>
       <point x="961" y="611"/>
       <point x="1041" y="625"/>
@@ -50,7 +50,7 @@
       <point x="992" y="481"/>
       <point x="898" y="481" type="curve" smooth="yes"/>
       <point x="763" y="481"/>
-      <point x="629" y="512"/>
+      <point x="629" y="511"/>
     </contour>
   </outline>
   <lib>
@@ -101,6 +101,19 @@
           </array>
           <key>components</key>
           <array>
+            <dict>
+              <key>baseGlyph</key>
+              <string>sadeva</string>
+              <key>transformation</key>
+              <array>
+                <integer>1</integer>
+                <integer>0</integer>
+                <integer>0</integer>
+                <integer>1</integer>
+                <integer>13</integer>
+                <integer>0</integer>
+              </array>
+            </dict>
           </array>
           <key>contours</key>
           <array>
@@ -117,6 +130,13 @@
           <integer>904</integer>
         </dict>
       </dict>
+      <key>com.typemytype.robofont.mark</key>
+      <array>
+        <real>1.0</real>
+        <real>0.8424</real>
+        <real>0.6742</real>
+        <real>1.0</real>
+      </array>
       <key>org.robofab.fontlab.mark</key>
       <integer>1</integer>
       <key>org.robofab.fontlab.maskData</key>

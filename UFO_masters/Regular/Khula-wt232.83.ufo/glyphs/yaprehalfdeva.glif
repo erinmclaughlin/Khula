@@ -9,30 +9,30 @@
       <point x="824" y="1165" type="line"/>
     </contour>
     <contour>
-      <point x="378" y="1190" type="line"/>
+      <point x="384" y="1190" type="line"/>
       <point x="532" y="1190" type="line"/>
-      <point x="532" y="995" type="line"/>
+      <point x="532" y="995" type="line" smooth="yes"/>
       <point x="532" y="795"/>
-      <point x="438" y="660"/>
-      <point x="225" y="589" type="curve"/>
-      <point x="230" y="662" type="line"/>
-      <point x="306" y="528"/>
-      <point x="443" y="452"/>
-      <point x="569" y="452" type="curve" smooth="yes"/>
-      <point x="727" y="452"/>
-      <point x="849" y="509"/>
-      <point x="982" y="652" type="curve"/>
-      <point x="1051" y="540" type="line"/>
-      <point x="926" y="395"/>
-      <point x="780" y="324"/>
-      <point x="601" y="324" type="curve" smooth="yes"/>
-      <point x="399" y="324"/>
-      <point x="203" y="445"/>
-      <point x="84" y="664" type="curve"/>
-      <point x="84" y="669" type="line"/>
-      <point x="322" y="754"/>
-      <point x="378" y="856"/>
-      <point x="378" y="1007" type="curve" smooth="yes"/>
+      <point x="444" y="657"/>
+      <point x="230" y="586" type="curve"/>
+      <point x="237" y="672" type="line"/>
+      <point x="314" y="535"/>
+      <point x="450" y="453"/>
+      <point x="585" y="453" type="curve" smooth="yes"/>
+      <point x="730" y="453"/>
+      <point x="852" y="508"/>
+      <point x="983" y="650" type="curve"/>
+      <point x="1050" y="539" type="line"/>
+      <point x="926" y="398"/>
+      <point x="780" y="322"/>
+      <point x="601" y="322" type="curve" smooth="yes"/>
+      <point x="402" y="322"/>
+      <point x="210" y="448"/>
+      <point x="81" y="660" type="curve"/>
+      <point x="81" y="665" type="line"/>
+      <point x="313" y="747"/>
+      <point x="384" y="830"/>
+      <point x="384" y="994" type="curve" smooth="yes"/>
     </contour>
   </outline>
   <lib>
@@ -83,9 +83,97 @@
           </array>
           <key>components</key>
           <array>
+            <dict>
+              <key>baseGlyph</key>
+              <string>yadeva</string>
+              <key>transformation</key>
+              <array>
+                <integer>1</integer>
+                <integer>0</integer>
+                <integer>0</integer>
+                <integer>1</integer>
+                <integer>2</integer>
+                <integer>0</integer>
+              </array>
+            </dict>
           </array>
           <key>contours</key>
           <array>
+            <dict>
+              <key>points</key>
+              <array>
+                <dict>
+                  <key>segmentType</key>
+                  <string>move</string>
+                  <key>x</key>
+                  <integer>585</integer>
+                  <key>y</key>
+                  <integer>453</integer>
+                </dict>
+                <dict>
+                  <key>smooth</key>
+                  <false/>
+                  <key>x</key>
+                  <integer>743</integer>
+                  <key>y</key>
+                  <integer>453</integer>
+                </dict>
+                <dict>
+                  <key>smooth</key>
+                  <false/>
+                  <key>x</key>
+                  <integer>849</integer>
+                  <key>y</key>
+                  <integer>509</integer>
+                </dict>
+                <dict>
+                  <key>segmentType</key>
+                  <string>curve</string>
+                  <key>smooth</key>
+                  <false/>
+                  <key>x</key>
+                  <integer>982</integer>
+                  <key>y</key>
+                  <integer>652</integer>
+                </dict>
+                <dict>
+                  <key>segmentType</key>
+                  <string>line</string>
+                  <key>smooth</key>
+                  <false/>
+                  <key>x</key>
+                  <integer>1051</integer>
+                  <key>y</key>
+                  <integer>540</integer>
+                </dict>
+                <dict>
+                  <key>smooth</key>
+                  <false/>
+                  <key>x</key>
+                  <integer>926</integer>
+                  <key>y</key>
+                  <integer>395</integer>
+                </dict>
+                <dict>
+                  <key>smooth</key>
+                  <false/>
+                  <key>x</key>
+                  <integer>780</integer>
+                  <key>y</key>
+                  <integer>322</integer>
+                </dict>
+                <dict>
+                  <key>segmentType</key>
+                  <string>curve</string>
+                  <key>smooth</key>
+                  <true/>
+                  <key>x</key>
+                  <integer>601</integer>
+                  <key>y</key>
+                  <integer>322</integer>
+                </dict>
+              </array>
+            </dict>
           </array>
           <key>lib</key>
           <dict>
@@ -99,6 +187,13 @@
           <integer>794</integer>
         </dict>
       </dict>
+      <key>com.typemytype.robofont.mark</key>
+      <array>
+        <real>1.0</real>
+        <real>0.8424</real>
+        <real>0.6742</real>
+        <real>1.0</real>
+      </array>
       <key>org.robofab.fontlab.mark</key>
       <integer>1</integer>
       <key>org.robofab.fontlab.maskData</key>

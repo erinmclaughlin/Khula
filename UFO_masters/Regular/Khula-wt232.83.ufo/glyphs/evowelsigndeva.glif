@@ -4,8 +4,8 @@
   <unicode hex="0947"/>
   <outline>
     <contour>
-      <point x="-407" y="1244" type="line"/>
-      <point x="-885" y="1703" type="line"/>
+      <point x="-405" y="1244" type="line"/>
+      <point x="-883" y="1703" type="line"/>
       <point x="-776" y="1793" type="line"/>
       <point x="-222" y="1244" type="line"/>
     </contour>
@@ -64,6 +64,51 @@
           </array>
           <key>contours</key>
           <array>
+            <dict>
+              <key>points</key>
+              <array>
+                <dict>
+                  <key>segmentType</key>
+                  <string>line</string>
+                  <key>smooth</key>
+                  <false/>
+                  <key>x</key>
+                  <integer>-407</integer>
+                  <key>y</key>
+                  <integer>1244</integer>
+                </dict>
+                <dict>
+                  <key>segmentType</key>
+                  <string>line</string>
+                  <key>smooth</key>
+                  <false/>
+                  <key>x</key>
+                  <integer>-885</integer>
+                  <key>y</key>
+                  <integer>1703</integer>
+                </dict>
+                <dict>
+                  <key>segmentType</key>
+                  <string>line</string>
+                  <key>smooth</key>
+                  <false/>
+                  <key>x</key>
+                  <integer>-776</integer>
+                  <key>y</key>
+                  <integer>1793</integer>
+                </dict>
+                <dict>
+                  <key>segmentType</key>
+                  <string>line</string>
+                  <key>smooth</key>
+                  <false/>
+                  <key>x</key>
+                  <integer>-222</integer>
+                  <key>y</key>
+                  <integer>1244</integer>
+                </dict>
+              </array>
+            </dict>
           </array>
           <key>lib</key>
           <dict>
