@@ -4,42 +4,24 @@
 <dict>
 	<key>com.typemytype.robofont</key>
 	<integer>1</integer>
-	<key>com.typemytype.robofont.background.layerStrokeColor</key>
-	<array>
-		<real>0.5577320911294262</real>
-		<real>0.8916766826923077</real>
-		<real>0.6188247502874412</real>
-		<real>0.7000000000000001</real>
-	</array>
+	<key>com.typemytype.robofont.compileSettings.MacRomanFirst</key>
+	<integer>1</integer>
+	<key>com.typemytype.robofont.compileSettings.autohint</key>
+	<integer>1</integer>
+	<key>com.typemytype.robofont.compileSettings.checkOutlines</key>
+	<integer>1</integer>
+	<key>com.typemytype.robofont.compileSettings.decompose</key>
+	<integer>1</integer>
+	<key>com.typemytype.robofont.compileSettings.generateFormat</key>
+	<integer>0</integer>
+	<key>com.typemytype.robofont.compileSettings.path</key>
+	<string>/Users/erinmclaughlin/Desktop/_Google OPEN/Khula/otf/Khula-wt719.83.otf</string>
+	<key>com.typemytype.robofont.compileSettings.releaseMode</key>
+	<integer>0</integer>
 	<key>com.typemytype.robofont.italicSlantOffset</key>
 	<integer>0</integer>
-	<key>com.typemytype.robofont.layer1.layerStrokeColor</key>
-	<array>
-		<real>1.0</real>
-		<real>0.75</real>
-		<real>0.0</real>
-		<real>0.7</real>
-	</array>
-	<key>com.typemytype.robofont.layer2.layerStrokeColor</key>
-	<array>
-		<real>1.0</real>
-		<real>0.0</real>
-		<real>0.0</real>
-		<real>0.7</real>
-	</array>
 	<key>com.typemytype.robofont.layerOrder</key>
 	<array>
-		<string>layer2</string>
-		<string>layer1</string>
-		<string>original</string>
-		<string>background</string>
-	</array>
-	<key>com.typemytype.robofont.original.layerStrokeColor</key>
-	<array>
-		<real>0.5</real>
-		<real>1.0</real>
-		<real>0.0</real>
-		<real>0.7</real>
 	</array>
 	<key>com.typemytype.robofont.segmentType</key>
 	<string>curve</string>

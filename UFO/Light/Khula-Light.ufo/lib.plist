@@ -2,8 +2,202 @@
 <!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
-	<key>com.typemytype.robofont</key>
+	<key>com.schriftgestaltung.fontMasterID</key>
+	<string>EC0235A2-70ED-4E32-B33A-10467A0AA1C9</string>
+	<key>com.schriftgestaltung.useNiceNames</key>
+	<false/>
+	<key>com.schriftgestaltung.weight</key>
+	<string>Light</string>
+	<key>com.typemytype.robofont.compileSettings.MacRomanFirst</key>
 	<integer>1</integer>
+	<key>com.typemytype.robofont.compileSettings.autohint</key>
+	<integer>1</integer>
+	<key>com.typemytype.robofont.compileSettings.checkOutlines</key>
+	<integer>1</integer>
+	<key>com.typemytype.robofont.compileSettings.decompose</key>
+	<integer>1</integer>
+	<key>com.typemytype.robofont.compileSettings.generateFormat</key>
+	<integer>0</integer>
+	<key>com.typemytype.robofont.compileSettings.path</key>
+	<string>/Users/erinmclaughlin/Desktop/_Google OPEN/Khula/otf/Khula-Light.otf</string>
+	<key>com.typemytype.robofont.compileSettings.releaseMode</key>
+	<integer>0</integer>
+	<key>com.typemytype.robofont.foreground.layerStrokeColor</key>
+	<array>
+		<real>0.5</real>
+		<real>0.0</real>
+		<real>0.5</real>
+		<real>0.8</real>
+	</array>
+	<key>com.typemytype.robofont.guides</key>
+	<array>
+		<dict>
+			<key>angle</key>
+			<integer>0</integer>
+			<key>isGlobal</key>
+			<integer>1</integer>
+			<key>magnetic</key>
+			<integer>5</integer>
+			<key>name</key>
+			<string></string>
+			<key>x</key>
+			<integer>1144</integer>
+			<key>y</key>
+			<integer>810</integer>
+		</dict>
+		<dict>
+			<key>angle</key>
+			<integer>0</integer>
+			<key>isGlobal</key>
+			<integer>1</integer>
+			<key>magnetic</key>
+			<integer>5</integer>
+			<key>name</key>
+			<string></string>
+			<key>x</key>
+			<integer>1501</integer>
+			<key>y</key>
+			<integer>886</integer>
+		</dict>
+		<dict>
+			<key>angle</key>
+			<integer>0</integer>
+			<key>isGlobal</key>
+			<integer>1</integer>
+			<key>magnetic</key>
+			<integer>5</integer>
+			<key>name</key>
+			<string>Loops</string>
+			<key>x</key>
+			<integer>97</integer>
+			<key>y</key>
+			<integer>1304</integer>
+		</dict>
+		<dict>
+			<key>angle</key>
+			<integer>0</integer>
+			<key>isGlobal</key>
+			<integer>1</integer>
+			<key>magnetic</key>
+			<integer>5</integer>
+			<key>name</key>
+			<string></string>
+			<key>x</key>
+			<integer>1156</integer>
+			<key>y</key>
+			<integer>1198</integer>
+		</dict>
+		<dict>
+			<key>angle</key>
+			<integer>0</integer>
+			<key>isGlobal</key>
+			<integer>1</integer>
+			<key>magnetic</key>
+			<integer>13</integer>
+			<key>name</key>
+			<string></string>
+			<key>x</key>
+			<integer>188</integer>
+			<key>y</key>
+			<integer>109</integer>
+		</dict>
+		<dict>
+			<key>angle</key>
+			<integer>0</integer>
+			<key>isGlobal</key>
+			<integer>1</integer>
+			<key>magnetic</key>
+			<integer>12</integer>
+			<key>name</key>
+			<string></string>
+			<key>x</key>
+			<integer>202</integer>
+			<key>y</key>
+			<integer>-67</integer>
+		</dict>
+		<dict>
+			<key>angle</key>
+			<integer>0</integer>
+			<key>isGlobal</key>
+			<integer>1</integer>
+			<key>magnetic</key>
+			<integer>15</integer>
+			<key>name</key>
+			<string></string>
+			<key>x</key>
+			<integer>686</integer>
+			<key>y</key>
+			<integer>-117</integer>
+		</dict>
+		<dict>
+			<key>angle</key>
+			<integer>0</integer>
+			<key>isGlobal</key>
+			<integer>1</integer>
+			<key>magnetic</key>
+			<integer>5</integer>
+			<key>name</key>
+			<string></string>
+			<key>x</key>
+			<integer>-130</integer>
+			<key>y</key>
+			<integer>1741</integer>
+		</dict>
+		<dict>
+			<key>angle</key>
+			<integer>0</integer>
+			<key>isGlobal</key>
+			<integer>1</integer>
+			<key>magnetic</key>
+			<integer>5</integer>
+			<key>x</key>
+			<integer>-43</integer>
+			<key>y</key>
+			<integer>1222</integer>
+		</dict>
+		<dict>
+			<key>angle</key>
+			<integer>0</integer>
+			<key>isGlobal</key>
+			<integer>1</integer>
+			<key>magnetic</key>
+			<integer>5</integer>
+			<key>name</key>
+			<string></string>
+			<key>x</key>
+			<integer>530</integer>
+			<key>y</key>
+			<integer>804</integer>
+		</dict>
+		<dict>
+			<key>angle</key>
+			<integer>0</integer>
+			<key>isGlobal</key>
+			<integer>1</integer>
+			<key>magnetic</key>
+			<integer>5</integer>
+			<key>name</key>
+			<string></string>
+			<key>x</key>
+			<integer>932</integer>
+			<key>y</key>
+			<integer>-997</integer>
+		</dict>
+		<dict>
+			<key>angle</key>
+			<integer>0</integer>
+			<key>isGlobal</key>
+			<integer>1</integer>
+			<key>magnetic</key>
+			<integer>5</integer>
+			<key>name</key>
+			<string></string>
+			<key>x</key>
+			<integer>-663</integer>
+			<key>y</key>
+			<integer>1430</integer>
+		</dict>
+	</array>
 	<key>com.typemytype.robofont.italicSlantOffset</key>
 	<integer>0</integer>
 	<key>com.typemytype.robofont.layerOrder</key>
@@ -11,6 +205,8 @@
 	</array>
 	<key>com.typemytype.robofont.segmentType</key>
 	<string>curve</string>
+	<key>com.typemytype.robofont.shouldAddPointsInSplineConversion</key>
+	<integer>1</integer>
 	<key>com.typemytype.robofont.sort</key>
 	<array>
 		<dict>
@@ -24,7 +220,6 @@
 				<string>ashortdeva</string>
 				<string>ashortanusvaradeva</string>
 				<string>acandradeva</string>
-				<string>acandraanusvaradeva</string>
 				<string>adeva</string>
 				<string>aadeva</string>
 				<string>ideva</string>
@@ -51,6 +246,7 @@
 				<string>oanusvaradeva</string>
 				<string>audeva</string>
 				<string>auanusvaradeva</string>
+				<string>acandraanusvaradeva</string>
 				<string>oedevaKSH</string>
 				<string>ooedevaKSH</string>
 				<string>awdevaKSH</string>
@@ -142,24 +338,24 @@
 				<string>iivowelcandrabindu3deva</string>
 				<string>ocandravowelsigndeva</string>
 				<string>ocandravowelsignanusvaradeva</string>
-				<string>ocandravowelsigncandrabindudeva</string>
 				<string>ocandravowelsignrephdeva</string>
 				<string>ocandravowelsignrephanusdeva</string>
+				<string>ocandravowelsigncandrabindudeva</string>
 				<string>oshortvowelsigndeva</string>
 				<string>oshortvowelsignanusvaradeva</string>
-				<string>oshortvowelsigncandrabindudeva</string>
 				<string>oshortvowelsignrephdeva</string>
 				<string>oshortvowelsignrephanusdeva</string>
+				<string>oshortvowelsigncandrabindudeva</string>
 				<string>ovowelsigndeva</string>
 				<string>ovowelsignanusvaradeva</string>
-				<string>ovowelsigncandrabindudeva</string>
 				<string>ovowelsignrephdeva</string>
 				<string>ovowelsignrephanusvaradeva</string>
+				<string>ovowelsigncandrabindudeva</string>
 				<string>auvowelsigndeva</string>
 				<string>auvowelsignanusvaradeva</string>
-				<string>auvowelsigncandrabindudeva</string>
 				<string>auvowelsignrephdeva</string>
 				<string>auvowelsignrephanusvaradeva</string>
+				<string>auvowelsigncandrabindudeva</string>
 				<string>prishthaevowelsign</string>
 				<string>ooevowelsigndevaKSH</string>
 				<string>awvowelsigndevaKSH</string>
@@ -208,19 +404,19 @@
 				<string>ecandravowelsignrephanusdeva</string>
 				<string>eshortvowelsigndeva</string>
 				<string>eshortvowelsignanusvaradeva</string>
-				<string>eshortvowelsigncandrabindudeva</string>
 				<string>eshortvowelsignrephdeva</string>
 				<string>eshortvowelsignrephanusdeva</string>
+				<string>eshortvowelsigncandrabindudeva</string>
 				<string>evowelsigndeva</string>
 				<string>evowelsignanusvaradeva</string>
-				<string>evowelsigncandrabindudeva</string>
 				<string>evowelsignrephdeva</string>
 				<string>evowelsignrephanusvaradeva</string>
+				<string>evowelsigncandrabindudeva</string>
 				<string>aivowelsigndeva</string>
 				<string>aivowelsignanusvaradeva</string>
-				<string>aivowelsigncandrabindudeva</string>
 				<string>aivowelsignrephdeva</string>
 				<string>aivowelsignrephanusvaradeva</string>
+				<string>aivowelsigncandrabindudeva</string>
 				<string>oevowelsigndevaKSH</string>
 				<string>rephdeva</string>
 				<string>rephanusvaradeva</string>
@@ -591,6 +787,485 @@
 			<string>glyphList</string>
 		</dict>
 	</array>
+	<key>com.typesupply.MetricsMachine4.groupColors</key>
+	<dict>
+		<key>@MMK_L_L_C</key>
+		<array>
+			<real>1.0</real>
+			<real>0.0</real>
+			<real>0.0</real>
+			<real>0.25</real>
+		</array>
+		<key>@MMK_L_L_Cha</key>
+		<array>
+			<real>1.0</real>
+			<real>0.5</real>
+			<real>0.0</real>
+			<real>0.25</real>
+		</array>
+		<key>@MMK_L_L_Da</key>
+		<array>
+			<real>1.0</real>
+			<real>1.0</real>
+			<real>0.0</real>
+			<real>0.25</real>
+		</array>
+		<key>@MMK_L_L_DaDha</key>
+		<array>
+			<real>1.0</real>
+			<real>0.0</real>
+			<real>0.0</real>
+			<real>0.25</real>
+		</array>
+		<key>@MMK_L_L_G</key>
+		<array>
+			<real>0.5</real>
+			<real>0.0</real>
+			<real>1.0</real>
+			<real>0.25</real>
+		</array>
+		<key>@MMK_L_L_Gh</key>
+		<array>
+			<real>1.0</real>
+			<real>0.0</real>
+			<real>1.0</real>
+			<real>0.25</real>
+		</array>
+		<key>@MMK_L_L_H</key>
+		<array>
+			<real>1.0</real>
+			<real>0.0</real>
+			<real>0.5</real>
+			<real>0.25</real>
+		</array>
+		<key>@MMK_L_L_Ha</key>
+		<array>
+			<real>1.0</real>
+			<real>0.0</real>
+			<real>1.0</real>
+			<real>0.25</real>
+		</array>
+		<key>@MMK_L_L_J</key>
+		<array>
+			<real>1.0</real>
+			<real>1.0</real>
+			<real>0.0</real>
+			<real>0.25</real>
+		</array>
+		<key>@MMK_L_L_Jany</key>
+		<array>
+			<real>1.0</real>
+			<real>0.0</real>
+			<real>0.5</real>
+			<real>0.25</real>
+		</array>
+		<key>@MMK_L_L_Jh</key>
+		<array>
+			<real>0.0</real>
+			<real>1.0</real>
+			<real>0.0</real>
+			<real>0.25</real>
+		</array>
+		<key>@MMK_L_L_Ka</key>
+		<array>
+			<real>1.0</real>
+			<real>0.0</real>
+			<real>0.0</real>
+			<real>0.25</real>
+		</array>
+		<key>@MMK_L_L_KaSh</key>
+		<array>
+			<real>1.0</real>
+			<real>0.0</real>
+			<real>0.0</real>
+			<real>0.25</real>
+		</array>
+		<key>@MMK_L_L_Kh</key>
+		<array>
+			<real>0.0</real>
+			<real>0.0</real>
+			<real>1.0</real>
+			<real>0.25</real>
+		</array>
+		<key>@MMK_L_L_L</key>
+		<array>
+			<real>1.0</real>
+			<real>1.0</real>
+			<real>0.0</real>
+			<real>0.25</real>
+		</array>
+		<key>@MMK_L_L_Ll</key>
+		<array>
+			<real>1.0</real>
+			<real>0.5</real>
+			<real>0.0</real>
+			<real>0.25</real>
+		</array>
+		<key>@MMK_L_L_M</key>
+		<array>
+			<real>1.0</real>
+			<real>0.0</real>
+			<real>0.0</real>
+			<real>0.25</real>
+		</array>
+		<key>@MMK_L_L_N</key>
+		<array>
+			<real>0.0</real>
+			<real>0.5</real>
+			<real>1.0</real>
+			<real>0.25</real>
+		</array>
+		<key>@MMK_L_L_Ng</key>
+		<array>
+			<real>1.0</real>
+			<real>0.0</real>
+			<real>0.5</real>
+			<real>0.25</real>
+		</array>
+		<key>@MMK_L_L_Nn</key>
+		<array>
+			<real>0.0</real>
+			<real>1.0</real>
+			<real>1.0</real>
+			<real>0.25</real>
+		</array>
+		<key>@MMK_L_L_Ny</key>
+		<array>
+			<real>1.0</real>
+			<real>0.0</real>
+			<real>0.5</real>
+			<real>0.25</real>
+		</array>
+		<key>@MMK_L_L_P</key>
+		<array>
+			<real>0.0</real>
+			<real>0.0</real>
+			<real>1.0</real>
+			<real>0.25</real>
+		</array>
+		<key>@MMK_L_L_Ph</key>
+		<array>
+			<real>0.5</real>
+			<real>0.0</real>
+			<real>1.0</real>
+			<real>0.25</real>
+		</array>
+		<key>@MMK_L_L_Ra</key>
+		<array>
+			<real>0.0</real>
+			<real>1.0</real>
+			<real>0.0</real>
+			<real>0.25</real>
+		</array>
+		<key>@MMK_L_L_Rr</key>
+		<array>
+			<real>0.0</real>
+			<real>1.0</real>
+			<real>1.0</real>
+			<real>0.25</real>
+		</array>
+		<key>@MMK_L_L_S</key>
+		<array>
+			<real>0.0</real>
+			<real>1.0</real>
+			<real>1.0</real>
+			<real>0.25</real>
+		</array>
+		<key>@MMK_L_L_Sh</key>
+		<array>
+			<real>0.0</real>
+			<real>0.5</real>
+			<real>1.0</real>
+			<real>0.25</real>
+		</array>
+		<key>@MMK_L_L_ShMAR</key>
+		<array>
+			<real>0.0</real>
+			<real>0.5</real>
+			<real>1.0</real>
+			<real>0.25</real>
+		</array>
+		<key>@MMK_L_L_T</key>
+		<array>
+			<real>1.0</real>
+			<real>0.0</real>
+			<real>0.0</real>
+			<real>0.25</real>
+		</array>
+		<key>@MMK_L_L_V</key>
+		<array>
+			<real>0.0</real>
+			<real>1.0</real>
+			<real>0.0</real>
+			<real>0.25</real>
+		</array>
+		<key>@MMK_L_L_Y</key>
+		<array>
+			<real>1.0</real>
+			<real>0.5</real>
+			<real>0.0</real>
+			<real>0.25</real>
+		</array>
+		<key>@MMK_R_R_A</key>
+		<array>
+			<real>1.0</real>
+			<real>0.0</real>
+			<real>0.0</real>
+			<real>0.25</real>
+		</array>
+		<key>@MMK_R_R_Bha</key>
+		<array>
+			<real>1.0</real>
+			<real>1.0</real>
+			<real>0.0</real>
+			<real>0.25</real>
+		</array>
+		<key>@MMK_R_R_Ca</key>
+		<array>
+			<real>0.0</real>
+			<real>0.5</real>
+			<real>1.0</real>
+			<real>0.25</real>
+		</array>
+		<key>@MMK_R_R_Cha</key>
+		<array>
+			<real>0.5</real>
+			<real>0.0</real>
+			<real>1.0</real>
+			<real>0.25</real>
+		</array>
+		<key>@MMK_R_R_Da</key>
+		<array>
+			<real>1.0</real>
+			<real>0.5</real>
+			<real>0.0</real>
+			<real>0.25</real>
+		</array>
+		<key>@MMK_R_R_DaAlt</key>
+		<array>
+			<real>1.0</real>
+			<real>0.0</real>
+			<real>0.0</real>
+			<real>0.25</real>
+		</array>
+		<key>@MMK_R_R_DaBha</key>
+		<array>
+			<real>1.0</real>
+			<real>0.0</real>
+			<real>1.0</real>
+			<real>0.25</real>
+		</array>
+		<key>@MMK_R_R_DaGa</key>
+		<array>
+			<real>1.0</real>
+			<real>0.0</real>
+			<real>0.5</real>
+			<real>0.25</real>
+		</array>
+		<key>@MMK_R_R_Dda</key>
+		<array>
+			<real>0.0</real>
+			<real>1.0</real>
+			<real>1.0</real>
+			<real>0.25</real>
+		</array>
+		<key>@MMK_R_R_DdaAlt</key>
+		<array>
+			<real>1.0</real>
+			<real>0.5</real>
+			<real>0.0</real>
+			<real>0.25</real>
+		</array>
+		<key>@MMK_R_R_Dha</key>
+		<array>
+			<real>1.0</real>
+			<real>0.0</real>
+			<real>0.0</real>
+			<real>0.25</real>
+		</array>
+		<key>@MMK_R_R_E</key>
+		<array>
+			<real>1.0</real>
+			<real>0.5</real>
+			<real>0.0</real>
+			<real>0.25</real>
+		</array>
+		<key>@MMK_R_R_Ga</key>
+		<array>
+			<real>1.0</real>
+			<real>0.0</real>
+			<real>0.5</real>
+			<real>0.25</real>
+		</array>
+		<key>@MMK_R_R_Gha</key>
+		<array>
+			<real>1.0</real>
+			<real>0.0</real>
+			<real>1.0</real>
+			<real>0.25</real>
+		</array>
+		<key>@MMK_R_R_Ha</key>
+		<array>
+			<real>0.0</real>
+			<real>0.0</real>
+			<real>1.0</real>
+			<real>0.25</real>
+		</array>
+		<key>@MMK_R_R_I</key>
+		<array>
+			<real>1.0</real>
+			<real>1.0</real>
+			<real>0.0</real>
+			<real>0.25</real>
+		</array>
+		<key>@MMK_R_R_Ja</key>
+		<array>
+			<real>1.0</real>
+			<real>0.5</real>
+			<real>0.0</real>
+			<real>0.25</real>
+		</array>
+		<key>@MMK_R_R_Ka</key>
+		<array>
+			<real>0.0</real>
+			<real>0.0</real>
+			<real>1.0</real>
+			<real>0.25</real>
+		</array>
+		<key>@MMK_R_R_KaSsa</key>
+		<array>
+			<real>1.0</real>
+			<real>1.0</real>
+			<real>0.0</real>
+			<real>0.25</real>
+		</array>
+		<key>@MMK_R_R_La</key>
+		<array>
+			<real>0.0</real>
+			<real>0.5</real>
+			<real>1.0</real>
+			<real>0.25</real>
+		</array>
+		<key>@MMK_R_R_Lla</key>
+		<array>
+			<real>0.5</real>
+			<real>0.0</real>
+			<real>1.0</real>
+			<real>0.25</real>
+		</array>
+		<key>@MMK_R_R_Ma</key>
+		<array>
+			<real>0.0</real>
+			<real>1.0</real>
+			<real>0.0</real>
+			<real>0.25</real>
+		</array>
+		<key>@MMK_R_R_Na</key>
+		<array>
+			<real>0.0</real>
+			<real>1.0</real>
+			<real>1.0</real>
+			<real>0.25</real>
+		</array>
+		<key>@MMK_R_R_Nna</key>
+		<array>
+			<real>1.0</real>
+			<real>0.0</real>
+			<real>0.0</real>
+			<real>0.25</real>
+		</array>
+		<key>@MMK_R_R_Nya</key>
+		<array>
+			<real>1.0</real>
+			<real>0.0</real>
+			<real>0.5</real>
+			<real>0.25</real>
+		</array>
+		<key>@MMK_R_R_Pa</key>
+		<array>
+			<real>0.0</real>
+			<real>1.0</real>
+			<real>0.0</real>
+			<real>0.25</real>
+		</array>
+		<key>@MMK_R_R_Pha</key>
+		<array>
+			<real>0.0</real>
+			<real>0.5</real>
+			<real>1.0</real>
+			<real>0.25</real>
+		</array>
+		<key>@MMK_R_R_RMAR</key>
+		<array>
+			<real>0.0</real>
+			<real>0.0</real>
+			<real>1.0</real>
+			<real>0.25</real>
+		</array>
+		<key>@MMK_R_R_Ra</key>
+		<array>
+			<real>0.5</real>
+			<real>0.0</real>
+			<real>1.0</real>
+			<real>0.25</real>
+		</array>
+		<key>@MMK_R_R_Sha</key>
+		<array>
+			<real>0.0</real>
+			<real>0.5</real>
+			<real>1.0</real>
+			<real>0.25</real>
+		</array>
+		<key>@MMK_R_R_ShaRa</key>
+		<array>
+			<real>0.0</real>
+			<real>1.0</real>
+			<real>0.0</real>
+			<real>0.25</real>
+		</array>
+		<key>@MMK_R_R_Ta</key>
+		<array>
+			<real>1.0</real>
+			<real>1.0</real>
+			<real>0.0</real>
+			<real>0.25</real>
+		</array>
+		<key>@MMK_R_R_TaRa</key>
+		<array>
+			<real>0.0</real>
+			<real>1.0</real>
+			<real>1.0</real>
+			<real>0.25</real>
+		</array>
+		<key>@MMK_R_R_Tha</key>
+		<array>
+			<real>0.0</real>
+			<real>0.0</real>
+			<real>1.0</real>
+			<real>0.25</real>
+		</array>
+		<key>@MMK_R_R_U</key>
+		<array>
+			<real>0.0</real>
+			<real>1.0</real>
+			<real>0.0</real>
+			<real>0.25</real>
+		</array>
+		<key>@MMK_R_R_Va</key>
+		<array>
+			<real>0.0</real>
+			<real>1.0</real>
+			<real>1.0</real>
+			<real>0.25</real>
+		</array>
+		<key>@MMK_R_R_Ya</key>
+		<array>
+			<real>1.0</real>
+			<real>0.0</real>
+			<real>1.0</real>
+			<real>0.25</real>
+		</array>
+	</dict>
 	<key>public.glyphOrder</key>
 	<array>
 		<string>.notdef</string>
@@ -601,7 +1276,6 @@
 		<string>ashortdeva</string>
 		<string>ashortanusvaradeva</string>
 		<string>acandradeva</string>
-		<string>acandraanusvaradeva</string>
 		<string>adeva</string>
 		<string>aadeva</string>
 		<string>ideva</string>
@@ -628,6 +1302,7 @@
 		<string>oanusvaradeva</string>
 		<string>audeva</string>
 		<string>auanusvaradeva</string>
+		<string>acandraanusvaradeva</string>
 		<string>oedevaKSH</string>
 		<string>ooedevaKSH</string>
 		<string>awdevaKSH</string>
@@ -719,24 +1394,24 @@
 		<string>iivowelcandrabindu3deva</string>
 		<string>ocandravowelsigndeva</string>
 		<string>ocandravowelsignanusvaradeva</string>
-		<string>ocandravowelsigncandrabindudeva</string>
 		<string>ocandravowelsignrephdeva</string>
 		<string>ocandravowelsignrephanusdeva</string>
+		<string>ocandravowelsigncandrabindudeva</string>
 		<string>oshortvowelsigndeva</string>
 		<string>oshortvowelsignanusvaradeva</string>
-		<string>oshortvowelsigncandrabindudeva</string>
 		<string>oshortvowelsignrephdeva</string>
 		<string>oshortvowelsignrephanusdeva</string>
+		<string>oshortvowelsigncandrabindudeva</string>
 		<string>ovowelsigndeva</string>
 		<string>ovowelsignanusvaradeva</string>
-		<string>ovowelsigncandrabindudeva</string>
 		<string>ovowelsignrephdeva</string>
 		<string>ovowelsignrephanusvaradeva</string>
+		<string>ovowelsigncandrabindudeva</string>
 		<string>auvowelsigndeva</string>
 		<string>auvowelsignanusvaradeva</string>
-		<string>auvowelsigncandrabindudeva</string>
 		<string>auvowelsignrephdeva</string>
 		<string>auvowelsignrephanusvaradeva</string>
+		<string>auvowelsigncandrabindudeva</string>
 		<string>prishthaevowelsign</string>
 		<string>ooevowelsigndevaKSH</string>
 		<string>awvowelsigndevaKSH</string>
@@ -785,19 +1460,19 @@
 		<string>ecandravowelsignrephanusdeva</string>
 		<string>eshortvowelsigndeva</string>
 		<string>eshortvowelsignanusvaradeva</string>
-		<string>eshortvowelsigncandrabindudeva</string>
 		<string>eshortvowelsignrephdeva</string>
 		<string>eshortvowelsignrephanusdeva</string>
+		<string>eshortvowelsigncandrabindudeva</string>
 		<string>evowelsigndeva</string>
 		<string>evowelsignanusvaradeva</string>
-		<string>evowelsigncandrabindudeva</string>
 		<string>evowelsignrephdeva</string>
 		<string>evowelsignrephanusvaradeva</string>
+		<string>evowelsigncandrabindudeva</string>
 		<string>aivowelsigndeva</string>
 		<string>aivowelsignanusvaradeva</string>
-		<string>aivowelsigncandrabindudeva</string>
 		<string>aivowelsignrephdeva</string>
 		<string>aivowelsignrephanusvaradeva</string>
+		<string>aivowelsigncandrabindudeva</string>
 		<string>oevowelsigndevaKSH</string>
 		<string>rephdeva</string>
 		<string>rephanusvaradeva</string>
