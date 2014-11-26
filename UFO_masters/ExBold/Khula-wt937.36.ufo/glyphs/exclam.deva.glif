@@ -1,34 +1,129 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="exclam.deva" format="1">
-  <advance width="862"/>
+  <advance width="895"/>
   <unicode hex="0021"/>
   <outline>
     <contour>
-      <point x="571" y="456" type="line"/>
-      <point x="291" y="456" type="line"/>
-      <point x="245" y="1316" type="line"/>
-      <point x="617" y="1316" type="line"/>
+      <point x="596" y="464" type="line"/>
+      <point x="299" y="464" type="line"/>
+      <point x="253" y="1316" type="line"/>
+      <point x="642" y="1316" type="line"/>
     </contour>
     <contour>
-      <point x="246" y="145" type="curve" smooth="yes"/>
-      <point x="246" y="251"/>
-      <point x="311" y="314"/>
-      <point x="430" y="314" type="curve" smooth="yes"/>
-      <point x="548" y="314"/>
-      <point x="610" y="251"/>
-      <point x="610" y="145" type="curve" smooth="yes"/>
-      <point x="610" y="39"/>
-      <point x="543" y="-23"/>
-      <point x="430" y="-23" type="curve" smooth="yes"/>
-      <point x="315" y="-23"/>
-      <point x="246" y="38"/>
+      <point x="256" y="149" type="curve" smooth="yes"/>
+      <point x="256" y="258"/>
+      <point x="323" y="322"/>
+      <point x="446" y="322" type="curve" smooth="yes"/>
+      <point x="569" y="322"/>
+      <point x="633" y="258"/>
+      <point x="633" y="149" type="curve" smooth="yes"/>
+      <point x="633" y="41"/>
+      <point x="563" y="-23"/>
+      <point x="446" y="-23" type="curve" smooth="yes"/>
+      <point x="327" y="-23"/>
+      <point x="256" y="41"/>
     </contour>
   </outline>
   <lib>
     <dict>
       <key>com.typemytype.robofont.layerData</key>
       <dict>
+        <key>background</key>
+        <dict>
+          <key>anchors</key>
+          <array>
+          </array>
+          <key>components</key>
+          <array>
+          </array>
+          <key>contours</key>
+          <array>
+          </array>
+          <key>lib</key>
+          <dict>
+          </dict>
+          <key>name</key>
+          <string>exclam.deva</string>
+          <key>unicodes</key>
+          <array>
+          </array>
+          <key>width</key>
+          <integer>895</integer>
+        </dict>
+        <key>layer1</key>
+        <dict>
+          <key>anchors</key>
+          <array>
+          </array>
+          <key>components</key>
+          <array>
+          </array>
+          <key>contours</key>
+          <array>
+          </array>
+          <key>lib</key>
+          <dict>
+          </dict>
+          <key>name</key>
+          <string>exclam.deva</string>
+          <key>unicodes</key>
+          <array>
+          </array>
+          <key>width</key>
+          <integer>895</integer>
+        </dict>
+        <key>layer2</key>
+        <dict>
+          <key>anchors</key>
+          <array>
+          </array>
+          <key>components</key>
+          <array>
+          </array>
+          <key>contours</key>
+          <array>
+          </array>
+          <key>lib</key>
+          <dict>
+          </dict>
+          <key>name</key>
+          <string>exclam.deva</string>
+          <key>unicodes</key>
+          <array>
+          </array>
+          <key>width</key>
+          <integer>895</integer>
+        </dict>
+        <key>original</key>
+        <dict>
+          <key>anchors</key>
+          <array>
+          </array>
+          <key>components</key>
+          <array>
+          </array>
+          <key>contours</key>
+          <array>
+          </array>
+          <key>lib</key>
+          <dict>
+          </dict>
+          <key>name</key>
+          <string>exclam.deva</string>
+          <key>unicodes</key>
+          <array>
+          </array>
+          <key>width</key>
+          <integer>895</integer>
+        </dict>
       </dict>
+      <key>com.typemytype.robofont.mark</key>
+      <array>
+        <real>1.0</real>
+        <real>0.974</real>
+        <real>0.577</real>
+        <real>1.0</real>
+      </array>
     </dict>
   </lib>
 </glyph>

@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="underscore.deva" format="1">
-  <advance width="852"/>
+  <advance width="791"/>
   <unicode hex="005F"/>
   <outline>
     <contour>
-      <point x="856" y="-299" type="line"/>
-      <point x="-4" y="-299" type="line"/>
-      <point x="-4" y="-154" type="line"/>
-      <point x="856" y="-154" type="line"/>
+      <point x="795" y="-287" type="line"/>
+      <point x="-4" y="-287" type="line"/>
+      <point x="-4" y="-166" type="line"/>
+      <point x="795" y="-166" type="line"/>
     </contour>
   </outline>
   <lib>
@@ -15,6 +15,13 @@
       <key>com.typemytype.robofont.layerData</key>
       <dict>
       </dict>
+      <key>com.typemytype.robofont.mark</key>
+      <array>
+        <real>0.8766</real>
+        <real>1.0</real>
+        <real>0.9893</real>
+        <real>1.0</real>
+      </array>
     </dict>
   </lib>
 </glyph>

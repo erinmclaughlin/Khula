@@ -1,17 +1,105 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="sfthyphen.deva" format="1">
-  <advance width="701"/>
+  <advance width="707.2"/>
   <unicode hex="00AF"/>
   <outline>
-    <component base="hyphen.deva" xScale="0.9" yScale="0.9" xOffset="9" yOffset="40"/>
+    <component base="hyphen.deva" xScale="0.9" yScale="0.9" xOffset="10" yOffset="39"/>
   </outline>
   <lib>
     <dict>
       <key>com.typemytype.robofont.layerData</key>
       <dict>
+        <key>background</key>
+        <dict>
+          <key>anchors</key>
+          <array>
+          </array>
+          <key>components</key>
+          <array>
+          </array>
+          <key>contours</key>
+          <array>
+          </array>
+          <key>lib</key>
+          <dict>
+          </dict>
+          <key>name</key>
+          <string>sfthyphen.deva</string>
+          <key>unicodes</key>
+          <array>
+          </array>
+          <key>width</key>
+          <real>707.2</real>
+        </dict>
+        <key>layer1</key>
+        <dict>
+          <key>anchors</key>
+          <array>
+          </array>
+          <key>components</key>
+          <array>
+          </array>
+          <key>contours</key>
+          <array>
+          </array>
+          <key>lib</key>
+          <dict>
+          </dict>
+          <key>name</key>
+          <string>sfthyphen.deva</string>
+          <key>unicodes</key>
+          <array>
+          </array>
+          <key>width</key>
+          <real>707.2</real>
+        </dict>
+        <key>layer2</key>
+        <dict>
+          <key>anchors</key>
+          <array>
+          </array>
+          <key>components</key>
+          <array>
+          </array>
+          <key>contours</key>
+          <array>
+          </array>
+          <key>lib</key>
+          <dict>
+          </dict>
+          <key>name</key>
+          <string>sfthyphen.deva</string>
+          <key>unicodes</key>
+          <array>
+          </array>
+          <key>width</key>
+          <real>707.2</real>
+        </dict>
+        <key>original</key>
+        <dict>
+          <key>anchors</key>
+          <array>
+          </array>
+          <key>components</key>
+          <array>
+          </array>
+          <key>contours</key>
+          <array>
+          </array>
+          <key>lib</key>
+          <dict>
+          </dict>
+          <key>name</key>
+          <string>sfthyphen.deva</string>
+          <key>unicodes</key>
+          <array>
+          </array>
+          <key>width</key>
+          <real>707.2</real>
+        </dict>
       </dict>
       <key>org.robofab.fontlab.mark</key>
-      <integer>80</integer>
+      <integer>0</integer>
     </dict>
   </lib>
 </glyph>

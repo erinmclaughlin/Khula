@@ -1,19 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="quotedbl.deva" format="1">
-  <advance width="985"/>
+  <advance width="1171"/>
   <unicode hex="0022"/>
   <outline>
     <contour>
-      <point x="428" y="1316" type="line"/>
-      <point x="391" y="841" type="line"/>
-      <point x="201" y="841" type="line"/>
-      <point x="164" y="1316" type="line"/>
+      <point x="521" y="1316" type="line"/>
+      <point x="484" y="841" type="line"/>
+      <point x="307" y="841" type="line"/>
+      <point x="270" y="1316" type="line"/>
     </contour>
     <contour>
-      <point x="821" y="1316" type="line"/>
-      <point x="784" y="841" type="line"/>
-      <point x="593" y="841" type="line"/>
-      <point x="556" y="1316" type="line"/>
+      <point x="901" y="1316" type="line"/>
+      <point x="864" y="841" type="line"/>
+      <point x="686" y="841" type="line"/>
+      <point x="649" y="1316" type="line"/>
     </contour>
   </outline>
   <lib>
@@ -21,6 +21,13 @@
       <key>com.typemytype.robofont.layerData</key>
       <dict>
       </dict>
+      <key>com.typemytype.robofont.mark</key>
+      <array>
+        <real>1.0</real>
+        <real>0.974</real>
+        <real>0.577</real>
+        <real>1.0</real>
+      </array>
     </dict>
   </lib>
 </glyph>

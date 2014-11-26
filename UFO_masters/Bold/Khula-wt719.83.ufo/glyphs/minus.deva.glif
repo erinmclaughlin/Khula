@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="minus.deva" format="1">
-  <advance width="1047"/>
+  <advance width="1052"/>
   <unicode hex="2212"/>
   <outline>
     <contour>
-      <point x="76" y="551" type="line"/>
-      <point x="76" y="749" type="line"/>
-      <point x="969" y="749" type="line"/>
-      <point x="969" y="551" type="line"/>
+      <point x="79" y="551" type="line"/>
+      <point x="79" y="748" type="line"/>
+      <point x="973" y="748" type="line"/>
+      <point x="973" y="551" type="line"/>
     </contour>
   </outline>
   <lib>
@@ -15,6 +15,13 @@
       <key>com.typemytype.robofont.layerData</key>
       <dict>
       </dict>
+      <key>com.typemytype.robofont.mark</key>
+      <array>
+        <real>0.8766</real>
+        <real>1.0</real>
+        <real>0.9893</real>
+        <real>1.0</real>
+      </array>
     </dict>
   </lib>
 </glyph>
