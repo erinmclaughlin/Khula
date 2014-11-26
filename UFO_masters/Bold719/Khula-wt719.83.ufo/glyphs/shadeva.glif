@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="shadeva" format="1">
+  <advance width="1625"/>
+  <unicode hex="0936"/>
+  <outline>
+    <contour>
+      <point x="568" y="453" type="line"/>
+      <point x="883" y="108" type="line"/>
+      <point x="715" y="-44" type="line"/>
+      <point x="356" y="344" type="line"/>
+    </contour>
+    <contour>
+      <point x="273" y="272" type="curve" smooth="yes"/>
+      <point x="154" y="272"/>
+      <point x="108" y="344"/>
+      <point x="108" y="437" type="curve" smooth="yes"/>
+      <point x="108" y="544"/>
+      <point x="180" y="650"/>
+      <point x="283" y="650" type="curve" smooth="yes"/>
+      <point x="358" y="650"/>
+      <point x="417" y="607"/>
+      <point x="494" y="528" type="curve"/>
+      <point x="386" y="539" type="line"/>
+      <point x="573" y="594"/>
+      <point x="683" y="723"/>
+      <point x="683" y="896" type="curve" smooth="yes"/>
+      <point x="683" y="1012"/>
+      <point x="599" y="1106"/>
+      <point x="489" y="1106" type="curve" smooth="yes"/>
+      <point x="421" y="1106"/>
+      <point x="381" y="1062"/>
+      <point x="381" y="1008" type="curve" smooth="yes"/>
+      <point x="381" y="922"/>
+      <point x="476" y="851"/>
+      <point x="748" y="848" type="curve"/>
+      <point x="681" y="670" type="line"/>
+      <point x="278" y="698"/>
+      <point x="136" y="859"/>
+      <point x="136" y="1038" type="curve" smooth="yes"/>
+      <point x="136" y="1185"/>
+      <point x="244" y="1312"/>
+      <point x="462" y="1312" type="curve" smooth="yes"/>
+      <point x="730" y="1312"/>
+      <point x="920" y="1135"/>
+      <point x="920" y="861" type="curve" smooth="yes"/>
+      <point x="920" y="514"/>
+      <point x="534" y="272"/>
+    </contour>
+    <contour>
+      <point x="1134" y="1133" type="line"/>
+      <point x="1421" y="1133" type="line"/>
+      <point x="1421" y="0" type="line"/>
+      <point x="1134" y="0" type="line"/>
+    </contour>
+    <contour>
+      <point x="1655" y="1096" type="line"/>
+      <point x="980" y="1096" type="line"/>
+      <point x="980" y="1289" type="line"/>
+      <point x="1655" y="1289" type="line"/>
+    </contour>
+    <contour>
+      <point x="1134" y="1289" type="move" name="top"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.typemytype.robofont.guides</key>
+      <array>
+        <dict>
+          <key>angle</key>
+          <real>90.0</real>
+          <key>isGlobal</key>
+          <false/>
+          <key>magnetic</key>
+          <integer>5</integer>
+          <key>x</key>
+          <integer>1058</integer>
+          <key>y</key>
+          <integer>1240</integer>
+        </dict>
+      </array>
+      <key>com.typemytype.robofont.layerData</key>
+      <dict>
+      </dict>
+      <key>com.typemytype.robofont.mark</key>
+      <array>
+        <real>1.0</real>
+        <real>0.8424</real>
+        <real>0.6742</real>
+        <real>1.0</real>
+      </array>
+      <key>org.robofab.fontlab.mark</key>
+      <integer>210</integer>
+    </dict>
+  </lib>
+</glyph>

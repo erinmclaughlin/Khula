@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="namadeva" format="1">
+  <advance width="1871"/>
+  <outline>
+    <contour>
+      <point x="878" y="668" type="line"/>
+      <point x="878" y="494" type="line"/>
+      <point x="331" y="494" type="line"/>
+      <point x="381" y="545" type="line"/>
+      <point x="381" y="297" type="line"/>
+      <point x="381" y="238"/>
+      <point x="353" y="206"/>
+      <point x="311" y="206" type="curve" smooth="yes"/>
+      <point x="283" y="206"/>
+      <point x="256" y="219"/>
+      <point x="225" y="251" type="curve" smooth="yes"/>
+      <point x="173" y="303"/>
+      <point x="112" y="448"/>
+      <point x="112" y="558" type="curve" smooth="yes"/>
+      <point x="112" y="628"/>
+      <point x="149" y="668"/>
+      <point x="231" y="668" type="curve" smooth="yes"/>
+    </contour>
+    <contour>
+      <point x="-30" y="1136" type="line"/>
+      <point x="-30" y="1283" type="line"/>
+      <point x="947" y="1283" type="line"/>
+      <point x="947" y="1136" type="line"/>
+    </contour>
+    <component base="madeva" xOffset="598"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.typemytype.robofont.guides</key>
+      <array>
+        <dict>
+          <key>angle</key>
+          <real>90.0</real>
+          <key>isGlobal</key>
+          <false/>
+          <key>magnetic</key>
+          <integer>5</integer>
+          <key>x</key>
+          <integer>1406</integer>
+          <key>y</key>
+          <integer>1275</integer>
+        </dict>
+      </array>
+      <key>com.typemytype.robofont.layerData</key>
+      <dict>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

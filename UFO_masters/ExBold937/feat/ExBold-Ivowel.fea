@@ -7,10 +7,12 @@
             } IvowelAnusvara;
 
 
-
             lookup IVowelHalfHalfCons { 
                 
-                sub ivowelsigndeva' [@ih_06 @ih_07 @ih_08 @ih_09 @ih_10] [@ih_06 @ih_07 @ih_08 @ih_09 @ih_10] [@ic_02 @ic_03 @ic_04 @ic_05 @ic_06 @ic_07 @ic_08] by ivowelsign10deva;
+                sub ivowelsigndeva' @ih_06 @ih_06 @ic_02 by ivowelsign09deva;
+                sub ivowelsigndeva' @ih_05_yaha [@ih_06 @ih_07] @ic_02 by ivowelsign09deva;
+                sub ivowelsigndeva' [@ih_07 @ih_08 @ih_09 @ih_10] [@ih_06 @ih_07 @ih_08 @ih_09 @ih_10] @ic_02 by ivowelsign10deva;
+                sub ivowelsigndeva' [@ih_06 @ih_07 @ih_08 @ih_09 @ih_10] [@ih_06 @ih_07 @ih_08 @ih_09 @ih_10] [@ic_03 @ic_04 @ic_05 @ic_06 @ic_07 @ic_08 @ic_09 @ic_10] by ivowelsign10deva;
            
             } IVowelHalfHalfCons;
             
@@ -22,7 +24,8 @@
                 sub ivowelsigndeva' @ih_05_yaha @ic_05 by ivowelsign07deva;    
             
             # halfs - to - 02 or 03 
-                sub ivowelsigndeva' @ih_06 [@ic_02 @ic_03] by ivowelsign06deva;
+                sub ivowelsigndeva' @ih_06 @ic_02 by ivowelsign05deva;
+                sub ivowelsigndeva' @ih_06 @ic_03 by ivowelsign06deva;
                 sub ivowelsigndeva' @ih_07 [@ic_02 @ic_03] by ivowelsign07deva;
                 sub ivowelsigndeva' @ih_08 [@ic_02 @ic_03] by ivowelsign08deva;
                 sub ivowelsigndeva' @ih_09 [@ic_02 @ic_03] by ivowelsign09deva;
@@ -30,8 +33,7 @@
            
             # halfs - to - 04  
                 sub ivowelsigndeva' @ih_06 @ic_04 by ivowelsign07deva;
-                sub ivowelsigndeva' @ih_07 @ic_04 by ivowelsign08deva;
-                sub ivowelsigndeva' @ih_08 @ic_04 by ivowelsign09deva;
+                sub ivowelsigndeva' [@ih_07 @ih_08] @ic_04 by ivowelsign09deva;
                 sub ivowelsigndeva' [@ih_09 @ih_10] @ic_04 by ivowelsign10deva;
            
             # halfs - to - 05
@@ -44,7 +46,7 @@
                 sub ivowelsigndeva' [@ih_07 @ih_08 @ih_09 @ih_10] @ic_06 by ivowelsign10deva;
            
             # halfs - to - 07 or 08
-                sub ivowelsigndeva' [@ih_06 @ih_07 @ih_08 @ih_09 @ih_10] [@ic_07 @ic_08] by ivowelsign10deva;
+                sub ivowelsigndeva' [@ih_06 @ih_07 @ih_08 @ih_09 @ih_10] [@ic_07 @ic_08 @ic_09 @ic_10] by ivowelsign10deva;
 
             } IVowelHalfCons;
             
