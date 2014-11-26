@@ -48,9 +48,9 @@
       <point x="585" y="-5" type="line"/>
     </contour>
     <contour>
-      <point x="655" y="1076" type="line"/>
-      <point x="1021" y="1076" type="line"/>
-      <point x="1021" y="736" type="line"/>
+      <point x="685" y="1076" type="line"/>
+      <point x="1051" y="1076" type="line"/>
+      <point x="1051" y="736" type="line"/>
       <point x="535" y="736" type="line" smooth="yes"/>
       <point x="462" y="736"/>
       <point x="432" y="710"/>
@@ -91,8 +91,8 @@
       <point x="119" y="834"/>
       <point x="207" y="949"/>
       <point x="453" y="949" type="curve" smooth="yes"/>
-      <point x="724" y="949" type="line"/>
-      <point x="655" y="881" type="line"/>
+      <point x="754" y="949" type="line"/>
+      <point x="685" y="881" type="line"/>
     </contour>
     <contour>
       <point x="1300" y="1056" type="line"/>
@@ -157,6 +157,19 @@
           </array>
           <key>components</key>
           <array>
+            <dict>
+              <key>baseGlyph</key>
+              <string>ddadeva</string>
+              <key>transformation</key>
+              <array>
+                <integer>1</integer>
+                <integer>0</integer>
+                <integer>0</integer>
+                <integer>1</integer>
+                <integer>0</integer>
+                <integer>0</integer>
+              </array>
+            </dict>
           </array>
           <key>contours</key>
           <array>

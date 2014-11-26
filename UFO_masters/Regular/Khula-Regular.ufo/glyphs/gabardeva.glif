@@ -11,7 +11,7 @@
     </contour>
     <component base="gadeva"/>
     <contour>
-      <point x="873" y="-107" type="move" name="btm"/>
+      <point x="873" y="-114" type="move" name="btm"/>
     </contour>
   </outline>
   <lib>
@@ -41,6 +41,20 @@
           <integer>844</integer>
           <key>y</key>
           <integer>1175</integer>
+        </dict>
+        <dict>
+          <key>angle</key>
+          <real>90.0</real>
+          <key>isGlobal</key>
+          <false/>
+          <key>magnetic</key>
+          <integer>5</integer>
+          <key>name</key>
+          <string></string>
+          <key>x</key>
+          <integer>873</integer>
+          <key>y</key>
+          <integer>45</integer>
         </dict>
       </array>
       <key>com.typemytype.robofont.layerData</key>
