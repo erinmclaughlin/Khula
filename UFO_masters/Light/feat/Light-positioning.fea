@@ -14,8 +14,6 @@ feature abvm {
                 pos base @abvb_Ra <anchor 517 1274> mark @m_top;
                 pos base udeva <anchor 631 1274> mark @m_top;
                 pos base uudeva <anchor 631 1274> mark @m_top;
-                pos base chadeva <anchor 991 1294> mark @m_top;
-                pos base charadeva <anchor 991 1294> mark @m_top;
                                                                 
             } AbvMarks;
 } abvm;
@@ -41,10 +39,6 @@ feature blwm {
                 pos base @blwb_Lla <anchor 1044 32> mark @m_btm;
                 pos base ladevaMAR <anchor 721 20> mark @m_btm;
                 pos base @blwb_JhaNEP <anchor 962 0> mark @m_btm; 
-                pos base gabardeva <anchor 844 -768> mark @m_btm; 
-                pos base jabardeva <anchor 1172 -768> mark @m_btm;
-                pos base ddabardeva <anchor 535 -238> mark @m_btm;
-                pos base ddadevaMAW <anchor 470 55> mark @m_btm; 
                 pos base katadeva <anchor 901 0> mark @m_btm; 
                 pos base @blwb_NgaGa <anchor 531 -460> mark @m_btm;
                 pos base @blwb_TtaTta <anchor 558 -455> mark @m_btm;
