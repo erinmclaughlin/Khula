@@ -8,7 +8,30 @@
       <point x="220" y="1143" type="line"/>
       <point x="316" y="1220" type="line"/>
     </contour>
-    <component base="paprehalfdeva"/>
+    <contour>
+      <point x="655" y="1165" type="line"/>
+      <point x="-30" y="1165" type="line"/>
+      <point x="-30" y="1279" type="line"/>
+      <point x="655" y="1279" type="line"/>
+    </contour>
+    <contour>
+      <point x="302" y="1223" type="line"/>
+      <point x="302" y="738" type="line" smooth="yes"/>
+      <point x="302" y="585"/>
+      <point x="384" y="520"/>
+      <point x="520" y="520" type="curve" smooth="yes"/>
+      <point x="635" y="520"/>
+      <point x="738" y="554"/>
+      <point x="835" y="618" type="curve"/>
+      <point x="900" y="506" type="line"/>
+      <point x="803" y="439"/>
+      <point x="673" y="391"/>
+      <point x="532" y="391" type="curve" smooth="yes"/>
+      <point x="309" y="391"/>
+      <point x="154" y="514"/>
+      <point x="154" y="768" type="curve" smooth="yes"/>
+      <point x="154" y="1223" type="line"/>
+    </contour>
   </outline>
   <lib>
     <dict>

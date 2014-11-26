@@ -24,6 +24,22 @@
       <point x="762" y="905" type="line"/>
     </contour>
     <contour>
+      <point x="1179" y="1165" type="line"/>
+      <point x="-30" y="1165" type="line"/>
+      <point x="-30" y="1279" type="line"/>
+      <point x="1179" y="1279" type="line"/>
+    </contour>
+    <contour>
+      <point x="340" y="230" type="curve" smooth="yes"/>
+      <point x="340" y="55"/>
+      <point x="493" y="-54"/>
+      <point x="764" y="-105" type="curve"/>
+      <point x="725" y="-223" type="line"/>
+      <point x="424" y="-172"/>
+      <point x="197" y="-22"/>
+      <point x="197" y="249" type="curve" smooth="yes"/>
+      <point x="197" y="435"/>
+      <point x="340" y="612"/>
       <point x="608" y="612" type="curve" smooth="yes"/>
       <point x="863" y="612"/>
       <point x="1001" y="475"/>
@@ -40,22 +56,6 @@
       <point x="617" y="483" type="curve" smooth="yes"/>
       <point x="447" y="484"/>
       <point x="340" y="358"/>
-      <point x="340" y="230" type="curve" smooth="yes"/>
-      <point x="340" y="55"/>
-      <point x="493" y="-54"/>
-      <point x="764" y="-105" type="curve"/>
-      <point x="725" y="-223" type="line"/>
-      <point x="424" y="-172"/>
-      <point x="197" y="-22"/>
-      <point x="197" y="249" type="curve" smooth="yes"/>
-      <point x="197" y="435"/>
-      <point x="340" y="612"/>
-    </contour>
-    <contour>
-      <point x="1179" y="1165" type="line"/>
-      <point x="-30" y="1165" type="line"/>
-      <point x="-30" y="1279" type="line"/>
-      <point x="1179" y="1279" type="line"/>
     </contour>
     <component base="uvowelsigndeva" xOffset="1007" yOffset="-119"/>
   </outline>

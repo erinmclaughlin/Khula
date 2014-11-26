@@ -9,6 +9,12 @@
       <point x="762" y="538" type="line"/>
     </contour>
     <contour>
+      <point x="1196" y="1165" type="line"/>
+      <point x="-30" y="1165" type="line"/>
+      <point x="-30" y="1279" type="line"/>
+      <point x="1196" y="1279" type="line"/>
+    </contour>
+    <contour>
       <point x="790" y="1198" type="line"/>
       <point x="939" y="1198" type="line"/>
       <point x="939" y="830" type="line"/>
@@ -56,12 +62,6 @@
       <point x="199" y="248" type="curve" smooth="yes"/>
       <point x="199" y="445"/>
       <point x="349" y="613"/>
-    </contour>
-    <contour>
-      <point x="1196" y="1165" type="line"/>
-      <point x="-30" y="1165" type="line"/>
-      <point x="-30" y="1279" type="line"/>
-      <point x="1196" y="1279" type="line"/>
     </contour>
     <component base="uvowelsigndeva" xOffset="1007" yOffset="-118"/>
   </outline>

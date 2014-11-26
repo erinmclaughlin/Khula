@@ -3,18 +3,6 @@
   <advance width="2313"/>
   <outline>
     <contour>
-      <point x="1064" y="1165" type="line"/>
-      <point x="1064" y="1279" type="line"/>
-      <point x="2343" y="1279" type="line"/>
-      <point x="2343" y="1165" type="line"/>
-    </contour>
-    <contour>
-      <point x="1924" y="1196" type="line"/>
-      <point x="2072" y="1196" type="line"/>
-      <point x="2072" y="0" type="line"/>
-      <point x="1924" y="0" type="line"/>
-    </contour>
-    <contour>
       <point x="794" y="834" type="line"/>
       <point x="790" y="951" type="line"/>
       <point x="1335" y="951" type="line" smooth="yes"/>
@@ -45,6 +33,18 @@
       <point x="1496" y="786"/>
       <point x="1445" y="834"/>
       <point x="1309" y="834" type="curve" smooth="yes"/>
+    </contour>
+    <contour>
+      <point x="1064" y="1165" type="line"/>
+      <point x="1064" y="1279" type="line"/>
+      <point x="2343" y="1279" type="line"/>
+      <point x="2343" y="1165" type="line"/>
+    </contour>
+    <contour>
+      <point x="1924" y="1196" type="line"/>
+      <point x="2072" y="1196" type="line"/>
+      <point x="2072" y="0" type="line"/>
+      <point x="1924" y="0" type="line"/>
     </contour>
     <component base="ddadeva"/>
     <contour>
