@@ -47,10 +47,10 @@
       <point x="765" y="348" type="curve"/>
     </contour>
     <contour>
-      <point x="1016" y="1196" type="line"/>
-      <point x="1164" y="1196" type="line"/>
-      <point x="1164" y="815" type="line"/>
-      <point x="1016" y="815" type="line"/>
+      <point x="1118" y="1196" type="line"/>
+      <point x="1266" y="1196" type="line"/>
+      <point x="1266" y="815" type="line"/>
+      <point x="1118" y="815" type="line"/>
     </contour>
     <contour>
       <point x="-30" y="1165" type="line"/>
@@ -113,6 +113,19 @@
           </array>
           <key>components</key>
           <array>
+            <dict>
+              <key>baseGlyph</key>
+              <string>vadeva</string>
+              <key>transformation</key>
+              <array>
+                <integer>1</integer>
+                <integer>0</integer>
+                <integer>0</integer>
+                <integer>1</integer>
+                <integer>338</integer>
+                <integer>0</integer>
+              </array>
+            </dict>
           </array>
           <key>contours</key>
           <array>

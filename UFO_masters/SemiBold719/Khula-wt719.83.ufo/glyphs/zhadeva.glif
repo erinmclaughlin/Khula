@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="zhadeva" format="1">
+  <advance width="1646"/>
+  <unicode hex="0979"/>
+  <outline>
+    <component base="nuktadeva" xScale="0.883412625525" yScale="0.883412625525" xOffset="1303" yOffset="31"/>
+    <component base="nuktadeva" xScale="0.883412625525" yScale="0.883412625525" xOffset="1611" yOffset="147"/>
+    <component base="jadeva"/>
+    <component base="nuktadeva" xScale="0.883412625525" yScale="0.883412625525" xOffset="1009" yOffset="171"/>
+    <contour>
+      <point x="1155" y="1289" type="move" name="top"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.typemytype.robofont.guides</key>
+      <array>
+        <dict>
+          <key>angle</key>
+          <real>90.0</real>
+          <key>isGlobal</key>
+          <false/>
+          <key>magnetic</key>
+          <integer>5</integer>
+          <key>x</key>
+          <integer>1172</integer>
+          <key>y</key>
+          <integer>1259</integer>
+        </dict>
+      </array>
+      <key>com.typemytype.robofont.layerData</key>
+      <dict>
+      </dict>
+    </dict>
+  </lib>
+</glyph>
