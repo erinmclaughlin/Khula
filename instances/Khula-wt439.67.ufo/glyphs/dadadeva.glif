@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="dadadeva" format="1">
-  <advance width="1137"/>
+  <advance width="1136"/>
   <outline>
     <contour>
       <point x="730" y="-29" type="line"/>
@@ -17,10 +17,10 @@
     <contour>
       <point x="359" y="251" type="curve" smooth="yes"/>
       <point x="359" y="140"/>
-      <point x="453" y="55"/>
+      <point x="454" y="55"/>
       <point x="624" y="55" type="curve" smooth="yes"/>
       <point x="705" y="55"/>
-      <point x="768" y="64"/>
+      <point x="769" y="63"/>
       <point x="847" y="90" type="curve"/>
       <point x="714" y="5" type="line"/>
       <point x="682" y="60"/>
@@ -33,21 +33,21 @@
       <point x="1050" y="160"/>
       <point x="1050" y="88" type="curve" smooth="yes"/>
       <point x="1050" y="3"/>
-      <point x="919" y="-102"/>
-      <point x="651" y="-102" type="curve" smooth="yes"/>
-      <point x="352" y="-102"/>
+      <point x="919" y="-103"/>
+      <point x="651" y="-103" type="curve" smooth="yes"/>
+      <point x="352" y="-103"/>
       <point x="167" y="58"/>
       <point x="167" y="276" type="curve" smooth="yes"/>
       <point x="167" y="471"/>
-      <point x="351" y="613"/>
+      <point x="350" y="613"/>
       <point x="613" y="613" type="curve" smooth="yes"/>
       <point x="755" y="613"/>
       <point x="868" y="587"/>
       <point x="968" y="545" type="curve"/>
-      <point x="936" y="409" type="line"/>
+      <point x="935" y="409" type="line"/>
       <point x="854" y="441"/>
-      <point x="757" y="461"/>
-      <point x="654" y="461" type="curve" smooth="yes"/>
+      <point x="756" y="461"/>
+      <point x="653" y="461" type="curve" smooth="yes"/>
       <point x="449" y="461"/>
       <point x="359" y="358"/>
     </contour>
@@ -67,9 +67,9 @@
       <point x="914" y="794" type="line"/>
       <point x="452" y="794" type="line"/>
       <point x="338" y="794"/>
-      <point x="292" y="747"/>
+      <point x="292" y="748"/>
       <point x="292" y="678" type="curve" smooth="yes"/>
-      <point x="292" y="618"/>
+      <point x="292" y="617"/>
       <point x="345" y="568"/>
     </contour>
     <contour>
@@ -98,63 +98,6 @@
       </array>
       <key>com.typemytype.robofont.layerData</key>
       <dict>
-        <key>Original</key>
-        <dict>
-          <key>anchors</key>
-          <array>
-          </array>
-          <key>components</key>
-          <array>
-          </array>
-          <key>contours</key>
-          <array>
-          </array>
-          <key>lib</key>
-          <dict>
-          </dict>
-          <key>name</key>
-          <string>dadadeva</string>
-          <key>unicodes</key>
-          <array>
-          </array>
-          <key>width</key>
-          <integer>1088</integer>
-        </dict>
-        <key>layer01</key>
-        <dict>
-          <key>anchors</key>
-          <array>
-          </array>
-          <key>components</key>
-          <array>
-            <dict>
-              <key>baseGlyph</key>
-              <string>dadeva</string>
-              <key>transformation</key>
-              <array>
-                <integer>1</integer>
-                <integer>0</integer>
-                <integer>0</integer>
-                <integer>1</integer>
-                <integer>19</integer>
-                <integer>-193</integer>
-              </array>
-            </dict>
-          </array>
-          <key>contours</key>
-          <array>
-          </array>
-          <key>lib</key>
-          <dict>
-          </dict>
-          <key>name</key>
-          <string>dadadeva</string>
-          <key>unicodes</key>
-          <array>
-          </array>
-          <key>width</key>
-          <integer>1088</integer>
-        </dict>
       </dict>
       <key>org.robofab.fontlab.mark</key>
       <integer>130</integer>

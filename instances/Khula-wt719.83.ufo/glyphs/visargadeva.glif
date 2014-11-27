@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="visargadeva" format="1">
-  <advance width="390"/>
+  <advance width="389"/>
   <unicode hex="0903"/>
   <outline>
     <contour>
-      <point x="420" y="1096" type="line"/>
+      <point x="419" y="1096" type="line"/>
       <point x="-30" y="1096" type="line"/>
       <point x="-30" y="1289" type="line"/>
-      <point x="420" y="1289" type="line"/>
+      <point x="419" y="1289" type="line"/>
     </contour>
-    <component base="anusvaradeva" xOffset="519" yOffset="-1262"/>
+    <component base="anusvaradeva" xOffset="518" yOffset="-1262"/>
     <component base="anusvaradeva" xOffset="520" yOffset="-783"/>
   </outline>
   <lib>
@@ -31,50 +31,6 @@
       </array>
       <key>com.typemytype.robofont.layerData</key>
       <dict>
-        <key>Original</key>
-        <dict>
-          <key>anchors</key>
-          <array>
-          </array>
-          <key>components</key>
-          <array>
-          </array>
-          <key>contours</key>
-          <array>
-          </array>
-          <key>lib</key>
-          <dict>
-          </dict>
-          <key>name</key>
-          <string>visargadeva</string>
-          <key>unicodes</key>
-          <array>
-          </array>
-          <key>width</key>
-          <integer>307</integer>
-        </dict>
-        <key>layer01</key>
-        <dict>
-          <key>anchors</key>
-          <array>
-          </array>
-          <key>components</key>
-          <array>
-          </array>
-          <key>contours</key>
-          <array>
-          </array>
-          <key>lib</key>
-          <dict>
-          </dict>
-          <key>name</key>
-          <string>visargadeva</string>
-          <key>unicodes</key>
-          <array>
-          </array>
-          <key>width</key>
-          <integer>307</integer>
-        </dict>
       </dict>
       <key>org.robofab.fontlab.mark</key>
       <integer>130</integer>

@@ -1,13 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="comma.deva" format="1">
-  <advance width="596"/>
+  <advance width="535"/>
   <unicode hex="002C"/>
   <outline>
     <contour>
-      <point x="0" y="0" type="line"/>
-      <point x="596" y="0" type="line"/>
-      <point x="596" y="20" type="line"/>
-      <point x="0" y="20" type="line"/>
+      <point x="413" y="193" type="line"/>
+      <point x="382" y="72"/>
+      <point x="329" y="-71"/>
+      <point x="255" y="-238" type="curve"/>
+      <point x="57" y="-238" type="line"/>
+      <point x="96" y="-78"/>
+      <point x="126" y="73"/>
+      <point x="148" y="214" type="curve"/>
+      <point x="400" y="214" type="line"/>
     </contour>
   </outline>
+  <lib>
+    <dict>
+      <key>com.typemytype.robofont.layerData</key>
+      <dict>
+      </dict>
+    </dict>
+  </lib>
 </glyph>

@@ -2,60 +2,16 @@
 <glyph name="vattulvocalicdeva" format="1">
   <advance width="-1"/>
   <outline>
-    <component base="vattulowdeva" yOffset="166"/>
+    <component base="vattulowdeva" yOffset="167"/>
     <component base="lvocalicvowelsignlowdeva" xOffset="47" yOffset="-313"/>
     <contour>
-      <point x="-492" y="0" type="move" name="_btm"/>
+      <point x="-493" y="0" type="move" name="_btm"/>
     </contour>
   </outline>
   <lib>
     <dict>
       <key>com.typemytype.robofont.layerData</key>
       <dict>
-        <key>Original</key>
-        <dict>
-          <key>anchors</key>
-          <array>
-          </array>
-          <key>components</key>
-          <array>
-          </array>
-          <key>contours</key>
-          <array>
-          </array>
-          <key>lib</key>
-          <dict>
-          </dict>
-          <key>name</key>
-          <string>vattulvocalicdeva</string>
-          <key>unicodes</key>
-          <array>
-          </array>
-          <key>width</key>
-          <integer>0</integer>
-        </dict>
-        <key>layer01</key>
-        <dict>
-          <key>anchors</key>
-          <array>
-          </array>
-          <key>components</key>
-          <array>
-          </array>
-          <key>contours</key>
-          <array>
-          </array>
-          <key>lib</key>
-          <dict>
-          </dict>
-          <key>name</key>
-          <string>vattulvocalicdeva</string>
-          <key>unicodes</key>
-          <array>
-          </array>
-          <key>width</key>
-          <integer>0</integer>
-        </dict>
       </dict>
       <key>org.robofab.fontlab.mark</key>
       <integer>210</integer>

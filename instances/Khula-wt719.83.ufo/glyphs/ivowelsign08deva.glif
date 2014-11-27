@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="ivowelsign08deva" format="1">
-  <advance width="650"/>
+  <advance width="651"/>
   <outline>
     <contour>
       <point x="160" y="1254" type="line"/>
@@ -8,7 +8,7 @@
       <point x="160" y="1587"/>
       <point x="335" y="1801"/>
       <point x="868" y="1801" type="curve" smooth="yes"/>
-      <point x="1427" y="1801"/>
+      <point x="1426" y="1801"/>
       <point x="1986" y="1761"/>
       <point x="2633" y="1665" type="curve"/>
       <point x="2597" y="1457" type="line"/>
@@ -17,7 +17,7 @@
       <point x="937" y="1567" type="curve" smooth="yes"/>
       <point x="545" y="1567"/>
       <point x="446" y="1448"/>
-      <point x="446" y="1320" type="curve" smooth="yes"/>
+      <point x="446" y="1321" type="curve" smooth="yes"/>
       <point x="446" y="1254" type="line"/>
     </contour>
     <component base="aavowelsigndeva"/>
@@ -43,58 +43,7 @@
       </array>
       <key>com.typemytype.robofont.layerData</key>
       <dict>
-        <key>Original</key>
-        <dict>
-          <key>anchors</key>
-          <array>
-          </array>
-          <key>components</key>
-          <array>
-          </array>
-          <key>contours</key>
-          <array>
-          </array>
-          <key>lib</key>
-          <dict>
-          </dict>
-          <key>name</key>
-          <string>ivowelsign08deva</string>
-          <key>unicodes</key>
-          <array>
-          </array>
-          <key>width</key>
-          <integer>594</integer>
-        </dict>
-        <key>layer01</key>
-        <dict>
-          <key>anchors</key>
-          <array>
-          </array>
-          <key>components</key>
-          <array>
-          </array>
-          <key>contours</key>
-          <array>
-          </array>
-          <key>lib</key>
-          <dict>
-          </dict>
-          <key>name</key>
-          <string>ivowelsign08deva</string>
-          <key>unicodes</key>
-          <array>
-          </array>
-          <key>width</key>
-          <integer>594</integer>
-        </dict>
       </dict>
-      <key>com.typemytype.robofont.mark</key>
-      <array>
-        <real>1.0</real>
-        <real>0.8424</real>
-        <real>0.6742</real>
-        <real>1.0</real>
-      </array>
       <key>org.robofab.fontlab.mark</key>
       <integer>80</integer>
       <key>org.robofab.fontlab.maskData</key>

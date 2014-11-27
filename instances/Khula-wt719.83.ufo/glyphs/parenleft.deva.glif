@@ -1,13 +1,37 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="parenleft.deva" format="1">
-  <advance width="743"/>
+  <advance width="706"/>
   <unicode hex="0028"/>
   <outline>
     <contour>
-      <point x="0" y="0" type="line"/>
-      <point x="743" y="0" type="line"/>
-      <point x="743" y="20" type="line"/>
-      <point x="0" y="20" type="line"/>
+      <point x="90" y="595" type="curve" smooth="yes"/>
+      <point x="90" y="912"/>
+      <point x="185" y="1197"/>
+      <point x="361" y="1406" type="curve"/>
+      <point x="586" y="1406" type="line"/>
+      <point x="417" y="1174"/>
+      <point x="329" y="889"/>
+      <point x="329" y="597" type="curve" smooth="yes"/>
+      <point x="329" y="302"/>
+      <point x="420" y="21"/>
+      <point x="584" y="-202" type="curve"/>
+      <point x="361" y="-202" type="line"/>
+      <point x="184" y="2"/>
+      <point x="90" y="282"/>
     </contour>
   </outline>
+  <lib>
+    <dict>
+      <key>com.typemytype.robofont.layerData</key>
+      <dict>
+      </dict>
+      <key>com.typemytype.robofont.mark</key>
+      <array>
+        <real>1.0</real>
+        <real>0.974</real>
+        <real>0.577</real>
+        <real>1.0</real>
+      </array>
+    </dict>
+  </lib>
 </glyph>

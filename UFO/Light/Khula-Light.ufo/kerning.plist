@@ -471,9 +471,9 @@
 		<key>@MMK_R_R_Gha</key>
 		<integer>-70</integer>
 		<key>@MMK_R_R_Ja</key>
-		<integer>50</integer>
-		<key>@MMK_R_R_Ka</key>
 		<integer>40</integer>
+		<key>@MMK_R_R_Ka</key>
+		<integer>30</integer>
 		<key>@MMK_R_R_La</key>
 		<integer>20</integer>
 		<key>@MMK_R_R_Pa</key>
@@ -680,6 +680,40 @@
 		<integer>-50</integer>
 		<key>@MMK_R_R_Tha</key>
 		<integer>-40</integer>
+	</dict>
+	<key>@MMK_L_L_colon</key>
+	<dict>
+		<key>@MMK_R_R_quoteright</key>
+		<integer>-300</integer>
+	</dict>
+	<key>@MMK_L_L_comma</key>
+	<dict>
+		<key>@MMK_R_R_quoteright</key>
+		<integer>-300</integer>
+	</dict>
+	<key>@MMK_L_L_quoteleft</key>
+	<dict>
+		<key>@MMK_R_R_A</key>
+		<integer>-150</integer>
+		<key>@MMK_R_R_Dha</key>
+		<integer>-40</integer>
+		<key>@MMK_R_R_KaSsa</key>
+		<integer>-200</integer>
+		<key>@MMK_R_R_Sha</key>
+		<integer>-150</integer>
+		<key>@MMK_R_R_ShaRa</key>
+		<integer>-160</integer>
+		<key>@MMK_R_R_Tha</key>
+		<integer>-60</integer>
+	</dict>
+	<key>@MMK_L_L_quoteright</key>
+	<dict>
+		<key>@MMK_R_R_colon</key>
+		<integer>-300</integer>
+		<key>@MMK_R_R_comma</key>
+		<integer>-390</integer>
+		<key>period.deva</key>
+		<integer>-390</integer>
 	</dict>
 	<key>chadeva</key>
 	<dict>
@@ -955,20 +989,10 @@
 		<key>twodeva</key>
 		<integer>15</integer>
 	</dict>
-	<key>quotedblleft.deva</key>
+	<key>question.deva</key>
 	<dict>
-		<key>@MMK_R_R_A</key>
-		<integer>-150</integer>
-		<key>@MMK_R_R_Dha</key>
-		<integer>-40</integer>
-		<key>@MMK_R_R_KaSsa</key>
-		<integer>-200</integer>
-		<key>@MMK_R_R_Sha</key>
-		<integer>-150</integer>
-		<key>@MMK_R_R_ShaRa</key>
-		<integer>-160</integer>
-		<key>@MMK_R_R_Tha</key>
-		<integer>-60</integer>
+		<key>@MMK_R_R_quoteright</key>
+		<integer>-280</integer>
 	</dict>
 	<key>raudeva</key>
 	<dict>

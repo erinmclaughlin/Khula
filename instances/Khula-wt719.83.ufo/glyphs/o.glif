@@ -1,138 +1,47 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="o" format="1">
-  <advance width="1152"/>
+  <advance width="1141"/>
   <unicode hex="006F"/>
   <outline>
     <contour>
-      <point x="1064" y="505" type="curve"/>
-      <point x="1064" y="341"/>
-      <point x="1020" y="212"/>
-      <point x="934" y="120" type="curve" smooth="yes"/>
-      <point x="848" y="28"/>
-      <point x="727" y="-18"/>
-      <point x="573" y="-18" type="curve" smooth="yes"/>
-      <point x="377" y="-19"/>
-      <point x="230" y="86"/>
-      <point x="173" y="260" type="curve" smooth="yes"/>
-      <point x="116" y="379"/>
-      <point x="101" y="506"/>
-      <point x="131" y="642" type="curve" smooth="yes"/>
-      <point x="160" y="781"/>
-      <point x="229" y="879"/>
-      <point x="338" y="937" type="curve" smooth="yes"/>
-      <point x="446" y="996"/>
-      <point x="566" y="1009"/>
-      <point x="698" y="975" type="curve"/>
-      <point x="919" y="944"/>
-      <point x="1066" y="765"/>
+      <point x="363" y="505" type="curve" smooth="yes"/>
+      <point x="363" y="305"/>
+      <point x="424" y="202"/>
+      <point x="571" y="202" type="curve" smooth="yes"/>
+      <point x="718" y="202"/>
+      <point x="778" y="305"/>
+      <point x="778" y="505" type="curve" smooth="yes"/>
+      <point x="778" y="704"/>
+      <point x="717" y="804"/>
+      <point x="570" y="804" type="curve" smooth="yes"/>
+      <point x="423" y="804"/>
+      <point x="363" y="705"/>
     </contour>
     <contour>
-      <point x="370" y="505" type="curve" smooth="yes"/>
-      <point x="370" y="302"/>
-      <point x="434" y="193"/>
-      <point x="576" y="193" type="curve" smooth="yes"/>
-      <point x="717" y="193"/>
-      <point x="780" y="302"/>
-      <point x="780" y="505" type="curve" smooth="yes"/>
-      <point x="780" y="708"/>
-      <point x="717" y="813"/>
-      <point x="574" y="813" type="curve" smooth="yes"/>
-      <point x="435" y="813"/>
-      <point x="370" y="710"/>
+      <point x="1058" y="505" type="curve"/>
+      <point x="1058" y="341"/>
+      <point x="1015" y="213"/>
+      <point x="928" y="120" type="curve" smooth="yes"/>
+      <point x="842" y="28"/>
+      <point x="722" y="-18"/>
+      <point x="568" y="-18" type="curve"/>
+      <point x="278" y="-21"/>
+      <point x="79" y="187"/>
+      <point x="83" y="505" type="curve"/>
+      <point x="83" y="669"/>
+      <point x="126" y="797"/>
+      <point x="211" y="888" type="curve" smooth="yes"/>
+      <point x="297" y="979"/>
+      <point x="418" y="1025"/>
+      <point x="573" y="1025" type="curve"/>
+      <point x="864" y="1029"/>
+      <point x="1063" y="821"/>
     </contour>
   </outline>
   <lib>
     <dict>
       <key>com.typemytype.robofont.layerData</key>
       <dict>
-        <key>background</key>
-        <dict>
-          <key>anchors</key>
-          <array>
-          </array>
-          <key>components</key>
-          <array>
-          </array>
-          <key>contours</key>
-          <array>
-          </array>
-          <key>lib</key>
-          <dict>
-          </dict>
-          <key>name</key>
-          <string>o</string>
-          <key>unicodes</key>
-          <array>
-          </array>
-          <key>width</key>
-          <integer>1174</integer>
-        </dict>
-        <key>layer1</key>
-        <dict>
-          <key>anchors</key>
-          <array>
-          </array>
-          <key>components</key>
-          <array>
-          </array>
-          <key>contours</key>
-          <array>
-          </array>
-          <key>lib</key>
-          <dict>
-          </dict>
-          <key>name</key>
-          <string>o</string>
-          <key>unicodes</key>
-          <array>
-          </array>
-          <key>width</key>
-          <integer>1174</integer>
-        </dict>
-        <key>layer2</key>
-        <dict>
-          <key>anchors</key>
-          <array>
-          </array>
-          <key>components</key>
-          <array>
-          </array>
-          <key>contours</key>
-          <array>
-          </array>
-          <key>lib</key>
-          <dict>
-          </dict>
-          <key>name</key>
-          <string>o</string>
-          <key>unicodes</key>
-          <array>
-          </array>
-          <key>width</key>
-          <integer>1174</integer>
-        </dict>
-        <key>original</key>
-        <dict>
-          <key>anchors</key>
-          <array>
-          </array>
-          <key>components</key>
-          <array>
-          </array>
-          <key>contours</key>
-          <array>
-          </array>
-          <key>lib</key>
-          <dict>
-          </dict>
-          <key>name</key>
-          <string>o</string>
-          <key>unicodes</key>
-          <array>
-          </array>
-          <key>width</key>
-          <integer>1174</integer>
-        </dict>
       </dict>
     </dict>
   </lib>

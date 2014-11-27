@@ -1,121 +1,40 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="parenright.deva" format="1">
-  <advance width="629"/>
+  <advance width="670"/>
   <unicode hex="0029"/>
   <outline>
     <contour>
-      <point x="532" y="510" type="curve" smooth="yes"/>
-      <point x="532" y="188"/>
-      <point x="439" y="-92"/>
-      <point x="266" y="-292" type="curve"/>
-      <point x="82" y="-292" type="line"/>
-      <point x="163" y="-182"/>
-      <point x="226" y="-57"/>
-      <point x="269" y="82" type="curve" smooth="yes"/>
-      <point x="312" y="221"/>
-      <point x="334" y="364"/>
-      <point x="334" y="512" type="curve" smooth="yes"/>
-      <point x="334" y="811"/>
-      <point x="248" y="1098"/>
-      <point x="80" y="1326" type="curve"/>
-      <point x="266" y="1326" type="line"/>
-      <point x="440" y="1118"/>
-      <point x="532" y="832"/>
+      <point x="575" y="605" type="curve" smooth="yes"/>
+      <point x="575" y="289"/>
+      <point x="480" y="11"/>
+      <point x="304" y="-192" type="curve"/>
+      <point x="122" y="-192" type="line"/>
+      <point x="287" y="33"/>
+      <point x="378" y="314"/>
+      <point x="378" y="607" type="curve" smooth="yes"/>
+      <point x="378" y="754"/>
+      <point x="356" y="897"/>
+      <point x="311" y="1036" type="curve"/>
+      <point x="267" y="1176"/>
+      <point x="203" y="1303"/>
+      <point x="120" y="1416" type="curve"/>
+      <point x="304" y="1416" type="line"/>
+      <point x="481" y="1205"/>
+      <point x="575" y="921"/>
     </contour>
   </outline>
   <lib>
     <dict>
       <key>com.typemytype.robofont.layerData</key>
       <dict>
-        <key>background</key>
-        <dict>
-          <key>anchors</key>
-          <array>
-          </array>
-          <key>components</key>
-          <array>
-          </array>
-          <key>contours</key>
-          <array>
-          </array>
-          <key>lib</key>
-          <dict>
-          </dict>
-          <key>name</key>
-          <string>parenright.deva</string>
-          <key>unicodes</key>
-          <array>
-          </array>
-          <key>width</key>
-          <integer>856</integer>
-        </dict>
-        <key>layer1</key>
-        <dict>
-          <key>anchors</key>
-          <array>
-          </array>
-          <key>components</key>
-          <array>
-          </array>
-          <key>contours</key>
-          <array>
-          </array>
-          <key>lib</key>
-          <dict>
-          </dict>
-          <key>name</key>
-          <string>parenright.deva</string>
-          <key>unicodes</key>
-          <array>
-          </array>
-          <key>width</key>
-          <integer>856</integer>
-        </dict>
-        <key>layer2</key>
-        <dict>
-          <key>anchors</key>
-          <array>
-          </array>
-          <key>components</key>
-          <array>
-          </array>
-          <key>contours</key>
-          <array>
-          </array>
-          <key>lib</key>
-          <dict>
-          </dict>
-          <key>name</key>
-          <string>parenright.deva</string>
-          <key>unicodes</key>
-          <array>
-          </array>
-          <key>width</key>
-          <integer>856</integer>
-        </dict>
-        <key>original</key>
-        <dict>
-          <key>anchors</key>
-          <array>
-          </array>
-          <key>components</key>
-          <array>
-          </array>
-          <key>contours</key>
-          <array>
-          </array>
-          <key>lib</key>
-          <dict>
-          </dict>
-          <key>name</key>
-          <string>parenright.deva</string>
-          <key>unicodes</key>
-          <array>
-          </array>
-          <key>width</key>
-          <integer>856</integer>
-        </dict>
       </dict>
+      <key>com.typemytype.robofont.mark</key>
+      <array>
+        <real>1.0</real>
+        <real>0.974</real>
+        <real>0.577</real>
+        <real>1.0</real>
+      </array>
     </dict>
   </lib>
 </glyph>
