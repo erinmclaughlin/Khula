@@ -33,16 +33,14 @@ feature akhn {
           
             } Akhand;
         
-#            lookup EyelashRa {
-       
-#                sub radeva' viramadeva' uni200D by raprehalfdeva;
-#                sub rradeva' viramadeva' uni200D by ranuktaprehalfdeva;
-       
-#            } EyelashRa;
+            lookup EyelashRa {      
+                sub radeva' viramadeva' uni200D by raprehalfdeva;
+                sub rradeva' viramadeva' uni200D by ranuktaprehalfdeva;     
+            } EyelashRa;
 
     script dev2;
             lookup Akhand;
-#            lookup EyelashRa;  
+            lookup EyelashRa;  
     
     script deva;
             lookup Akhand;
@@ -95,7 +93,7 @@ feature rkrf {
                 sub bhadeva viramadeva radeva by bharadeva;
                 sub madeva viramadeva radeva by maradeva;
                 sub yadeva viramadeva radeva by yaradeva;
-#                sub radeva viramadeva radeva by raradeva;
+#                sub radeva viramadeva radeva by raradeva; #reph
                 sub ladeva viramadeva radeva by laradeva;
                 sub lladeva viramadeva radeva by llaradeva;
                 sub vadeva viramadeva radeva by varadeva;
@@ -240,7 +238,7 @@ feature half {
                 sub bharadeva viramadeva by bharaprehalfdeva;
                 sub maradeva viramadeva by maraprehalfdeva;
                 sub yaradeva viramadeva by yaraprehalfdeva;
-#                sub raradeva viramadeva by raraprehalfdeva; 
+#                sub raradeva viramadeva by raraprehalfdeva; # reph
                 sub laradeva viramadeva by laraprehalfdeva;
                 sub llaradeva viramadeva by llaraprehalfdeva;
                 sub varadeva viramadeva by varaprehalfdeva;
@@ -308,7 +306,7 @@ feature vatu {
                 sub bhadeva vattudeva by bharadeva;
                 sub madeva vattudeva by maradeva;
                 sub yadeva vattudeva by yaradeva;
-#                sub radeva vattudeva by raradeva;  
+#                sub radeva vattudeva by raradeva;  #reph
                 sub ladeva vattudeva by laradeva;
                 sub lladeva vattudeva by llaradeva;
                 sub vadeva vattudeva by varadeva;
@@ -363,7 +361,7 @@ feature vatu {
                 sub bharadeva vattudeva by bharaprehalfdeva; 
                 sub maradeva vattudeva by maraprehalfdeva; 
                 sub yaradeva vattudeva by yaraprehalfdeva; 
-#                sub raradeva vattudeva by raraprehalfdeva;  #
+#                sub raradeva vattudeva by raraprehalfdeva;  # reph
                 sub laradeva vattudeva by laraprehalfdeva; 
                 sub llaradeva vattudeva by llaraprehalfdeva; 
                 sub varadeva vattudeva by varaprehalfdeva; 
