@@ -4,13 +4,6 @@
 <dict>
 	<key>com.typemytype.robofont</key>
 	<integer>1</integer>
-	<key>com.typemytype.robofont.Original.layerStrokeColor</key>
-	<array>
-		<real>0.3512</real>
-		<real>0.6229</real>
-		<real>1.0</real>
-		<real>0.7</real>
-	</array>
 	<key>com.typemytype.robofont.compileSettings.MacRomanFirst</key>
 	<integer>1</integer>
 	<key>com.typemytype.robofont.compileSettings.autohint</key>
@@ -24,7 +17,7 @@
 	<key>com.typemytype.robofont.compileSettings.path</key>
 	<string>/Users/erinmclaughlin/Desktop/_Google OPEN/Khula/otf/Khula-Regular.otf</string>
 	<key>com.typemytype.robofont.compileSettings.releaseMode</key>
-	<integer>0</integer>
+	<integer>1</integer>
 	<key>com.typemytype.robofont.foreground.layerStrokeColor</key>
 	<array>
 		<real>0.5</real>
@@ -34,20 +27,13 @@
 	</array>
 	<key>com.typemytype.robofont.italicSlantOffset</key>
 	<integer>0</integer>
-	<key>com.typemytype.robofont.layer01.layerStrokeColor</key>
-	<array>
-		<real>1.0</real>
-		<real>0.0</real>
-		<real>0.0</real>
-		<real>0.7</real>
-	</array>
 	<key>com.typemytype.robofont.layerOrder</key>
 	<array>
-		<string>layer01</string>
-		<string>Original</string>
 	</array>
 	<key>com.typemytype.robofont.segmentType</key>
 	<string>curve</string>
+	<key>com.typemytype.robofont.shouldAddPointsInSplineConversion</key>
+	<integer>0</integer>
 	<key>com.typemytype.robofont.sort</key>
 	<array>
 		<dict>

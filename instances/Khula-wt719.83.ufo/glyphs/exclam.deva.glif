@@ -1,33 +1,77 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="exclam.deva" format="1">
-  <advance width="915"/>
+  <advance width="881"/>
   <unicode hex="0021"/>
   <outline>
     <contour>
-      <point x="569" y="436" type="line"/>
-      <point x="350" y="436" type="line"/>
-      <point x="304" y="1316" type="line"/>
-      <point x="615" y="1316" type="line"/>
+      <point x="558" y="433" type="line"/>
+      <point x="323" y="433" type="line"/>
+      <point x="277" y="1316" type="line"/>
+      <point x="604" y="1316" type="line"/>
     </contour>
     <contour>
-      <point x="300" y="129" type="curve" smooth="yes"/>
-      <point x="300" y="229"/>
-      <point x="355" y="282"/>
-      <point x="459" y="282" type="curve" smooth="yes"/>
-      <point x="558" y="282"/>
-      <point x="615" y="226"/>
-      <point x="615" y="129" type="curve" smooth="yes"/>
-      <point x="615" y="34"/>
-      <point x="556" y="-24"/>
-      <point x="459" y="-24" type="curve" smooth="yes"/>
-      <point x="358" y="-24"/>
-      <point x="300" y="32"/>
+      <point x="274" y="132" type="curve" smooth="yes"/>
+      <point x="274" y="233"/>
+      <point x="332" y="290"/>
+      <point x="439" y="290" type="curve" smooth="yes"/>
+      <point x="545" y="290"/>
+      <point x="602" y="232"/>
+      <point x="602" y="132" type="curve" smooth="yes"/>
+      <point x="602" y="34"/>
+      <point x="541" y="-24"/>
+      <point x="439" y="-24" type="curve" smooth="yes"/>
+      <point x="337" y="-24"/>
+      <point x="274" y="31"/>
     </contour>
   </outline>
   <lib>
     <dict>
       <key>com.typemytype.robofont.layerData</key>
       <dict>
+        <key>Original</key>
+        <dict>
+          <key>anchors</key>
+          <array>
+          </array>
+          <key>components</key>
+          <array>
+          </array>
+          <key>contours</key>
+          <array>
+          </array>
+          <key>lib</key>
+          <dict>
+          </dict>
+          <key>name</key>
+          <string>exclam.deva</string>
+          <key>unicodes</key>
+          <array>
+          </array>
+          <key>width</key>
+          <integer>817</integer>
+        </dict>
+        <key>layer01</key>
+        <dict>
+          <key>anchors</key>
+          <array>
+          </array>
+          <key>components</key>
+          <array>
+          </array>
+          <key>contours</key>
+          <array>
+          </array>
+          <key>lib</key>
+          <dict>
+          </dict>
+          <key>name</key>
+          <string>exclam.deva</string>
+          <key>unicodes</key>
+          <array>
+          </array>
+          <key>width</key>
+          <integer>817</integer>
+        </dict>
       </dict>
       <key>com.typemytype.robofont.mark</key>
       <array>

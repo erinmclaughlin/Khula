@@ -9,7 +9,7 @@
     <data name="lineViewFilled" value="True"/>
     <data name="lineStacked" value="sequence"/>
     <data name="generateFontsAtFolder" value="/Users/erinmclaughlin/Desktop/_Google OPEN/Khula/instances"/>
-    <data name="previewtext" value="/adeva"/>
+    <data name="previewtext" value="/ssadeva/ssattadeva"/>
     <data name="verticalPreviewAxis" value="None"/>
     <!-- don't generate these glyphs -->
     <ignore glyphs=""/>
@@ -24,19 +24,19 @@
         </location>
         <color a="1.000" b="0.300" g="0.300" r="0.300"/>
         <provideLib state="1"/>
-        <provideInfo state="1"/>
     </master>
-    <master familyname="Khula" filename="UFO/Regular/Khula-Regular.ufo" sortorder="3" stylename="wt232.83">
+    <master familyname="Khula" filename="UFO/Regular/Khula-Regular.ufo" sortorder="3" stylename="Regular">
         <location>
             <dimension name="weight" xvalue="232.830000"/>
         </location>
         <color a="1.000" b="0.300" g="0.300" r="0.300"/>
     </master>
-    <master familyname="Khula" filename="UFO/ExBold/Khula-wt937.36.ufo" sortorder="0" stylename="wt937.36">
+    <master familyname="Khula" filename="UFO/ExtraBold/Khula-ExtraBold.ufo" sortorder="0" stylename="ExtraBold">
         <location>
             <dimension name="weight" xvalue="937.360000"/>
         </location>
         <color a="1.000" b="0.300" g="0.300" r="0.300"/>
+        <provideGroups state="1"/>
     </master>
     <!-- instance definitions -->
     <instance familyname="Khula" filename="instances/Khula-wt439.67.ufo" sortorder="2" stylename="wt439.67">

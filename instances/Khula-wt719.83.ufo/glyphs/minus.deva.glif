@@ -1,19 +1,63 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="minus.deva" format="1">
-  <advance width="1052"/>
+  <advance width="1046"/>
   <unicode hex="2212"/>
   <outline>
     <contour>
-      <point x="79" y="551" type="line"/>
-      <point x="79" y="748" type="line"/>
-      <point x="973" y="748" type="line"/>
-      <point x="973" y="551" type="line"/>
+      <point x="74" y="547" type="line"/>
+      <point x="74" y="752" type="line"/>
+      <point x="970" y="752" type="line"/>
+      <point x="970" y="547" type="line"/>
     </contour>
   </outline>
   <lib>
     <dict>
       <key>com.typemytype.robofont.layerData</key>
       <dict>
+        <key>Original</key>
+        <dict>
+          <key>anchors</key>
+          <array>
+          </array>
+          <key>components</key>
+          <array>
+          </array>
+          <key>contours</key>
+          <array>
+          </array>
+          <key>lib</key>
+          <dict>
+          </dict>
+          <key>name</key>
+          <string>minus.deva</string>
+          <key>unicodes</key>
+          <array>
+          </array>
+          <key>width</key>
+          <integer>1054</integer>
+        </dict>
+        <key>layer01</key>
+        <dict>
+          <key>anchors</key>
+          <array>
+          </array>
+          <key>components</key>
+          <array>
+          </array>
+          <key>contours</key>
+          <array>
+          </array>
+          <key>lib</key>
+          <dict>
+          </dict>
+          <key>name</key>
+          <string>minus.deva</string>
+          <key>unicodes</key>
+          <array>
+          </array>
+          <key>width</key>
+          <integer>1054</integer>
+        </dict>
       </dict>
     </dict>
   </lib>
