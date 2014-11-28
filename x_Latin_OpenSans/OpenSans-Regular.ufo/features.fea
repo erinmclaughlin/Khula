@@ -1,0 +1,106 @@
+languagesystem latn dflt;
+languagesystem latn MOL ;
+languagesystem latn ROM ;
+
+
+feature aalt{
+  feature ss01;
+  feature salt;
+  feature ss02;
+  feature ss03;
+  feature onum;
+  feature pnum;
+  feature tnum;
+  feature lnum;
+  feature locl;
+} aalt;
+feature ss01 { # Stylistic Set 1
+ script latn; # Latin
+lookup ss010 {
+    sub [g gcircumflex gbreve gdot] by [g.alt gcircumflex.alt gbreve.alt gdot.alt];
+    sub gcommaaccent by gcommaaccent.alt;
+} ss010;
+lookup ss011 {
+    sub @ss011 by @ss012;
+} ss011;
+ language MOL ; # Moldavian
+ language ROM ; # Romanian
+} ss01;
+feature salt { # Stylistic Alternates
+ script latn; # Latin
+lookup salt0 {
+    sub [g gcircumflex gbreve gdot] by [g.alt gcircumflex.alt gbreve.alt gdot.alt];
+    sub gcommaaccent by gcommaaccent.alt;
+} salt0;
+lookup salt1 {
+    sub @ss011 by @ss012;
+} salt1;
+ language MOL ; # Moldavian
+ language ROM ; # Romanian
+} salt;
+feature ss02 { # Stylistic Set 2
+ script latn; # Latin
+    sub [g gcircumflex gbreve gdot] by [g.alt gcircumflex.alt gbreve.alt gdot.alt];
+    sub gcommaaccent by gcommaaccent.alt;
+ language MOL ; # Moldavian
+ language ROM ; # Romanian
+} ss02;
+feature ss03 { # Stylistic Set 3
+ script latn; # Latin
+    sub @ss011 by @ss012;
+ language MOL ; # Moldavian
+ language ROM ; # Romanian
+} ss03;
+feature onum { # Oldstyle Figures
+ script latn; # Latin
+lookup onum2 {
+    sub @onum2 by @onum1;
+} onum2;
+lookup onum3 {
+    sub @onum3 by @onum4;
+} onum3;
+ language MOL ; # Moldavian
+ language ROM ; # Romanian
+} onum;
+feature pnum { # Proportional Figures
+ script latn; # Latin
+    sub one by one.pnum;
+ language MOL ; # Moldavian
+ language ROM ; # Romanian
+} pnum;
+feature tnum { # Tabular Figures
+ script latn; # Latin
+lookup tnum5 {
+    sub @onum1 by @onum2;
+} tnum5;
+lookup tnum6 {
+    sub one.pnum by one;
+} tnum6;
+ language MOL ; # Moldavian
+ language ROM ; # Romanian
+} tnum;
+feature lnum { # Lining Figures
+ script latn; # Latin
+    sub @onum1 by @lnum1;
+ language MOL ; # Moldavian
+ language ROM ; # Romanian
+} lnum;
+feature locl { # Localized Forms
+ script latn; # Latin
+ language MOL  exclude_dflt; # Moldavian
+    sub [Tcommaaccent tcommaaccent Scommaaccent scommaaccent] by [Tcedilla tcedilla Scedilla scedilla];
+ language ROM  exclude_dflt; # Romanian
+    sub [Tcommaaccent tcommaaccent Scommaaccent scommaaccent] by [Tcedilla tcedilla Scedilla scedilla];
+} locl;
+feature liga { # Standard Ligatures
+ script latn; # Latin
+    sub f f l by uniFB04;
+    sub f f i by uniFB03;
+    sub f f by ff;
+    sub f l by uniFB02;
+    sub f i by uniFB01;
+ language MOL ; # Moldavian
+ language ROM ; # Romanian
+} liga;
+
+
