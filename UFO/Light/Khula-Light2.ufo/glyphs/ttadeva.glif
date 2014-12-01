@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="ttadeva" format="1">
+  <advance width="1110"/>
+  <unicode hex="091F"/>
+  <outline>
+    <contour>
+      <point x="763" y="1238" type="line"/>
+      <point x="852" y="1238" type="line"/>
+      <point x="852" y="810" type="line"/>
+      <point x="605" y="810" type="line" smooth="yes"/>
+      <point x="354" y="810"/>
+      <point x="225" y="695"/>
+      <point x="225" y="503" type="curve" smooth="yes"/>
+      <point x="225" y="318"/>
+      <point x="379" y="179"/>
+      <point x="611" y="179" type="curve" smooth="yes"/>
+      <point x="714" y="179"/>
+      <point x="796" y="196"/>
+      <point x="905" y="240" type="curve"/>
+      <point x="929" y="162" type="line"/>
+      <point x="809" y="114"/>
+      <point x="728" y="100"/>
+      <point x="617" y="100" type="curve" smooth="yes"/>
+      <point x="332" y="100"/>
+      <point x="140" y="279"/>
+      <point x="140" y="519" type="curve" smooth="yes"/>
+      <point x="140" y="736"/>
+      <point x="299" y="886"/>
+      <point x="570" y="886" type="curve" smooth="yes"/>
+      <point x="802" y="886" type="line"/>
+      <point x="763" y="855" type="line"/>
+    </contour>
+    <contour>
+      <point x="1140" y="1198" type="line"/>
+      <point x="-30" y="1198" type="line"/>
+      <point x="-30" y="1274" type="line"/>
+      <point x="1140" y="1274" type="line"/>
+    </contour>
+    <contour>
+      <point x="562" y="99" type="move" name="btm"/>
+    </contour>
+    <contour>
+      <point x="754" y="1274" type="move" name="top"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.typemytype.robofont.guides</key>
+      <array>
+        <dict>
+          <key>angle</key>
+          <real>90.0</real>
+          <key>isGlobal</key>
+          <false/>
+          <key>magnetic</key>
+          <integer>5</integer>
+          <key>x</key>
+          <integer>754</integer>
+          <key>y</key>
+          <integer>1248</integer>
+        </dict>
+      </array>
+      <key>com.typemytype.robofont.layerData</key>
+      <dict>
+      </dict>
+      <key>org.robofab.fontlab.mark</key>
+      <integer>210</integer>
+    </dict>
+  </lib>
+</glyph>

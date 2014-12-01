@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="jharadevaNEP" format="1">
+  <advance width="1738"/>
+  <outline>
+    <contour>
+      <point x="1019" y="506" type="line"/>
+      <point x="430" y="-12" type="line"/>
+      <point x="373" y="47" type="line"/>
+      <point x="968" y="568" type="line"/>
+    </contour>
+    <component base="jhadevaNEP"/>
+    <contour>
+      <point x="962" y="1274" type="move" name="top"/>
+    </contour>
+    <contour>
+      <point x="962" y="0" type="move" name="btm"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.typemytype.robofont.guides</key>
+      <array>
+        <dict>
+          <key>angle</key>
+          <real>90.0</real>
+          <key>isGlobal</key>
+          <false/>
+          <key>magnetic</key>
+          <integer>5</integer>
+          <key>x</key>
+          <integer>962</integer>
+          <key>y</key>
+          <integer>1225</integer>
+        </dict>
+      </array>
+      <key>com.typemytype.robofont.layerData</key>
+      <dict>
+      </dict>
+    </dict>
+  </lib>
+</glyph>
