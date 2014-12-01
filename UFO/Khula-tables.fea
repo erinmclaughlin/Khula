@@ -13,7 +13,7 @@ table GDEF {
 
 table hhea {
     
-  Ascender 1212;
+  Ascender 1924;
   Descender -836;
   LineGap 0;
 
@@ -34,11 +34,11 @@ table OS/2 {
   # CodePageRange
   #   1252  # Latin 1
   #   ;
-  TypoAscender 1212;
+  TypoAscender 1924;
   TypoDescender 836;
   TypoLineGap 0;
-  winAscent 0;
-  winDescent 0;
+  winAscent 1924;
+  winDescent 836;
   # XHeight 1020; # Height of x in Regular
   # CapHeight 1316; # Height of shirorekha in Regular
   WidthClass 5;
