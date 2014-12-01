@@ -15,7 +15,7 @@ table hhea {
     
   Ascender 1212;
   Descender -836;
-  LineGap 200;
+  LineGap 0;
 
 } hhea;
 
@@ -35,8 +35,8 @@ table OS/2 {
   #   1252  # Latin 1
   #   ;
   TypoAscender 1212;
-  TypoDescender -836;
-  TypoLineGap 400;
+  TypoDescender 836;
+  TypoLineGap 0;
   winAscent 0;
   winDescent 0;
   # XHeight 1020; # Height of x in Regular
