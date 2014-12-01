@@ -16,7 +16,7 @@
     </contour>
     <contour>
       <point x="582" y="1129" type="line"/>
-      <point x="582" y="483" type="line"/>
+      <point x="582" y="483" type="line" smooth="yes"/>
       <point x="582" y="398"/>
       <point x="551" y="351"/>
       <point x="470" y="351" type="curve" smooth="yes"/>
@@ -59,63 +59,6 @@
       </array>
       <key>com.typemytype.robofont.layerData</key>
       <dict>
-        <key>Original</key>
-        <dict>
-          <key>anchors</key>
-          <array>
-          </array>
-          <key>components</key>
-          <array>
-          </array>
-          <key>contours</key>
-          <array>
-          </array>
-          <key>lib</key>
-          <dict>
-          </dict>
-          <key>name</key>
-          <string>garadeva</string>
-          <key>unicodes</key>
-          <array>
-          </array>
-          <key>width</key>
-          <integer>1259</integer>
-        </dict>
-        <key>layer01</key>
-        <dict>
-          <key>anchors</key>
-          <array>
-          </array>
-          <key>components</key>
-          <array>
-            <dict>
-              <key>baseGlyph</key>
-              <string>gadeva</string>
-              <key>transformation</key>
-              <array>
-                <integer>1</integer>
-                <integer>0</integer>
-                <integer>0</integer>
-                <integer>1</integer>
-                <integer>0</integer>
-                <integer>0</integer>
-              </array>
-            </dict>
-          </array>
-          <key>contours</key>
-          <array>
-          </array>
-          <key>lib</key>
-          <dict>
-          </dict>
-          <key>name</key>
-          <string>garadeva</string>
-          <key>unicodes</key>
-          <array>
-          </array>
-          <key>width</key>
-          <integer>1259</integer>
-        </dict>
       </dict>
       <key>org.robofab.fontlab.mark</key>
       <integer>130</integer>

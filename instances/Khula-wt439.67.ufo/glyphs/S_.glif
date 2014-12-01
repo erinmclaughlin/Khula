@@ -4,10 +4,10 @@
   <unicode hex="0053"/>
   <outline>
     <contour>
-      <point x="946" y="365" type="curve" smooth="yes"/>
+      <point x="946" y="365" type="curve"/>
       <point x="947" y="211"/>
       <point x="858" y="96"/>
-      <point x="706" y="51" type="curve" smooth="yes"/>
+      <point x="706" y="51" type="curve"/>
       <point x="621" y="5"/>
       <point x="519" y="-16"/>
       <point x="400" y="-13" type="curve" smooth="yes"/>
@@ -44,13 +44,13 @@
       <point x="439" y="1305" type="curve" smooth="yes"/>
       <point x="558" y="1325"/>
       <point x="678" y="1318"/>
-      <point x="801" y="1284" type="curve"/>
+      <point x="801" y="1284" type="curve" smooth="yes"/>
       <point x="841" y="1284"/>
       <point x="848" y="1180"/>
       <point x="889" y="1162" type="curve"/>
       <point x="812" y="1194"/>
       <point x="706" y="1130"/>
-      <point x="634" y="1130" type="curve" smooth="yes"/>
+      <point x="634" y="1130" type="curve"/>
       <point x="483" y="1146"/>
       <point x="384" y="1102"/>
       <point x="357" y="1015" type="curve" smooth="yes"/>
@@ -59,7 +59,7 @@
       <point x="336" y="911" type="curve" smooth="yes"/>
       <point x="348" y="883"/>
       <point x="373" y="858"/>
-      <point x="408" y="834" type="curve"/>
+      <point x="408" y="834" type="curve" smooth="yes"/>
       <point x="444" y="811"/>
       <point x="509" y="781"/>
       <point x="602" y="745" type="curve" smooth="yes"/>
@@ -74,7 +74,7 @@
     <dict>
       <key>com.typemytype.robofont.layerData</key>
       <dict>
-        <key>Original</key>
+        <key>background</key>
         <dict>
           <key>anchors</key>
           <array>
@@ -94,9 +94,9 @@
           <array>
           </array>
           <key>width</key>
-          <integer>1012</integer>
+          <integer>1064</integer>
         </dict>
-        <key>layer01</key>
+        <key>layer1</key>
         <dict>
           <key>anchors</key>
           <array>
@@ -116,7 +116,51 @@
           <array>
           </array>
           <key>width</key>
-          <integer>1012</integer>
+          <integer>1064</integer>
+        </dict>
+        <key>layer2</key>
+        <dict>
+          <key>anchors</key>
+          <array>
+          </array>
+          <key>components</key>
+          <array>
+          </array>
+          <key>contours</key>
+          <array>
+          </array>
+          <key>lib</key>
+          <dict>
+          </dict>
+          <key>name</key>
+          <string>S</string>
+          <key>unicodes</key>
+          <array>
+          </array>
+          <key>width</key>
+          <integer>1064</integer>
+        </dict>
+        <key>original</key>
+        <dict>
+          <key>anchors</key>
+          <array>
+          </array>
+          <key>components</key>
+          <array>
+          </array>
+          <key>contours</key>
+          <array>
+          </array>
+          <key>lib</key>
+          <dict>
+          </dict>
+          <key>name</key>
+          <string>S</string>
+          <key>unicodes</key>
+          <array>
+          </array>
+          <key>width</key>
+          <integer>1064</integer>
         </dict>
       </dict>
     </dict>

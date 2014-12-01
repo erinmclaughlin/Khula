@@ -4,10 +4,27 @@
   <unicode hex="090E"/>
   <outline>
     <component base="edeva"/>
-    <component base="eshortvowelsigndeva" xOffset="1164"/>
+    <component base="eshortvowelsigndeva" xOffset="1190"/>
   </outline>
   <lib>
     <dict>
+      <key>com.typemytype.robofont.guides</key>
+      <array>
+        <dict>
+          <key>angle</key>
+          <real>90.0</real>
+          <key>isGlobal</key>
+          <false/>
+          <key>magnetic</key>
+          <integer>5</integer>
+          <key>name</key>
+          <string></string>
+          <key>x</key>
+          <integer>799</integer>
+          <key>y</key>
+          <integer>1112</integer>
+        </dict>
+      </array>
       <key>com.typemytype.robofont.layerData</key>
       <dict>
       </dict>

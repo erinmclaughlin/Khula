@@ -2,57 +2,13 @@
 <glyph name="kanuktaraprehalfdeva" format="1">
   <advance width="1226"/>
   <outline>
-    <component base="karaprehalfdeva"/>
     <component base="nuktadeva" xOffset="829" yOffset="510"/>
+    <component base="karaprehalfdeva"/>
   </outline>
   <lib>
     <dict>
       <key>com.typemytype.robofont.layerData</key>
       <dict>
-        <key>Original</key>
-        <dict>
-          <key>anchors</key>
-          <array>
-          </array>
-          <key>components</key>
-          <array>
-          </array>
-          <key>contours</key>
-          <array>
-          </array>
-          <key>lib</key>
-          <dict>
-          </dict>
-          <key>name</key>
-          <string>kanuktaraprehalfdeva</string>
-          <key>unicodes</key>
-          <array>
-          </array>
-          <key>width</key>
-          <integer>1185</integer>
-        </dict>
-        <key>layer01</key>
-        <dict>
-          <key>anchors</key>
-          <array>
-          </array>
-          <key>components</key>
-          <array>
-          </array>
-          <key>contours</key>
-          <array>
-          </array>
-          <key>lib</key>
-          <dict>
-          </dict>
-          <key>name</key>
-          <string>kanuktaraprehalfdeva</string>
-          <key>unicodes</key>
-          <array>
-          </array>
-          <key>width</key>
-          <integer>1185</integer>
-        </dict>
       </dict>
       <key>org.robofab.fontlab.mark</key>
       <integer>1</integer>

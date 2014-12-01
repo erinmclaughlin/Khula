@@ -5,7 +5,7 @@
     <component base="evowelsigndeva"/>
     <component base="anusvaradeva" xOffset="177"/>
     <contour>
-      <point x="-493" y="1289" type="move" name="_top"/>
+      <point x="-493.0" y="1289.0" type="move" name="_top"/>
     </contour>
   </outline>
   <lib>
@@ -13,6 +13,13 @@
       <key>com.typemytype.robofont.layerData</key>
       <dict>
       </dict>
+      <key>com.typemytype.robofont.mark</key>
+      <array>
+        <real>1.0</real>
+        <real>0.974</real>
+        <real>0.577</real>
+        <real>1.0</real>
+      </array>
       <key>org.robofab.fontlab.mark</key>
       <integer>210</integer>
     </dict>

@@ -22,11 +22,11 @@
       <point x="990" y="667" type="curve" smooth="yes"/>
       <point x="1013" y="642"/>
       <point x="1024" y="501"/>
-      <point x="1024" y="460" type="curve" smooth="yes"/>
+      <point x="1024" y="460" type="curve"/>
       <point x="589" y="431" type="line"/>
       <point x="592" y="351"/>
       <point x="439" y="304"/>
-      <point x="533" y="304" type="curve"/>
+      <point x="533" y="304" type="curve" smooth="yes"/>
       <point x="578" y="233"/>
       <point x="653" y="199"/>
       <point x="750" y="207" type="curve" smooth="yes"/>
@@ -54,7 +54,7 @@
     <dict>
       <key>com.typemytype.robofont.layerData</key>
       <dict>
-        <key>Original</key>
+        <key>background</key>
         <dict>
           <key>anchors</key>
           <array>
@@ -74,9 +74,9 @@
           <array>
           </array>
           <key>width</key>
-          <integer>1034</integer>
+          <integer>1139</integer>
         </dict>
-        <key>layer01</key>
+        <key>layer1</key>
         <dict>
           <key>anchors</key>
           <array>
@@ -96,7 +96,51 @@
           <array>
           </array>
           <key>width</key>
-          <integer>1034</integer>
+          <integer>1139</integer>
+        </dict>
+        <key>layer2</key>
+        <dict>
+          <key>anchors</key>
+          <array>
+          </array>
+          <key>components</key>
+          <array>
+          </array>
+          <key>contours</key>
+          <array>
+          </array>
+          <key>lib</key>
+          <dict>
+          </dict>
+          <key>name</key>
+          <string>e</string>
+          <key>unicodes</key>
+          <array>
+          </array>
+          <key>width</key>
+          <integer>1139</integer>
+        </dict>
+        <key>original</key>
+        <dict>
+          <key>anchors</key>
+          <array>
+          </array>
+          <key>components</key>
+          <array>
+          </array>
+          <key>contours</key>
+          <array>
+          </array>
+          <key>lib</key>
+          <dict>
+          </dict>
+          <key>name</key>
+          <string>e</string>
+          <key>unicodes</key>
+          <array>
+          </array>
+          <key>width</key>
+          <integer>1139</integer>
         </dict>
       </dict>
     </dict>

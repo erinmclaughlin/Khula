@@ -10,7 +10,7 @@
     </contour>
     <contour>
       <point x="582" y="1129" type="line"/>
-      <point x="582" y="431" type="line"/>
+      <point x="582" y="431" type="line" smooth="yes"/>
       <point x="582" y="346"/>
       <point x="551" y="300"/>
       <point x="470" y="300" type="curve" smooth="yes"/>
@@ -56,50 +56,6 @@
       </array>
       <key>com.typemytype.robofont.layerData</key>
       <dict>
-        <key>Original</key>
-        <dict>
-          <key>anchors</key>
-          <array>
-          </array>
-          <key>components</key>
-          <array>
-          </array>
-          <key>contours</key>
-          <array>
-          </array>
-          <key>lib</key>
-          <dict>
-          </dict>
-          <key>name</key>
-          <string>gaprehalfdeva</string>
-          <key>unicodes</key>
-          <array>
-          </array>
-          <key>width</key>
-          <integer>675</integer>
-        </dict>
-        <key>layer01</key>
-        <dict>
-          <key>anchors</key>
-          <array>
-          </array>
-          <key>components</key>
-          <array>
-          </array>
-          <key>contours</key>
-          <array>
-          </array>
-          <key>lib</key>
-          <dict>
-          </dict>
-          <key>name</key>
-          <string>gaprehalfdeva</string>
-          <key>unicodes</key>
-          <array>
-          </array>
-          <key>width</key>
-          <integer>675</integer>
-        </dict>
       </dict>
       <key>org.robofab.fontlab.mark</key>
       <integer>1</integer>
