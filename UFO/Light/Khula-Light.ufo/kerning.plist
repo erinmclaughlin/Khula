@@ -161,15 +161,19 @@
 	<key>@MMK_L_L_Ka</key>
 	<dict>
 		<key>@MMK_R_R_Ca</key>
-		<integer>10</integer>
+		<integer>-30</integer>
+		<key>@MMK_R_R_Cha</key>
+		<integer>-10</integer>
 		<key>@MMK_R_R_Da</key>
 		<integer>20</integer>
 		<key>@MMK_R_R_DaBha</key>
 		<integer>20</integer>
 		<key>@MMK_R_R_Dda</key>
 		<integer>10</integer>
-		<key>@MMK_R_R_Gha</key>
+		<key>@MMK_R_R_Dha</key>
 		<integer>-30</integer>
+		<key>@MMK_R_R_Gha</key>
+		<integer>-40</integer>
 		<key>@MMK_R_R_Ha</key>
 		<integer>10</integer>
 		<key>@MMK_R_R_I</key>
@@ -185,9 +189,15 @@
 		<key>@MMK_R_R_Lla</key>
 		<integer>20</integer>
 		<key>@MMK_R_R_Na</key>
-		<integer>20</integer>
+		<integer>1</integer>
+		<key>@MMK_R_R_Nna</key>
+		<integer>-20</integer>
 		<key>@MMK_R_R_Nya</key>
 		<integer>30</integer>
+		<key>@MMK_R_R_Pa</key>
+		<integer>-20</integer>
+		<key>@MMK_R_R_Pha</key>
+		<integer>-20</integer>
 		<key>@MMK_R_R_Ra</key>
 		<integer>40</integer>
 		<key>@MMK_R_R_Sha</key>
@@ -195,7 +205,7 @@
 		<key>@MMK_R_R_ShaRa</key>
 		<integer>30</integer>
 		<key>@MMK_R_R_Ta</key>
-		<integer>20</integer>
+		<integer>10</integer>
 		<key>@MMK_R_R_Va</key>
 		<integer>20</integer>
 		<key>@MMK_R_R_Ya</key>
@@ -351,6 +361,102 @@
 		<key>@MMK_R_R_Tha</key>
 		<integer>-60</integer>
 	</dict>
+	<key>@MMK_L_L_Nga</key>
+	<dict>
+		<key>@MMK_R_R_A</key>
+		<integer>100</integer>
+		<key>@MMK_R_R_Bha</key>
+		<integer>100</integer>
+		<key>@MMK_R_R_Ca</key>
+		<integer>100</integer>
+		<key>@MMK_R_R_Cha</key>
+		<integer>100</integer>
+		<key>@MMK_R_R_Da</key>
+		<integer>100</integer>
+		<key>@MMK_R_R_Dda</key>
+		<integer>100</integer>
+		<key>@MMK_R_R_Dha</key>
+		<integer>100</integer>
+		<key>@MMK_R_R_E</key>
+		<integer>100</integer>
+		<key>@MMK_R_R_Ga</key>
+		<integer>100</integer>
+		<key>@MMK_R_R_Gha</key>
+		<integer>100</integer>
+		<key>@MMK_R_R_Ha</key>
+		<integer>100</integer>
+		<key>@MMK_R_R_I</key>
+		<integer>100</integer>
+		<key>@MMK_R_R_Ja</key>
+		<integer>100</integer>
+		<key>@MMK_R_R_Ka</key>
+		<integer>100</integer>
+		<key>@MMK_R_R_KaSsa</key>
+		<integer>100</integer>
+		<key>@MMK_R_R_Ma</key>
+		<integer>100</integer>
+		<key>@MMK_R_R_Nna</key>
+		<integer>100</integer>
+		<key>@MMK_R_R_Nya</key>
+		<integer>100</integer>
+		<key>@MMK_R_R_Pa</key>
+		<integer>100</integer>
+		<key>@MMK_R_R_Pha</key>
+		<integer>100</integer>
+		<key>@MMK_R_R_RMAR</key>
+		<integer>100</integer>
+		<key>@MMK_R_R_Ra</key>
+		<integer>100</integer>
+		<key>@MMK_R_R_Sha</key>
+		<integer>100</integer>
+		<key>@MMK_R_R_ShaRa</key>
+		<integer>100</integer>
+		<key>@MMK_R_R_Ta</key>
+		<integer>100</integer>
+		<key>@MMK_R_R_Tha</key>
+		<integer>100</integer>
+		<key>@MMK_R_R_U</key>
+		<integer>100</integer>
+		<key>@MMK_R_R_Va</key>
+		<integer>100</integer>
+		<key>@MMK_R_R_colon</key>
+		<integer>100</integer>
+		<key>@MMK_R_R_comma</key>
+		<integer>100</integer>
+		<key>@MMK_R_R_quoteright</key>
+		<integer>100</integer>
+		<key>ampersand</key>
+		<integer>100</integer>
+		<key>avagrahadeva</key>
+		<integer>100</integer>
+		<key>braceright</key>
+		<integer>100</integer>
+		<key>bracketright</key>
+		<integer>100</integer>
+		<key>dandadeva</key>
+		<integer>100</integer>
+		<key>emdash</key>
+		<integer>100</integer>
+		<key>endash</key>
+		<integer>100</integer>
+		<key>hyphen</key>
+		<integer>100</integer>
+		<key>parenright</key>
+		<integer>100</integer>
+		<key>space</key>
+		<integer>100</integer>
+		<key>uni097D</key>
+		<integer>100</integer>
+		<key>visargadeva</key>
+		<integer>100</integer>
+	</dict>
+	<key>@MMK_L_L_Nn</key>
+	<dict>
+		<key>@MMK_R_R_Bha</key>
+		<integer>40</integer>
+		<key>@MMK_R_R_Dha</key>
+		<integer>30</integer>
+	</dict>
 	<key>@MMK_L_L_Ny</key>
 	<dict>
 		<key>@MMK_R_R_Bha</key>
@@ -459,15 +565,15 @@
 		<key>@MMK_R_R_Ha</key>
 		<integer>-10</integer>
 		<key>@MMK_R_R_Ja</key>
-		<integer>-50</integer>
+		<integer>-60</integer>
 		<key>@MMK_R_R_Ka</key>
-		<integer>-30</integer>
+		<integer>-40</integer>
 		<key>@MMK_R_R_La</key>
 		<integer>-40</integer>
 		<key>@MMK_R_R_Na</key>
 		<integer>-20</integer>
 		<key>@MMK_R_R_Nya</key>
-		<integer>-20</integer>
+		<integer>-40</integer>
 		<key>@MMK_R_R_Ra</key>
 		<integer>-40</integer>
 		<key>@MMK_R_R_Ta</key>
@@ -673,6 +779,26 @@
 		<integer>-111</integer>
 		<key>Y</key>
 		<integer>-111</integer>
+		<key>eightdeva</key>
+		<integer>-100</integer>
+		<key>fivedeva</key>
+		<integer>-250</integer>
+		<key>fourdeva</key>
+		<integer>-140</integer>
+		<key>ninedeva</key>
+		<integer>-230</integer>
+		<key>onedeva</key>
+		<integer>-130</integer>
+		<key>sevendeva</key>
+		<integer>-200</integer>
+		<key>sixdeva</key>
+		<integer>-210</integer>
+		<key>threedeva</key>
+		<integer>-20</integer>
+		<key>twodeva</key>
+		<integer>-150</integer>
+		<key>zerodeva</key>
+		<integer>-100</integer>
 	</dict>
 	<key>@MMK_L_L_quoteleft</key>
 	<dict>
@@ -1277,6 +1403,8 @@
 		<integer>-20</integer>
 		<key>onedevaNEP</key>
 		<integer>10</integer>
+		<key>period</key>
+		<integer>-30</integer>
 		<key>threedeva</key>
 		<integer>20</integer>
 	</dict>
@@ -1310,6 +1438,8 @@
 		<integer>20</integer>
 		<key>onedevaNEP</key>
 		<integer>-45</integer>
+		<key>period</key>
+		<integer>100</integer>
 		<key>threedeva</key>
 		<integer>30</integer>
 		<key>twodeva</key>
@@ -1342,6 +1472,8 @@
 		<integer>30</integer>
 		<key>onedevaNEP</key>
 		<integer>40</integer>
+		<key>period</key>
+		<integer>-110</integer>
 		<key>sevendeva</key>
 		<integer>40</integer>
 		<key>threedeva</key>
@@ -1370,6 +1502,8 @@
 		<integer>30</integer>
 		<key>@MMK_R_R_Ja</key>
 		<integer>-10</integer>
+		<key>@MMK_R_R_Ka</key>
+		<integer>-30</integer>
 		<key>@MMK_R_R_La</key>
 		<integer>20</integer>
 		<key>@MMK_R_R_Sha</key>
@@ -1485,6 +1619,73 @@
 		<key>@MMK_R_R_Va</key>
 		<integer>30</integer>
 	</dict>
+	<key>lladeva</key>
+	<dict>
+		<key>@MMK_R_R_A</key>
+		<integer>20</integer>
+		<key>@MMK_R_R_Bha</key>
+		<integer>20</integer>
+		<key>@MMK_R_R_Ca</key>
+		<integer>20</integer>
+		<key>@MMK_R_R_Cha</key>
+		<integer>20</integer>
+		<key>@MMK_R_R_Da</key>
+		<integer>20</integer>
+		<key>@MMK_R_R_Dda</key>
+		<integer>20</integer>
+		<key>@MMK_R_R_Dha</key>
+		<integer>20</integer>
+		<key>@MMK_R_R_E</key>
+		<integer>20</integer>
+		<key>@MMK_R_R_Ga</key>
+		<integer>20</integer>
+		<key>@MMK_R_R_Gha</key>
+		<integer>20</integer>
+		<key>@MMK_R_R_Ha</key>
+		<integer>20</integer>
+		<key>@MMK_R_R_I</key>
+		<integer>20</integer>
+		<key>@MMK_R_R_Ja</key>
+		<integer>20</integer>
+		<key>@MMK_R_R_Ka</key>
+		<integer>20</integer>
+		<key>@MMK_R_R_KaSsa</key>
+		<integer>20</integer>
+		<key>@MMK_R_R_La</key>
+		<integer>20</integer>
+		<key>@MMK_R_R_Ma</key>
+		<integer>20</integer>
+		<key>@MMK_R_R_Na</key>
+		<integer>20</integer>
+		<key>@MMK_R_R_Nna</key>
+		<integer>20</integer>
+		<key>@MMK_R_R_Nya</key>
+		<integer>20</integer>
+		<key>@MMK_R_R_Pa</key>
+		<integer>20</integer>
+		<key>@MMK_R_R_Pha</key>
+		<integer>20</integer>
+		<key>@MMK_R_R_RMAR</key>
+		<integer>20</integer>
+		<key>@MMK_R_R_Ra</key>
+		<integer>20</integer>
+		<key>@MMK_R_R_Sha</key>
+		<integer>20</integer>
+		<key>@MMK_R_R_ShaRa</key>
+		<integer>20</integer>
+		<key>@MMK_R_R_Ta</key>
+		<integer>20</integer>
+		<key>@MMK_R_R_Tha</key>
+		<integer>20</integer>
+		<key>@MMK_R_R_U</key>
+		<integer>20</integer>
+		<key>@MMK_R_R_Va</key>
+		<integer>20</integer>
+		<key>@MMK_R_R_Ya</key>
+		<integer>20</integer>
+		<key>space</key>
+		<integer>20</integer>
+	</dict>
 	<key>m</key>
 	<dict>
 		<key>@MMK_R_R_quoteright</key>
@@ -1507,6 +1708,8 @@
 		<integer>-20</integer>
 		<key>onedeva</key>
 		<integer>15</integer>
+		<key>period</key>
+		<integer>20</integer>
 		<key>sevendeva</key>
 		<integer>-10</integer>
 		<key>sixdeva</key>
@@ -1558,6 +1761,8 @@
 		<integer>50</integer>
 		<key>onedeva</key>
 		<integer>40</integer>
+		<key>period</key>
+		<integer>10</integer>
 		<key>sevendeva</key>
 		<integer>15</integer>
 		<key>sixdeva</key>
@@ -1749,6 +1954,8 @@
 		<integer>10</integer>
 		<key>onedevaNEP</key>
 		<integer>-20</integer>
+		<key>period</key>
+		<integer>-130</integer>
 		<key>sevendeva</key>
 		<integer>-20</integer>
 		<key>threedeva</key>
@@ -1766,6 +1973,8 @@
 		<integer>30</integer>
 		<key>onedevaNEP</key>
 		<integer>-20</integer>
+		<key>period</key>
+		<integer>120</integer>
 		<key>threedeva</key>
 		<integer>35</integer>
 	</dict>
@@ -1786,8 +1995,15 @@
 		<integer>10</integer>
 		<key>onedeva</key>
 		<integer>20</integer>
+		<key>period</key>
+		<integer>-90</integer>
 		<key>threedeva</key>
 		<integer>30</integer>
+	</dict>
+	<key>ttadeva</key>
+	<dict>
+		<key>@MMK_R_R_Ka</key>
+		<integer>-40</integer>
 	</dict>
 	<key>tthadeva</key>
 	<dict>
@@ -1850,6 +2066,8 @@
 		<integer>20</integer>
 		<key>onedevaNEP</key>
 		<integer>30</integer>
+		<key>period</key>
+		<integer>-50</integer>
 		<key>sevendeva</key>
 		<integer>20</integer>
 		<key>sixdeva</key>
@@ -1925,6 +2143,8 @@
 		<integer>20</integer>
 		<key>onedevaNEP</key>
 		<integer>-10</integer>
+		<key>period</key>
+		<integer>-130</integer>
 		<key>sevendeva</key>
 		<integer>-20</integer>
 		<key>threedeva</key>
