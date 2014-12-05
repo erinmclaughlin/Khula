@@ -3,13 +3,13 @@
 # ---- i vowel consonants ----
 
 @ic_01 = [radeva rradeva raradeva ranuktaradeva ddadevaMAW];
-@ic_02 = [kadeva qadeva karadeva kanuktaradeva ngadeva ngaradeva ttadeva ttaradeva tthadeva ttharadeva ddadeva dddhadeva ddaradeva ddanuktaradeva ddabardeva ddhadeva rhadeva ddharadeva ddhanuktaradeva dadeva daradeva tadeva taradeva padeva paradeva phadeva fadeva pharadeva phanuktaradeva badeva baradeva babardeva vadeva varadeva ssadeva ssaradeva hadeva haradeva ngagadeva ngamadeva ttattadeva ttatthadeva tthatthadeva ddaddhadeva ddaddadeva daudeva dauudeva darvocalicdeva davadeva dagadeva dabadeva dadadeva];
-@ic_03 = [gadeva garadeva ghadeva gharadeva thadeva tharadeva dhadeva dharadeva nadeva naradeva nnnadeva nanuktaradeva madeva maradeva yadeva yaradeva yyadeva yanuktaradeva katadeva tatadeva ssattadeva ssattaradeva ssatthadeva ssattharadeva jjyadeva];
-@ic_04 = [chadeva charadeva cadeva caradeva bhadeva bharadeva ladeva laradeva sadeva saradeva janyadeva janyaradeva jhadevaNEP jharadevaNEP ladevaMAR laradevaMAR shadevaMAR daghadeva dadhadeva shacadeva shavadeva shanadeva dayadeva hanadeva havadeva sharadeva shadeva];
+@ic_02 = [kadeva qadeva karadeva kanuktaradeva ngadeva ngaradeva ttadeva ttaradeva tthadeva ttharadeva ddadeva dddhadeva ddaradeva ddanuktaradeva ddabardeva ddhadeva rhadeva ddharadeva ddhanuktaradeva dadeva daradeva tadeva taradeva padeva paradeva phadeva fadeva pharadeva phanuktaradeva badeva baradeva babardeva vadeva varadeva ssadeva ssaradeva hadeva haradeva ttattadeva ttatthadeva tthatthadeva ddaddhadeva ddaddadeva daudeva dauudeva darvocalicdeva davadeva dagadeva dabadeva dadadeva];
+@ic_03 = [gadeva garadeva ghadeva gharadeva thadeva tharadeva dhadeva dharadeva nadeva naradeva nnnadeva nanuktaradeva madeva maradeva yadeva yaradeva yyadeva yanuktaradeva katadeva tatadeva ssattadeva ssatthadeva jjyadeva];
+@ic_04 = [chadeva charadeva cadeva caradeva bhadeva bharadeva ladeva laradeva sadeva saradeva janyadeva janyaradeva jhadevaNEP jharadevaNEP ladevaMAR laradevaMAR shadevaMAR daghadeva dadhadeva dayadeva hanadeva havadeva sharadeva shadeva];
 @ic_05 = [jadeva jaradeva januktaradeva jabardeva zadeva zhadeva lladeva llaradeva llladeva llanuktaradeva khadeva khhadeva kharadeva khanuktaradeva jhadeva jharadeva nyadeva nyaradeva nnadeva nnaradeva kassadeva kassaradeva damadeva hannadeva haladeva dabhadeva hamadeva];
 @ic_06 = [nabhadeva namadeva hayadeva tanadeva tathadeva tayadeva];
 @ic_07 = [dadhayadeva tasadeva];
-@ic_08 = [shaladeva shaladevaMAR jathadeva jayadeva januktayadeva januktathadeva ttayadeva jajadeva];
+@ic_08 = [jathadeva jayadeva januktayadeva januktathadeva ttayadeva jajadeva];
 @ic_09 = [ddayadeva tthayadeva ddhayadeva lathadeva labhadeva lamadeva layadeva jasadeva januktasadeva takhadeva];
 @ic_10 = [ngayadeva chayadeva lajadeva lazadeva];
 
@@ -17,7 +17,7 @@
 
 @ih_05_yaha = [raprehalfdeva ranuktaprehalfdeva raraprehalfdeva ranuktaraprehalfdeva];
 @ih_06 = [naprehalfdeva nanuktaprehalfdeva naraprehalfdeva nanuktaraprehalfdeva paprehalfdeva paraprehalfdeva baprehalfdeva baraprehalfdeva vaprehalfdeva varaprehalfdeva ssaprehalfdeva ssaraprehalfdeva taraprehalfdeva gaprehalfdeva ganuktaprehalfdeva garaprehalfdeva ganuktaraprehalfdeva taprehalfdeva maprehalfdeva maraprehalfdeva yaprehalfdeva yanuktaprehalfdeva yaraprehalfdeva yanuktaraprehalfdeva tataprehalfdeva];
-@ih_07 = [yaprehalfdeva caprehalfdeva thaprehalfdeva dhaprehalfdeva bhaprehalfdeva haprehalfdeva janyaprehalfdeva saprehalfdeva dayaprehalfdeva shacaprehalfdeva shavaprehalfdeva shaprehalfdeva caprehalfdeva thaprehalfdeva dhaprehalfdeva bhaprehalfdeva saprehalfdeva haprehalfdeva janyaprehalfdeva caraprehalfdeva tharaprehalfdeva dharaprehalfdeva bharaprehalfdeva janyaraprehalfdeva saraprehalfdeva rahalantdeva];
+@ih_07 = [yaprehalfdeva caprehalfdeva thaprehalfdeva dhaprehalfdeva bhaprehalfdeva haprehalfdeva janyaprehalfdeva saprehalfdeva dayaprehalfdeva shaprehalfdeva caprehalfdeva thaprehalfdeva dhaprehalfdeva bhaprehalfdeva saprehalfdeva haprehalfdeva janyaprehalfdeva caraprehalfdeva tharaprehalfdeva dharaprehalfdeva bharaprehalfdeva janyaraprehalfdeva saraprehalfdeva rahalantdeva];
 @ih_08 = [japrehalfdeva januktaprehalfdeva jaraprehalfdeva januktaraprehalfdeva jhaprehalfdeva jharaprehalfdeva nyaprehalfdeva nyaraprehalfdeva nnaprehalfdeva nnaraprehalfdeva kassaraprehalfdeva laprehalfdeva laraprehalfdeva shaprehalfdevaMAR sharaprehalfdeva sharaprehalfdeva kassaprehalfdeva kassaprehalfdeva laprehalfdeva laraprehalfdeva ddaraprehalfdeva ddharaprehalfdeva daraprehalfdeva haraprehalfdeva ddanuktaraprehalfdeva ddhanuktaraprehalfdeva ttaraprehalfdeva ddanuktaprehalfdeva ddhanuktaprehalfdeva ngaraprehalfdeva ddaprehalfdeva ddhaprehalfdeva daprehalfdeva ttaprehalfdeva];
 @ih_09 = [phaprehalfdeva phanuktaprehalfdeva pharaprehalfdeva phanuktaraprehalfdeva kaprehalfdeva kanuktaprehalfdeva karaprehalfdeva kanuktaraprehalfdeva khaprehalfdeva khanuktaprehalfdeva kharaprehalfdeva khanuktaraprehalfdeva llaprehalfdeva llanuktaprehalfdeva llaraprehalfdeva llanuktaraprehalfdeva ttharaprehalfdeva tthaprehalfdeva ngaprehalfdeva];
 @ih_10 = [jhaprehalfdevaNEP jharaprehalfdevaNEP charaprehalfdeva chaprehalfdeva];
@@ -30,5 +30,5 @@
 
 # --- ii vowel consonants ---
 
-@iic_02 = [radeva rradeva raradeva ranuktaradeva ssattadeva ssattaradeva ssatthadeva ssattharadeva];
+@iic_02 = [radeva rradeva raradeva ranuktaradeva ssattadeva ssatthadeva];
 @iic_03 = [kadeva qadeva karadeva kanuktaradeva phadeva fadeva pharadeva phanuktaradeva katadeva jhadevaNEP jharadevaNEP];

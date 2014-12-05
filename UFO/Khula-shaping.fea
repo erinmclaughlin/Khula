@@ -409,8 +409,6 @@ feature cjct {
                 sub daprehalfdeva madeva by damadeva;  
                 sub daprehalfdeva yadeva by dayadeva;
                 sub daprehalfdeva vadeva by davadeva;                                                                              
-                sub ngaprehalfdeva gadeva by ngagadeva;
-                sub ngaprehalfdeva madeva by ngamadeva; 
                 sub ngaprehalfdeva yadeva by ngayadeva;
                 sub ttaprehalfdeva ttadeva by ttattadeva;
                 sub ttaprehalfdeva tthadeva by ttatthadeva;
@@ -444,30 +442,17 @@ feature pres {
             lookup PreHalfConj {
            
                 sub daprehalfdeva yaprehalfdeva by dayaprehalfdeva;
-                sub taprehalfdeva taprehalfdeva by tataprehalfdeva;               
-                sub shaprehalfdeva caprehalfdeva by shacaprehalfdeva;
-                sub shaprehalfdeva vaprehalfdeva by shavaprehalfdeva;
-                sub shaprehalfdevaMAR caprehalfdeva by shacaprehalfdeva;
-                sub shaprehalfdevaMAR vaprehalfdeva by shavaprehalfdeva;            
+                sub taprehalfdeva taprehalfdeva by tataprehalfdeva;                          
            
             } PreHalfConj;
     
             lookup PresConj {
-            
-                sub shaprehalfdeva cadeva by shacadeva; 
-                sub shaprehalfdeva vadeva by shavadeva;                 
-                sub shaprehalfdeva ladeva by shaladeva; 
-                sub shaprehalfdevaMAR cadeva by shacadeva; 
-                sub shaprehalfdevaMAR vadeva by shavadeva;                 
-                sub shaprehalfdevaMAR ladevaMAR by shaladevaMAR;                                 
-                sub shaprehalfdeva nadeva by shanadeva;                 
+                                                           
                 sub kaprehalfdeva tadeva by katadeva;
                 sub chaprehalfdeva yadeva by chayadeva;
                 sub taprehalfdeva tadeva by tatadeva;
                 sub ssaprehalfdeva ttadeva by ssattadeva; 
                 sub ssaprehalfdeva tthadeva by ssatthadeva;
-                sub ssaprehalfdeva ttaradeva by ssattaradeva; 
-                sub ssaprehalfdeva ttharadeva by ssattharadeva;
                 sub haprehalfdeva nnadeva by hannadeva;
                 sub haprehalfdeva nadeva by hanadeva;                
                 sub haprehalfdeva madeva by hamadeva;                  
