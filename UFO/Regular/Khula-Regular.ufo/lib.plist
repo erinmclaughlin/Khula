@@ -39,22 +39,6 @@
 			<key>showMeasurements</key>
 			<integer>1</integer>
 			<key>x</key>
-			<integer>179</integer>
-			<key>y</key>
-			<integer>986</integer>
-		</dict>
-		<dict>
-			<key>angle</key>
-			<integer>0</integer>
-			<key>isGlobal</key>
-			<integer>1</integer>
-			<key>magnetic</key>
-			<integer>5</integer>
-			<key>name</key>
-			<string></string>
-			<key>showMeasurements</key>
-			<integer>1</integer>
-			<key>x</key>
 			<integer>-16</integer>
 			<key>y</key>
 			<integer>1279</integer>
@@ -62,8 +46,16 @@
 	</array>
 	<key>com.typemytype.robofont.italicSlantOffset</key>
 	<integer>0</integer>
+	<key>com.typemytype.robofont.layer1.layerStrokeColor</key>
+	<array>
+		<real>0.0</real>
+		<real>1.0</real>
+		<real>0.0</real>
+		<real>1.0</real>
+	</array>
 	<key>com.typemytype.robofont.layerOrder</key>
 	<array>
+		<string>layer1</string>
 	</array>
 	<key>com.typemytype.robofont.segmentType</key>
 	<string>curve</string>
@@ -472,8 +464,6 @@
 				<string>kassadeva</string>
 				<string>janyadeva</string>
 				<string>katadeva</string>
-				<string>ngagadeva</string>
-				<string>ngamadeva</string>
 				<string>ngayadeva</string>
 				<string>chayadeva</string>
 				<string>jajadeva</string>
@@ -519,17 +509,8 @@
 				<string>labhadeva</string>
 				<string>lamadeva</string>
 				<string>layadeva</string>
-				<string>shacadeva</string>
-				<string>shacaprehalfdeva</string>
-				<string>shavadeva</string>
-				<string>shavaprehalfdeva</string>
-				<string>shaladeva</string>
-				<string>shanadeva</string>
 				<string>ssattadeva</string>
-				<string>ssattaradeva</string>
 				<string>ssatthadeva</string>
-				<string>ssattharadeva</string>
-				<string>shaladevaMAR</string>
 				<string>hannadeva</string>
 				<string>hanadeva</string>
 				<string>hamadeva</string>
