@@ -1,16 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="visargadeva" format="1">
-  <advance width="426"/>
+  <advance width="573"/>
   <unicode hex="0903"/>
   <outline>
-    <contour>
-      <point x="456" y="1065" type="line"/>
-      <point x="-30" y="1065" type="line"/>
-      <point x="-30" y="1293" type="line"/>
-      <point x="456" y="1293" type="line"/>
-    </contour>
-    <component base="anusvaradeva" xOffset="555" yOffset="-1260"/>
-    <component base="anusvaradeva" xOffset="556" yOffset="-794"/>
+    <component base="colon"/>
   </outline>
   <lib>
     <dict>
@@ -51,7 +44,7 @@
           <array>
           </array>
           <key>width</key>
-          <integer>426</integer>
+          <integer>573</integer>
         </dict>
         <key>layer1</key>
         <dict>
@@ -73,7 +66,7 @@
           <array>
           </array>
           <key>width</key>
-          <integer>426</integer>
+          <integer>573</integer>
         </dict>
         <key>layer2</key>
         <dict>
@@ -95,7 +88,7 @@
           <array>
           </array>
           <key>width</key>
-          <integer>426</integer>
+          <integer>573</integer>
         </dict>
         <key>original</key>
         <dict>
@@ -117,7 +110,7 @@
           <array>
           </array>
           <key>width</key>
-          <integer>426</integer>
+          <integer>573</integer>
         </dict>
       </dict>
       <key>org.robofab.fontlab.mark</key>
