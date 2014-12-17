@@ -11,35 +11,35 @@
     <contour>
       <point x="753" y="578" type="curve" smooth="yes"/>
       <point x="753" y="637"/>
-      <point x="678" y="706"/>
-      <point x="558" y="706" type="curve" smooth="yes"/>
-      <point x="431" y="706"/>
-      <point x="370" y="644"/>
-      <point x="370" y="553" type="curve" smooth="yes"/>
-      <point x="370" y="478"/>
-      <point x="430" y="418"/>
-      <point x="522" y="418" type="curve" smooth="yes"/>
-      <point x="678" y="418"/>
+      <point x="678" y="708"/>
+      <point x="558" y="708" type="curve" smooth="yes"/>
+      <point x="431" y="708"/>
+      <point x="370" y="646"/>
+      <point x="370" y="555" type="curve" smooth="yes"/>
+      <point x="370" y="470"/>
+      <point x="425" y="407"/>
+      <point x="522" y="407" type="curve" smooth="yes"/>
+      <point x="678" y="407"/>
       <point x="753" y="490"/>
     </contour>
     <contour>
-      <point x="766" y="437" type="line"/>
-      <point x="639" y="343" type="line"/>
-      <point x="333" y="693" type="line"/>
-      <point x="459" y="786" type="line"/>
+      <point x="778" y="437" type="line"/>
+      <point x="651" y="343" type="line"/>
+      <point x="345" y="693" type="line"/>
+      <point x="471" y="786" type="line"/>
     </contour>
     <contour>
       <point x="1044" y="559" type="curve" smooth="yes"/>
       <point x="1044" y="336"/>
-      <point x="834" y="159"/>
-      <point x="559" y="159" type="curve" smooth="yes"/>
-      <point x="249" y="159"/>
+      <point x="846" y="145"/>
+      <point x="571" y="147" type="curve" smooth="yes"/>
+      <point x="251" y="149"/>
       <point x="58" y="371"/>
       <point x="58" y="610" type="curve" smooth="yes"/>
       <point x="58" y="813"/>
-      <point x="227" y="949"/>
-      <point x="475" y="949" type="curve" smooth="yes"/>
-      <point x="860" y="949"/>
+      <point x="227" y="957"/>
+      <point x="475" y="957" type="curve" smooth="yes"/>
+      <point x="860" y="957"/>
       <point x="1044" y="752"/>
     </contour>
   </outline>
@@ -98,6 +98,19 @@
           </array>
           <key>components</key>
           <array>
+            <dict>
+              <key>baseGlyph</key>
+              <string>badeva</string>
+              <key>transformation</key>
+              <array>
+                <integer>1</integer>
+                <integer>0</integer>
+                <integer>0</integer>
+                <integer>1</integer>
+                <integer>0</integer>
+                <integer>0</integer>
+              </array>
+            </dict>
           </array>
           <key>contours</key>
           <array>

@@ -1,19 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="naradeva" format="1">
-  <advance width="1327"/>
+  <advance width="1337.0"/>
   <outline>
     <contour>
-      <point x="1051" y="255" type="line"/>
-      <point x="321" y="-159" type="line"/>
-      <point x="161" y="76" type="line"/>
-      <point x="891" y="493" type="line"/>
+      <point x="1061" y="255" type="line"/>
+      <point x="331" y="-159" type="line"/>
+      <point x="171" y="76" type="line"/>
+      <point x="901" y="493" type="line"/>
     </contour>
     <contour>
-      <point x="826" y="849" type="line"/>
-      <point x="826" y="566" type="line"/>
+      <point x="836" y="849" type="line"/>
+      <point x="836" y="566" type="line"/>
       <point x="439" y="566" type="line"/>
       <point x="489" y="617" type="line"/>
-      <point x="489" y="426" type="line"/>
+      <point x="489" y="426" type="line" smooth="yes"/>
       <point x="489" y="337"/>
       <point x="438" y="286"/>
       <point x="369" y="286" type="curve" smooth="yes"/>
@@ -30,17 +30,17 @@
     <contour>
       <point x="-30" y="1065" type="line"/>
       <point x="-30" y="1293" type="line"/>
-      <point x="1357" y="1293" type="line"/>
-      <point x="1357" y="1065" type="line"/>
+      <point x="1367" y="1293" type="line"/>
+      <point x="1367" y="1065" type="line"/>
     </contour>
     <contour>
-      <point x="790" y="1104" type="line"/>
-      <point x="1138" y="1104" type="line"/>
-      <point x="1138" y="0" type="line"/>
-      <point x="790" y="0" type="line"/>
+      <point x="800" y="1104" type="line"/>
+      <point x="1148" y="1104" type="line"/>
+      <point x="1148" y="0" type="line"/>
+      <point x="800" y="0" type="line"/>
     </contour>
     <contour>
-      <point x="790" y="1293" type="move" name="top"/>
+      <point x="800" y="1293" type="move" name="top"/>
     </contour>
   </outline>
   <lib>
@@ -82,7 +82,7 @@
           <array>
           </array>
           <key>width</key>
-          <integer>1327</integer>
+          <real>1337.0</real>
         </dict>
         <key>layer1</key>
         <dict>
@@ -104,7 +104,7 @@
           <array>
           </array>
           <key>width</key>
-          <integer>1327</integer>
+          <real>1337.0</real>
         </dict>
         <key>layer2</key>
         <dict>
@@ -126,7 +126,7 @@
           <array>
           </array>
           <key>width</key>
-          <integer>1327</integer>
+          <real>1337.0</real>
         </dict>
         <key>original</key>
         <dict>
@@ -148,7 +148,7 @@
           <array>
           </array>
           <key>width</key>
-          <integer>1327</integer>
+          <real>1337.0</real>
         </dict>
       </dict>
       <key>org.robofab.fontlab.mark</key>

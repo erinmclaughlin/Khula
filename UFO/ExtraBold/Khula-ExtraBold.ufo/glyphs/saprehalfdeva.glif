@@ -4,12 +4,12 @@
   <outline>
     <contour>
       <point x="833" y="94" type="line"/>
-      <point x="584" y="-67" type="line"/>
-      <point x="107" y="554" type="line"/>
-      <point x="54" y="622"/>
-      <point x="29" y="679"/>
-      <point x="29" y="739" type="curve" smooth="yes"/>
-      <point x="29" y="816"/>
+      <point x="587" y="-64" type="line"/>
+      <point x="110" y="557" type="line" smooth="yes"/>
+      <point x="55" y="629"/>
+      <point x="31" y="681"/>
+      <point x="31" y="742" type="curve" smooth="yes"/>
+      <point x="31" y="818"/>
       <point x="85" y="885"/>
       <point x="177" y="885" type="curve" smooth="yes"/>
       <point x="245" y="885"/>
@@ -25,7 +25,7 @@
       <point x="442" y="955" type="curve" smooth="yes"/>
       <point x="442" y="1123" type="line"/>
       <point x="790" y="1123" type="line"/>
-      <point x="790" y="901" type="line"/>
+      <point x="790" y="901" type="line" smooth="yes"/>
       <point x="790" y="710"/>
       <point x="672" y="552"/>
       <point x="450" y="449" type="curve"/>
@@ -101,6 +101,19 @@
           </array>
           <key>components</key>
           <array>
+            <dict>
+              <key>baseGlyph</key>
+              <string>sadeva</string>
+              <key>transformation</key>
+              <array>
+                <integer>1</integer>
+                <integer>0</integer>
+                <integer>0</integer>
+                <integer>1</integer>
+                <integer>1</integer>
+                <integer>0</integer>
+              </array>
+            </dict>
           </array>
           <key>contours</key>
           <array>
