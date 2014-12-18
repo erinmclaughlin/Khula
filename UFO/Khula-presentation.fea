@@ -62,23 +62,28 @@ feature abvs {
                 sub iivowelsigndeva rephdeva anusvaradeva by iivowelsignrephanusvaradeva;
                 sub iivowelsign2deva rephdeva anusvaradeva by iivowelsignrephanusvara2deva;
                 sub iivowelsign3deva rephdeva anusvaradeva by iivowelsignrephanusvara3deva;
-
+                sub iivowelsign4deva rephdeva anusvaradeva by iivowelsignrephanusvara4deva;
+                
                 sub iivowelsigndeva ecandravowelsigndeva anusvaradeva by iivowelcandrabindudeva;
                 sub iivowelsign2deva ecandravowelsigndeva anusvaradeva by iivowelcandrabindu2deva;
                 sub iivowelsign3deva ecandravowelsigndeva anusvaradeva by iivowelcandrabindu3deva;                
-
+                sub iivowelsign4deva ecandravowelsigndeva anusvaradeva by iivowelcandrabindu4deva;  
+                
                 sub iivowelsigndeva candrabindudeva by iivowelcandrabindudeva;
                 sub iivowelsign2deva candrabindudeva by iivowelcandrabindu2deva;
                 sub iivowelsign3deva candrabindudeva by iivowelcandrabindu3deva;      
-                
+                sub iivowelsign4deva candrabindudeva by iivowelcandrabindu4deva; 
+                                
                 sub iivowelsigndeva rephdeva by iivowelsignrephdeva;
                 sub iivowelsign2deva rephdeva by iivowelsignreph2deva;
-                sub iivowelsign3deva rephdeva by iivowelsignreph3deva;                  
+                sub iivowelsign3deva rephdeva by iivowelsignreph3deva;
+                sub iivowelsign4deva rephdeva by iivowelsignreph4deva;                   
 
                 sub iivowelsigndeva anusvaradeva by iivowelsignanusvaradeva;
                 sub iivowelsign2deva anusvaradeva by iivowelsignanusvara2deva;
                 sub iivowelsign3deva anusvaradeva by iivowelsignanusvara3deva;                 
-
+                sub iivowelsign4deva anusvaradeva by iivowelsignanusvara4deva;   
+                
                 sub rephdeva candrabindudeva by rephanusvaradeva;
                 sub rephdeva anusvaradeva by rephanusvaradeva;
 
@@ -141,6 +146,7 @@ feature psts {
 
                 sub @iic_02 @ii_00' by @ii_02;
                 sub @iic_03 @ii_00' by @ii_03;
+                sub ngadeva @ii_00' by @ii_04;
 
             } IiVowelWidths;
  
