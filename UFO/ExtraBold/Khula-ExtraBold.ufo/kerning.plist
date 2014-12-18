@@ -58,7 +58,7 @@
 		<key>@MMK_R_R_DaBha</key>
 		<integer>40</integer>
 		<key>@MMK_R_R_Dda</key>
-		<integer>10</integer>
+		<integer>30</integer>
 		<key>@MMK_R_R_Ha</key>
 		<integer>20</integer>
 		<key>@MMK_R_R_I</key>
@@ -68,6 +68,8 @@
 		<key>@MMK_R_R_La</key>
 		<integer>20</integer>
 		<key>@MMK_R_R_Lla</key>
+		<integer>20</integer>
+		<key>@MMK_R_R_Ma</key>
 		<integer>20</integer>
 		<key>@MMK_R_R_Ra</key>
 		<integer>20</integer>
@@ -165,13 +167,11 @@
 	<key>@MMK_L_L_Ka</key>
 	<dict>
 		<key>@MMK_R_R_Bha</key>
-		<integer>-80</integer>
+		<integer>-100</integer>
 		<key>@MMK_R_R_Ca</key>
-		<integer>-40</integer>
+		<integer>-50</integer>
 		<key>@MMK_R_R_Cha</key>
 		<integer>-70</integer>
-		<key>@MMK_R_R_Da</key>
-		<integer>20</integer>
 		<key>@MMK_R_R_DaBha</key>
 		<integer>20</integer>
 		<key>@MMK_R_R_Dda</key>
@@ -181,14 +181,18 @@
 		<key>@MMK_R_R_Ga</key>
 		<integer>-10</integer>
 		<key>@MMK_R_R_Gha</key>
-		<integer>-150</integer>
+		<integer>-110</integer>
 		<key>@MMK_R_R_Ha</key>
 		<integer>10</integer>
 		<key>@MMK_R_R_I</key>
 		<integer>-10</integer>
+		<key>@MMK_R_R_Ja</key>
+		<integer>20</integer>
 		<key>@MMK_R_R_KaSsa</key>
 		<integer>20</integer>
 		<key>@MMK_R_R_Lla</key>
+		<integer>20</integer>
+		<key>@MMK_R_R_Ma</key>
 		<integer>20</integer>
 		<key>@MMK_R_R_Nna</key>
 		<integer>-65</integer>
@@ -514,6 +518,8 @@
 		<integer>-30</integer>
 		<key>@MMK_R_R_La</key>
 		<integer>-40</integer>
+		<key>@MMK_R_R_Ma</key>
+		<integer>20</integer>
 		<key>@MMK_R_R_Na</key>
 		<integer>-20</integer>
 		<key>@MMK_R_R_Nya</key>
@@ -693,7 +699,7 @@
 		<key>@MMK_R_R_Va</key>
 		<integer>10</integer>
 		<key>@MMK_R_R_Ya</key>
-		<integer>20</integer>
+		<integer>35</integer>
 	</dict>
 	<key>@MMK_L_L_Y</key>
 	<dict>
@@ -1657,6 +1663,19 @@
 	<dict>
 		<key>@MMK_R_R_quoteright</key>
 		<integer>-18</integer>
+	</dict>
+	<key>ngadeva</key>
+	<dict>
+		<key>@MMK_R_R_Da</key>
+		<integer>20</integer>
+		<key>@MMK_R_R_Ka</key>
+		<integer>40</integer>
+		<key>@MMK_R_R_Ma</key>
+		<integer>40</integer>
+		<key>@MMK_R_R_Ra</key>
+		<integer>40</integer>
+		<key>@MMK_R_R_Va</key>
+		<integer>30</integer>
 	</dict>
 	<key>ninedeva</key>
 	<dict>
