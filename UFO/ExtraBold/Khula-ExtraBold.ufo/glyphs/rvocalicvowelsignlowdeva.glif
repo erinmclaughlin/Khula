@@ -7,31 +7,31 @@
       <point x="-185" y="-510"/>
       <point x="-264" y="-523"/>
       <point x="-357" y="-523" type="curve" smooth="yes"/>
-      <point x="-584" y="-523"/>
+      <point x="-601" y="-523"/>
       <point x="-782" y="-414"/>
       <point x="-782" y="-224" type="curve" smooth="yes"/>
       <point x="-782" y="-63"/>
       <point x="-622" y="50"/>
       <point x="-381" y="50" type="curve" smooth="yes"/>
-      <point x="-313" y="50"/>
-      <point x="-263" y="47"/>
-      <point x="-189" y="41" type="curve"/>
+      <point x="-303" y="50"/>
+      <point x="-243" y="43"/>
+      <point x="-189" y="35" type="curve"/>
       <point x="-189" y="-133" type="line"/>
       <point x="-227" y="-133"/>
       <point x="-282" y="-133"/>
       <point x="-322" y="-133" type="curve" smooth="yes"/>
       <point x="-442" y="-133"/>
-      <point x="-500" y="-185"/>
-      <point x="-500" y="-245" type="curve" smooth="yes"/>
-      <point x="-500" y="-295"/>
-      <point x="-453" y="-333"/>
-      <point x="-364" y="-333" type="curve" smooth="yes"/>
-      <point x="-297" y="-333"/>
-      <point x="-233" y="-319"/>
-      <point x="-146" y="-288" type="curve"/>
+      <point x="-500" y="-180"/>
+      <point x="-500" y="-240" type="curve" smooth="yes"/>
+      <point x="-500" y="-290"/>
+      <point x="-444" y="-333"/>
+      <point x="-355" y="-333" type="curve" smooth="yes"/>
+      <point x="-287" y="-333"/>
+      <point x="-227" y="-327"/>
+      <point x="-149" y="-307" type="curve"/>
     </contour>
     <contour>
-      <point x="-445" y="0" type="move" name="_btm"/>
+      <point x="-445.0" y="0.0" type="move" name="_btm"/>
     </contour>
   </outline>
   <lib>
@@ -89,6 +89,19 @@
           </array>
           <key>components</key>
           <array>
+            <dict>
+              <key>baseGlyph</key>
+              <string>rvocalicvowelsigndeva</string>
+              <key>transformation</key>
+              <array>
+                <integer>1</integer>
+                <integer>0</integer>
+                <integer>0</integer>
+                <integer>1</integer>
+                <integer>0</integer>
+                <integer>0</integer>
+              </array>
+            </dict>
           </array>
           <key>contours</key>
           <array>
