@@ -12,7 +12,7 @@
       <point x="733" y="1195" type="line"/>
       <point x="887" y="1195" type="line"/>
       <point x="887" y="774" type="line"/>
-      <point x="631" y="774" type="line"/>
+      <point x="631" y="774" type="line" smooth="yes"/>
       <point x="385" y="774"/>
       <point x="264" y="670"/>
       <point x="264" y="487" type="curve" smooth="yes"/>
@@ -72,10 +72,12 @@
           <false/>
           <key>magnetic</key>
           <integer>5</integer>
+          <key>showMeasurements</key>
+          <integer>1</integer>
           <key>x</key>
-          <integer>743</integer>
+          <integer>677</integer>
           <key>y</key>
-          <integer>1247</integer>
+          <integer>738</integer>
         </dict>
       </array>
       <key>com.typemytype.robofont.layerData</key>
