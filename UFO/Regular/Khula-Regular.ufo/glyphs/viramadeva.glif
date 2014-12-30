@@ -4,9 +4,9 @@
   <unicode hex="094D"/>
   <outline>
     <contour>
-      <point x="-392" y="-88" type="line"/>
-      <point x="97" y="-334" type="line"/>
-      <point x="41" y="-445" type="line"/>
+      <point x="-388" y="-83" type="line"/>
+      <point x="109" y="-330" type="line"/>
+      <point x="50" y="-445" type="line"/>
       <point x="-447" y="-198" type="line"/>
     </contour>
     <contour>
@@ -27,6 +27,51 @@
           </array>
           <key>contours</key>
           <array>
+            <dict>
+              <key>points</key>
+              <array>
+                <dict>
+                  <key>segmentType</key>
+                  <string>line</string>
+                  <key>smooth</key>
+                  <false/>
+                  <key>x</key>
+                  <integer>-392</integer>
+                  <key>y</key>
+                  <integer>-88</integer>
+                </dict>
+                <dict>
+                  <key>segmentType</key>
+                  <string>line</string>
+                  <key>smooth</key>
+                  <false/>
+                  <key>x</key>
+                  <integer>97</integer>
+                  <key>y</key>
+                  <integer>-334</integer>
+                </dict>
+                <dict>
+                  <key>segmentType</key>
+                  <string>line</string>
+                  <key>smooth</key>
+                  <false/>
+                  <key>x</key>
+                  <integer>41</integer>
+                  <key>y</key>
+                  <integer>-445</integer>
+                </dict>
+                <dict>
+                  <key>segmentType</key>
+                  <string>line</string>
+                  <key>smooth</key>
+                  <false/>
+                  <key>x</key>
+                  <integer>-447</integer>
+                  <key>y</key>
+                  <integer>-198</integer>
+                </dict>
+              </array>
+            </dict>
           </array>
           <key>lib</key>
           <dict>
