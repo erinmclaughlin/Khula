@@ -3,10 +3,10 @@
   <advance width="1042"/>
   <outline>
     <contour>
-      <point x="797" y="261" type="line"/>
-      <point x="198" y="-138" type="line"/>
-      <point x="151" y="-76" type="line"/>
-      <point x="755" y="316" type="line"/>
+      <point x="807" y="241" type="line"/>
+      <point x="208" y="-158" type="line"/>
+      <point x="161" y="-96" type="line"/>
+      <point x="765" y="296" type="line"/>
     </contour>
     <component base="dadeva"/>
     <contour>
@@ -51,6 +51,51 @@
           </array>
           <key>contours</key>
           <array>
+            <dict>
+              <key>points</key>
+              <array>
+                <dict>
+                  <key>segmentType</key>
+                  <string>line</string>
+                  <key>smooth</key>
+                  <false/>
+                  <key>x</key>
+                  <integer>797</integer>
+                  <key>y</key>
+                  <integer>261</integer>
+                </dict>
+                <dict>
+                  <key>segmentType</key>
+                  <string>line</string>
+                  <key>smooth</key>
+                  <false/>
+                  <key>x</key>
+                  <integer>198</integer>
+                  <key>y</key>
+                  <integer>-138</integer>
+                </dict>
+                <dict>
+                  <key>segmentType</key>
+                  <string>line</string>
+                  <key>smooth</key>
+                  <false/>
+                  <key>x</key>
+                  <integer>151</integer>
+                  <key>y</key>
+                  <integer>-76</integer>
+                </dict>
+                <dict>
+                  <key>segmentType</key>
+                  <string>line</string>
+                  <key>smooth</key>
+                  <false/>
+                  <key>x</key>
+                  <integer>755</integer>
+                  <key>y</key>
+                  <integer>316</integer>
+                </dict>
+              </array>
+            </dict>
           </array>
           <key>lib</key>
           <dict>

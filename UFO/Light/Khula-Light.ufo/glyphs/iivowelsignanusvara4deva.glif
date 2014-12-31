@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="iivowelsignrephanusvaradeva" format="1">
+<glyph name="iivowelsignanusvara4deva" format="1">
   <advance width="567"/>
   <outline>
-    <component base="iivowelsigndeva"/>
-    <component base="rephanusvaradeva" xOffset="586"/>
+    <component base="anusvaradeva" xOffset="639"/>
+    <component base="iivowelsign4deva"/>
   </outline>
   <lib>
     <dict>
@@ -24,7 +24,7 @@
           <dict>
           </dict>
           <key>name</key>
-          <string>iivowelsignrephanusvaradeva</string>
+          <string>iivowelsignanusvara4deva</string>
           <key>unicodes</key>
           <array>
           </array>
@@ -32,8 +32,15 @@
           <integer>567</integer>
         </dict>
       </dict>
+      <key>com.typemytype.robofont.mark</key>
+      <array>
+        <real>1.0</real>
+        <real>0.8424</real>
+        <real>0.6742</real>
+        <real>1.0</real>
+      </array>
       <key>org.robofab.fontlab.mark</key>
-      <integer>210</integer>
+      <integer>30</integer>
     </dict>
   </lib>
 </glyph>
