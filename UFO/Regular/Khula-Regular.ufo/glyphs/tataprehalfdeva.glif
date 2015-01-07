@@ -14,7 +14,24 @@
       <point x="29" y="844" type="line"/>
       <point x="802" y="844" type="line"/>
     </contour>
-    <component base="taprehalfdeva" xOffset="124"/>
+    <contour>
+      <point x="1018" y="844" type="line"/>
+      <point x="1011" y="716" type="line"/>
+      <point x="673" y="716" type="line" smooth="yes"/>
+      <point x="471" y="716"/>
+      <point x="395" y="613"/>
+      <point x="395" y="477" type="curve" smooth="yes"/>
+      <point x="395" y="386"/>
+      <point x="426" y="245"/>
+      <point x="574" y="37" type="curve"/>
+      <point x="448" y="-10" type="line"/>
+      <point x="306" y="199"/>
+      <point x="252" y="373"/>
+      <point x="252" y="516" type="curve" smooth="yes"/>
+      <point x="252" y="698"/>
+      <point x="375" y="844"/>
+      <point x="628" y="844" type="curve" smooth="yes"/>
+    </contour>
   </outline>
   <lib>
     <dict>

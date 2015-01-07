@@ -9,6 +9,12 @@
       <point x="2500" y="1165" type="line"/>
     </contour>
     <contour>
+      <point x="2082" y="1196" type="line"/>
+      <point x="2230" y="1196" type="line"/>
+      <point x="2230" y="0" type="line"/>
+      <point x="2082" y="0" type="line"/>
+    </contour>
+    <contour>
       <point x="1104" y="776" type="line"/>
       <point x="1100" y="895" type="line"/>
       <point x="1508" y="895" type="line" smooth="yes"/>
@@ -40,15 +46,9 @@
       <point x="1624" y="776"/>
       <point x="1488" y="776" type="curve" smooth="yes"/>
     </contour>
-    <contour>
-      <point x="2082" y="1196" type="line"/>
-      <point x="2230" y="1196" type="line"/>
-      <point x="2230" y="0" type="line"/>
-      <point x="2082" y="0" type="line"/>
-    </contour>
     <component base="dadhadeva"/>
     <contour>
-      <point x="1661.0" y="-295.0" type="move" name="btm"/>
+      <point x="2083" y="0" type="move" name="btm"/>
     </contour>
     <contour>
       <point x="1661.0" y="1279.0" type="move" name="top"/>
