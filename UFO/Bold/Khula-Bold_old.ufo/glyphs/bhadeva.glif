@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="bhadeva" format="1">
+  <advance width="1488"/>
+  <unicode hex="092D"/>
+  <outline>
+    <contour>
+      <point x="997" y="1132" type="line"/>
+      <point x="1283" y="1132" type="line"/>
+      <point x="1283" y="0" type="line"/>
+      <point x="997" y="0" type="line"/>
+    </contour>
+    <contour>
+      <point x="1518" y="1096" type="line"/>
+      <point x="901" y="1096" type="line"/>
+      <point x="901" y="1289" type="line"/>
+      <point x="1518" y="1289" type="line"/>
+    </contour>
+    <contour>
+      <point x="444" y="682" type="line"/>
+      <point x="409" y="652" type="line"/>
+      <point x="409" y="1000" type="line"/>
+      <point x="409" y="1099"/>
+      <point x="356" y="1158"/>
+      <point x="284" y="1158" type="curve" smooth="yes"/>
+      <point x="227" y="1158"/>
+      <point x="191" y="1118"/>
+      <point x="191" y="1068" type="curve" smooth="yes"/>
+      <point x="191" y="998"/>
+      <point x="251" y="941"/>
+      <point x="430" y="938" type="curve"/>
+      <point x="425" y="762" type="line"/>
+      <point x="99" y="767"/>
+      <point x="-56" y="912"/>
+      <point x="-56" y="1101" type="curve" smooth="yes"/>
+      <point x="-56" y="1236"/>
+      <point x="39" y="1362"/>
+      <point x="257" y="1362" type="curve" smooth="yes"/>
+      <point x="500" y="1362"/>
+      <point x="676" y="1200"/>
+      <point x="676" y="964" type="curve" smooth="yes"/>
+      <point x="676" y="643" type="line"/>
+      <point x="643" y="682" type="line"/>
+      <point x="1032" y="682" type="line"/>
+      <point x="1032" y="447" type="line"/>
+      <point x="631" y="447" type="line"/>
+      <point x="676" y="489" type="line"/>
+      <point x="676" y="358" type="line"/>
+      <point x="676" y="284"/>
+      <point x="648" y="239"/>
+      <point x="576" y="239" type="curve" smooth="yes"/>
+      <point x="508" y="239"/>
+      <point x="412" y="284"/>
+      <point x="343" y="354" type="curve" smooth="yes"/>
+      <point x="277" y="419"/>
+      <point x="227" y="508"/>
+      <point x="227" y="581" type="curve" smooth="yes"/>
+      <point x="227" y="640"/>
+      <point x="264" y="682"/>
+      <point x="338" y="682" type="curve" smooth="yes"/>
+    </contour>
+    <contour>
+      <point x="997" y="1289" type="move" name="top"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.typemytype.robofont.guides</key>
+      <array>
+        <dict>
+          <key>angle</key>
+          <integer>0</integer>
+          <key>isGlobal</key>
+          <false/>
+          <key>magnetic</key>
+          <integer>5</integer>
+          <key>x</key>
+          <integer>718</integer>
+          <key>y</key>
+          <integer>1198</integer>
+        </dict>
+        <dict>
+          <key>angle</key>
+          <integer>0</integer>
+          <key>isGlobal</key>
+          <false/>
+          <key>magnetic</key>
+          <integer>5</integer>
+          <key>x</key>
+          <integer>450</integer>
+          <key>y</key>
+          <integer>591</integer>
+        </dict>
+        <dict>
+          <key>angle</key>
+          <real>90.0</real>
+          <key>isGlobal</key>
+          <false/>
+          <key>magnetic</key>
+          <integer>5</integer>
+          <key>x</key>
+          <integer>962</integer>
+          <key>y</key>
+          <integer>1229</integer>
+        </dict>
+      </array>
+      <key>com.typemytype.robofont.layerData</key>
+      <dict>
+      </dict>
+      <key>org.robofab.fontlab.mark</key>
+      <integer>210</integer>
+    </dict>
+  </lib>
+</glyph>

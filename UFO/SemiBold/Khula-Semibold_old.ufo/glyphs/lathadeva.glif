@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="lathadeva" format="1">
+  <advance width="2405"/>
+  <outline>
+    <contour>
+      <point x="898" y="623" type="curve"/>
+      <point x="767" y="520" type="line"/>
+      <point x="685" y="632"/>
+      <point x="601" y="689"/>
+      <point x="496" y="689" type="curve" smooth="yes"/>
+      <point x="366" y="689"/>
+      <point x="294" y="602"/>
+      <point x="294" y="491" type="curve" smooth="yes"/>
+      <point x="294" y="377"/>
+      <point x="366" y="259"/>
+      <point x="527" y="105" type="curve"/>
+      <point x="381" y="14" type="line"/>
+      <point x="215" y="173"/>
+      <point x="102" y="361"/>
+      <point x="102" y="531" type="curve" smooth="yes"/>
+      <point x="102" y="717"/>
+      <point x="233" y="869"/>
+      <point x="458" y="869" type="curve" smooth="yes"/>
+      <point x="642" y="869"/>
+      <point x="789" y="773"/>
+    </contour>
+    <contour>
+      <point x="-30" y="1136" type="line"/>
+      <point x="-30" y="1283" type="line"/>
+      <point x="1170" y="1283" type="line"/>
+      <point x="1170" y="1136" type="line"/>
+    </contour>
+    <contour>
+      <point x="752" y="309" type="curve"/>
+      <point x="587" y="390" type="line"/>
+      <point x="705" y="662"/>
+      <point x="857" y="807"/>
+      <point x="1044" y="807" type="curve" smooth="yes"/>
+      <point x="1176" y="807"/>
+      <point x="1277" y="754"/>
+      <point x="1370" y="663" type="curve"/>
+      <point x="1242" y="544" type="line"/>
+      <point x="1191" y="600"/>
+      <point x="1143" y="624"/>
+      <point x="1066" y="624" type="curve" smooth="yes"/>
+      <point x="965" y="624"/>
+      <point x="854" y="538"/>
+    </contour>
+    <component base="thadeva" xOffset="1030"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.typemytype.robofont.guides</key>
+      <array>
+        <dict>
+          <key>angle</key>
+          <real>90.0</real>
+          <key>isGlobal</key>
+          <false/>
+          <key>magnetic</key>
+          <integer>5</integer>
+          <key>x</key>
+          <integer>1866</integer>
+          <key>y</key>
+          <integer>1266</integer>
+        </dict>
+      </array>
+      <key>com.typemytype.robofont.layerData</key>
+      <dict>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

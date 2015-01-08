@@ -3,28 +3,6 @@
   <advance width="2301"/>
   <outline>
     <contour>
-      <point x="846" y="623" type="curve"/>
-      <point x="749" y="548" type="line"/>
-      <point x="665" y="659"/>
-      <point x="579" y="720"/>
-      <point x="465" y="720" type="curve" smooth="yes"/>
-      <point x="331" y="720"/>
-      <point x="256" y="629"/>
-      <point x="256" y="514" type="curve" smooth="yes"/>
-      <point x="256" y="398"/>
-      <point x="330" y="270"/>
-      <point x="515" y="100" type="curve"/>
-      <point x="407" y="26" type="line"/>
-      <point x="224" y="197"/>
-      <point x="115" y="377"/>
-      <point x="115" y="541" type="curve" smooth="yes"/>
-      <point x="115" y="709"/>
-      <point x="234" y="854"/>
-      <point x="443" y="854" type="curve" smooth="yes"/>
-      <point x="614" y="854"/>
-      <point x="746" y="759"/>
-    </contour>
-    <contour>
       <point x="699" y="339" type="curve"/>
       <point x="580" y="400" type="line"/>
       <point x="699" y="664"/>
@@ -45,6 +23,28 @@
       <point x="-30" y="1279" type="line"/>
       <point x="1096" y="1279" type="line"/>
       <point x="1096" y="1165" type="line"/>
+    </contour>
+    <contour>
+      <point x="846" y="623" type="curve"/>
+      <point x="749" y="548" type="line"/>
+      <point x="665" y="659"/>
+      <point x="579" y="720"/>
+      <point x="465" y="720" type="curve" smooth="yes"/>
+      <point x="331" y="720"/>
+      <point x="256" y="629"/>
+      <point x="256" y="514" type="curve" smooth="yes"/>
+      <point x="256" y="398"/>
+      <point x="330" y="270"/>
+      <point x="515" y="100" type="curve"/>
+      <point x="407" y="26" type="line"/>
+      <point x="224" y="197"/>
+      <point x="115" y="377"/>
+      <point x="115" y="541" type="curve" smooth="yes"/>
+      <point x="115" y="709"/>
+      <point x="234" y="854"/>
+      <point x="443" y="854" type="curve" smooth="yes"/>
+      <point x="614" y="854"/>
+      <point x="746" y="759"/>
     </contour>
     <component base="madeva" xOffset="1060"/>
   </outline>
@@ -67,28 +67,6 @@
       </array>
       <key>com.typemytype.robofont.layerData</key>
       <dict>
-        <key>layer1</key>
-        <dict>
-          <key>anchors</key>
-          <array>
-          </array>
-          <key>components</key>
-          <array>
-          </array>
-          <key>contours</key>
-          <array>
-          </array>
-          <key>lib</key>
-          <dict>
-          </dict>
-          <key>name</key>
-          <string>lamadeva</string>
-          <key>unicodes</key>
-          <array>
-          </array>
-          <key>width</key>
-          <integer>2301</integer>
-        </dict>
       </dict>
     </dict>
   </lib>

@@ -3,10 +3,25 @@
   <advance width="618"/>
   <outline>
     <component base="aavowelsigndeva"/>
-    <component base="eshortvowelsigncandrabindudeva" xOffset="621"/>
+    <component base="eshortvowelsignrephanusdeva" xOffset="621"/>
   </outline>
   <lib>
     <dict>
+      <key>com.typemytype.robofont.guides</key>
+      <array>
+        <dict>
+          <key>angle</key>
+          <real>90.0</real>
+          <key>isGlobal</key>
+          <false/>
+          <key>magnetic</key>
+          <integer>5</integer>
+          <key>x</key>
+          <integer>228</integer>
+          <key>y</key>
+          <integer>1157</integer>
+        </dict>
+      </array>
       <key>com.typemytype.robofont.layerData</key>
       <dict>
       </dict>
