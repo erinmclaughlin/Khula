@@ -13,7 +13,8 @@ feature abvm {
                 pos base @abvb_Ra <anchor 524 1289> mark @m_top;
                 pos base udeva <anchor 529 1289> mark @m_top;
                 pos base uudeva <anchor 529 1289> mark @m_top;
-                                                                
+                pos base @abvb_Nga <anchor 712 1289> mark @m_top;
+                                                                                
             } AbvMarks;
 } abvm;
 
@@ -26,13 +27,13 @@ feature blwm {
 
             lookup BlwMarks {
             
-                pos base @blwb_Ka <anchor 639 0> mark @m_btm;
+                pos base @blwb_Ka <anchor 710 0> mark @m_btm;
                 pos base ngadeva <anchor 517 7> mark @m_btm;
-                pos base chadeva <anchor 597 34> mark @m_btm;
+                pos base chadeva <anchor 650 7> mark @m_btm;
                 pos base @blwb_Tta <anchor 537 42> mark @m_btm;
                 pos base ddadeva <anchor 488 10> mark @m_btm; 
                 pos base ddhadeva <anchor 557 34> mark @m_btm;
-                pos base @blwb_Da <anchor 865 -177> mark @m_btm;
+                pos base @blwb_Da <anchor 878 -164> mark @m_btm;
                 pos base @blwb_Pha <anchor 765 0> mark @m_btm; 
                 pos base @blwb_Ra <anchor 450 -36> mark @m_btm;
                 pos base @blwb_Lla <anchor 1029 9> mark @m_btm;
@@ -44,16 +45,13 @@ feature blwm {
                 pos base dagadeva <anchor 592 -411> mark @m_btm;  
                 pos base @blwb_DaBa <anchor 651 -422> mark @m_btm;
                 pos base dabhadeva <anchor 1100 -422> mark @m_btm; 
-                pos base dadhayadeva <anchor 1698 -431> mark @m_btm;
                 pos base dadadeva <anchor 522 -422> mark @m_btm; 
-                pos base damadeva<anchor 1182 -57> mark @m_btm; 
-                pos base dayadeva <anchor 1084 -57> mark @m_btm; 
                 pos base @blwb_SsaTta <anchor 514 -166> mark @m_btm;
-                pos base @blwb_HaNna <anchor 1257 -310> mark @m_btm;
-                pos base hanadeva <anchor 1134 -310> mark @m_btm; 
-                pos base hamadeva <anchor 1372 -323> mark @m_btm; 
-                pos base hayadeva <anchor 1417 -454> mark @m_btm; 
-                pos base havadeva <anchor 1170 -310> mark @m_btm; 
+                pos base @blwb_HaNna <anchor 1142 -198> mark @m_btm;
+                pos base hanadeva <anchor 1061 -246> mark @m_btm; 
+                pos base hamadeva <anchor 1377 -257> mark @m_btm; 
+                pos base hayadeva <anchor 1382 -351> mark @m_btm; 
+                pos base havadeva <anchor 1052 -273> mark @m_btm; 
                 pos base laradevaMAR <anchor 712 -377> mark @m_btm;
                 pos base ranuktaradeva <anchor 391 -394> mark @m_btm;
                 pos base raradeva <anchor 391 -394> mark @m_btm;
