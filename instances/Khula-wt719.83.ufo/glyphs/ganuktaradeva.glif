@@ -2,10 +2,10 @@
 <glyph name="ganuktaradeva" format="1">
   <advance width="1428"/>
   <outline>
-    <component base="nuktadeva" xOffset="1012" yOffset="363"/>
-    <component base="garadeva" xOffset="1"/>
+    <component base="nuktadeva" xOffset="1011" yOffset="363"/>
+    <component base="garadeva"/>
     <contour>
-      <point x="927" y="1289" type="move" name="top"/>
+      <point x="926" y="1289" type="move" name="top"/>
     </contour>
   </outline>
   <lib>
@@ -27,6 +27,28 @@
       </array>
       <key>com.typemytype.robofont.layerData</key>
       <dict>
+        <key>2</key>
+        <dict>
+          <key>anchors</key>
+          <array>
+          </array>
+          <key>components</key>
+          <array>
+          </array>
+          <key>contours</key>
+          <array>
+          </array>
+          <key>lib</key>
+          <dict>
+          </dict>
+          <key>name</key>
+          <string>ganuktaradeva</string>
+          <key>unicodes</key>
+          <array>
+          </array>
+          <key>width</key>
+          <integer>1271</integer>
+        </dict>
       </dict>
       <key>org.robofab.fontlab.mark</key>
       <integer>130</integer>
