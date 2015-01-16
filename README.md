@@ -9,9 +9,7 @@ Khula will be available for free via the Google Web Fonts project.
 
 ![Screenshot of a test](https://github.com/erinmclaughlin/Khula/blob/master/tests/Khula_sm_preview.png)</a>
 
-
 ##Version 1.000
-==== 
 * 5 weights: ExtraBold, Bold, Semibold, Regular, Light
 * 457 Devanagari glyphs, covering the Devanagari standard Unicode range of 0900–097F
 * 108 Latin glyphs, covering the Basic Latin Unicode range of 0000-007F
