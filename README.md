@@ -20,6 +20,6 @@ Feel free to contact me at hello@erinmclaughlin.com with comments or questions.
 
 ====
 
-_Thank you to Dave Crossland, Liang Hai, Vaishnavi Murthy, Sarang Kulkarni, Pablo Impallari, and all of the other Google Web Fonts contributors for your help with this project. Continued thanks to Fiona Ross and Tobias Frere-Jones for your guidance. Thanks to Miguel Sousa, Tal Leming, the RoboFont team, and the other font tool-makers who made this possible._
+_Thank you to Dave Crossland, Liang Hai, Vaishnavi Murthy, Sarang Kulkarni, Pablo Impallari, and all of the other Google Web Fonts contributors for your help with this project. Continued thanks to Fiona Ross and Tobias Frere-Jones for your guidance and training. Thanks to Miguel Sousa, Tal Leming, the RoboFont team, and the other font tool-makers who made this possible. Thank you to AM, Cailin, and my family for their support._
 
 _This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with a FAQ at: http://scripts.sil.org/OFL_
