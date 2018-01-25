@@ -3,7 +3,7 @@ Khula खुला
 
 Khula is a Devanagari typeface family designed by [Erin McLaughlin](http://www.erinmclaughlin.com). 
 
-The style and weights of Khula Devanagari were designed as a compliment to the Latin glyphs of [Open Sans](http://www.google.com/fonts/specimen/Open+Sans), a family designed by Steve Matteson.
+The style and weights of Khula Devanagari were designed as a complement to the Latin glyphs of [Open Sans](http://www.google.com/fonts/specimen/Open+Sans), a family designed by Steve Matteson.
 
 Khula will be available for free via the Google Web Fonts project.
 
